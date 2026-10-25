@@ -110,6 +110,6 @@ public import Thomassen.OuterSevenCycle
 public import Thomassen.ShortRingGluing
 public import Thomassen.ExceptionalBoundaryBridge
 public import Thomassen.OriginalExceptionalComponents
-public import Thomassen.OriginalTheorem
+public import Thomassen.RegistryBoundary
 
 /-! Full boundary extension and the unconditional girth-five three-choosability theorem. -/

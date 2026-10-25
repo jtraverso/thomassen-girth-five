@@ -8,15 +8,18 @@ and the four additional results mapped to their papers in README.md.
 
 Submit the repository-relative configuration **`comparator.registry.json`**.
 It selects 15 theorem statements and 10 explicit definitions as one entry.
-`ThomassenRegistryChallenge` reproduces the independently checked public
-statements and boundary definition together with their earlier infrastructure.
-It imports only trusted Mathlib/core elaboration modules, and compiles with
-no candidate project output on `LEAN_PATH`. It reproduces none of the 15 selected
-solution proof bodies. `verification/registry-contract-source-map.json` records
-the original source modules and their retained notices. The generator clears
-Lean’s module-local auxiliary-proof cache between reproduced files, retaining
-the original generated proof names. This changes no declaration, type, proof
-or kernel setting.
+`ThomassenRegistryChallenge` is a standalone 16,403-byte, 404-line contract,
+below the official 100 KiB hard cap. It imports only Mathlib, compiles without
+candidate project output on `LEAN_PATH`, and reproduces no selected solution
+proof bodies. Its source map identifies the definitions and source attributions.
+Thirteen statement types are retained directly. Two componentwise statements
+use `AmbientComponentOuterBoundary`: the same actual ambient face orbit in each
+nontrivial component. `Thomassen.ambientComponentOuterBoundary_iff` proves this
+certificate equivalent to the original induced-plane-map certificate, with no
+extra hypothesis. RegistryBoundary.lean derives both public wrappers from their
+unchanged original results. The contract uses ordinary checked definitions and
+proofs; no elaborator cache manipulation is needed.
+
 The original main/full-original/corollary/byproduct contracts and configurations
 are retained unchanged; their baseline hashes are recorded separately.
 
@@ -30,11 +33,11 @@ Intentional proof placeholders occur in independent challenge files only.
 
 | Audit | Evidence |
 |---|---|
-| 15 public statements and 10 definitions; Lean and NanoDa acceptance | `verification/freeze-registry-standalone-comparator.log` |
-| Strict Solution, ThomassenSolution and axiom audit | `verification/freeze-standalone-strict-audit.log`; `ThomassenAudit.lean` |
-| Contract compiles without candidate build output | `verification/freeze-standalone-isolation.log` |
-| 206 Thomassen solution modules without forbidden constructs | `verification/source-audit.json` |
-| All 325 Lean sources, module headers, line limits, no source symlinks or prebuilt output | `verification/freeze-source-audit.json` |
+| 15 public statements and 10 definitions; Lean and NanoDa acceptance | `verification/freeze-compact-comparator.log` |
+| Strict Solution, ThomassenSolution and axiom audit | `verification/freeze-compact-strict-audit.log`; `ThomassenAudit.lean` |
+| Contract compiles without candidate build output | `verification/freeze-compact-isolation.log` |
+| 207 Thomassen solution modules without forbidden constructs | `verification/source-audit.json` |
+| All 326 Lean sources, module headers, line limits, no source symlinks or prebuilt output | `verification/freeze-source-audit.json` |
 | 74 pinned reused files retain their audited hashes | `verification/source-reuse.json`; freeze source audit |
 | Original independent contracts retained byte for byte | `verification/freeze-baseline-hashes.json` |
 | Metadata schema v0.4 | `verification/freeze-metadata-audit.json` |
@@ -72,15 +75,20 @@ source commit, so recording their URLs cannot silently move the frozen source.
 If a code or contract correction is needed, create and verify a new source
 commit; retain the earlier evidence with its original meaning.
 
-## First remote preflight and packaging correction
+## Remote preflight history and packaging corrections
 
 The first public source commit, `28cab414b949ad4d07f373fb54807a089395a75a`,
-passed strict GitHub CI, but its official preflight
+passed strict GitHub CI, but official preflight
 [40211686315](https://github.com/jtraverso/thomassen-girth-five/actions/runs/40211686315)
-rejected the protected contract’s local `Challenge` import. This was a packaging
-limitation missed by the ordinary local build. The corrected contract is
-self-contained, retains all 15 original statements and 10 compared definitions,
-and passes both the isolated-dependency smoke check and Lean/NanoDa comparison.
-All 206 solution modules and the original individual contracts remain unchanged.
-The corrected immutable commit needs its own official preflight; the earlier
-failed run is retained with its original meaning.
+rejected the protected contract's local `Challenge` import. A standalone flattened
+contract in `4540bc3cd2892f5fb1052c8c4fd44384daf6306a` passed strict CI and the
+isolated smoke check, but official preflight
+[40213978009](https://github.com/jtraverso/thomassen-girth-five/actions/runs/40213978009)
+rejected its 435,588-byte size against the 100 KiB cap.
+
+The compact contract addresses both errors. Its generator, isolated smoke check
+and freeze audit enforce the size cap. The original 206 solution modules are
+retained, with an added equivalence-and-wrapper module and updated aggregators;
+all original independent contracts remain unchanged. Lean and NanoDa accept the
+compact combined contract. The corrected immutable commit needs its own official
+preflight; neither earlier failed run is presented as an acceptance.

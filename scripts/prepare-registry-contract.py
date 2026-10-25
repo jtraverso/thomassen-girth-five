@@ -1,123 +1,143 @@
 #!/usr/bin/env python3
-"""Assemble the public registry contract from the frozen independent contracts.
+"""Generate the small standalone public contract, retaining original contracts.
 
-The original contracts/configurations are retained byte for byte. Only public
-statements and the already independently compared boundary definition are used.
+The two componentwise results use a proved-equivalent ambient face certificate.
+All original solution statements, definitions and proof bodies are preserved.
 """
 from pathlib import Path
 import json
 root=Path(__file__).resolve().parent.parent
-b=(root/'ThomassenByproductsChallenge.lean').read_text()
-b=b[b.index('@[expose] public section'):]
-b=b.replace('universe u v\n','')
-f=(root/'ThomassenOriginalFullChallenge.lean').read_text()
-f=f[f.index('/-- Thomassen (1995), Theorem 2.1'):f.rindex('end Thomassen')]
-p=(root/'ThomassenOriginalPaperChallenge.lean').read_text()
-c=p[p.index('theorem original_corollary_2_2'):p.index('end Thomassen\nend',p.index('theorem original_corollary_2_2'))]
-m=(root/'ThomassenMainChallenge.lean').read_text()
-m=m[m.index('/-- Thomassen (1995):'):m.rindex('end PlanarChoosability')]
-d=p[p.index('def ComponentOuterBoundary'):p.index('end Thomassen',p.index('def ComponentOuterBoundary'))]
 header='''/-
 Copyright (c) 2026 Juan Pablo Traverso Gianini. All rights reserved.
 Released under Apache 2.0 license as described in LICENSE.
 Authors: Juan Pablo Traverso Gianini
 -/
 module
-public import Challenge
-public import Thomassen.CycleWalk
-public import Thomassen.InducedInstance
+public import Mathlib.Combinatorics.SimpleGraph.Girth
+public import Mathlib.Combinatorics.SimpleGraph.Coloring.Vertex
+public import Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected
+public import Mathlib.GroupTheory.Perm.Cycle.Basic
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Data.ZMod.Basic
 
-/-! Public registry contract. Statements are reproduced from the existing
-independent main, full-original, corollary and byproduct contracts. No selected
-solution proof module is imported. Intentional placeholders occur only here;
-the solution supplies and kernel-checks their proof bodies. -/
-universe u v
+/-! Standalone public contract. The registered planarity/list definitions and
+native cycle/face definitions are reproduced with their source attribution.
+The two componentwise results use AmbientComponentOuterBoundary, proved
+exactly equivalent to the original induced-map certificate in RegistryBoundary.
+No selected solution proof is imported, reproduced or assumed. -/
 @[expose] public section
-open LeanPool.K5MinorFreeChoosability Grotzsch SimpleGraph
-namespace Thomassen
-variable {V : Type u} [Fintype V] {G : SimpleGraph V}
 '''
-body=header+d+'end Thomassen\n\n'+b+'\nnamespace PlanarChoosability\n'+m+'end PlanarChoosability\n\nnamespace Thomassen\nsection\nvariable {V : Type u} {C : Type v} {G : SimpleGraph V} [Fintype V]\n'+f+'end\n\nsection\nvariable {V : Type u} {C : Type v} {G : SimpleGraph V} [Finite V]\n'+c+'end\nend Thomassen\n'
-(root/'ThomassenRegistryChallenge.lean').write_text(body)
-main=json.loads((root/'comparator.json').read_text())
-bp=json.loads((root/'comparator.byproducts.json').read_text())
-config={**main,'challenge_module':'ThomassenRegistryChallenge','theorem_names':main['theorem_names']+['Thomassen.original_theorem_2_1','Thomassen.original_corollary_2_2']+bp['theorem_names'],'definition_names':main['definition_names']+['Thomassen.ComponentOuterBoundary']}
+legacy=(root/'Challenge.lean').read_text()
+main=legacy[legacy.index('noncomputable section'):legacy.index('/-! ### Sanity checks')]
+main+=legacy[legacy.index('section Colouring'):legacy.index('end Colouring')+len('end Colouring')]
+main+='\nend PlanarChoosability\nend\n'
+core='''
+/- Definitions reproduced from the pinned planar-list-colouring library:
+Basic.lean; Reach.lean; Planar/{Orbits,Hypermap,Embedding}.lean. -/
+section
+namespace LeanPool.K5MinorFreeChoosability
+open Equiv Equiv.Perm
+variable {V C : Type*}
+def ListColourable (G : SimpleGraph V) (L : V → Finset C) : Prop :=
+  ∃ c : G.Coloring C, ∀ v, c v ∈ L v
+def ChoosableWith (G : SimpleGraph V) (C : Type*) (k : ℕ) : Prop :=
+  ∀ L : V → Finset C, (∀ v, k ≤ (L v).card) → ListColourable G L
+end LeanPool.K5MinorFreeChoosability
+end
+section
+namespace LeanPool.K5MinorFreeChoosability
+open Equiv Equiv.Perm
+variable {α : Type*}
+noncomputable def numClasses (s : Setoid α) : ℕ := Nat.card (Quotient s)
+noncomputable def cycleCount (π : Perm α) : ℕ := numClasses (SameCycle.setoid π)
+end LeanPool.K5MinorFreeChoosability
+end
+section
+namespace LeanPool.K5MinorFreeChoosability
+open Equiv Equiv.Perm
+variable {D : Type*}
+-- Name the ordinary checked proof explicitly to preserve the original
+-- module-local auxiliary proof name when the two namespaces share a file.
+theorem compSetoid._proof_1 (σ α : Perm D) :
+    Equivalence (Relation.EqvGen (fun a b : D => b = σ a ∨ b = α a)) :=
+  Relation.EqvGen.is_equivalence _
+def compSetoid (σ α : Perm D) : Setoid D where
+  r := Relation.EqvGen (fun a b => b = σ a ∨ b = α a)
+  iseqv := compSetoid._proof_1 σ α
+noncomputable def numComponents (σ α : Perm D) : ℕ := numClasses (compSetoid σ α)
+noncomputable def eulerDefect (σ α : Perm D) : ℤ :=
+  (Nat.card D : ℤ) + 2 * (numComponents σ α : ℤ) - cycleCount σ - cycleCount α -
+    cycleCount (σ * α)
+end LeanPool.K5MinorFreeChoosability
+end
+section
+namespace LeanPool.K5MinorFreeChoosability
+open Equiv Equiv.Perm
+variable {V : Type*} (G : SimpleGraph V)
+def dartSymm : Perm G.Dart := Function.Involutive.toPerm _ SimpleGraph.Dart.symm_involutive
+structure IsRotationSystem (σ : Perm G.Dart) : Prop where
+  fst_apply : ∀ d, (σ d).fst = d.fst
+  sameCycle : ∀ d e : G.Dart, d.fst = e.fst → σ.SameCycle d e
+structure PlaneMap where
+  rot : Perm G.Dart
+  isRotationSystem : IsRotationSystem G rot
+  eulerDefect_eq_zero : eulerDefect rot (dartSymm G) = 0
+def IsPlanar : Prop := Nonempty (PlaneMap G)
+namespace PlaneMap
+variable {G} (M : PlaneMap G)
+def facePerm : Perm G.Dart := M.rot * dartSymm G
+end PlaneMap
+end LeanPool.K5MinorFreeChoosability
+end
+section
+namespace LeanPool.K5MinorFreeChoosability
+variable {W : Type*}
+def RIn (G : SimpleGraph W) (s : Set W) : W → W → Prop :=
+  Relation.ReflTransGen (fun a b => G.Adj a b ∧ a ∈ s ∧ b ∈ s)
+def ConnSet (G : SimpleGraph W) (s : Set W) : Prop :=
+  s.Nonempty ∧ ∀ a ∈ s, ∀ b ∈ s, RIn G s a b
+end LeanPool.K5MinorFreeChoosability
+end
+/- Native cycle definitions: Grotzsch/FacialCycle.lean in the pinned source. -/
+section
+namespace Grotzsch
+variable {V : Type*} {G : SimpleGraph V}
+structure IsCycleMap (G : SimpleGraph V) {k : ℕ} (c : ZMod k → V) : Prop where
+  inj : Function.Injective c
+  adj : ∀ i, G.Adj (c i) (c (i + 1))
+def IsChordless (G : SimpleGraph V) {k : ℕ} (c : ZMod k → V) : Prop :=
+  ∀ i j, G.Adj (c i) (c j) → j = i + 1 ∨ i = j + 1
+end Grotzsch
+end
+section
+open LeanPool.K5MinorFreeChoosability
+universe u
+namespace Thomassen
+variable {V : Type u} {G : SimpleGraph V}
+def OnOuterFace (M : PlaneMap G) (outer : G.Dart) (x : V) : Prop :=
+  ∃ e : G.Dart, Equiv.Perm.SameCycle M.facePerm outer e ∧ e.fst = x
+variable [Fintype V]
+/-- Same actual ambient face orbit for the marked vertices of each component.
+Isolated vertices require no dart. Equivalent to ComponentOuterBoundary. -/
+def AmbientComponentOuterBoundary (M : PlaneMap G) (B : Set V) : Prop :=
+  ∀ K : G.ConnectedComponent, Nonempty K.toSimpleGraph.Dart →
+    ∃ outer : G.Dart, outer.fst ∈ K.supp ∧
+      ∀ x : K, x.1 ∈ B → OnOuterFace M outer x.1
+end Thomassen
+end
+'''
+b=(root/'ThomassenByproductsChallenge.lean').read_text();b=b[b.index('@[expose] public section'):]
+b=b.replace('dvorak_kawarabayashi_theorem_1_global','dvorak_kawarabayashi_theorem_1_on_component_faces').replace('ComponentOuterBoundary M B','AmbientComponentOuterBoundary M B')
+f=(root/'ThomassenOriginalFullChallenge.lean').read_text();f=f[f.index('/-- Thomassen (1995), Theorem 2.1'):f.rindex('end Thomassen')]
+f=f.replace('theorem original_theorem_2_1','theorem original_theorem_2_1_on_component_faces').replace('ComponentOuterBoundary M B','AmbientComponentOuterBoundary M B')
+p=(root/'ThomassenOriginalPaperChallenge.lean').read_text();c=p[p.index('theorem original_corollary_2_2'):p.index('end Thomassen\nend',p.index('theorem original_corollary_2_2'))]
+m=(root/'ThomassenMainChallenge.lean').read_text();m=m[m.index('/-- Thomassen (1995):'):m.rindex('end PlanarChoosability')]
+text=header+main+core+b+'\nnamespace PlanarChoosability\n'+m+'end PlanarChoosability\n\nnamespace Thomassen\nsection\nvariable {V : Type u} {C : Type v} {G : SimpleGraph V} [Fintype V]\n'+f+'end\nsection\nvariable {V : Type u} {C : Type v} {G : SimpleGraph V} [Finite V]\n'+c+'end\nend Thomassen\n'
+assert len(text.encode())<=100*1024
+(root/'ThomassenRegistryChallenge.lean').write_text(text)
+mainconfig=json.loads((root/'comparator.json').read_text());bp=json.loads((root/'comparator.byproducts.json').read_text())
+names=mainconfig['theorem_names']+['Thomassen.original_theorem_2_1_on_component_faces','Thomassen.original_corollary_2_2']+[s.replace('dvorak_kawarabayashi_theorem_1_global','dvorak_kawarabayashi_theorem_1_on_component_faces') for s in bp['theorem_names']]
+config={**mainconfig,'challenge_module':'ThomassenRegistryChallenge','theorem_names':names,'definition_names':mainconfig['definition_names']+['Thomassen.AmbientComponentOuterBoundary']}
 (root/'comparator.registry.json').write_text(json.dumps(config,indent=2)+'\n')
-print(f'Registry contract: {len(config["theorem_names"])} theorem statements, {len(config["definition_names"])} definitions.')
-
-# Palomar compiles the protected contract against trusted dependency output
-# only. Flatten its earlier local infrastructure into this one source file;
-# preserve every copied declaration and all source credits. Selected solution
-# proof modules are absent from this dependency closure.
-import re
-ordered=[]
-visited=set()
-trusted=[]
-
-def collect(module):
-    if module in visited:
-        return
-    visited.add(module)
-    path=root/(module.replace('.', '/')+'.lean')
-    if module=='ThomassenRegistryChallenge':
-        source=body
-    elif path.is_file():
-        source=path.read_text()
-    else:
-        if module not in trusted:
-            trusted.append(module)
-        return
-    for dep in re.findall(r'(?m)^(?:(?:public|private)\s+)?import\s+([\w.]+)',source):
-        collect(dep)
-    ordered.append((module,source))
-
-collect('ThomassenRegistryChallenge')
-assert all(m.startswith(('Mathlib.', 'Batteries.', 'Aesop', 'Qq', 'Lean', 'Init')) for m in trusted),trusted
-parts=['''/-
-Copyright (c) 2026 Juan Pablo Traverso Gianini. All rights reserved.
-Released under Apache 2.0 license as described in LICENSE.
-Authors: Juan Pablo Traverso Gianini
--/
-module
-''']
-parts.extend('public import '+m+'\n' for m in trusted)
-parts.append('public import Lean.Meta.Tactic.AuxLemma\n')
-parts.append('''
-/-! Standalone Palomar registry contract. Local infrastructure is reproduced
-below with its source notices, so the protected statement compiles using only
-trusted Mathlib output. The 15 selected solution proofs are not reproduced.
-Generated by scripts/prepare-registry-contract.py from the unchanged individual
-contracts and their earlier infrastructure. -/
-@[expose] public section
-''')
-for index,(module,source) in enumerate(ordered):
-    source=re.sub(r'(?m)^module\s*\n','',source,count=1)
-    source=re.sub(r'(?m)^(?:(?:public|private)\s+)?import\s+[\w.]+[^\n]*\n','',source)
-    source=re.sub(r'(?m)^@\[expose\] public section\s*\n','',source)
-    # Each original file has its own command scope. Restore file-local options,
-    # universe variables, opened namespaces and any implicit trailing sections.
-    depth=0
-    for line in source.splitlines():
-        if re.match(r'^(?:namespace\s|(?:noncomputable\s+)?section(?:\s|$))',line):
-            depth+=1
-        elif re.match(r'^end(?:\s|$)',line):
-            depth-=1
-    assert depth>=0,(module,depth)
-    parts.append(f'\n/- Original source: {module.replace(".", "/")}.lean -/\n'
-        '/- Restore the original module-local auxiliary-proof cache boundary.\n'
-        'This changes no declaration, type, proof or kernel setting. -/\n'
-        'run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}\n'
-        f'section RegistrySource{index}\n')
-    parts.append(source)
-    parts.append('\n'+('end\n'*depth)+f'end RegistrySource{index}\n')
-standalone=''.join(parts)
-assert len(standalone.splitlines())<=10000,len(standalone.splitlines())
-(root/'ThomassenRegistryChallenge.lean').write_text(standalone)
-(root/'verification/registry-contract-source-map.json').write_text(json.dumps({
-    'standalone':True,'generator':'scripts/prepare-registry-contract.py',
-    'trusted_imports':trusted+['Lean.Meta.Tactic.AuxLemma'],'reproduced_source_modules':[m for m,_ in ordered],
-    'selected_solution_proof_modules_reproduced':False,
-    'lines':len(standalone.splitlines()),
-    'source_purpose':'Earlier infrastructure plus unchanged independent public contracts; no selected solution proof bodies.'
-},indent=2)+'\n')
-print(f'Standalone contract: {len(ordered)} reproduced source modules, {len(trusted)} trusted imports, {len(standalone.splitlines())} lines.')
+(root/'verification/registry-contract-source-map.json').write_text(json.dumps({'standalone':True,'generator':'scripts/prepare-registry-contract.py','bytes':len(text.encode()),'hard_cap_bytes':102400,'lines':len(text.splitlines()),'trusted_imports':['Mathlib.Combinatorics.SimpleGraph.Girth','Mathlib.Combinatorics.SimpleGraph.Coloring.Vertex','Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected','Mathlib.GroupTheory.Perm.Cycle.Basic','Mathlib.Data.Fintype.Card','Mathlib.Data.ZMod.Basic'],'reproduced_definitions_sources':['Challenge.lean','LeanPool/K5MinorFreeChoosability/Basic.lean','LeanPool/K5MinorFreeChoosability/Reach.lean','LeanPool/K5MinorFreeChoosability/Planar/Orbits.lean','LeanPool/K5MinorFreeChoosability/Planar/Hypermap.lean','LeanPool/K5MinorFreeChoosability/Planar/Embedding.lean','Grotzsch/FacialCycle.lean','Thomassen/Instance.lean','Thomassen/RegistryBoundary.lean'],'selected_solution_proof_modules_reproduced':False,'boundary_equivalence':'Thomassen.ambientComponentOuterBoundary_iff','boundary_equivalence_proof':'Thomassen/RegistryBoundary.lean','public_presentation_changes':{'Thomassen.original_theorem_2_1':'Thomassen.original_theorem_2_1_on_component_faces','Thomassen.dvorak_kawarabayashi_theorem_1_global':'Thomassen.dvorak_kawarabayashi_theorem_1_on_component_faces'},'original_individual_contracts_unchanged':True},indent=2)+'\n')
+print(f'Compact standalone contract: {len(text.encode())} bytes, {len(text.splitlines())} lines, 15 statements and 10 definitions.')

@@ -68,22 +68,27 @@ Pinned revisions, licences, attribution and exact source-reading scopes are in
 
 The submission uses **`comparator.registry.json`**: one entry selecting 15
 public theorem statements and 10 explicit definitions. Its independent contract,
-[ThomassenRegistryChallenge.lean](ThomassenRegistryChallenge.lean), reproduces
-those statements from the original main, full-2.1, Corollary-2.2 and byproduct
-contracts. Earlier infrastructure is reproduced with source notices, so the
-contract imports only trusted Mathlib/core elaboration modules and compiles
-without any candidate project build output. It does not reproduce any of the
-15 selected solution proof bodies. The original
-contracts and configurations remain byte-for-byte unchanged.
+[ThomassenRegistryChallenge.lean](ThomassenRegistryChallenge.lean), is 16,403 bytes
+(404 lines), below the official 100 KiB hard cap, and imports only Mathlib.
+It reproduces the needed definitions and no selected solution proof bodies.
+Thirteen statement types are retained directly. The full Theorem 2.1 and global
+short-path statement use an ambient component-face certificate, proved equivalent
+to the original induced-map certificate by
+`Thomassen.ambientComponentOuterBoundary_iff` in
+[RegistryBoundary.lean](Thomassen/RegistryBoundary.lean). Their conclusions and
+mathematical hypotheses are preserved. All original individual contracts and
+configurations remain byte-for-byte unchanged, including the original full target.
 
-The standalone combined configuration passes both Lean and NanoDa. A separate
-smoke check compiles it with the candidate project removed from `LEAN_PATH`. The freeze source audit
-checks all 325 Lean files, 74 reused hashes, pinned dependencies, source headers,
-source limits, absence of prebuilt output and preservation of the earlier
-contracts. Metadata is validated against the official v0.4 schema.
-The first remote preflight detected a local-import packaging issue; the
-standalone contract and smoke check correct it while retaining the original
-individual contracts and all solution proof bodies.
+The compact combined configuration passes both Lean and NanoDa. A separate smoke
+check compiles it with the candidate project removed from `LEAN_PATH`. The freeze
+source audit checks all 326 Lean files, 74 reused hashes, pinned dependencies,
+source headers, source limits, absence of prebuilt output and preservation of the
+earlier contracts. Metadata is validated against the official v0.4 schema.
+The first official preflight rejected a local import; the second rejected the
+flattened contract's size. The compact contract addresses both packaging errors.
+The original proof modules are retained, with one new equivalence-and-wrapper
+module and updated solution/audit aggregators. The corrected immutable commit
+requires its own official preflight; earlier failures remain historical evidence.
 See [FREEZE.md](FREEZE.md) and [freeze-status.json](verification/freeze-status.json).
 
 ```sh
@@ -122,7 +127,7 @@ Current evidence:
 [original-full-status.json](verification/original-full-status.json),
 [original-full-comparator.log](verification/original-full-comparator.log), and
 [main-after-original-full-comparator.log](verification/main-after-original-full-comparator.log).
-The solution source audit covers **206 modules**, with no `sorry`, `admit`,
+The solution source audit covers **207 modules**, with no `sorry`, `admit`,
 custom axioms or `native_decide`. Only `propext`, `Classical.choice` and
 `Quot.sound` are permitted. Independent challenge files intentionally contain
 placeholders; they are not imported by the solution.

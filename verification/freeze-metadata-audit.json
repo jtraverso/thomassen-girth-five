@@ -1,7 +1,7 @@
 {
   "passed": true,
   "metadata": "formalization.yaml",
-  "metadata_sha256": "b704849d283be551b9eb95e6e69c6e28fc0f6ba86a4fdede62fc2ed736694f8a",
+  "metadata_sha256": "43cc06832697996057f098fc66d841f05eb59a5a8c4c02e6c59c93a0c37e8286",
   "schema_url": "https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/v0.4.schema.json",
   "schema_sha256": "25ff6b25ca4511635aff4443cf20480c15e59dddf19591c730950b442ea54fce",
   "validator": "jsonschema with PyYAML, v0.4 schema",

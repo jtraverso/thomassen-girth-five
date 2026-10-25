@@ -1,6 +1,6 @@
 {
   "scope": "Thomassen/*.lean and ThomassenSolution.lean",
-  "solution_module_count": 206,
+  "solution_module_count": 207,
   "excluded": "Independent challenge modules intentionally contain theorem placeholders.",
   "forbidden_tokens": [
     "sorry",
@@ -638,6 +638,10 @@
       "sha256": "e1515a087f6ae6ce4e21e2f9738d1280c8fb1e88f61eadda82252d47f4a16201"
     },
     {
+      "path": "Thomassen/RegistryBoundary.lean",
+      "sha256": "8762740e93541cf08e265d39a3b7483b3f633249ab7ebc4786159bbb2bc9d21b"
+    },
+    {
       "path": "Thomassen/ReleasedEdge.lean",
       "sha256": "6194f437a595fee353518298d47b8b85bc9fa4e9584980f86cc82146ba1e07c8"
     },
@@ -831,7 +835,7 @@
     },
     {
       "path": "ThomassenSolution.lean",
-      "sha256": "ebfa85451c47d6ae94b19d3d88b9fb8fc5fd7d0a6fcff271f3319959aae71fec"
+      "sha256": "b216fb25c91f603e05a1934023b8f1aff508a0dd3be4bb8704e24b476408ccdb"
     }
   ],
   "violations": [],

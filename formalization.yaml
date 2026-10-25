@@ -134,8 +134,12 @@ status:
     The original main comparator is retained; the separate closure challenge
     compares nine declarations and introduces no new definition holes.
     The registry configuration comparator.registry.json combines 15 public
-    theorem statements and 10 explicit definitions from the unchanged original
-    independent contracts; it passes both Lean and NanoDa.
+    theorem statements and 10 explicit definitions in a standalone contract below
+    the official 100 KiB cap; it passes both Lean and NanoDa. Thirteen statements
+    retain their types directly; two componentwise statements use an ambient
+    face certificate proved equivalent to the original induced-map certificate
+    by Thomassen.ambientComponentOuterBoundary_iff. Original independent
+    contracts remain unchanged.
     The full original Theorem 2.1 and Corollary 2.2 are proved, including
     the exceptional-edge alternative, arbitrary allowed fixed-edge colours,
     and the componentwise exterior boundary. The exact original full target

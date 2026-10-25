@@ -1,0 +1,34 @@
+Resolving dependencies
+Building ThomassenRegistryChallenge
+⚠ [1284/1285] Replayed ThomassenRegistryChallenge
+warning: ThomassenRegistryChallenge.lean:140:8: `compSetoid._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+warning: ThomassenRegistryChallenge.lean:145:11: `compSetoid._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+warning: ThomassenRegistryChallenge.lean:216:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:229:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:251:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:271:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:277:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:283:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:297:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:305:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:321:6: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:332:6: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:336:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:346:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:363:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:376:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:393:8: declaration uses `sorry`
+Build completed successfully (1285 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, PlanarChoosability.choosableWith_three_of_isPlanar, Thomassen.original_theorem_2_1_on_component_faces, Thomassen.original_corollary_2_2, Thomassen.colourable_connected_boundary_set_six, Thomassen.dvorak_kawarabayashi_theorem_1, Thomassen.dvorak_kawarabayashi_theorem_1_on_component_faces, Thomassen.listColourable_of_finite_induced, Thomassen.infinite_three_list_colourable, Thomassen.infinite_three_list_colourable_of_egirth, Thomassen.extend_short_cycle_of_preconnected, Thomassen.extend_any_short_cycle, Thomassen.cycle_isChordless_of_length_le_seven, Thomassen.seven_cycle_exists_distinct_neighbour_colours, Thomassen.extend_outer_seven_cycle_map, Thomassen.extend_outer_seven_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, PlanarChoosability.IsPlanar, PlanarChoosability.ListColourable, PlanarChoosability.ChoosableWith, PlanarChoosability.numClasses, PlanarChoosability.cycleCount, PlanarChoosability.compSetoid, PlanarChoosability.numComponents, PlanarChoosability.eulerDefect, PlanarChoosability.dartSymm, Thomassen.AmbientComponentOuterBoundary] from ThomassenRegistryChallenge
+Building ThomassenSolution
+Build completed successfully (1722 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, PlanarChoosability.choosableWith_three_of_isPlanar, Thomassen.original_theorem_2_1_on_component_faces, Thomassen.original_corollary_2_2, Thomassen.colourable_connected_boundary_set_six, Thomassen.dvorak_kawarabayashi_theorem_1, Thomassen.dvorak_kawarabayashi_theorem_1_on_component_faces, Thomassen.listColourable_of_finite_induced, Thomassen.infinite_three_list_colourable, Thomassen.infinite_three_list_colourable_of_egirth, Thomassen.extend_short_cycle_of_preconnected, Thomassen.extend_any_short_cycle, Thomassen.cycle_isChordless_of_length_le_seven, Thomassen.seven_cycle_exists_distinct_neighbour_colours, Thomassen.extend_outer_seven_cycle_map, Thomassen.extend_outer_seven_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, PlanarChoosability.IsPlanar, PlanarChoosability.ListColourable, PlanarChoosability.ChoosableWith, PlanarChoosability.numClasses, PlanarChoosability.cycleCount, PlanarChoosability.compSetoid, PlanarChoosability.numComponents, PlanarChoosability.eulerDefect, PlanarChoosability.dartSymm, Thomassen.AmbientComponentOuterBoundary] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

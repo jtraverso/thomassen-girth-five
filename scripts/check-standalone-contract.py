@@ -15,7 +15,8 @@ import tempfile
 root=Path(__file__).resolve().parent.parent
 source=root/'ThomassenRegistryChallenge.lean'
 imports=re.findall(r'(?m)^(?:(?:public|private)\s+)?import\s+([\w.]+)',source.read_text())
-assert imports and all(x.startswith('Mathlib.') or x=='Lean.Meta.Tactic.AuxLemma' for x in imports),imports
+assert imports and all(x.startswith('Mathlib.') for x in imports),imports
+assert source.stat().st_size<=102400,'Contract exceeds the official 100 KiB hard cap'
 manifest=json.loads((root/'lake-manifest.json').read_text())
 paths=[root/'.lake/packages'/p['name']/'.lake/build/lib/lean' for p in manifest['packages']]
 paths=[p for p in paths if p.is_dir()]

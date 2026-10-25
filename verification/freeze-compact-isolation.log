@@ -1,0 +1,22 @@
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:140:8: warning: `compSetoid._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:145:11: warning: `compSetoid._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:216:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:229:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:251:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:271:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:277:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:283:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:297:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:305:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:321:6: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:332:6: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:336:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:346:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:363:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:376:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-8zyz9_ln/ThomassenRegistryChallenge.lean:393:8: warning: declaration uses `sorry`
+Standalone contract accepted with only pinned dependency output; no project build output on LEAN_PATH.

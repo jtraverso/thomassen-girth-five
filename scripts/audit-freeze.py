@@ -49,8 +49,10 @@ assert len(config['theorem_names'])==15 and len(set(config['theorem_names']))==1
 assert len(config['definition_names'])==10 and len(set(config['definition_names']))==10
 wanted=set(read('comparator.json')['theorem_names']+read('comparator.original-full.json')['theorem_names']+
     ['Thomassen.original_corollary_2_2']+read('comparator.byproducts.json')['theorem_names'])
+source_map=read('verification/registry-contract-source-map.json')
+wanted={source_map['public_presentation_changes'].get(name,name) for name in wanted}
 assert set(config['theorem_names'])==wanted,'Registry statement omitted or added unexpectedly'
-assert set(config['definition_names'])==set(read('comparator.json')['definition_names']+['Thomassen.ComponentOuterBoundary'])
+assert set(config['definition_names'])==set(read('comparator.json')['definition_names']+['Thomassen.AmbientComponentOuterBoundary'])
 closure=set()
 def visit(module):
     path=module.replace('.','/')+'.lean'
@@ -61,16 +63,18 @@ def visit(module):
 visit(config['challenge_module'])
 proof_modules=['ThomassenSolution.lean','Thomassen/BoundaryExtension.lean','Thomassen/OriginalTheorem.lean',
     'Thomassen/OriginalClosure.lean','Thomassen/OriginalCorollary.lean','Thomassen/PublicBoundaryGlobal.lean',
-    'Thomassen/InfiniteChoosability.lean','Thomassen/ArbitraryShortCycle.lean','Thomassen/OuterSevenCycle.lean']
+    'Thomassen/InfiniteChoosability.lean','Thomassen/ArbitraryShortCycle.lean','Thomassen/OuterSevenCycle.lean',
+    'Thomassen/RegistryBoundary.lean']
 assert not set(proof_modules)&closure,'Selected solution module imported by the challenge'
 contract=(ROOT/'ThomassenRegistryChallenge.lean').read_text()
 imports=re.findall(r'(?m)^(?:(?:public|private)\s+)?import\s+([\w.]+)',contract)
-assert imports and all(x.startswith('Mathlib.') or x=='Lean.Meta.Tactic.AuxLemma' for x in imports),'Contract imports candidate modules'
-source_map=read('verification/registry-contract-source-map.json')
+assert imports and all(x.startswith('Mathlib.') for x in imports),'Contract imports candidate modules'
 assert source_map['standalone'] and not source_map['selected_solution_proof_modules_reproduced']
-assert contract.count('run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}')==len(source_map['reproduced_source_modules'])
+assert len(contract.encode())==source_map['bytes']<=102400,'Contract exceeds the official 100 KiB hard cap'
+assert 'run_cmd' not in without_comments(contract),'Unexpected contract metaprogramming'
 source_paths=set(subprocess.check_output(['git','ls-files'],cwd=ROOT,text=True).splitlines())
 source_paths.update(p.relative_to(ROOT).as_posix() for p in ROOT.glob('*.lean'))
+source_paths.update(p.relative_to(ROOT).as_posix() for p in ROOT.glob('Thomassen/*.lean'))
 lean=[];largest=('',0);violations=[]
 for path in sorted(p for p in source_paths if p.endswith('.lean')):
     p=ROOT/path
@@ -96,7 +100,8 @@ report={'passed':True,'scope':'Local freeze packaging audit; official Palomar ve
     'registry_challenge_sha256':digest('ThomassenRegistryChallenge.lean'),
     'standalone_contract':True,'trusted_contract_imports':imports,
     'contract_source_map':'verification/registry-contract-source-map.json',
-    'auxiliary_proof_cache_boundaries_restored':len(source_map['reproduced_source_modules']),
+    'contract_bytes':len(contract.encode()),'contract_hard_cap_bytes':102400,
+    'equivalent_boundary_certificate':source_map['boundary_equivalence'],
     'registry_comparator_sha256':digest('comparator.registry.json'),
     'original_contracts_preserved':baseline,'reused_source_files_unchanged':len(reuse['files']),
     'selected_proof_modules_absent_from_challenge_closure':proof_modules,

@@ -753,3 +753,8 @@ public import ThomassenSolution
 #print axioms Thomassen.original_instances_extend_at_card
 #print axioms Thomassen.original_boundary_extension
 #print axioms Thomassen.original_theorem_2_1
+
+-- Equivalent ambient component-face registry presentation.
+#print axioms Thomassen.ambientComponentOuterBoundary_iff
+#print axioms Thomassen.original_theorem_2_1_on_component_faces
+#print axioms Thomassen.dvorak_kawarabayashi_theorem_1_on_component_faces

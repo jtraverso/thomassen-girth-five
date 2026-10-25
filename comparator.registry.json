@@ -3,11 +3,11 @@
   "solution_module": "ThomassenSolution",
   "theorem_names": [
     "PlanarChoosability.choosableWith_three_of_isPlanar",
-    "Thomassen.original_theorem_2_1",
+    "Thomassen.original_theorem_2_1_on_component_faces",
     "Thomassen.original_corollary_2_2",
     "Thomassen.colourable_connected_boundary_set_six",
     "Thomassen.dvorak_kawarabayashi_theorem_1",
-    "Thomassen.dvorak_kawarabayashi_theorem_1_global",
+    "Thomassen.dvorak_kawarabayashi_theorem_1_on_component_faces",
     "Thomassen.listColourable_of_finite_induced",
     "Thomassen.infinite_three_list_colourable",
     "Thomassen.infinite_three_list_colourable_of_egirth",
@@ -28,7 +28,7 @@
     "PlanarChoosability.numComponents",
     "PlanarChoosability.eulerDefect",
     "PlanarChoosability.dartSymm",
-    "Thomassen.ComponentOuterBoundary"
+    "Thomassen.AmbientComponentOuterBoundary"
   ],
   "permitted_axioms": [
     "propext",

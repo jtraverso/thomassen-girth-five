@@ -8,34 +8,21 @@
     "Quot.sound",
     "Classical.choice"
   ],
-  "registry_challenge_sha256": "a296027e358888ef628cf578fdffbe9b4a02464c892bdc370dbe0cb275d9ca29",
+  "registry_challenge_sha256": "96d5ecc5c39d91f35b8aa6636c62e19fab1432a9a1e58ec9021ab6bb630e5bb5",
   "standalone_contract": true,
   "trusted_contract_imports": [
+    "Mathlib.Combinatorics.SimpleGraph.Girth",
     "Mathlib.Combinatorics.SimpleGraph.Coloring.Vertex",
     "Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected",
     "Mathlib.GroupTheory.Perm.Cycle.Basic",
     "Mathlib.Data.Fintype.Card",
-    "Mathlib.Combinatorics.SimpleGraph.DegreeSum",
-    "Mathlib.GroupTheory.Perm.Cycle.Concrete",
-    "Mathlib.Combinatorics.SimpleGraph.Dart",
-    "Mathlib.Combinatorics.SimpleGraph.Finite",
-    "Mathlib.Data.Fin.VecNotation",
-    "Mathlib.Tactic.Ring",
-    "Mathlib.Tactic.Push",
-    "Mathlib.Data.Set.Card",
-    "Mathlib.Data.Finset.Basic",
-    "Mathlib.Combinatorics.SimpleGraph.Paths",
-    "Mathlib.Algebra.Ring.Int.Units",
-    "Mathlib.Tactic.LinearCombination",
-    "Mathlib.Tactic.Linarith",
-    "Mathlib.Combinatorics.SimpleGraph.Girth",
-    "Mathlib.Combinatorics.SimpleGraph.Clique",
-    "Mathlib.Tactic.NormNum",
-    "Lean.Meta.Tactic.AuxLemma"
+    "Mathlib.Data.ZMod.Basic"
   ],
   "contract_source_map": "verification/registry-contract-source-map.json",
-  "auxiliary_proof_cache_boundaries_restored": 34,
-  "registry_comparator_sha256": "7ec7c7c671c624ecd66b1d66462a7c809eb9a8737f91c157c6359b31cab7e70c",
+  "contract_bytes": 16403,
+  "contract_hard_cap_bytes": 102400,
+  "equivalent_boundary_certificate": "Thomassen.ambientComponentOuterBoundary_iff",
+  "registry_comparator_sha256": "eae6770473c95bbef9a327502f5d0adc11588a09deb49c8a28edd486faa5e91a",
   "original_contracts_preserved": {
     "baseline_commit": "d1c9a904e28867400908ab7c7bbaa23373ab08f1",
     "unchanged_original_contracts": {
@@ -60,7 +47,8 @@
     "Thomassen/PublicBoundaryGlobal.lean",
     "Thomassen/InfiniteChoosability.lean",
     "Thomassen/ArbitraryShortCycle.lean",
-    "Thomassen/OuterSevenCycle.lean"
+    "Thomassen/OuterSevenCycle.lean",
+    "Thomassen/RegistryBoundary.lean"
   ],
   "challenge_local_source_closure": [
     "ThomassenRegistryChallenge.lean"
@@ -1223,6 +1211,11 @@
       "lines": 300
     },
     {
+      "path": "Thomassen/RegistryBoundary.lean",
+      "sha256": "8762740e93541cf08e265d39a3b7483b3f633249ab7ebc4786159bbb2bc9d21b",
+      "lines": 91
+    },
+    {
       "path": "Thomassen/ReleasedEdge.lean",
       "sha256": "6194f437a595fee353518298d47b8b85bc9fa4e9584980f86cc82146ba1e07c8",
       "lines": 82
@@ -1469,8 +1462,8 @@
     },
     {
       "path": "ThomassenAudit.lean",
-      "sha256": "e8ddcf00cb7d61588440f7e86aa50a528bb6f997dc4721b89e972bf9a8765782",
-      "lines": 755
+      "sha256": "8d753ada4f8792742a1769d1e7384983c7733d52009c96a8a9d9701cca71a833",
+      "lines": 760
     },
     {
       "path": "ThomassenAugmentedChallenge.lean",
@@ -1644,8 +1637,8 @@
     },
     {
       "path": "ThomassenRegistryChallenge.lean",
-      "sha256": "a296027e358888ef628cf578fdffbe9b4a02464c892bdc370dbe0cb275d9ca29",
-      "lines": 9352
+      "sha256": "96d5ecc5c39d91f35b8aa6636c62e19fab1432a9a1e58ec9021ab6bb630e5bb5",
+      "lines": 404
     },
     {
       "path": "ThomassenShortRingChallenge.lean",
@@ -1669,7 +1662,7 @@
     },
     {
       "path": "ThomassenSolution.lean",
-      "sha256": "ebfa85451c47d6ae94b19d3d88b9fb8fc5fd7d0a6fcff271f3319959aae71fec",
+      "sha256": "b216fb25c91f603e05a1934023b8f1aff508a0dd3be4bb8704e24b476408ccdb",
       "lines": 115
     },
     {
@@ -1693,10 +1686,10 @@
       "lines": 182
     }
   ],
-  "lean_source_count": 325,
+  "lean_source_count": 326,
   "largest_lean_file": {
-    "path": "ThomassenRegistryChallenge.lean",
-    "lines": 9352
+    "path": "Grotzsch/Regions.lean",
+    "lines": 793
   },
   "metadata_audit": "verification/freeze-metadata-audit.json",
   "pinned_git_dependencies": 9
