@@ -1,0 +1,38 @@
+Resolving dependencies
+Building ThomassenRegistryChallenge
+⚠ [1365/1366] Replayed ThomassenRegistryChallenge
+warning: ThomassenRegistryChallenge.lean:168:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:172:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:176:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:245:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:252:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:257:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:262:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:267:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:272:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:280:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9161:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9174:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9196:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9216:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9222:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9228:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9242:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9250:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9266:6: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9277:6: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9281:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9291:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9308:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9321:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:9339:8: declaration uses `sorry`
+Build completed successfully (1366 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, PlanarChoosability.choosableWith_three_of_isPlanar, Thomassen.original_theorem_2_1, Thomassen.original_corollary_2_2, Thomassen.colourable_connected_boundary_set_six, Thomassen.dvorak_kawarabayashi_theorem_1, Thomassen.dvorak_kawarabayashi_theorem_1_global, Thomassen.listColourable_of_finite_induced, Thomassen.infinite_three_list_colourable, Thomassen.infinite_three_list_colourable_of_egirth, Thomassen.extend_short_cycle_of_preconnected, Thomassen.extend_any_short_cycle, Thomassen.cycle_isChordless_of_length_le_seven, Thomassen.seven_cycle_exists_distinct_neighbour_colours, Thomassen.extend_outer_seven_cycle_map, Thomassen.extend_outer_seven_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, PlanarChoosability.IsPlanar, PlanarChoosability.ListColourable, PlanarChoosability.ChoosableWith, PlanarChoosability.numClasses, PlanarChoosability.cycleCount, PlanarChoosability.compSetoid, PlanarChoosability.numComponents, PlanarChoosability.eulerDefect, PlanarChoosability.dartSymm, Thomassen.ComponentOuterBoundary] from ThomassenRegistryChallenge
+Building ThomassenSolution
+Build completed successfully (1721 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, PlanarChoosability.choosableWith_three_of_isPlanar, Thomassen.original_theorem_2_1, Thomassen.original_corollary_2_2, Thomassen.colourable_connected_boundary_set_six, Thomassen.dvorak_kawarabayashi_theorem_1, Thomassen.dvorak_kawarabayashi_theorem_1_global, Thomassen.listColourable_of_finite_induced, Thomassen.infinite_three_list_colourable, Thomassen.infinite_three_list_colourable_of_egirth, Thomassen.extend_short_cycle_of_preconnected, Thomassen.extend_any_short_cycle, Thomassen.cycle_isChordless_of_length_le_seven, Thomassen.seven_cycle_exists_distinct_neighbour_colours, Thomassen.extend_outer_seven_cycle_map, Thomassen.extend_outer_seven_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, PlanarChoosability.IsPlanar, PlanarChoosability.ListColourable, PlanarChoosability.ChoosableWith, PlanarChoosability.numClasses, PlanarChoosability.cycleCount, PlanarChoosability.compSetoid, PlanarChoosability.numComponents, PlanarChoosability.eulerDefect, PlanarChoosability.dartSymm, Thomassen.ComponentOuterBoundary] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

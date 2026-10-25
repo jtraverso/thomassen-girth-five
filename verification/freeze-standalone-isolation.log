@@ -1,0 +1,26 @@
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:168:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:172:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:176:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:245:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:252:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:257:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:262:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:267:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:272:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:280:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9161:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9174:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9196:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9216:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9222:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9228:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9242:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9250:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9266:6: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9277:6: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9281:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9291:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9308:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9321:8: warning: declaration uses `sorry`
+/tmp/thomassen-contract-_7hzletd/ThomassenRegistryChallenge.lean:9339:8: warning: declaration uses `sorry`
+Standalone contract accepted with only pinned dependency output; no project build output on LEAN_PATH.

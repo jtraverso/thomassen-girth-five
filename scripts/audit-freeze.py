@@ -63,6 +63,12 @@ proof_modules=['ThomassenSolution.lean','Thomassen/BoundaryExtension.lean','Thom
     'Thomassen/OriginalClosure.lean','Thomassen/OriginalCorollary.lean','Thomassen/PublicBoundaryGlobal.lean',
     'Thomassen/InfiniteChoosability.lean','Thomassen/ArbitraryShortCycle.lean','Thomassen/OuterSevenCycle.lean']
 assert not set(proof_modules)&closure,'Selected solution module imported by the challenge'
+contract=(ROOT/'ThomassenRegistryChallenge.lean').read_text()
+imports=re.findall(r'(?m)^(?:(?:public|private)\s+)?import\s+([\w.]+)',contract)
+assert imports and all(x.startswith('Mathlib.') or x=='Lean.Meta.Tactic.AuxLemma' for x in imports),'Contract imports candidate modules'
+source_map=read('verification/registry-contract-source-map.json')
+assert source_map['standalone'] and not source_map['selected_solution_proof_modules_reproduced']
+assert contract.count('run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}')==len(source_map['reproduced_source_modules'])
 source_paths=set(subprocess.check_output(['git','ls-files'],cwd=ROOT,text=True).splitlines())
 source_paths.update(p.relative_to(ROOT).as_posix() for p in ROOT.glob('*.lean'))
 lean=[];largest=('',0);violations=[]
@@ -88,6 +94,9 @@ assert (ROOT/'LICENSE').read_text().startswith('                                
 report={'passed':True,'scope':'Local freeze packaging audit; official Palomar verification remains separate',
     'registry_theorems':15,'registry_definitions':10,'permitted_axioms':config['permitted_axioms'],
     'registry_challenge_sha256':digest('ThomassenRegistryChallenge.lean'),
+    'standalone_contract':True,'trusted_contract_imports':imports,
+    'contract_source_map':'verification/registry-contract-source-map.json',
+    'auxiliary_proof_cache_boundaries_restored':len(source_map['reproduced_source_modules']),
     'registry_comparator_sha256':digest('comparator.registry.json'),
     'original_contracts_preserved':baseline,'reused_source_files_unchanged':len(reuse['files']),
     'selected_proof_modules_absent_from_challenge_closure':proof_modules,

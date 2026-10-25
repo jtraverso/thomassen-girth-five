@@ -20,6 +20,8 @@ jobs:
           build-args: "--wfail"
       - name: Compile independent public registry contract
         run: lake build ThomassenRegistryChallenge
+      - name: Compile contract with trusted dependencies only
+        run: python3 scripts/check-standalone-contract.py
       - name: Strict solution and axiom audit
         run: lake build Solution ThomassenSolution ThomassenAudit --wfail
       - name: Audit frozen sources, contract and reuse

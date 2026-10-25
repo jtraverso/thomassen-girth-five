@@ -8,7 +8,33 @@
     "Quot.sound",
     "Classical.choice"
   ],
-  "registry_challenge_sha256": "2f6f144254ceece4a7ebcd2e8857cb6f94a6fa24bba2aa16d7d72fb6f8a58916",
+  "registry_challenge_sha256": "a296027e358888ef628cf578fdffbe9b4a02464c892bdc370dbe0cb275d9ca29",
+  "standalone_contract": true,
+  "trusted_contract_imports": [
+    "Mathlib.Combinatorics.SimpleGraph.Coloring.Vertex",
+    "Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected",
+    "Mathlib.GroupTheory.Perm.Cycle.Basic",
+    "Mathlib.Data.Fintype.Card",
+    "Mathlib.Combinatorics.SimpleGraph.DegreeSum",
+    "Mathlib.GroupTheory.Perm.Cycle.Concrete",
+    "Mathlib.Combinatorics.SimpleGraph.Dart",
+    "Mathlib.Combinatorics.SimpleGraph.Finite",
+    "Mathlib.Data.Fin.VecNotation",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.Push",
+    "Mathlib.Data.Set.Card",
+    "Mathlib.Data.Finset.Basic",
+    "Mathlib.Combinatorics.SimpleGraph.Paths",
+    "Mathlib.Algebra.Ring.Int.Units",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Combinatorics.SimpleGraph.Girth",
+    "Mathlib.Combinatorics.SimpleGraph.Clique",
+    "Mathlib.Tactic.NormNum",
+    "Lean.Meta.Tactic.AuxLemma"
+  ],
+  "contract_source_map": "verification/registry-contract-source-map.json",
+  "auxiliary_proof_cache_boundaries_restored": 34,
   "registry_comparator_sha256": "7ec7c7c671c624ecd66b1d66462a7c809eb9a8737f91c157c6359b31cab7e70c",
   "original_contracts_preserved": {
     "baseline_commit": "d1c9a904e28867400908ab7c7bbaa23373ab08f1",
@@ -37,39 +63,6 @@
     "Thomassen/OuterSevenCycle.lean"
   ],
   "challenge_local_source_closure": [
-    "Challenge.lean",
-    "Grotzsch/FacialCycle.lean",
-    "Grotzsch/Regions.lean",
-    "LeanPool/K5MinorFreeChoosability/Basic.lean",
-    "LeanPool/K5MinorFreeChoosability/Boundary.lean",
-    "LeanPool/K5MinorFreeChoosability/Cases.lean",
-    "LeanPool/K5MinorFreeChoosability/Cases789.lean",
-    "LeanPool/K5MinorFreeChoosability/Correspondence.lean",
-    "LeanPool/K5MinorFreeChoosability/Extension.lean",
-    "LeanPool/K5MinorFreeChoosability/Lemma5.lean",
-    "LeanPool/K5MinorFreeChoosability/Minor.lean",
-    "LeanPool/K5MinorFreeChoosability/Planar/Colouring.lean",
-    "LeanPool/K5MinorFreeChoosability/Planar/Embedding.lean",
-    "LeanPool/K5MinorFreeChoosability/Planar/FaceApex.lean",
-    "LeanPool/K5MinorFreeChoosability/Planar/Hypermap.lean",
-    "LeanPool/K5MinorFreeChoosability/Planar/MinorClosed.lean",
-    "LeanPool/K5MinorFreeChoosability/Planar/MinorModel.lean",
-    "LeanPool/K5MinorFreeChoosability/Planar/Nonplanar.lean",
-    "LeanPool/K5MinorFreeChoosability/Planar/Orbits.lean",
-    "LeanPool/K5MinorFreeChoosability/Reach.lean",
-    "LeanPool/K5MinorFreeChoosability/RootedK3.lean",
-    "LeanPool/K5MinorFreeChoosability/Signed.lean",
-    "LeanPool/K5MinorFreeChoosability/Split.lean",
-    "Thomassen/CycleSeparation.lean",
-    "Thomassen/CycleWalk.lean",
-    "Thomassen/FaceRestriction.lean",
-    "Thomassen/Girth.lean",
-    "Thomassen/InducedEmbedding.lean",
-    "Thomassen/InducedInstance.lean",
-    "Thomassen/Instance.lean",
-    "Thomassen/Lists.lean",
-    "Thomassen/Minimal.lean",
-    "Thomassen/RegionSeparation.lean",
     "ThomassenRegistryChallenge.lean"
   ],
   "solution_forbidden_constructs": [],
@@ -1651,8 +1644,8 @@
     },
     {
       "path": "ThomassenRegistryChallenge.lean",
-      "sha256": "2f6f144254ceece4a7ebcd2e8857cb6f94a6fa24bba2aa16d7d72fb6f8a58916",
-      "lines": 224
+      "sha256": "a296027e358888ef628cf578fdffbe9b4a02464c892bdc370dbe0cb275d9ca29",
+      "lines": 9352
     },
     {
       "path": "ThomassenShortRingChallenge.lean",
@@ -1702,8 +1695,8 @@
   ],
   "lean_source_count": 325,
   "largest_lean_file": {
-    "path": "Grotzsch/Regions.lean",
-    "lines": 793
+    "path": "ThomassenRegistryChallenge.lean",
+    "lines": 9352
   },
   "metadata_audit": "verification/freeze-metadata-audit.json",
   "pinned_git_dependencies": 9

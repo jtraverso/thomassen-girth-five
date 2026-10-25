@@ -4,4 +4,5 @@ cd "$(dirname "$0")/.."
 python3 scripts/check-proof-sources.py
 lake build ThomassenRegistryChallenge
 lake build Solution ThomassenSolution ThomassenAudit --wfail
+python3 scripts/check-standalone-contract.py
 lake comparator --config comparator.registry.json

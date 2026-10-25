@@ -1,5 +1,5 @@
 {
-  "status": "local_freeze_audit_passed",
+  "status": "standalone_contract_refreeze_passed_official_recheck_pending",
   "source_scope_complete": true,
   "submission_config": "comparator.registry.json",
   "theorem_contracts": 15,
@@ -15,15 +15,21 @@
   "regenerated_challenge": "scripts/prepare-registry-contract.py",
   "source_audit": "verification/freeze-source-audit.json",
   "metadata_audit": "verification/freeze-metadata-audit.json",
-  "kernel_evidence": "verification/freeze-registry-verification.log",
+  "kernel_evidence": "verification/freeze-registry-standalone-comparator.log",
   "reproduce": [
     "scripts/check-registry.sh",
     "python3 scripts/audit-freeze.py"
   ],
-  "github_publication": "pending_repository_destination",
-  "official_remote_preflight": "not_run_yet",
+  "github_publication": "first source public; standalone correction awaiting publication",
+  "official_remote_preflight": "correction requires new run",
   "palomar_submission": "not_submitted",
   "network_observation": "Palomar intake and data domains return HTTP CONNECT 403 in this cloud environment; no bypass attempted.",
   "independent_human_review_claimed": false,
-  "proof_source_changed_since_full_2_1_closure": false
+  "proof_source_changed_since_full_2_1_closure": false,
+  "standalone_contract": true,
+  "canonical_smoke_check": "verification/freeze-standalone-isolation.log",
+  "strict_build_evidence": "verification/freeze-standalone-strict-audit.log",
+  "contract_source_map": "verification/registry-contract-source-map.json",
+  "earlier_source_commit": "28cab414b949ad4d07f373fb54807a089395a75a",
+  "earlier_remote_preflight_failure": "unknown local import Challenge in the protected contract; corrected by standalone reproduction"
 }

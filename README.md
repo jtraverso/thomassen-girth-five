@@ -70,13 +70,20 @@ The submission uses **`comparator.registry.json`**: one entry selecting 15
 public theorem statements and 10 explicit definitions. Its independent contract,
 [ThomassenRegistryChallenge.lean](ThomassenRegistryChallenge.lean), reproduces
 those statements from the original main, full-2.1, Corollary-2.2 and byproduct
-contracts. It does not import their selected solution proof modules. The original
+contracts. Earlier infrastructure is reproduced with source notices, so the
+contract imports only trusted Mathlib/core elaboration modules and compiles
+without any candidate project build output. It does not reproduce any of the
+15 selected solution proof bodies. The original
 contracts and configurations remain byte-for-byte unchanged.
 
-The combined configuration passes both Lean and NanoDa. The freeze source audit
+The standalone combined configuration passes both Lean and NanoDa. A separate
+smoke check compiles it with the candidate project removed from `LEAN_PATH`. The freeze source audit
 checks all 325 Lean files, 74 reused hashes, pinned dependencies, source headers,
 source limits, absence of prebuilt output and preservation of the earlier
 contracts. Metadata is validated against the official v0.4 schema.
+The first remote preflight detected a local-import packaging issue; the
+standalone contract and smoke check correct it while retaining the original
+individual contracts and all solution proof bodies.
 See [FREEZE.md](FREEZE.md) and [freeze-status.json](verification/freeze-status.json).
 
 ```sh
