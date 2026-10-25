@@ -1,0 +1,216 @@
+name = "thomassen_girth_five"
+version = "0.1.0"
+defaultTargets = ["Solution", "ThomassenSolution"]
+requiresModuleSystem = true
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[lean_lib]]
+name = "LeanPool"
+globs = ["LeanPool.+"]
+
+[[lean_lib]]
+name = "Challenge"
+roots = ["Challenge"]
+
+[[lean_lib]]
+name = "Solution"
+roots = ["Solution"]
+
+[[lean_lib]]
+name = "Thomassen"
+globs = ["Thomassen.+"]
+
+[[lean_lib]]
+name = "Grotzsch"
+globs = ["Grotzsch.+"]
+
+[[lean_lib]]
+name = "ThomassenSolution"
+roots = ["ThomassenSolution"]
+
+[[lean_lib]]
+name = "ThomassenChallenge"
+roots = ["ThomassenChallenge"]
+
+[[lean_lib]]
+name = "ThomassenAudit"
+roots = ["ThomassenAudit"]
+
+[[lean_lib]]
+name = "ThomassenMainChallenge"
+roots = ["ThomassenMainChallenge"]
+
+[[lean_lib]]
+name = "ThomassenGeometryChallenge"
+roots = ["ThomassenGeometryChallenge"]
+
+[[lean_lib]]
+name = "ThomassenInducedChallenge"
+roots = ["ThomassenInducedChallenge"]
+
+[[lean_lib]]
+name = "ThomassenInstanceChallenge"
+roots = ["ThomassenInstanceChallenge"]
+
+[[lean_lib]]
+name = "ThomassenConnectedChallenge"
+roots = ["ThomassenConnectedChallenge"]
+
+[[lean_lib]]
+name = "ThomassenCycleChallenge"
+roots = ["ThomassenCycleChallenge"]
+
+[[lean_lib]]
+name = "ThomassenChordChallenge"
+roots = ["ThomassenChordChallenge"]
+
+[[lean_lib]]
+name = "ThomassenFiveChallenge"
+roots = ["ThomassenFiveChallenge"]
+
+[[lean_lib]]
+name = "ThomassenEdgeCutChallenge"
+roots = ["ThomassenEdgeCutChallenge"]
+
+[[lean_lib]]
+name = "ThomassenInteriorCutChallenge"
+roots = ["ThomassenInteriorCutChallenge"]
+
+[[lean_lib]]
+name = "ThomassenPathCutChallenge"
+roots = ["ThomassenPathCutChallenge"]
+
+[[lean_lib]]
+name = "ThomassenAugmentedChallenge"
+roots = ["ThomassenAugmentedChallenge"]
+
+[[lean_lib]]
+name = "ThomassenFanChallenge"
+roots = ["ThomassenFanChallenge"]
+
+[[lean_lib]]
+name = "ThomassenEdgeStarChallenge"
+roots = ["ThomassenEdgeStarChallenge"]
+
+[[lean_lib]]
+name = "ThomassenMixedChordChallenge"
+roots = ["ThomassenMixedChordChallenge"]
+
+[[lean_lib]]
+name = "ThomassenBoundaryChordChallenge"
+roots = ["ThomassenBoundaryChordChallenge"]
+
+[[lean_lib]]
+name = "ThomassenInteriorTwoPathChallenge"
+roots = ["ThomassenInteriorTwoPathChallenge"]
+
+[[lean_lib]]
+name = "ThomassenEndpointDeletionChallenge"
+roots = ["ThomassenEndpointDeletionChallenge"]
+
+[[lean_lib]]
+name = "ThomassenSubarcReductionChallenge"
+roots = ["ThomassenSubarcReductionChallenge"]
+
+[[lean_lib]]
+name = "ThomassenPrescribedTwoPathChallenge"
+roots = ["ThomassenPrescribedTwoPathChallenge"]
+
+[[lean_lib]]
+name = "ThomassenBoundaryDeletionChallenge"
+roots = ["ThomassenBoundaryDeletionChallenge"]
+
+[[lean_lib]]
+name = "ThomassenAlternatingListsChallenge"
+roots = ["ThomassenAlternatingListsChallenge"]
+
+[[lean_lib]]
+name = "ThomassenConnectedPrescriptionChallenge"
+roots = ["ThomassenConnectedPrescriptionChallenge"]
+
+[[lean_lib]]
+name = "ThomassenTwoBoundaryChallenge"
+roots = ["ThomassenTwoBoundaryChallenge"]
+
+[[lean_lib]]
+name = "ThomassenPrescribedNeighboursChallenge"
+roots = ["ThomassenPrescribedNeighboursChallenge"]
+
+[[lean_lib]]
+name = "ThomassenMixedTwoPathChallenge"
+roots = ["ThomassenMixedTwoPathChallenge"]
+
+[[lean_lib]]
+name = "ThomassenThreePathChallenge"
+roots = ["ThomassenThreePathChallenge"]
+
+[[lean_lib]]
+name = "ThomassenGoodFourthPathChallenge"
+roots = ["ThomassenGoodFourthPathChallenge"]
+
+[[lean_lib]]
+name = "ThomassenSixPathDeletionChallenge"
+roots = ["ThomassenSixPathDeletionChallenge"]
+
+[[lean_lib]]
+name = "ThomassenStartingStatesChallenge"
+roots = ["ThomassenStartingStatesChallenge"]
+
+[[lean_lib]]
+name = "ThomassenFiveVertexClosureChallenge"
+roots = ["ThomassenFiveVertexClosureChallenge"]
+
+[[lean_lib]]
+name = "ThomassenSixVertexProgressChallenge"
+roots = ["ThomassenSixVertexProgressChallenge"]
+
+[[lean_lib]]
+name = "ThomassenSixVertexClosureChallenge"
+roots = ["ThomassenSixVertexClosureChallenge"]
+
+[[lean_lib]]
+name = "ThomassenOriginalPaperChallenge"
+roots = ["ThomassenOriginalPaperChallenge"]
+
+[[lean_lib]]
+name = "ThomassenOriginalFullChallenge"
+roots = ["ThomassenOriginalFullChallenge"]
+
+[[lean_lib]]
+name = "ThomassenExceptionalDeletionChallenge"
+roots = ["ThomassenExceptionalDeletionChallenge"]
+
+[[lean_lib]]
+name = "ThomassenByproductsChallenge"
+roots = ["ThomassenByproductsChallenge"]
+
+[[lean_lib]]
+name = "ThomassenShortRingChallenge"
+roots = ["ThomassenShortRingChallenge"]
+
+[[lean_lib]]
+name = "ThomassenExceptionalBridgeChallenge"
+roots = ["ThomassenExceptionalBridgeChallenge"]
+
+[[lean_lib]]
+name = "ThomassenOriginalInductionChallenge"
+roots = ["ThomassenOriginalInductionChallenge"]
+
+[[lean_lib]]
+name = "ThomassenOriginalTransportChallenge"
+roots = ["ThomassenOriginalTransportChallenge"]
+
+[[lean_lib]]
+name = "ThomassenOriginalResidualChallenge"
+roots = ["ThomassenOriginalResidualChallenge"]
+
+[[lean_lib]]
+name = "ThomassenRegistryChallenge"
+roots = ["ThomassenRegistryChallenge"]

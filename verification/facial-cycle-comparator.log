@@ -1,0 +1,28 @@
+Resolving dependencies
+Building ThomassenFiveChallenge
+⚠ [1402/1403] Replayed ThomassenFiveChallenge
+warning: ThomassenFiveChallenge.lean:27:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:32:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:40:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:45:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:52:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:56:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:64:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:88:8: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:98:8: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:109:8: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:132:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:141:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:150:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:162:8: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:172:8: declaration uses `sorry`
+Build completed successfully (1403 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.off_five_cycle_unique_neighbour, Thomassen.off_native_five_cycle_unique_neighbour, Thomassen.off_six_cycle_second_neighbour, Thomassen.off_native_six_cycle_second_neighbour, Thomassen.cycle_tail_dropLast_support, Thomassen.cycle_tail_dropLast_edges, Thomassen.exists_outer_after_boundary_vertex, Thomassen.BoundaryInstance.colourable_of_facial_cycle_without_shared_neighbours, Thomassen.BoundaryInstance.colourable_of_facial_five_cycle, Thomassen.BoundaryInstance.colourable_of_facial_six_cycle_without_opposite_neighbour, Thomassen.not_isK5Boundary_of_rooted_four_bags, Thomassen.six_cycle_no_consecutive_opposite_neighbours, Thomassen.isK5Boundary_of_face_deletions, Thomassen.BoundaryInstance.colourable_of_facial_six_cycle, Thomassen.BoundaryInstance.colourable_of_facial_short_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenFiveChallenge
+Building ThomassenSolution
+Build completed successfully (1480 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.off_five_cycle_unique_neighbour, Thomassen.off_native_five_cycle_unique_neighbour, Thomassen.off_six_cycle_second_neighbour, Thomassen.off_native_six_cycle_second_neighbour, Thomassen.cycle_tail_dropLast_support, Thomassen.cycle_tail_dropLast_edges, Thomassen.exists_outer_after_boundary_vertex, Thomassen.BoundaryInstance.colourable_of_facial_cycle_without_shared_neighbours, Thomassen.BoundaryInstance.colourable_of_facial_five_cycle, Thomassen.BoundaryInstance.colourable_of_facial_six_cycle_without_opposite_neighbour, Thomassen.not_isK5Boundary_of_rooted_four_bags, Thomassen.six_cycle_no_consecutive_opposite_neighbours, Thomassen.isK5Boundary_of_face_deletions, Thomassen.BoundaryInstance.colourable_of_facial_six_cycle, Thomassen.BoundaryInstance.colourable_of_facial_short_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

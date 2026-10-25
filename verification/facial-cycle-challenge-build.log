@@ -1,0 +1,17 @@
+⚠ [1402/1403] Built ThomassenFiveChallenge (912ms)
+warning: ThomassenFiveChallenge.lean:27:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:32:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:40:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:45:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:52:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:56:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:64:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:88:8: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:98:8: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:109:8: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:132:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:141:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:150:6: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:162:8: declaration uses `sorry`
+warning: ThomassenFiveChallenge.lean:172:8: declaration uses `sorry`
+Build completed successfully (1403 jobs).

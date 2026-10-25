@@ -1,0 +1,10 @@
+⚠ [1467/1468] Built ThomassenExceptionalDeletionChallenge (942ms)
+warning: ThomassenExceptionalDeletionChallenge.lean:22:6: declaration uses `sorry`
+warning: ThomassenExceptionalDeletionChallenge.lean:30:8: declaration uses `sorry`
+warning: ThomassenExceptionalDeletionChallenge.lean:49:6: declaration uses `sorry`
+warning: ThomassenExceptionalDeletionChallenge.lean:55:6: declaration uses `sorry`
+warning: ThomassenExceptionalDeletionChallenge.lean:64:6: declaration uses `sorry`
+warning: ThomassenExceptionalDeletionChallenge.lean:84:8: declaration uses `sorry`
+warning: ThomassenExceptionalDeletionChallenge.lean:111:8: declaration uses `sorry`
+warning: ThomassenExceptionalDeletionChallenge.lean:123:8: declaration uses `sorry`
+Build completed successfully (1468 jobs).

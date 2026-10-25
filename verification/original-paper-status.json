@@ -1,0 +1,280 @@
+{
+  "status": "complete_locally_verified",
+  "date_utc": "2026-10-25",
+  "scope": "Original Theorem 2.1 (both alternatives), Corollary 2.2 and central 3-choosability theorem, plus requested additional results 1–4.",
+  "original_theorem_2_1": {
+    "proved_in_full": true,
+    "declaration": "Thomassen.original_theorem_2_1",
+    "module": "Thomassen.OriginalTheorem",
+    "induction_closed": true,
+    "remaining": [],
+    "verification": "verification/original-full-status.json",
+    "gate": {
+      "config_checked": "comparator.original-full-pending.json",
+      "identical_canonical_config": "comparator.original-full.json",
+      "challenge": "ThomassenOriginalFullChallenge",
+      "challenge_imports": [
+        "Thomassen.OuterBoundary"
+      ],
+      "new_proof_modules_imported_by_challenge": false,
+      "original_target_unchanged": true,
+      "original_config_unchanged": true,
+      "theorem_contracts": 1,
+      "new_definition_holes": 0,
+      "result": "passed",
+      "lean_kernel": "accepted",
+      "nanoda_kernel": "accepted",
+      "log": "verification/original-full-comparator.log"
+    }
+  },
+  "original_corollary_2_2": {
+    "proved": true,
+    "declaration": "Thomassen.original_corollary_2_2",
+    "module": "Thomassen.OriginalCorollary",
+    "scope": "Proper allowed colouring of the actual outer five-cycle extends; arbitrary colour types and full three-lists."
+  },
+  "byproducts": "verification/byproducts-status.json",
+  "paper_provenance": "README.md",
+  "all_original_numbered_results_covered": true,
+  "not_claimed": "A separate declaration for every intermediate lemma, whole alternative-source papers, mathematical novelty or independent human review.",
+  "historical_checkpoints_before_full_closure": {
+    "scope": "Original-paper extension requested after completion of the central 3-choosability theorem",
+    "original_corollary_2_2": {
+      "proved": true,
+      "declaration": "Thomassen.original_corollary_2_2",
+      "module": "Thomassen.OriginalCorollary",
+      "scope": "Proper allowed colouring of the actual outer five-cycle extends; arbitrary colour types and full three-lists."
+    },
+    "original_theorem_2_1": {
+      "proved_in_full": false,
+      "independent_alternative_proved": true,
+      "independent_global_declaration": "Thomassen.original_theorem_2_1_independent_global",
+      "disconnected_outer_boundary": "ComponentOuterBoundary records a separate actual face orbit in each nontrivial connected component; isolated vertices need no dart.",
+      "exceptional_cases_proved": [
+        "Exceptional edge meets the prescribed edge (dummy-colour reduction using Option C).",
+        "Disjoint exceptional edge joined to the prescribed edge by an edge (oriented four-vertex-core theorem).",
+        "Connected selected-face instance: delete the distinguished endpoint with a colour absent from the other endpoint list, provided the fixed edge colours are compatible. The deletion can disconnect the graph.",
+        "Two-edge bridge from either exceptional endpoint to either prescribed endpoint, when the middle vertex lies on the selected face; all other adjacencies are handled by the incident/joined cases. No original two-path exclusion is needed for this case."
+      ],
+      "remaining": "The predecessor and first triple-residual obstruction are now proved under strict original-instance induction. Remaining: resolve the two endpoint obstructions, build and verify the final cut in source (10), then close strong induction and the exact global export. Original Theorem 2.1 remains incomplete.",
+      "pending_contract": "ThomassenOriginalFullChallenge.lean",
+      "pending_config": "comparator.original-full-pending.json",
+      "pending_gate_result": "failed: solution has no declaration Thomassen.original_theorem_2_1",
+      "pending_gate_log": "verification/original-full-pending-gate.log",
+      "normalization": {
+        "declaration": "Thomassen.exceptional_counterexample_endpoint_lists_equal_two",
+        "module": "Thomassen.ExceptionalListNormalization",
+        "proved": true,
+        "scope": "In a connected selected-face counterexample whose distinguished endpoint is neither fixed endpoint nor adjacent to them, both exceptional endpoint lists have cardinality two and are equal.",
+        "not_proved": "Nonexistence of a counterexample with that identical two-element list."
+      },
+      "short_ring_support": {
+        "module": "Thomassen.ShortRingGluing",
+        "declaration": "Thomassen.extend_exterior_across_short_ring",
+        "scope": "Fill an actual ring of at most seven vertices, preserving the supplied exterior colouring exactly; arbitrary lists on the ring, three-lists only in the uncoloured interior.",
+        "not_claimed": "Existence of the exterior colouring for the remaining connected exceptional-edge case.",
+        "verification": "verification/short-ring-status.json"
+      },
+      "component_reduction": {
+        "module": "Thomassen.OriginalExceptionalComponents",
+        "declarations": [
+          "Thomassen.listColourable_of_one_short_edge_on_face",
+          "Thomassen.assemble_fixed_component_with_one_short_edge",
+          "Thomassen.exceptional_counterexample_fixed_component",
+          "Thomassen.exceptional_global_counterexample_normal_form"
+        ],
+        "scope": "Free components are filled without a connected-extension hypothesis. Every global counterexample must already occur in the component of the fixed edge, containing both exceptional endpoints."
+      },
+      "strict_original_induction": {
+        "status": "verified_strict_induction_reductions",
+        "full_original_theorem_2_1_proved": false,
+        "input_invariant": "Thomassen.OriginalBoundaryInstance",
+        "input_invariant_has_extension_field": false,
+        "output_proposition": "Thomassen.OriginalBoundaryInstance.Extends",
+        "induction_closed": false,
+        "conditional_reductions": "The strict-induction lemmas require the original extension only on strictly smaller vertex types. This prerequisite has not been discharged by a full strong induction.",
+        "completed_original_proof_reductions": [
+          "Connected and two-connected reduction with actual native face cycle",
+          "Actual facial chord cuts",
+          "Original step (4): interior two-path exclusion at arbitrary short/exterior endpoints",
+          "Original step (5): interior three-path exclusion between arbitrary distinct short endpoints",
+          "Original step (6): separating cycles through six vertices",
+          "Low-degree restoration preserving both fixed colours",
+          "Five-face saturation, face permutation preservation and unique interior three-path"
+        ],
+        "remaining": [
+          "General fixed-endpoint normalization and consistent facial orientation for the remaining exceptional case",
+          "Predecessor/double-deletion setup in original step (9), beyond the previously closed short-bridge cases",
+          "Original step (10): full triple-deletion residual obstruction and final-cut argument",
+          "Close strong induction and export the unchanged exact global Theorem 2.1 target"
+        ],
+        "gates": [
+          {
+            "config": "comparator.original-induction.json",
+            "theorem_contracts": 30,
+            "definition_contracts": 0,
+            "challenge_imports": [
+              "Thomassen.OriginalInstance",
+              "Thomassen.FacialCycleRebase"
+            ],
+            "shared_input_invariant_imported": true,
+            "new_cut_proof_modules_imported": false,
+            "result": "passed",
+            "lean_kernel": "accepted",
+            "nanoda_kernel": "accepted",
+            "log": "verification/original-induction-comparator.log"
+          },
+          {
+            "config": "comparator.original-transport.json",
+            "theorem_contracts": 5,
+            "definition_contracts": 1,
+            "definition": "Thomassen.OriginalBoundaryInstance.pruneShort",
+            "challenge_imports": [
+              "Thomassen.OriginalInstance"
+            ],
+            "shared_input_invariant_imported": true,
+            "new_transport_proof_module_imported": false,
+            "result": "passed",
+            "lean_kernel": "accepted",
+            "nanoda_kernel": "accepted",
+            "log": "verification/original-transport-comparator.log"
+          }
+        ],
+        "strict_build": "verification/original-induction-strict-audit.log",
+        "source_audit": "verification/source-audit.json",
+        "permitted_axioms": [
+          "propext",
+          "Quot.sound",
+          "Classical.choice"
+        ],
+        "geometry_reuse": "OriginalFaceSaturation, OriginalFacePreservation and OriginalFiveFaceUniqueness adapt the corresponding existing geometric proofs to the strict original invariant; the generic face-permutation and cut theorems are reused unchanged."
+      },
+      "residual_deletions": {
+        "status": "verified_predecessor_and_triple_residual_obstruction",
+        "full_original_theorem_2_1_proved": false,
+        "original_scan_review": {
+          "files": [
+            "/workspace/papers/thomassen-1995-page-4.png",
+            "/workspace/papers/thomassen-1995-page-5.png"
+          ],
+          "printed_pages": [
+            104,
+            105
+          ],
+          "correction": "The second-five-face low-degree vertex on printed p. 105 is q2, misread as q1 by OCR. This is a correction to the source reading, not to an accepted kernel proof."
+        },
+        "scope": [
+          "Actual residual-component colouring and restoration after a connected boundary deletion; remainder may be disconnected.",
+          "Original (9): the predecessor is short, under strict original-instance induction.",
+          "Triple deletion: allowed proper local colours, old short-list preservation, residual two-list lower bounds, and proved failure of the residual original short-set condition.",
+          "The residual short edge is unique, with its second endpoint interior; the first may be the next old-boundary vertex.",
+          "The triple-residual certificate supplies both endpoint two-path obstructions in the remaining graph and degree two at the old middle vertex.",
+          "The second-face support gives actual corners and short-cycle saturation with a different selected face."
+        ],
+        "strict_smaller_instance_hypothesis_not_discharged": true,
+        "induction_closed": false,
+        "remaining": [
+          "Analyze the first residual endpoint obstruction: exclude its newly short endpoint using the second five-face and restoration at q2; otherwise force the next boundary vertices and both original exceptional degrees two.",
+          "Analyze the second residual endpoint obstruction and construct the final two/three-path cut retaining the original fixed edge.",
+          "Verify the new marked short set on the final piece and release its endpoint colours as in source (10).",
+          "Assemble pruning/orientation, close strong induction and export the unchanged exact global Theorem 2.1."
+        ],
+        "gate": {
+          "config": "comparator.original-residual.json",
+          "challenge": "ThomassenOriginalResidualChallenge",
+          "challenge_imports": [
+            "Thomassen.OriginalShortSetTransport"
+          ],
+          "new_residual_proof_modules_imported": false,
+          "theorem_contracts": 19,
+          "definition_contracts": 1,
+          "definition": "Thomassen.exposedShortSet",
+          "result": "passed",
+          "lean_kernel": "accepted",
+          "nanoda_kernel": "accepted",
+          "log": "verification/original-residual-comparator.log"
+        },
+        "strict_build": "verification/original-residual-strict-audit.log",
+        "source_audit": "verification/source-audit.json",
+        "permitted_axioms": [
+          "propext",
+          "Quot.sound",
+          "Classical.choice"
+        ]
+      }
+    },
+    "verified_gate": {
+      "config": "comparator.original-paper.json",
+      "challenge_imports": [
+        "Thomassen.InducedInstance",
+        "Thomassen.ConnectedPrescription"
+      ],
+      "new_proof_modules_imported": false,
+      "theorem_contracts": 11,
+      "definition_contracts": 1,
+      "definition": "Thomassen.ComponentOuterBoundary",
+      "result": "passed",
+      "lean_kernel": "accepted",
+      "nanoda_kernel": "accepted",
+      "log": "verification/original-paper-comparator.log"
+    },
+    "strict_build": "verification/original-paper-strict-audit.log",
+    "source_audit": "verification/source-audit.json",
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "whole_paper_complete": false,
+    "publication": {
+      "published": false,
+      "registry_submitted": false
+    },
+    "deletion_gate": {
+      "config": "comparator.exceptional-deletion.json",
+      "challenge_imports": [
+        "Thomassen.ComponentBoundaryDeletion"
+      ],
+      "new_proof_modules_imported": false,
+      "theorem_contracts": 8,
+      "new_definition_holes": 0,
+      "result": "passed",
+      "lean_kernel": "accepted",
+      "nanoda_kernel": "accepted",
+      "log": "verification/exceptional-deletion-comparator.log"
+    },
+    "deletion_strict_build": "verification/exceptional-deletion-strict-audit.log",
+    "byproducts": {
+      "scope": "Requested items 1–4 are now proved; remaining proposed candidates are analysis only",
+      "status": "verification/byproducts-status.json",
+      "paper_provenance": "README.md, Additional results and paper provenance for Palomar",
+      "implemented_items": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "not_implemented": [
+        "Signed switching certificate transport",
+        "Criticality heredity across induced separator pieces",
+        "Alon–Füredi quantitative grid bound and counting consequences"
+      ]
+    },
+    "bridge_gate": {
+      "config": "comparator.exceptional-bridge.json",
+      "challenge": "ThomassenExceptionalBridgeChallenge",
+      "challenge_imports": [
+        "Thomassen.ConnectedPrescription",
+        "Thomassen.OuterBoundary"
+      ],
+      "new_proof_modules_imported": false,
+      "theorem_contracts": 8,
+      "new_definition_holes": 0,
+      "result": "passed",
+      "lean_kernel": "accepted",
+      "nanoda_kernel": "accepted",
+      "log": "verification/exceptional-bridge-comparator.log"
+    },
+    "bridge_strict_build": "verification/exceptional-bridge-strict-audit.log"
+  }
+}

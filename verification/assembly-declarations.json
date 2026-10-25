@@ -1,0 +1,18 @@
+[
+  "Thomassen.onOuterFace_self",
+  "Thomassen.BoundaryPrecolor.vertices_empty",
+  "Thomassen.BoundaryPrecolor.edges_empty",
+  "Thomassen.BoundaryPrecolor.card_vertices_le",
+  "Thomassen.BoundaryPrecolor.adj_of_mem_edges",
+  "Thomassen.BoundaryPrecolor.endpoints_of_mem_edges",
+  "Thomassen.BoundaryInstance.list_nonempty",
+  "Thomassen.BoundaryInstance.proper_on_precolored_vertices",
+  "Thomassen.BoundaryInstance.outside_precolor_list_ge_two",
+  "Thomassen.BoundaryInstance.singleton_iff_precolored",
+  "Thomassen.BoundaryInstance.short_edge_iff",
+  "Thomassen.BoundaryInstance.short_not_adj_precolored",
+  "Thomassen.BoundaryInstance.colourable_of_all_precolored",
+  "Thomassen.BoundaryInstance.extends_prescribed",
+  "Thomassen.choosable_of_boundary_extension",
+  "PlanarChoosability.choosableWith_three_of_boundary_extension"
+]

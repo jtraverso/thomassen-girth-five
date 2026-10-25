@@ -1,0 +1,26 @@
+{
+  "challenge_module": "ThomassenOriginalPaperChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.extend_outer_short_cycle",
+    "Thomassen.original_corollary_2_2",
+    "Thomassen.BoundaryInstance.extend_edge_of_preconnected",
+    "Thomassen.BoundaryInstance.extend_edge",
+    "Thomassen.original_theorem_2_1_independent",
+    "Thomassen.extend_edge_of_independent_away_from_fixed_endpoint",
+    "Thomassen.original_theorem_2_1_exceptional_incident",
+    "Thomassen.ConnectedPrescription.colourable",
+    "Thomassen.extend_small_colour_core",
+    "Thomassen.original_theorem_2_1_exceptional_adjacent",
+    "Thomassen.original_theorem_2_1_independent_global"
+  ],
+  "definition_names": [
+    "Thomassen.ComponentOuterBoundary"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

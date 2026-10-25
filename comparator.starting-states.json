@@ -1,0 +1,19 @@
+{
+  "challenge_module": "ThomassenStartingStatesChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.rootStar_extension_of_nontrivial_small_path",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_two_neighbours_current",
+    "Thomassen.BoundaryInstance.colourable_of_empty_prescription_with_short_list",
+    "Thomassen.BoundaryInstance.colourable_of_empty_prescription",
+    "Thomassen.BoundaryInstance.colourable_of_singleton_prescription",
+    "Thomassen.BoundaryInstance.remaining_counterexample_has_four_to_six_prescribed_vertices"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

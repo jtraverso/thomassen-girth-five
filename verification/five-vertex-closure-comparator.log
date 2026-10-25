@@ -1,0 +1,35 @@
+Resolving dependencies
+Building ThomassenFiveVertexClosureChallenge
+⚠ [1514/1515] Built ThomassenFiveVertexClosureChallenge (1.2s)
+warning: ThomassenFiveVertexClosureChallenge.lean:28:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:56:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:67:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:79:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:94:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:112:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:143:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:159:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:174:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:202:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:237:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:272:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:301:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:308:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:315:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:335:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:369:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:406:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:446:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:478:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:491:8: declaration uses `sorry`
+warning: ThomassenFiveVertexClosureChallenge.lean:499:8: declaration uses `sorry`
+Build completed successfully (1515 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_of_alternating_free_path_without_interior_three_path, Thomassen.facePerm_preserved_of_chordless_empty_region, Thomassen.outerFace_vertices_of_backward_cycle_preserved, Thomassen.BoundaryInstance.short_facial_arc_backward_face_preserved, Thomassen.BoundaryInstance.short_closed_face_prefix_inner_face_vertices, Thomassen.BoundaryInstance.short_closed_face_prefix_unique, Thomassen.BoundaryInstance.interior_three_path_facial_corners, Thomassen.BoundaryInstance.interior_three_path_across_two_face_edges_unique, Thomassen.BoundaryInstance.middle_vertex_of_interior_three_path_neighbours, Thomassen.BoundaryInstance.colourable_of_residual_short_leaves, Thomassen.BoundaryInstance.remaining_alternating_counterexample_has_unique_five_face, Thomassen.BoundaryInstance.inner_five_face_interior_attachments_independent, Thomassen.off_five_cycle_neighbours_unique, Thomassen.off_native_five_cycle_neighbours_card_le_one, Thomassen.residual_native_five_cycle_card_ge_two, Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour, Thomassen.BoundaryInstance.remaining_short_prescription_counterexample_alternating, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours, Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_five_native_face, Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_five, Thomassen.BoundaryInstance.remaining_counterexample_has_six_prescribed_vertices, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenFiveVertexClosureChallenge
+Building ThomassenSolution
+Build completed successfully (1599 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_of_alternating_free_path_without_interior_three_path, Thomassen.facePerm_preserved_of_chordless_empty_region, Thomassen.outerFace_vertices_of_backward_cycle_preserved, Thomassen.BoundaryInstance.short_facial_arc_backward_face_preserved, Thomassen.BoundaryInstance.short_closed_face_prefix_inner_face_vertices, Thomassen.BoundaryInstance.short_closed_face_prefix_unique, Thomassen.BoundaryInstance.interior_three_path_facial_corners, Thomassen.BoundaryInstance.interior_three_path_across_two_face_edges_unique, Thomassen.BoundaryInstance.middle_vertex_of_interior_three_path_neighbours, Thomassen.BoundaryInstance.colourable_of_residual_short_leaves, Thomassen.BoundaryInstance.remaining_alternating_counterexample_has_unique_five_face, Thomassen.BoundaryInstance.inner_five_face_interior_attachments_independent, Thomassen.off_five_cycle_neighbours_unique, Thomassen.off_native_five_cycle_neighbours_card_le_one, Thomassen.residual_native_five_cycle_card_ge_two, Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour, Thomassen.BoundaryInstance.remaining_short_prescription_counterexample_alternating, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours, Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_five_native_face, Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_five, Thomassen.BoundaryInstance.remaining_counterexample_has_six_prescribed_vertices, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

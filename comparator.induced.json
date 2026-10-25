@@ -1,0 +1,23 @@
+{
+  "challenge_module": "ThomassenInducedChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.subtypePlaneMap_facePerm",
+    "Thomassen.subtypePlaneMap_sameCycle_iff",
+    "Thomassen.subtypePlaneMap_onOuterFace_iff",
+    "Thomassen.five_le_egirth_induce",
+    "Thomassen.card_induced_vertices_lt",
+    "Thomassen.restrictMap_facePerm_of_closed",
+    "Thomassen.restrictMap_sameCycle_of_closed",
+    "Thomassen.inducedPlaneMap_onOuterFace_of_closed",
+    "Thomassen.col_restrict_iff_listColourable_induce"
+  ],
+  "definition_names": [
+    "Thomassen.OnOuterFace",
+    "Thomassen.induceDartEquiv",
+    "Thomassen.subtypePlaneMap",
+    "Thomassen.inducedPlaneMap"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "enable_nanoda": true
+}

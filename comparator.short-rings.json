@@ -1,0 +1,16 @@
+{
+  "challenge_module": "ThomassenShortRingChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.transfer_extension_to_prescribed_lists",
+    "Thomassen.extend_outer_ring_of_interior_three_lists",
+    "Thomassen.extend_exterior_across_short_ring"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,29 @@
+Resolving dependencies
+Building ThomassenMixedTwoPathChallenge
+⚠ [1488/1489] Replayed ThomassenMixedTwoPathChallenge
+warning: ThomassenMixedTwoPathChallenge.lean:26:6: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:53:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:87:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:104:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:118:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:145:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:171:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:189:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:201:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:225:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:240:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:252:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:277:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:287:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:298:8: declaration uses `sorry`
+warning: ThomassenMixedTwoPathChallenge.lean:312:8: declaration uses `sorry`
+Build completed successfully (1489 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.four_edge_path_with_pendant_vertices_paths_short, Thomassen.BoundaryInstance.colourable_induced_with_compatible_edge_star_path, Thomassen.BoundaryInstance.interior_unprescribed_neighbour_unique_on_native_face, Thomassen.BoundaryInstance.interior_unprescribed_neighbour_unique, Thomassen.BoundaryInstance.interior_at_most_two_boundary_neighbours, Thomassen.BoundaryInstance.colourable_induced_retaining_connected_prescription, Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_prefix, Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_prefix_arbitrary_face, Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_suffix_arbitrary_face, Thomassen.BoundaryInstance.free_boundary_not_adjacent_both_prescribed_ends_on_native_face, Thomassen.BoundaryInstance.free_boundary_not_adjacent_both_prescribed_ends, Thomassen.BoundaryInstance.mixed_interior_two_path_exceptional, Thomassen.BoundaryInstance.no_interior_boundary_pair_at_initial_vertex, Thomassen.BoundaryInstance.no_interior_boundary_pair_at_terminal_vertex, Thomassen.BoundaryInstance.interior_prescribed_and_free_neighbours_exceptional, Thomassen.BoundaryInstance.colourable_of_mixed_two_path_with_at_most_five_prescribed_vertices, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenMixedTwoPathChallenge
+Building ThomassenSolution
+Build completed successfully (1569 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.four_edge_path_with_pendant_vertices_paths_short, Thomassen.BoundaryInstance.colourable_induced_with_compatible_edge_star_path, Thomassen.BoundaryInstance.interior_unprescribed_neighbour_unique_on_native_face, Thomassen.BoundaryInstance.interior_unprescribed_neighbour_unique, Thomassen.BoundaryInstance.interior_at_most_two_boundary_neighbours, Thomassen.BoundaryInstance.colourable_induced_retaining_connected_prescription, Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_prefix, Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_prefix_arbitrary_face, Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_suffix_arbitrary_face, Thomassen.BoundaryInstance.free_boundary_not_adjacent_both_prescribed_ends_on_native_face, Thomassen.BoundaryInstance.free_boundary_not_adjacent_both_prescribed_ends, Thomassen.BoundaryInstance.mixed_interior_two_path_exceptional, Thomassen.BoundaryInstance.no_interior_boundary_pair_at_initial_vertex, Thomassen.BoundaryInstance.no_interior_boundary_pair_at_terminal_vertex, Thomassen.BoundaryInstance.interior_prescribed_and_free_neighbours_exceptional, Thomassen.BoundaryInstance.colourable_of_mixed_two_path_with_at_most_five_prescribed_vertices, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

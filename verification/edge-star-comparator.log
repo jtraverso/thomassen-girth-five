@@ -1,0 +1,38 @@
+Resolving dependencies
+Building ThomassenEdgeStarChallenge
+⚠ [1427/1428] Replayed ThomassenEdgeStarChallenge
+warning: ThomassenEdgeStarChallenge.lean:30:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:44:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:69:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:81:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:97:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:116:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:140:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:171:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:177:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:187:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:215:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:248:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:269:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:297:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:317:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:335:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:357:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:377:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:383:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:392:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:404:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:414:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:434:6: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:443:8: declaration uses `sorry`
+warning: ThomassenEdgeStarChallenge.lean:456:8: declaration uses `sorry`
+Build completed successfully (1428 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.edgeStar_extension_of_path, Thomassen.BoundaryInstance.edgeStar_extension_of_two_neighbours, Thomassen.BoundaryInstance.edgeStar_extension_of_induced_colourings, Thomassen.BoundaryInstance.edgeStar_colouring_on_smaller_induced, Thomassen.BoundaryInstance.edgeStar_extension_of_edge_cut, Thomassen.BoundaryInstance.edgeStar_extension_of_root_cut, Thomassen.BoundaryInstance.edgeStar_extension_of_separate_cut, Thomassen.exists_cut_side_containing_edge, Thomassen.edgeStar_other_side_subset_rootStar, Thomassen.BoundaryInstance.edgeStar_extension_of_cutvertex, Thomassen.BoundaryInstance.edgeStar_extension_of_spoke_cut, Thomassen.BoundaryInstance.edgeStar_adj_consecutive_of_strict_induction, Thomassen.BoundaryInstance.edgeStar_extension_of_facial_boundary, Thomassen.BoundaryInstance.edgeStar_extension_of_smaller, Thomassen.BoundaryInstance.exists_edgeStar_colours, Thomassen.BoundaryInstance.exists_empty_induced_releasing_edge, Thomassen.BoundaryInstance.colourable_of_edge_cut_with_one_sided_prescription, Thomassen.walk_side_of_avoids_two_cut, Thomassen.BoundaryPrecolor.edge_cut_dichotomy_avoiding, Thomassen.BoundaryInstance.colourable_of_unprescribed_edge_cut, Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_chord, Thomassen.BoundaryInstance.boundary_chord_exactly_one_prescribed_end, Thomassen.path_side_dichotomy_avoiding_other_separator, Thomassen.BoundaryInstance.colourable_of_path_endpoint_edge_cut, Thomassen.BoundaryInstance.colourable_of_path_endpoint_boundary_chord, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.edgeStar, Thomassen.EdgeStarExtension] from ThomassenEdgeStarChallenge
+Building ThomassenSolution
+Build completed successfully (1512 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.edgeStar_extension_of_path, Thomassen.BoundaryInstance.edgeStar_extension_of_two_neighbours, Thomassen.BoundaryInstance.edgeStar_extension_of_induced_colourings, Thomassen.BoundaryInstance.edgeStar_colouring_on_smaller_induced, Thomassen.BoundaryInstance.edgeStar_extension_of_edge_cut, Thomassen.BoundaryInstance.edgeStar_extension_of_root_cut, Thomassen.BoundaryInstance.edgeStar_extension_of_separate_cut, Thomassen.exists_cut_side_containing_edge, Thomassen.edgeStar_other_side_subset_rootStar, Thomassen.BoundaryInstance.edgeStar_extension_of_cutvertex, Thomassen.BoundaryInstance.edgeStar_extension_of_spoke_cut, Thomassen.BoundaryInstance.edgeStar_adj_consecutive_of_strict_induction, Thomassen.BoundaryInstance.edgeStar_extension_of_facial_boundary, Thomassen.BoundaryInstance.edgeStar_extension_of_smaller, Thomassen.BoundaryInstance.exists_edgeStar_colours, Thomassen.BoundaryInstance.exists_empty_induced_releasing_edge, Thomassen.BoundaryInstance.colourable_of_edge_cut_with_one_sided_prescription, Thomassen.walk_side_of_avoids_two_cut, Thomassen.BoundaryPrecolor.edge_cut_dichotomy_avoiding, Thomassen.BoundaryInstance.colourable_of_unprescribed_edge_cut, Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_chord, Thomassen.BoundaryInstance.boundary_chord_exactly_one_prescribed_end, Thomassen.path_side_dichotomy_avoiding_other_separator, Thomassen.BoundaryInstance.colourable_of_path_endpoint_edge_cut, Thomassen.BoundaryInstance.colourable_of_path_endpoint_boundary_chord, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.edgeStar, Thomassen.EdgeStarExtension] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

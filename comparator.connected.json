@@ -1,0 +1,38 @@
+{
+  "challenge_module": "ThomassenConnectedChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.sameCycle_restrict_of_same_original_face",
+    "Thomassen.onOuterFace_restrict_of_connected",
+    "Thomassen.subVerts_restrict_of_preconnected",
+    "Thomassen.restrict_reachable_of_induce_preconnected",
+    "Thomassen.exists_outer_induced_of_preconnected",
+    "Thomassen.exists_outer_induced_after_connected_deletion",
+    "Thomassen.BoundaryPrecolor.reachable_vertices",
+    "Thomassen.glue_induced_colourings",
+    "Thomassen.BoundaryInstance.colourable_induce_of_smaller",
+    "Thomassen.BoundaryInstance.colourable_of_few_neighbours",
+    "Thomassen.walk_side_of_avoids_cut",
+    "Thomassen.path_side_dichotomy",
+    "Thomassen.not_mem_edges_of_one_vertex_intersection",
+    "Thomassen.exists_path_on_cut_side",
+    "Thomassen.cycle_side_dichotomy",
+    "Thomassen.BoundaryPrecolor.exists_induce_cut",
+    "Thomassen.preconnected_cut_side",
+    "Thomassen.exists_cut_side_of_delete_disconnected",
+    "Thomassen.BoundaryInstance.colourable_of_precolored_cutvertex"
+  ],
+  "definition_names": [
+    "Thomassen.componentVertexSet",
+    "Thomassen.componentInduceIso",
+    "Thomassen.BoundaryInstance.inducePrecolor",
+    "Thomassen.BoundaryInstance.induceConnected",
+    "Thomassen.BoundaryInstance.induceUnprecolored"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

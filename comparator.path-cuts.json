@@ -1,0 +1,44 @@
+{
+  "challenge_module": "ThomassenPathCutChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.onOuterFace_restrict_of_deleted_connection",
+    "Thomassen.exists_outer_induced_merging_deleted_faces",
+    "Thomassen.exists_outer_induced_merging_connected_set",
+    "Thomassen.cycle_gap_empty_along",
+    "Thomassen.cycle_no_exterior_neighbour_along",
+    "Thomassen.arc_path_inside_gap_empty",
+    "Thomassen.cycleSideSkeleton_le",
+    "Thomassen.cyclicSubgraph_le_skeleton",
+    "Thomassen.cycleSideSkeleton_connSet",
+    "Thomassen.cycleSideSkeleton_opposite_gap_empty",
+    "Thomassen.cycleSideSkeleton_face_iff",
+    "Thomassen.facial_arc_path_separation",
+    "Thomassen.cycleInterval_zero",
+    "Thomassen.cycleInterval_succ",
+    "Thomassen.cycleInterval_connSet",
+    "Thomassen.cycleInterval_subset",
+    "Thomassen.cycleInterval_partition",
+    "Thomassen.cycleInterval_short_complete",
+    "Thomassen.short_arc_path_separation",
+    "Thomassen.walkCycleVertices_nat_le",
+    "Thomassen.walk_drop_support_cycleInterval",
+    "Thomassen.native_short_arc_path_cut",
+    "Thomassen.short_path_isChordless",
+    "Thomassen.BoundaryInstance.colourable_of_short_path_without_short_neighbours",
+    "Thomassen.BoundaryInstance.colourable_of_three_list_short_path_cut",
+    "Thomassen.BoundaryInstance.colourable_of_short_path_with_independent_short_arc",
+    "Thomassen.BoundaryInstance.colourable_of_short_path_with_three_list_arc"
+  ],
+  "definition_names": [
+    "Thomassen.IsFacialCycleAlong",
+    "Thomassen.cycleSideSkeleton",
+    "Thomassen.cycleInterval"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,1710 @@
+{
+  "passed": true,
+  "scope": "Local freeze packaging audit; official Palomar verification remains separate",
+  "registry_theorems": 15,
+  "registry_definitions": 10,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "registry_challenge_sha256": "2f6f144254ceece4a7ebcd2e8857cb6f94a6fa24bba2aa16d7d72fb6f8a58916",
+  "registry_comparator_sha256": "7ec7c7c671c624ecd66b1d66462a7c809eb9a8737f91c157c6359b31cab7e70c",
+  "original_contracts_preserved": {
+    "baseline_commit": "d1c9a904e28867400908ab7c7bbaa23373ab08f1",
+    "unchanged_original_contracts": {
+      "ThomassenMainChallenge.lean": "c93ba7b05b99cbdfa5df1d986c86a5c9f68d69a675d6859d808ee4966845fef6",
+      "ThomassenOriginalFullChallenge.lean": "4d8f1ed725d4af60c7c42f87d5aec7096eb7604a594212f4aec91b9909a8499c",
+      "ThomassenOriginalPaperChallenge.lean": "4d8d9eb427fc1033a3d0e8764ea0e6a69b2a575e1c7ff36cbf74274610e4c6ac",
+      "ThomassenByproductsChallenge.lean": "9106960a25f4f84d453e1e3d90a1e2ba641a6caf6a860c98f49ed9f7dbf6c2ef",
+      "comparator.json": "bcfe78a71ceebbfb1a70d7a644cc3ea07ec964161affb678decce12d7a4723a0",
+      "comparator.original-full-pending.json": "63f271956c375ff6adade157032d520175c6bb8f7fd2f2eec03c56d1f6a84fb9",
+      "comparator.original-full.json": "63f271956c375ff6adade157032d520175c6bb8f7fd2f2eec03c56d1f6a84fb9",
+      "comparator.original-paper.json": "c955096f236ccf3f0d869e65ee553c4db7f90624eb961181f1473b4ca2500ca3",
+      "comparator.byproducts.json": "476a8a2e5064f2ef1b351f80a73a0996ff0574f7360439d6ca39d533d38e8583"
+    }
+  },
+  "reused_source_files_unchanged": 74,
+  "selected_proof_modules_absent_from_challenge_closure": [
+    "ThomassenSolution.lean",
+    "Thomassen/BoundaryExtension.lean",
+    "Thomassen/OriginalTheorem.lean",
+    "Thomassen/OriginalClosure.lean",
+    "Thomassen/OriginalCorollary.lean",
+    "Thomassen/PublicBoundaryGlobal.lean",
+    "Thomassen/InfiniteChoosability.lean",
+    "Thomassen/ArbitraryShortCycle.lean",
+    "Thomassen/OuterSevenCycle.lean"
+  ],
+  "challenge_local_source_closure": [
+    "Challenge.lean",
+    "Grotzsch/FacialCycle.lean",
+    "Grotzsch/Regions.lean",
+    "LeanPool/K5MinorFreeChoosability/Basic.lean",
+    "LeanPool/K5MinorFreeChoosability/Boundary.lean",
+    "LeanPool/K5MinorFreeChoosability/Cases.lean",
+    "LeanPool/K5MinorFreeChoosability/Cases789.lean",
+    "LeanPool/K5MinorFreeChoosability/Correspondence.lean",
+    "LeanPool/K5MinorFreeChoosability/Extension.lean",
+    "LeanPool/K5MinorFreeChoosability/Lemma5.lean",
+    "LeanPool/K5MinorFreeChoosability/Minor.lean",
+    "LeanPool/K5MinorFreeChoosability/Planar/Colouring.lean",
+    "LeanPool/K5MinorFreeChoosability/Planar/Embedding.lean",
+    "LeanPool/K5MinorFreeChoosability/Planar/FaceApex.lean",
+    "LeanPool/K5MinorFreeChoosability/Planar/Hypermap.lean",
+    "LeanPool/K5MinorFreeChoosability/Planar/MinorClosed.lean",
+    "LeanPool/K5MinorFreeChoosability/Planar/MinorModel.lean",
+    "LeanPool/K5MinorFreeChoosability/Planar/Nonplanar.lean",
+    "LeanPool/K5MinorFreeChoosability/Planar/Orbits.lean",
+    "LeanPool/K5MinorFreeChoosability/Reach.lean",
+    "LeanPool/K5MinorFreeChoosability/RootedK3.lean",
+    "LeanPool/K5MinorFreeChoosability/Signed.lean",
+    "LeanPool/K5MinorFreeChoosability/Split.lean",
+    "Thomassen/CycleSeparation.lean",
+    "Thomassen/CycleWalk.lean",
+    "Thomassen/FaceRestriction.lean",
+    "Thomassen/Girth.lean",
+    "Thomassen/InducedEmbedding.lean",
+    "Thomassen/InducedInstance.lean",
+    "Thomassen/Instance.lean",
+    "Thomassen/Lists.lean",
+    "Thomassen/Minimal.lean",
+    "Thomassen/RegionSeparation.lean",
+    "ThomassenRegistryChallenge.lean"
+  ],
+  "solution_forbidden_constructs": [],
+  "lean_sources": [
+    {
+      "path": "Challenge.lean",
+      "sha256": "2b856924a074d0a128f8265167830c1a03bfacc2c0435bf65bf18fe548205933",
+      "lines": 253
+    },
+    {
+      "path": "Grotzsch/FacialCycle.lean",
+      "sha256": "a7f9af5f8a9f28522758413ec3408e7efb906bd8410888fb60825531e3695976",
+      "lines": 520
+    },
+    {
+      "path": "Grotzsch/Regions.lean",
+      "sha256": "a695ba40cd2d6a5f4d6d553cb3a0469536b9a8f0f2aaae8a21b9f71961e6668c",
+      "lines": 793
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Basic.lean",
+      "sha256": "7e3bb9ad719bff030ef63039c45881d1c447c4715401a8cb14487db16de0c0fd",
+      "lines": 50
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Boundary.lean",
+      "sha256": "eb802e55b13cf9dbfe742bc24480068092ee3453542727f070ec2f93cf26f243",
+      "lines": 457
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Cases.lean",
+      "sha256": "61202fbf2a734f41963f9273fe71f16ca5883e21ad32e0184784ec178e434cc3",
+      "lines": 235
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Cases789.lean",
+      "sha256": "5d5a0a60fc6d46a3cc57f45164b9469820b90eb827445596783d1fe661ccdbb4",
+      "lines": 270
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Correspondence.lean",
+      "sha256": "86eb3a8472ae4b8402f7c918dc5dc9ef651b9d973d319258d2eeb1deffdb1826",
+      "lines": 83
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Extension.lean",
+      "sha256": "cbc62d4bc032073de35aff184fb12adc509586c9aa6bf124ee084b9a5305ffab",
+      "lines": 227
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Frontier/WagnerCorollaries.lean",
+      "sha256": "2a551dedfcd7ea4890a199e0c3882a8470e4da2a683e39cee4466adc2c6b6a79",
+      "lines": 230
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Lemma5.lean",
+      "sha256": "781bad91238bdc4426828139cec2f018d8b52a61d31b25be9e28847067cf5afe",
+      "lines": 271
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Minor.lean",
+      "sha256": "a41798729d4a8fb3889e73a9f0c199ba5b962e075d51b5fba008f481c427637c",
+      "lines": 394
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Colouring.lean",
+      "sha256": "0a598954aa044b68f2d1a71d58ad4281b6ebad93e1732e2fdb76432df34c1560",
+      "lines": 59
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Embedding.lean",
+      "sha256": "75c841d74f4c90f210ac98c6ae94ed0fe081ed65545d0e6b60dd02ae1a73c49a",
+      "lines": 154
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Examples.lean",
+      "sha256": "ebd3da595e12ec1af8ffb0478122187d2734e96340cd191780cfff9a7f582227",
+      "lines": 174
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/FaceApex.lean",
+      "sha256": "201a2f567ec79bee0ba75a2a2cdbcca7592faa28bc44cf349291e40fd905fc03",
+      "lines": 520
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Hypermap.lean",
+      "sha256": "b7fb58a13f36212b58bf484602363e5bc5bf1b14de426ecd2ed7563de6d49ffd",
+      "lines": 387
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/MinorClosed.lean",
+      "sha256": "d968f9d6952fbbe56b8386c044bf4d338e0369f0b1aca5dc4bc502c9bd77176d",
+      "lines": 455
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/MinorModel.lean",
+      "sha256": "e306eb2431697ed5d742d91bb37351a827dae5aa3bc72c401528fa201b729767",
+      "lines": 112
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Nonplanar.lean",
+      "sha256": "01aaeb5943aba2151294f61aa64aa9b13472a59a6747614c0d17f0d8c5c654d1",
+      "lines": 214
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Orbits.lean",
+      "sha256": "bead323ec2257f0e824881fc31f144e26bd269d8619eda51a464c30ceb8996d6",
+      "lines": 462
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Reach.lean",
+      "sha256": "8620e554bda75ed9f068a659a5fe533eebac0b474f75bb684a3462c87de0b1a2",
+      "lines": 196
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/RootedK3.lean",
+      "sha256": "1d39f88621d1857fb17533ba7807fd42280e2a5ac9686f0e8f7749cd0403f7e2",
+      "lines": 309
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Signed.lean",
+      "sha256": "c7fb313b835cbfa5f58d467eb30340d05545461c77ad5cdd776ca1e1d8c5b26a",
+      "lines": 62
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Split.lean",
+      "sha256": "94cf641f3433520c4f54fe285f323bf13354782d4275d2263fce896503549999",
+      "lines": 245
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/Forcing.lean",
+      "sha256": "2cffeb83063bb266bd6fbff08d1c5e6547e4e94cfc89f48f2a92f2f5f67d1f18",
+      "lines": 307
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/Graph.lean",
+      "sha256": "ecfac0c93fd60e60324a0b0c3d2f84b988e73100913fde17116bca4ccf1f5ce4",
+      "lines": 164
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/Hexagon.lean",
+      "sha256": "5a5992afe706ec87b05fc53862dd6910d859e55e4e7faf5716ac88c56a43685b",
+      "lines": 36
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/PlaneMap.lean",
+      "sha256": "c2de6874e509233845c8fb2aeae6166b20961fb3d46cbf1ed886a3799c585391",
+      "lines": 207
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/RotationChecks.lean",
+      "sha256": "90fb4515a1f81266cbaabec6bea0281b931f3bbda9e4251733050c61c1a7d95d",
+      "lines": 106
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/RotationData.lean",
+      "sha256": "304729cc7df62db004b0c85c591b2917488ce465944467d1fe700159a03d62a4",
+      "lines": 549
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/Theorem.lean",
+      "sha256": "c98fed61fb53bb63049d7c8305b4741538256eac4c8aa23aca4135f927f5d6a0",
+      "lines": 52
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Contract.lean",
+      "sha256": "e6cd3dfe754de6244cef648573b25c337fa9dfecbdf002097dc3dad048f287dc",
+      "lines": 122
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Contractible.lean",
+      "sha256": "60efd49aa83cb497e11bc7cee639baed92a1ac9df6476448c0ee62ebe32541d5",
+      "lines": 432
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/CyclicWord.lean",
+      "sha256": "f18a3f1520baa636cbe82cafe28ea48308e730c9e062c5bbe447f5170e08390f",
+      "lines": 169
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Decomposition.lean",
+      "sha256": "4306a7e8086ed567e260afed0299a7cc81763ad05a3ddbdaa0c03ea11c01a990",
+      "lines": 412
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/DecompositionConverse.lean",
+      "sha256": "2470df25ae22c4146b132024af1bc7550ef30aa5bc50f2f12bc457c3211b9f60",
+      "lines": 308
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/EdgeAdd.lean",
+      "sha256": "96c39ef7390f25ea4b352e0d2caf67a94ecb76e312c4af6ad40530164a661c44",
+      "lines": 323
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/FaceRing.lean",
+      "sha256": "558d6ba6a5be90dddd2daba315e4188486b865b6543edf417c20ec648e88b78e",
+      "lines": 209
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Facial.lean",
+      "sha256": "b0586cdf3dc656f73c9a102f7495715f3b0a0df68c58751208535cb91316320f",
+      "lines": 350
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Glue.lean",
+      "sha256": "6cd64beac553715ba3d7736211cb7f7df571d19273038f80a72a30946dc16fab",
+      "lines": 408
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/GlueKit.lean",
+      "sha256": "cc8db1fda55f1e530b02e6ad37d0c4cb77e49f4a30c7357643935f5984ac8385",
+      "lines": 248
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Hall.lean",
+      "sha256": "42b474be7a8390b83fe0239c05faeba6ca39b039dcebc0b54a715d90afdb6dfe",
+      "lines": 405
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/HypermapKit.lean",
+      "sha256": "9a43b613e1e06cbe8c9d145fa47355bd61472de512903b1635470a215c4f054f",
+      "lines": 396
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33AttachmentAttack.lean",
+      "sha256": "9508833df65ea652e5bbc177aa7751dfe45ca60ffe97346529ed7d755a4cb5a4",
+      "lines": 292
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33Bridges.lean",
+      "sha256": "06a3942084844c649d007740da8d24f7e77e9060c56aedda605294bd4852c3ac",
+      "lines": 588
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33ContactRigidity.lean",
+      "sha256": "74080a28fd68c916e349a6400b5e4954ad8b78e9525ece93080fcfb513bab0ff",
+      "lines": 278
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33CopyConsumer.lean",
+      "sha256": "48f3fee73d75721d38a995b31b30af1d04db11742f17169109f4bae8acca6062",
+      "lines": 441
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33DoubleHubAttack.lean",
+      "sha256": "02abdd5b78478a96e65ff4f7687f5f2bb2ce533211fc1b2a3a777b5ec6d47f5d",
+      "lines": 182
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33Kernels.lean",
+      "sha256": "7cd7d9bd0c93168ca73f3f309f7ac86da9ab638c65c1da3b8c69a792010ffae7",
+      "lines": 280
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33StarModel.lean",
+      "sha256": "47b24529cad8d9c9fbcb61aa0c39e5d33d89baa17a821c201fddf495876c100e",
+      "lines": 332
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K5Model.lean",
+      "sha256": "c406bdeeab5a7aabca7a4e63039a68d28fd638dad17c2fbeb21ad6f9b0958fda",
+      "lines": 268
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Kuratowski.lean",
+      "sha256": "62d8d7647df78db63a0377aba8630f51acf9d7bcf992b53cf9c4e18b144f1007",
+      "lines": 175
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/MaximalCoreAttack.lean",
+      "sha256": "2d78b5793a2f84e9a0550b6d547fbd81cde7e0a76a1df24e20387ac85850da2d",
+      "lines": 434
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/PlanarLeaves.lean",
+      "sha256": "ff78960ffd0226ba075d2797e394325003b2ebb0ef8946395d9eea793610ca6b",
+      "lines": 84
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/PrimeLeafAttack.lean",
+      "sha256": "12a63e669db477b89debcf140c1c304cab938477c8c15e682ca852aac2d8435f",
+      "lines": 117
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/RotRing.lean",
+      "sha256": "bb3f26ab68819745963d82c4b7034bbd34f7d325f495d2259a317b3ce6661ad0",
+      "lines": 414
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Separation.lean",
+      "sha256": "c9681438ff54869221c8a104c3546e738cfde260e83e8c18c88cbdfc8668474c",
+      "lines": 179
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/SmallPlanar.lean",
+      "sha256": "5b9680157c6b8bd271dbb78e4f985bf2bab82c16ce95d982ea79c9fa147e2b7d",
+      "lines": 120
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Star.lean",
+      "sha256": "6b89b80587aa1cb9a5bd1f0eaa68106104ca1721589115ce5b9f5c5a51b60486",
+      "lines": 455
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/StarThree.lean",
+      "sha256": "bb0cf10623171396fefeb7db533f68f5cf80e1675944fccefdcafacaae445de0",
+      "lines": 385
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Thomassen.lean",
+      "sha256": "30c81e7de44516ab3d51288946c30b2cbf033ccb13ef8be8bf183ad42d4adc3e",
+      "lines": 221
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Uncontract.lean",
+      "sha256": "740c59661fb15b6d9d9fccf0d90ad2ce76ee9503eb47c7acf7721daf3dc904ae",
+      "lines": 481
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/VertexCoverCore.lean",
+      "sha256": "400c18e48e0dafa8d9e64670916dabb2fd9b00162655f6202c12db0205eb9b5e",
+      "lines": 157
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerA.lean",
+      "sha256": "f11dabda3def2253ba3a5eb22941cd965af9496ec06e2aef145bbbc64e6ad138",
+      "lines": 245
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerAttachmentAttack.lean",
+      "sha256": "1239ae2c1bb4a7b213c8f9da0cda34c96b29d76657a6504ed8d7c6fc55742e20",
+      "lines": 216
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerB.lean",
+      "sha256": "420123719e0b441138769a749c4608bf12804bc1515f1292c22d0d5755c31e03",
+      "lines": 716
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerGraph.lean",
+      "sha256": "9fb9b6e1e822008974d155fc7d2026c1fb3b46f72fb2ef5fe4bf2a8fdb483ba6",
+      "lines": 123
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerMinorRigidity.lean",
+      "sha256": "c19e609a7c60515d70dccc14df568cb53287219f8c6c0b5980d212ed3956e7e6",
+      "lines": 650
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerRigidity.lean",
+      "sha256": "cb0dad26b05e91f5d31955f7fef16ab88e7d183dd80dba5a27927f44e5541c6a",
+      "lines": 137
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerV8Core.lean",
+      "sha256": "6a1c5f4a03990775fb006889c57059fe301ddb7dfe6946cd4005e05af674f0bd",
+      "lines": 442
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerV8Reduction.lean",
+      "sha256": "c4d873fa70b3d76a35050ddcb73de776549dc1059b87759f22e8ddc75516d841",
+      "lines": 98
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/YDeltaModelAttack.lean",
+      "sha256": "fbbf213e6eef90082ec70cc441953afacb01489813872079866e902e6384f5ae",
+      "lines": 262
+    },
+    {
+      "path": "Solution.lean",
+      "sha256": "0b8021d2a74aa8dd13734047d7c8908c61eb0859c6e42991ad9a3981dbf22f9f",
+      "lines": 273
+    },
+    {
+      "path": "Thomassen/AlternatingBoundaryLists.lean",
+      "sha256": "92faed9500d33ac69e570d81ff98515696b261b8b09c881777150caceeb075dd",
+      "lines": 371
+    },
+    {
+      "path": "Thomassen/AlternatingFiveFaceObstruction.lean",
+      "sha256": "d4e6c4ae4fc47c5e5a2a2da17bd2f43dca135ce445bfaae5d5ba4a02eb4583b0",
+      "lines": 67
+    },
+    {
+      "path": "Thomassen/AlternatingFreePathDeletion.lean",
+      "sha256": "14ef0969da3cc59346176d4ef02f4819406b8aad60b13ac18ad269b8fd6a097a",
+      "lines": 236
+    },
+    {
+      "path": "Thomassen/AnchoredFan.lean",
+      "sha256": "477780a2f19dfcbf6017939c8e612f445005edc25db3fd908ac1ed689ec141a9",
+      "lines": 145
+    },
+    {
+      "path": "Thomassen/AnchoredFanBase.lean",
+      "sha256": "a93e43d563603b0e180c3fa8e3ced6c734a8cf575aba6f9228e9126542fbacbf",
+      "lines": 83
+    },
+    {
+      "path": "Thomassen/AnchoredFanBoundary.lean",
+      "sha256": "94bb53e5b57775f714c854544b8b27de54367ed5f0b215e2d7ef8da291e90339",
+      "lines": 170
+    },
+    {
+      "path": "Thomassen/AnchoredFanChoice.lean",
+      "sha256": "6d1e3a1d1932e8ee955c9803f197e9ed1e11f0995239521af96006f580d789e8",
+      "lines": 75
+    },
+    {
+      "path": "Thomassen/AnchoredFanCuts.lean",
+      "sha256": "eeab6e4390e1ede65f508bc196c62eba1a787cb5e27d86ebeb18559c8cfa81a2",
+      "lines": 231
+    },
+    {
+      "path": "Thomassen/AnchoredFanCutvertex.lean",
+      "sha256": "b018ef070f5600eeaf4c03c6d2dd5a56485cdd5ebed20f705a6aeebab02f284f",
+      "lines": 140
+    },
+    {
+      "path": "Thomassen/AnchoredFanExtension.lean",
+      "sha256": "c37dca2424790797ae18a15f56f893e398958ea3ea6e71a063c73ea7af316a31",
+      "lines": 86
+    },
+    {
+      "path": "Thomassen/AnchoredFanSpokes.lean",
+      "sha256": "c338e2c5631af4605fd76cd0f854811429946f9621ea8996fec96f2c3ca0469c",
+      "lines": 152
+    },
+    {
+      "path": "Thomassen/ArbitraryShortCycle.lean",
+      "sha256": "91f52f74bab1688eb11ebc5e30a829974b9d4add74a49f813ae185e87140df08",
+      "lines": 160
+    },
+    {
+      "path": "Thomassen/ArcPathSeparation.lean",
+      "sha256": "cf22bcf1fbecc7e19ed854c49019b0df722dd41809f977c460e7d0b6899ef4cb",
+      "lines": 360
+    },
+    {
+      "path": "Thomassen/Assembly.lean",
+      "sha256": "0ed1d5b46f282922bbf69ed0a839965da8c49f6a75f83b7f78461faafe439d47",
+      "lines": 59
+    },
+    {
+      "path": "Thomassen/AugmentedPathColouring.lean",
+      "sha256": "dc7c867b1397dd111df02ce204faea96945d275ea19b77c3dd575a3781dff23e",
+      "lines": 428
+    },
+    {
+      "path": "Thomassen/Boundary.lean",
+      "sha256": "8da0161e26780bb0e57298f50fc8892d0f80b4651690d6500ff3ed65dffc4161",
+      "lines": 52
+    },
+    {
+      "path": "Thomassen/BoundaryChordCut.lean",
+      "sha256": "58e9272182c051765086c0049826bc16179a5000a6f9326212efe351cdf4e44d",
+      "lines": 170
+    },
+    {
+      "path": "Thomassen/BoundaryChordReduction.lean",
+      "sha256": "3418a3651896c18ecc0d5a34611b0a2e5e81bed48b03d12de9a27e8b9cdff51f",
+      "lines": 106
+    },
+    {
+      "path": "Thomassen/BoundaryCutReduction.lean",
+      "sha256": "cb211615a9feb277f75a0cc2a49221bead0233141c6253476f9e234af63d0c0a",
+      "lines": 165
+    },
+    {
+      "path": "Thomassen/BoundaryExtension.lean",
+      "sha256": "5c22d7940e84b3f92827b434d7170c6264cb81a21a04fa61025f26c1d9ade932",
+      "lines": 51
+    },
+    {
+      "path": "Thomassen/BoundaryPairClassification.lean",
+      "sha256": "a69ceba47d8bc586978ca177d9b0da378f3a999e9727f1a7ddee59ad4518511f",
+      "lines": 76
+    },
+    {
+      "path": "Thomassen/BoundaryPendantGeometry.lean",
+      "sha256": "9f85d50ac98453f7ec314e8b7a0985784ff79cf683611cfd6d198581be359fc2",
+      "lines": 119
+    },
+    {
+      "path": "Thomassen/BoundedPrescriptionBase.lean",
+      "sha256": "950ab12e5cd7ca375350cee989f57cc225628874ad07add7c13e7621d5fd1c8a",
+      "lines": 171
+    },
+    {
+      "path": "Thomassen/BoundedPrescriptionCuts.lean",
+      "sha256": "7205b09d859eb0d3f59f79f15e720b84607e77207ef8bf001b5848fdf8f5f002",
+      "lines": 192
+    },
+    {
+      "path": "Thomassen/BoundedPrescriptionExtension.lean",
+      "sha256": "b0d7d0fb0c7a492d94a9b6f51d872dacd0347c376679309189e1edfbd8a53172",
+      "lines": 126
+    },
+    {
+      "path": "Thomassen/CentralChordCut.lean",
+      "sha256": "1d88bdf65c6d07373644a1f16c173f23894082f8f1c9a0e44da7a8743914f932",
+      "lines": 194
+    },
+    {
+      "path": "Thomassen/CentralPrescribedTwoPath.lean",
+      "sha256": "ed576a29f2e59ba138666203390470d3075c26fc57456cd624f8c069bff323bc",
+      "lines": 308
+    },
+    {
+      "path": "Thomassen/ChordSeparation.lean",
+      "sha256": "0b4e3a021a2c5a9e668b44f2a55850a7b08072e8f817bc7d9d3547649486af49",
+      "lines": 466
+    },
+    {
+      "path": "Thomassen/CompatibleEdgeStarPath.lean",
+      "sha256": "491b1aebf90a7ce8e4ffc1dac818056bc0d1baa7555339ded9b31ddc4cf0394a",
+      "lines": 162
+    },
+    {
+      "path": "Thomassen/CompatiblePathStar.lean",
+      "sha256": "fca9c0061d4d9d206bc87de06fa2152a54cfe9b4830483eaae96c249c4cdbdfb",
+      "lines": 155
+    },
+    {
+      "path": "Thomassen/CompatiblePrescription.lean",
+      "sha256": "9382fc3b0659ab2ce76453d86948e6d6a5fbd709d0dbfc6c7f2a526fcd23ffd6",
+      "lines": 85
+    },
+    {
+      "path": "Thomassen/CompatibleShortEndedPath.lean",
+      "sha256": "6e2550fc9b6047f031468944d1cad228e7dfd9d19677751ccba02f8eae48b84b",
+      "lines": 166
+    },
+    {
+      "path": "Thomassen/ComponentBoundaryDeletion.lean",
+      "sha256": "d4e31e3c074b7cecbce6231596ff1ebf57326eece468048a2ccd352c59e15c85",
+      "lines": 141
+    },
+    {
+      "path": "Thomassen/ConnectedBoundaryDeletion.lean",
+      "sha256": "ddcb55f5328ec0e62058e9dff8c48c19dc4b3e500149f8a93105bb1933c2ecd8",
+      "lines": 131
+    },
+    {
+      "path": "Thomassen/ConnectedInstance.lean",
+      "sha256": "aa11e5d040a5aa89d33f3c8963c76fc4ff002c74465121cf91d9fb00686afe4a",
+      "lines": 214
+    },
+    {
+      "path": "Thomassen/ConnectedPrescription.lean",
+      "sha256": "3583be74c95e98c8d3313556bb3488bad415023ddb35c02fb3f48bbe8cb68a16",
+      "lines": 207
+    },
+    {
+      "path": "Thomassen/ConnectedPrescriptionGlobal.lean",
+      "sha256": "1e5d22842ac9c006a8c309028503eae6de11b84313920d20a8cd3f20cf5e9900",
+      "lines": 63
+    },
+    {
+      "path": "Thomassen/ConnectedResidualExtension.lean",
+      "sha256": "f1fe499a62860f73dbe1a2a21de2232dfd10064696498aba299f3d2064d8034b",
+      "lines": 182
+    },
+    {
+      "path": "Thomassen/ConnectedResidualPinning.lean",
+      "sha256": "e140f826109f3ea30b03c132c48cfe119a8d26627a8f22c48ba441c17ea4c304",
+      "lines": 195
+    },
+    {
+      "path": "Thomassen/CurrentSmallStar.lean",
+      "sha256": "c5b52de2f2128e6cdc4bd74aaae9aed1c1f369ed1928bdedf6fe009f3deab2c7",
+      "lines": 157
+    },
+    {
+      "path": "Thomassen/CutPrecolor.lean",
+      "sha256": "54be4f2b4d7dc02940c470221d686af85290e13856fad0d5d8bc1df53eab7cf6",
+      "lines": 336
+    },
+    {
+      "path": "Thomassen/CutSidePair.lean",
+      "sha256": "bdb7518a1b611e3b3b3b3c2e663a9cc727d7ce77d1f78286a40e3e2b9e70f743",
+      "lines": 64
+    },
+    {
+      "path": "Thomassen/CycleIntervals.lean",
+      "sha256": "caf75a5542ed2a379d013974977b09641c26d5a3de97107ce042fe01dba512f5",
+      "lines": 169
+    },
+    {
+      "path": "Thomassen/CycleMapWalk.lean",
+      "sha256": "6d2696376be48a3374b484df0de53a0ae7498092baec7cd61eb1b09756317966",
+      "lines": 59
+    },
+    {
+      "path": "Thomassen/CycleSeparation.lean",
+      "sha256": "5e22b00fd282446909026696be6d7ac96610992457013a7717db16f74340487d",
+      "lines": 568
+    },
+    {
+      "path": "Thomassen/CycleWalk.lean",
+      "sha256": "6a042567a836e7c46a7011e92b42a6f3cfc8b6d9789ca1dcb3ebe973e529f8d8",
+      "lines": 248
+    },
+    {
+      "path": "Thomassen/EdgeCutPrecolor.lean",
+      "sha256": "97705591a72f264b95242c55e10d3b5cda09a059d43dd15dcf1ed95872c64067",
+      "lines": 310
+    },
+    {
+      "path": "Thomassen/EdgeCutReduction.lean",
+      "sha256": "3c71a0a8d1b79bc0a76359ba5f7996145c937870bb53acae77a1392491e4eb25",
+      "lines": 103
+    },
+    {
+      "path": "Thomassen/EdgeStar.lean",
+      "sha256": "6d0b4bd17f7a1055c8c2e378ab81db65cafbd146472555ae073e9706022fbee4",
+      "lines": 177
+    },
+    {
+      "path": "Thomassen/EdgeStarBoundary.lean",
+      "sha256": "1f4ccf57d7d2c4a665c78f9725f5fdcb1e17c2a8f721f53b122cb69afc319a89",
+      "lines": 131
+    },
+    {
+      "path": "Thomassen/EdgeStarChoice.lean",
+      "sha256": "3b95505f8dadb3d0e3067ad568fb19a2f81115becb4db3b166503be6ae125099",
+      "lines": 90
+    },
+    {
+      "path": "Thomassen/EdgeStarCuts.lean",
+      "sha256": "b5d0639950de04f9dab5b7bca0cc3186f539cc420dd95a976f6eb928e00cceb2",
+      "lines": 199
+    },
+    {
+      "path": "Thomassen/EdgeStarCutvertex.lean",
+      "sha256": "f8ce844a26771093dafda46ec75a953e5cae7491e0c19c91a8fc45079e5d2a08",
+      "lines": 132
+    },
+    {
+      "path": "Thomassen/EdgeStarExtension.lean",
+      "sha256": "e1312d14fcc4c987a81547e8786883af67a1238fce1c549c12eb11fc1b51b75f",
+      "lines": 86
+    },
+    {
+      "path": "Thomassen/EdgeStarSpoke.lean",
+      "sha256": "0f3431118b0c2dbe53302f2445f630705c0f38f7346ca32bd44713c713e1947e",
+      "lines": 104
+    },
+    {
+      "path": "Thomassen/EmptyPrescriptionClosure.lean",
+      "sha256": "597d4f9fb4904371ff834fd602bfb266bbb4baa2065a160398a09f4563b12492",
+      "lines": 124
+    },
+    {
+      "path": "Thomassen/EndpointChordCut.lean",
+      "sha256": "4a7ade35e4f1c15d8f65c35ed129f1a0993f7fb3f81ed0bf67142aa5355ec3d1",
+      "lines": 89
+    },
+    {
+      "path": "Thomassen/EndpointResidualConflicts.lean",
+      "sha256": "2d2dd7f483ec8933dfebcab369483e6ea758e1c2b96fd56f95f0c83cd17950b4",
+      "lines": 203
+    },
+    {
+      "path": "Thomassen/EndpointThreePath.lean",
+      "sha256": "a9c5ec309d056167008b33363c2fae9148d66d873f351c32d58498b8e16ee96f",
+      "lines": 158
+    },
+    {
+      "path": "Thomassen/ExceptionalBoundaryBridge.lean",
+      "sha256": "95ba74921fa1f60e41840e7cb070055e4169ff61e964b133e9801b0b23d36079",
+      "lines": 240
+    },
+    {
+      "path": "Thomassen/ExceptionalDeletionLists.lean",
+      "sha256": "9514dbab9b74d1721c432240ac30b63f69a4d2b0c36012b890f71d737e6f51bf",
+      "lines": 89
+    },
+    {
+      "path": "Thomassen/ExceptionalDistinctLists.lean",
+      "sha256": "93d19ca59e350b90d1dea6d7f5d59bb709f649e60a42e62a94458842e57a2370",
+      "lines": 174
+    },
+    {
+      "path": "Thomassen/ExceptionalFiveCycle.lean",
+      "sha256": "c966e5a6d34d3be85407d8b2f491abfb3f09c9635ec4fc57af9baf0ea740b063",
+      "lines": 98
+    },
+    {
+      "path": "Thomassen/ExceptionalListNormalization.lean",
+      "sha256": "02958e840fd586f555b2f9d065af43c338cf41f5e71563202f24b4b5e3ab1b65",
+      "lines": 82
+    },
+    {
+      "path": "Thomassen/ExceptionalPairDeletion.lean",
+      "sha256": "9948a58d3bd70a88d0d28dff055ad5f8d67c3ae29f54699c53e490b5843031df",
+      "lines": 76
+    },
+    {
+      "path": "Thomassen/FaceBoundary.lean",
+      "sha256": "aae6aeecc0b20c265751520e157fe858bccd53c04e5b7fc6e69180ea82e80b2c",
+      "lines": 112
+    },
+    {
+      "path": "Thomassen/FaceMerge.lean",
+      "sha256": "8b59d1006a9cef0839bc936ea2ff51df77a3269bba5cffcf2016ba54e9b160e9",
+      "lines": 103
+    },
+    {
+      "path": "Thomassen/FaceOrbitCycle.lean",
+      "sha256": "b26c6fa1b34e4d572d6f48764054c81f7e2319c2300ef1d92e742b215fce832e",
+      "lines": 229
+    },
+    {
+      "path": "Thomassen/FaceRestriction.lean",
+      "sha256": "d1a81cf12aef6ef13847bb4de5784f652face224c2e33f6db70c31041a4d23a1",
+      "lines": 195
+    },
+    {
+      "path": "Thomassen/FacialChordNormalization.lean",
+      "sha256": "af048b558605f5818c6e215d258926cdd2d5017e5683986633503716285dbad4",
+      "lines": 98
+    },
+    {
+      "path": "Thomassen/FacialCycleRebase.lean",
+      "sha256": "cf971c7ea749d728f3bbd5611a95a10eda88ae19819d8f097980f139107a4cb1",
+      "lines": 126
+    },
+    {
+      "path": "Thomassen/FacialFiveReduction.lean",
+      "sha256": "c153dab345f6ecc1ff702df01e37c031d40e3b565660161a4dffbe0dbe792e23",
+      "lines": 188
+    },
+    {
+      "path": "Thomassen/FacialPathSplice.lean",
+      "sha256": "7b05db1d50f5c8020eaea1a825ca8e9a5bc7be8063b17b29bf8f9dcf1587c927",
+      "lines": 188
+    },
+    {
+      "path": "Thomassen/FacialSixReduction.lean",
+      "sha256": "22619ceb457794e1686b1078ac39cfaf160a4fd5d069d23a24cc10f76ac61ba1",
+      "lines": 238
+    },
+    {
+      "path": "Thomassen/FiveCycle.lean",
+      "sha256": "3bb509b3491b536faf7114c593e3ed0432d5e2cf41451f1b395f04854ca3bac8",
+      "lines": 179
+    },
+    {
+      "path": "Thomassen/FiveCycleResidual.lean",
+      "sha256": "83f884502419d9e0d2461bcf1e4026d1811d979955b76173985429014c35f5a0",
+      "lines": 72
+    },
+    {
+      "path": "Thomassen/FiveEdgePathChordless.lean",
+      "sha256": "dd4b1daef55406b2628d0531e9a653d62c275ba1db7899f517770d621ec1c2ec",
+      "lines": 57
+    },
+    {
+      "path": "Thomassen/FiveFaceBoundaryAttachments.lean",
+      "sha256": "87702bc5cc2a3268de54797b506a144d1e3692e29731f83fbdd225a1526567e5",
+      "lines": 72
+    },
+    {
+      "path": "Thomassen/FiveFaceInteriorAttachments.lean",
+      "sha256": "bb57dc3157a494d8b3995dbcc2b21587603cfadf781fb4d2c1f876ba4487b5a3",
+      "lines": 156
+    },
+    {
+      "path": "Thomassen/FiveVertexPathClosure.lean",
+      "sha256": "01545f04f5bbedee18a2173d0579d68ba13d7ac8dfa3fab491c262101967f629",
+      "lines": 98
+    },
+    {
+      "path": "Thomassen/FourEdgePendantGeometry.lean",
+      "sha256": "5831997a8b80dabbb1043c9bc809028173b0f732d5877b340dc10573fbdd28b5",
+      "lines": 55
+    },
+    {
+      "path": "Thomassen/FreeFiveFaceColouring.lean",
+      "sha256": "28934fc0655aba75f33dedb93b3fae16b1b1df7283e86bc0f2f4c31f7bd6fe42",
+      "lines": 228
+    },
+    {
+      "path": "Thomassen/FreeFiveFaceDeletion.lean",
+      "sha256": "9d86ef31527ed17442be0a763dad5c91e71825f42cb072f74917eede11364e96",
+      "lines": 124
+    },
+    {
+      "path": "Thomassen/Girth.lean",
+      "sha256": "85f931a0eccee47fb8dc3aeb7d563777f9f49ea8def374c5fd4a101f04d77d52",
+      "lines": 77
+    },
+    {
+      "path": "Thomassen/InducedEmbedding.lean",
+      "sha256": "a1b2dd347f9b11916632f626e0381c5178c29f6909962feeba89ca03c6029bbc",
+      "lines": 214
+    },
+    {
+      "path": "Thomassen/InducedInstance.lean",
+      "sha256": "1f7379bd0fb6107a31f236a2331240cb67762eef69a38c28815da94276059dfa",
+      "lines": 243
+    },
+    {
+      "path": "Thomassen/InfiniteChoosability.lean",
+      "sha256": "50464fa0d1c95cd2fb8af92ec556adfa2bff6bfdc674eddef95806bb43cb4d08",
+      "lines": 70
+    },
+    {
+      "path": "Thomassen/Instance.lean",
+      "sha256": "9a25fcf575eb3f33b79065b2a04250358014f5ed66999d8d8899e719269c7db5",
+      "lines": 194
+    },
+    {
+      "path": "Thomassen/InteriorBoundaryNeighbours.lean",
+      "sha256": "8eda3b0906024b47e4b799385438a34ce457aba73fb9754ca84422550b79f47b",
+      "lines": 127
+    },
+    {
+      "path": "Thomassen/InteriorCutReduction.lean",
+      "sha256": "d9661bec1b8131a5b039a606a141a797893810c92194cb0d3b19c609b4dcf11a",
+      "lines": 195
+    },
+    {
+      "path": "Thomassen/InteriorFacePathCut.lean",
+      "sha256": "1a48e4dbba3893d62249f9d5fb682ea75569c222e7172f83cda316ec47dca9dd",
+      "lines": 106
+    },
+    {
+      "path": "Thomassen/InteriorThreePathReduction.lean",
+      "sha256": "b4acee52fe00a28b53b05a2244768954b19201dacd3219ed18024d045cc2bcac",
+      "lines": 156
+    },
+    {
+      "path": "Thomassen/InteriorThreePathUniqueness.lean",
+      "sha256": "0ab591d988167ba1d8dddf0723ea6e2954c2ac32c49868bba4704b1ac243b1cf",
+      "lines": 177
+    },
+    {
+      "path": "Thomassen/InteriorTwoPathReduction.lean",
+      "sha256": "07f23f7de7618da43ac73531ac349aeb93cbd69690a8f29c6afb4ca8feddef20",
+      "lines": 145
+    },
+    {
+      "path": "Thomassen/InteriorTwoPathSelection.lean",
+      "sha256": "82218ad528112a2fd9ad3668cd4eb6a84d1db3d7ad8be7d193bcac074d27a275",
+      "lines": 79
+    },
+    {
+      "path": "Thomassen/InteriorTwoPathSubarc.lean",
+      "sha256": "ec18f50bf8a8e243038dd28787c86efb472179b812ed2218918e78db9204d27a",
+      "lines": 93
+    },
+    {
+      "path": "Thomassen/Lists.lean",
+      "sha256": "e4f1da575850146ecfb0a451400596989a64dc449a01ecef7b73e591c225a577",
+      "lines": 100
+    },
+    {
+      "path": "Thomassen/LongPrescriptionReduction.lean",
+      "sha256": "1b8c1b12a627f7f3f93767453e3bf13ce4a28e44431b97fd35a218d84213954a",
+      "lines": 53
+    },
+    {
+      "path": "Thomassen/Minimal.lean",
+      "sha256": "23d75ffa8c39d9e36bcf9d7b7dd5c39457fda7afb0d9eea3fab1eb224a6f106e",
+      "lines": 138
+    },
+    {
+      "path": "Thomassen/MirrorEmbedding.lean",
+      "sha256": "0b30006622f58a402fb5221d62f44a0dbf4fdb02076dca8561c806d038cb576a",
+      "lines": 290
+    },
+    {
+      "path": "Thomassen/MixedLeafCut.lean",
+      "sha256": "3df88aba4a94ac57de453956f8f7f37c019c2f76e516e70e913fb4b91fbbd00c",
+      "lines": 102
+    },
+    {
+      "path": "Thomassen/MixedPathPrecolor.lean",
+      "sha256": "5cf4ca8e840c6f5a27f1536de7878fb64119447eaf86d73c0e49060ed70bee86",
+      "lines": 130
+    },
+    {
+      "path": "Thomassen/MixedPrescribedThreePath.lean",
+      "sha256": "d5ff122552b121c58124cf0457b37f4fbad7e8ce0afd151f828b8e71faaeb8e4",
+      "lines": 312
+    },
+    {
+      "path": "Thomassen/MixedPrescribedTwoPath.lean",
+      "sha256": "5080bdb444fa730ce3c2bde000dd677e817f9792748ba81d248d54f49aca5e63",
+      "lines": 339
+    },
+    {
+      "path": "Thomassen/MixedThreePathClosure.lean",
+      "sha256": "bf248ef287475a1299110ad62978175a1c6c9ac6371437a2be5fb24216ee746d",
+      "lines": 130
+    },
+    {
+      "path": "Thomassen/MixedTwoPathClassification.lean",
+      "sha256": "a86927337248182954779652935b928d7fb22c66d65c40e4e57c01b7f6e172a6",
+      "lines": 138
+    },
+    {
+      "path": "Thomassen/MixedTwoPathExceptions.lean",
+      "sha256": "558f4234bc915eb817dcd77a40d18a2cd69b23604e87acb6a2770fd10f9ece7a",
+      "lines": 132
+    },
+    {
+      "path": "Thomassen/NativeArcPathCut.lean",
+      "sha256": "7cefa4105d061a5ce15c7ca855eab91fe00022d26583a73b3440b1b83d64ef3f",
+      "lines": 95
+    },
+    {
+      "path": "Thomassen/NativeAugmentedPathCuts.lean",
+      "sha256": "76454e5397799cbf4317bd9d5e9f3928999fc456e34c93b468db9e00ab3f834f",
+      "lines": 153
+    },
+    {
+      "path": "Thomassen/OptionalShortEnds.lean",
+      "sha256": "cef26f401458f22d8908fb4f3c4d87a3d30dd299c2e5fdd4ba1cc835f189a927",
+      "lines": 100
+    },
+    {
+      "path": "Thomassen/OrientedPrescription.lean",
+      "sha256": "ca0d81e551353436636f033d1e7fba97a08ba7622551f0cc90f66f52ba14b759",
+      "lines": 68
+    },
+    {
+      "path": "Thomassen/OriginalAdjacentException.lean",
+      "sha256": "2bc0257b56d94067a1b0c92e3ee28ca037682b136110be5f3e85de96a841b099",
+      "lines": 129
+    },
+    {
+      "path": "Thomassen/OriginalClosure.lean",
+      "sha256": "e9a97fc3f81ba9c6392fa505ddb837d8e1606dd2c57df118bc3c962bb0384e78",
+      "lines": 158
+    },
+    {
+      "path": "Thomassen/OriginalCorollary.lean",
+      "sha256": "f9c68c38ea853285844744176db90bcde9e0fe609a0c7583ca209b9105fa396f",
+      "lines": 103
+    },
+    {
+      "path": "Thomassen/OriginalCuts.lean",
+      "sha256": "dbdb3517539c35f288449ccbac62ca5d438b48db828e6c756d2b7791fb27ee24",
+      "lines": 210
+    },
+    {
+      "path": "Thomassen/OriginalDegree.lean",
+      "sha256": "0f6c7975b50290ed7823c63fc80e5eeb855c07aecef67bebfac255ea2d13d495",
+      "lines": 87
+    },
+    {
+      "path": "Thomassen/OriginalExceptionalComponents.lean",
+      "sha256": "d604d2adca2eb3db75ddefafec228d76659d50f6702638beffa9d71f6720116a",
+      "lines": 232
+    },
+    {
+      "path": "Thomassen/OriginalExceptionalFrame.lean",
+      "sha256": "660043fe7bc94256dbf7d122e4517ac394220308567f3aeb1d6bb2184d0afd73",
+      "lines": 177
+    },
+    {
+      "path": "Thomassen/OriginalFacePreservation.lean",
+      "sha256": "0b128d4326884a96ad9be752e956a7d324fe95f80daf08e7009777ea36ee8fb0",
+      "lines": 130
+    },
+    {
+      "path": "Thomassen/OriginalFaceSaturation.lean",
+      "sha256": "908c4e2cfd97808fa00284a37db44133a1231cd8d20d30f12a7e5ff194f6b9f1",
+      "lines": 148
+    },
+    {
+      "path": "Thomassen/OriginalFinalCut.lean",
+      "sha256": "6da0bc5cd857ee71ebf06996cf2e323e64a4c188f06f5bbd58b090ad9bc33233",
+      "lines": 85
+    },
+    {
+      "path": "Thomassen/OriginalFinalCutGeometry.lean",
+      "sha256": "8ef9554e8698aa1d1fc32fa8a08b0f33c784816fb1e43ae529573dd20b278e56",
+      "lines": 153
+    },
+    {
+      "path": "Thomassen/OriginalFinalShortSets.lean",
+      "sha256": "6d8fd5e99bf2413a377e976ec3cee0fec7233cb1e904f67e31becac03dd70733",
+      "lines": 107
+    },
+    {
+      "path": "Thomassen/OriginalFirstObstruction.lean",
+      "sha256": "f03253a323ed31689d5cff17be2a91f8cb186349000948816407f85078b53a9f",
+      "lines": 175
+    },
+    {
+      "path": "Thomassen/OriginalFiveFaceAttachments.lean",
+      "sha256": "a1e47465bfea8b80a80e69487e6fa8f67bcd3a50628dabcddfe323a38d1c24a4",
+      "lines": 137
+    },
+    {
+      "path": "Thomassen/OriginalFiveFaceUniqueness.lean",
+      "sha256": "291846802c3892faedf7f5eb033b7d2f36a6a3254ed5fd594c0bb9730267a7ee",
+      "lines": 178
+    },
+    {
+      "path": "Thomassen/OriginalIndependent.lean",
+      "sha256": "b49732173aa318716830e73fbdf51d39dfce24b61efb2a84a724a033cbd191da",
+      "lines": 123
+    },
+    {
+      "path": "Thomassen/OriginalIndependentGlobal.lean",
+      "sha256": "208ba85e63b8fbe1347da363c5fd74079c77442452a1997fff922b0df6dc43f9",
+      "lines": 89
+    },
+    {
+      "path": "Thomassen/OriginalInstance.lean",
+      "sha256": "c2f4a7c6b865e1688130a3cdeb4756d008f89bdacdabfe6e3b1ebedd4b15f86d",
+      "lines": 131
+    },
+    {
+      "path": "Thomassen/OriginalInteriorExclusions.lean",
+      "sha256": "6c28d179ba3ab3731c6883825b2eb75cfd707efd31543bcb4d85ef6d4500e740",
+      "lines": 112
+    },
+    {
+      "path": "Thomassen/OriginalMinimal.lean",
+      "sha256": "5499c10d4cb1e82b3905eed41b44b5e4da94e54b1956dedf282f3da030bbbf56",
+      "lines": 152
+    },
+    {
+      "path": "Thomassen/OriginalPathCuts.lean",
+      "sha256": "67017edc8f94e24e5c2a13081a39009cb404b76abca179d40d3a8b0457ce4445",
+      "lines": 210
+    },
+    {
+      "path": "Thomassen/OriginalPinnedEndpoint.lean",
+      "sha256": "4c69be5539e8387ee1ff5924220dc88480dec6ca4bbf217ae76d5a713312c341",
+      "lines": 124
+    },
+    {
+      "path": "Thomassen/OriginalPredecessor.lean",
+      "sha256": "8802c312fdd6ae82c2fecc7de80504c4eb9ce9a41aab9b19b4d44d72c3490a36",
+      "lines": 137
+    },
+    {
+      "path": "Thomassen/OriginalResidualDeletion.lean",
+      "sha256": "8e02c25ce2ab7c3826132e435389980def82ef62f4fc302911d08a647cc809e9",
+      "lines": 186
+    },
+    {
+      "path": "Thomassen/OriginalSecondFiveFace.lean",
+      "sha256": "c35fc4f1a1a23f2145c6a3377854fd9e47c18e2e0d4383e55bfc82be6b566b4c",
+      "lines": 191
+    },
+    {
+      "path": "Thomassen/OriginalSecondObstruction.lean",
+      "sha256": "21bb25255cf3285006cd27574d0877f9b044ea056f26b9c40176533e39458a9e",
+      "lines": 111
+    },
+    {
+      "path": "Thomassen/OriginalShortLeafCut.lean",
+      "sha256": "81f0c227c34b9b3065a6b76d906bae326ac38467683e048877b7592e18a3687e",
+      "lines": 161
+    },
+    {
+      "path": "Thomassen/OriginalShortSetObstruction.lean",
+      "sha256": "969f97bc12033da95f1d54ecf8d34012d150b4feb2825e61da810239ba95869a",
+      "lines": 63
+    },
+    {
+      "path": "Thomassen/OriginalShortSetTransport.lean",
+      "sha256": "31205a39720fd64d6e7ee7387e7f25b8beb6aa94f7cc46ba38b49527d644a174",
+      "lines": 99
+    },
+    {
+      "path": "Thomassen/OriginalTheorem.lean",
+      "sha256": "8bfd541d1968684792261d17cd26675cf1a38ab4ff4e253ee3c8106a40650e88",
+      "lines": 70
+    },
+    {
+      "path": "Thomassen/OriginalTripleDeletion.lean",
+      "sha256": "42ade37c5a422688d640271a92f45c8c46b519d4d9d06f76c200d59b2b4b410b",
+      "lines": 237
+    },
+    {
+      "path": "Thomassen/OriginalTripleGeometry.lean",
+      "sha256": "d5bd4caeecbc69e26247d5ced27ed47c5d6c73ba9417b1bb8177bd9bf3b19414",
+      "lines": 153
+    },
+    {
+      "path": "Thomassen/OuterBoundary.lean",
+      "sha256": "37490f8af3fd67696ff2ddc8fa0692e4e78efc992f641fb587758ea1a960c1cc",
+      "lines": 25
+    },
+    {
+      "path": "Thomassen/OuterSevenCycle.lean",
+      "sha256": "bcb1e44434fa68807cab5dfc01971d9eb7eb237f64d39339e16c51623b075fda",
+      "lines": 233
+    },
+    {
+      "path": "Thomassen/PendantResidualReduction.lean",
+      "sha256": "2f18c5d0408104918a9519873993bad416ac001808cf177c9d16d6d7bfc40cf4",
+      "lines": 114
+    },
+    {
+      "path": "Thomassen/PrescribedChordReduction.lean",
+      "sha256": "5349a702bc7bd6c7162a0e94fa82e1875727102cb492eddb4a4591a820a2fe75",
+      "lines": 133
+    },
+    {
+      "path": "Thomassen/PrescribedCycleNormalization.lean",
+      "sha256": "6ccbcbc14778ef169ca5ad12fd5d94b352d165d3e25d6508cb5a7eb57b55639a",
+      "lines": 126
+    },
+    {
+      "path": "Thomassen/PrescribedEdgeClosure.lean",
+      "sha256": "4bcb3ea78e6d8ee4fed90bf3334e6757bc1c3ee4e27e0c436bf13c03a4384575",
+      "lines": 64
+    },
+    {
+      "path": "Thomassen/PrescribedEndpointDeletion.lean",
+      "sha256": "522f9f6fe3d89c16c39d71696d79653665f5251d7dafe7b281c8b6c3f89bed2a",
+      "lines": 235
+    },
+    {
+      "path": "Thomassen/PrescribedEndpointTwoPath.lean",
+      "sha256": "c933bace0ccff017262f9553e48fec545e7e72d7fb676d4049c2da8624268c49",
+      "lines": 187
+    },
+    {
+      "path": "Thomassen/PrescribedInteriorTwoPath.lean",
+      "sha256": "b883f5d84e5b8211cb94f3b0f4a6215b4d83e8f2fdf5696b0fa37105341b62cc",
+      "lines": 450
+    },
+    {
+      "path": "Thomassen/PrescribedNeighbourUniqueness.lean",
+      "sha256": "9113662ee78ec2530c1e49060c748898c90b2c3b005e48c3fde116bd38ef2322",
+      "lines": 159
+    },
+    {
+      "path": "Thomassen/PrescribedPathOrder.lean",
+      "sha256": "690b4729b1c4e2712941d67c987c5e7ed880c76b936ff1ea91e96649deb31e70",
+      "lines": 106
+    },
+    {
+      "path": "Thomassen/PublicBoundaryExtension.lean",
+      "sha256": "cd710e66e7ea5858fbaf8e7b2ad0467196a86614371bc2e07a95728ead7ad1a3",
+      "lines": 93
+    },
+    {
+      "path": "Thomassen/PublicBoundaryGlobal.lean",
+      "sha256": "29aa2ad321ed94d574f12b19114b986f7c486851f724efdbd921348a9690bda4",
+      "lines": 100
+    },
+    {
+      "path": "Thomassen/RegionSeparation.lean",
+      "sha256": "e1515a087f6ae6ce4e21e2f9738d1280c8fb1e88f61eadda82252d47f4a16201",
+      "lines": 300
+    },
+    {
+      "path": "Thomassen/ReleasedEdge.lean",
+      "sha256": "6194f437a595fee353518298d47b8b85bc9fa4e9584980f86cc82146ba1e07c8",
+      "lines": 82
+    },
+    {
+      "path": "Thomassen/ReleasedLeaf.lean",
+      "sha256": "971f8e2eab37e222e76f5480628822bb53100bea15d3d3ea2f83f2060962b4ba",
+      "lines": 105
+    },
+    {
+      "path": "Thomassen/RemainingAlternatingCase.lean",
+      "sha256": "554c833dd65f2306d09df48992bf569f6775353d100c4f4f3825ea03ef21861c",
+      "lines": 65
+    },
+    {
+      "path": "Thomassen/ResidualShortLeaves.lean",
+      "sha256": "2d65c2402916f31bf7d5069f5316e9d1ae0f92e958f790c266270a56c80db87a",
+      "lines": 141
+    },
+    {
+      "path": "Thomassen/RetainedPrescription.lean",
+      "sha256": "203cf4bd29bb463c55274c886ee40bde9f758805a52fc3549ee2634abbc0dfe6",
+      "lines": 61
+    },
+    {
+      "path": "Thomassen/RootStar.lean",
+      "sha256": "d9eb2819292ec565f7c35b24977fbc305fbdabea0a6cb31e77e8d52c933ec1bd",
+      "lines": 194
+    },
+    {
+      "path": "Thomassen/RootStarCuts.lean",
+      "sha256": "c54329504d38d46ef1f116c6256d303b7af085752eef7e8250b2ba143e44e77a",
+      "lines": 228
+    },
+    {
+      "path": "Thomassen/RootStarExtension.lean",
+      "sha256": "149fce623971f762c98959dc53fb01982436750fc4e5871e7637c447e60302eb",
+      "lines": 113
+    },
+    {
+      "path": "Thomassen/RootStarFan.lean",
+      "sha256": "fedd17018e62b50cae9494816c0481663039d0ae82ca4028263eb7dc46f404fc",
+      "lines": 103
+    },
+    {
+      "path": "Thomassen/ShortArcSaturation.lean",
+      "sha256": "c185ef771b6209b065b81e7a7053ed1103d86db01d0bb21db6f4868e7dbfc451",
+      "lines": 148
+    },
+    {
+      "path": "Thomassen/ShortBoundaryDeletion.lean",
+      "sha256": "05c8f790d55560a3400b8bef6f1e2e6963c2c918ffe0b8cf83085cde4ba1c800",
+      "lines": 402
+    },
+    {
+      "path": "Thomassen/ShortCycleFacePreservation.lean",
+      "sha256": "fb1d321882bc9fb1e1376ba77ff61ab60e01f62503b85b13de557e7bb729af70",
+      "lines": 189
+    },
+    {
+      "path": "Thomassen/ShortCycleReduction.lean",
+      "sha256": "8abe0afc9435c5babb62283625f87ead1308e3ae688cbbd8fcc733fd1e305435",
+      "lines": 127
+    },
+    {
+      "path": "Thomassen/ShortEndpointThreePath.lean",
+      "sha256": "6d61936f96abbf28b400d0dbbf618e7b279bdb5a9394c0f7a50e1a718f5bc16b",
+      "lines": 166
+    },
+    {
+      "path": "Thomassen/ShortFaceCompletion.lean",
+      "sha256": "c438983d0a797644dc4cb8254bad6de0b5fdccf3e967f13eb50b2a12c0b1adcf",
+      "lines": 163
+    },
+    {
+      "path": "Thomassen/ShortFaceNeighbours.lean",
+      "sha256": "5944658f3f5dda896aa230b4bbe68d920c25f2adefd5b040d22bb195880244a4",
+      "lines": 85
+    },
+    {
+      "path": "Thomassen/ShortLists.lean",
+      "sha256": "4b0f220d9c07440c2f0f50691fec128294a81049de3fcfc878c878c46f03e73f",
+      "lines": 72
+    },
+    {
+      "path": "Thomassen/ShortPathColouring.lean",
+      "sha256": "9d383154d4aecbd843c099d29eb563c6f29530d9510b1016c992d4761ae769a7",
+      "lines": 264
+    },
+    {
+      "path": "Thomassen/ShortPathGoodFourthDeletion.lean",
+      "sha256": "29ba2692be87d32ffc4f43d852b1160721725bec4ca97d24163b658b8eb6b56e",
+      "lines": 317
+    },
+    {
+      "path": "Thomassen/ShortPrescriptionChord.lean",
+      "sha256": "1f0f9c0114a4059ff4499e9b8a79519e9fe04ed3551e32c1675e6c842cd0a7a9",
+      "lines": 255
+    },
+    {
+      "path": "Thomassen/ShortRingGluing.lean",
+      "sha256": "380e2bc2744b1306ca83d5dc27bd886e2042698a2bf79e4e2dd64f2e5c8f2f2f",
+      "lines": 151
+    },
+    {
+      "path": "Thomassen/SingleBoundaryComplement.lean",
+      "sha256": "3ade33c0da6a27b025f86af68e8ddb5419ff8ab111197a6336b60ca625d1d1d8",
+      "lines": 253
+    },
+    {
+      "path": "Thomassen/SingleBoundaryDeletion.lean",
+      "sha256": "00a7462effd32e22d64741f5d95c10b28a31dedf20ad86b14bdff6ca80afc15a",
+      "lines": 96
+    },
+    {
+      "path": "Thomassen/SingletonPrescriptionClosure.lean",
+      "sha256": "36a6bfbce8cc0172d3101002ca618d350170fa2d26f3d38ce4353551ea78fc0b",
+      "lines": 122
+    },
+    {
+      "path": "Thomassen/SixPathGoodFourthDeletion.lean",
+      "sha256": "ae68694c53c1da99dff8364e5b4f1ba8874eab26f262ecd057f6fcd4f566c544",
+      "lines": 352
+    },
+    {
+      "path": "Thomassen/SixVertexAlternatingFreeDeletion.lean",
+      "sha256": "aa9ed201a2a22d7c6ad12aad986e716794c3abdbe37e8ac379607be21dec2d86",
+      "lines": 248
+    },
+    {
+      "path": "Thomassen/SixVertexExceptionalGoodFourth.lean",
+      "sha256": "29d5d4f90a13e18dfd8659e4e53417eb3ea2f0c6410502f952de5939c051c42e",
+      "lines": 393
+    },
+    {
+      "path": "Thomassen/SixVertexFiveFaceAttachments.lean",
+      "sha256": "971e07f6a4cfa670a3671b2d060be146f9985dee423337aca589624695277d4b",
+      "lines": 81
+    },
+    {
+      "path": "Thomassen/SixVertexFiveFaceColouring.lean",
+      "sha256": "071c2c1389791c9737379ee8b5db5f56490f4e7ccf2685619d085f1ac2823e55",
+      "lines": 303
+    },
+    {
+      "path": "Thomassen/SixVertexFiveFaceDeletion.lean",
+      "sha256": "d068dd87c0984b8288096d674868ad37d52b1b46f00c088fb930d37b05c950f3",
+      "lines": 129
+    },
+    {
+      "path": "Thomassen/SixVertexGoodFourthClosure.lean",
+      "sha256": "854eda10afa32b224c00be0fc27279d60256f4add1b991b3a72dcb8f1bc9aad3",
+      "lines": 61
+    },
+    {
+      "path": "Thomassen/SixVertexPathClosure.lean",
+      "sha256": "855890770ef5633fab340d90ce1c50fdb4818c132b119b68fe0f4965886c2b1a",
+      "lines": 86
+    },
+    {
+      "path": "Thomassen/SixVertexRemainingExceptions.lean",
+      "sha256": "0af199b4a50b0fc1e8f3f87a3cb2907c4e93974e743dad1bad6c3eadc086cab6",
+      "lines": 71
+    },
+    {
+      "path": "Thomassen/SixVertexUniqueBoundaryAttachments.lean",
+      "sha256": "a66453255e816914a1e3d07277fbfab1812f6ffb3239e7d4194fbc564d3ab141",
+      "lines": 73
+    },
+    {
+      "path": "Thomassen/SixVertexUniqueBoundaryClosure.lean",
+      "sha256": "7b5bf4f75fa0365687817947fbc50494e439aca2924df0ba8e977be7e5d395b3",
+      "lines": 75
+    },
+    {
+      "path": "Thomassen/SixVertexUniqueBoundaryFiveColouring.lean",
+      "sha256": "6c272e3d0222a82a14f903b8807f594b40bf1734197716aef20d31074844b774",
+      "lines": 228
+    },
+    {
+      "path": "Thomassen/SixVertexUniqueBoundaryFiveDeletion.lean",
+      "sha256": "5b89f4cb76e44db485bba463d467a334ec7c1458c10ab3312ad975358bf90fba",
+      "lines": 131
+    },
+    {
+      "path": "Thomassen/SixVertexUniqueBoundaryResidual.lean",
+      "sha256": "cd25ceeaa81a31f47b9e0e468aa39d61255a04524a8418300319e5fd013ea8e3",
+      "lines": 128
+    },
+    {
+      "path": "Thomassen/SixVertexUniqueBoundaryThreeDeletion.lean",
+      "sha256": "7c3c9ad4ac9aafb1803d6d9652e119bd7247a78e4bd6c3806fa8e115e43aac1e",
+      "lines": 238
+    },
+    {
+      "path": "Thomassen/SmallColourCore.lean",
+      "sha256": "e59c01288c41b1a49d1364ccaf270f8721907fdbc32d12dd3ee35b0f09ef0a7a",
+      "lines": 152
+    },
+    {
+      "path": "Thomassen/ThreeVertexAlternatingLists.lean",
+      "sha256": "499d801a3749c750b83f3454c238be1c696b939bf9fbff66898ad858d653c423",
+      "lines": 309
+    },
+    {
+      "path": "Thomassen/ThreeVertexDeletion.lean",
+      "sha256": "c3bd21847bc0430e7f2bf323b6ecdede8ea29f5b221bc63f7ede3f621aefbbef",
+      "lines": 146
+    },
+    {
+      "path": "Thomassen/ThreeVertexPathClosure.lean",
+      "sha256": "97407706e0c647a2dc558eee193c559c85cc3b40084f0927ae61fac0e0f162f6",
+      "lines": 105
+    },
+    {
+      "path": "Thomassen/ThreeVertexSixFace.lean",
+      "sha256": "23e7da0be83b0075d8b4808706a3f87e9348090836758682d63ee6cba25e404a",
+      "lines": 116
+    },
+    {
+      "path": "Thomassen/TwoBoundaryComplement.lean",
+      "sha256": "9fca64ffaa3bf7b10b6d4550ab213eb9cbc9e3c9b0b9e62da4e66155e900d7d5",
+      "lines": 356
+    },
+    {
+      "path": "Thomassen/TwoBoundaryGeometry.lean",
+      "sha256": "a811bc96d1f40e4730d6bdcdb0db1de313d2a898d161c67e13f4bb4de6e8b8b5",
+      "lines": 161
+    },
+    {
+      "path": "Thomassen/UnprescribedBoundaryChord.lean",
+      "sha256": "4856d990a7768fbcdf1c3cd02ecfc47e56f94c2e1bc12954039483417e857c2b",
+      "lines": 117
+    },
+    {
+      "path": "Thomassen/UnprescribedEdgeCut.lean",
+      "sha256": "7c6e6e492cbb4f2b992d4957fac47e2ae1688f1a3df5bd88a965b408d15b45f5",
+      "lines": 92
+    },
+    {
+      "path": "ThomassenAlternatingListsChallenge.lean",
+      "sha256": "edabcbc3588f4e727b0e674aa0b64cb010c3d9125cddbb6a15ac8b103e5b6775",
+      "lines": 74
+    },
+    {
+      "path": "ThomassenAudit.lean",
+      "sha256": "e8ddcf00cb7d61588440f7e86aa50a528bb6f997dc4721b89e972bf9a8765782",
+      "lines": 755
+    },
+    {
+      "path": "ThomassenAugmentedChallenge.lean",
+      "sha256": "f35ee9333f0dc01ea7fd9140ed965e27c2e361e4e5b7f27ee865f19bb2fac3c3",
+      "lines": 267
+    },
+    {
+      "path": "ThomassenBoundaryChordChallenge.lean",
+      "sha256": "d855aa47ab12a3cebdd054849fcec8501016f5f967e64865bbb925e149438f93",
+      "lines": 518
+    },
+    {
+      "path": "ThomassenBoundaryDeletionChallenge.lean",
+      "sha256": "2bbacd601efd83ddfd5a02f12407ef91cb6e0652becc94a1581bb7ff58cea567",
+      "lines": 243
+    },
+    {
+      "path": "ThomassenByproductsChallenge.lean",
+      "sha256": "9106960a25f4f84d453e1e3d90a1e2ba641a6caf6a860c98f49ed9f7dbf6c2ef",
+      "lines": 163
+    },
+    {
+      "path": "ThomassenChallenge.lean",
+      "sha256": "a49b49623bc0d7b656d33a0018ea9d79e29375f736387de1b74988903c2f8a6f",
+      "lines": 281
+    },
+    {
+      "path": "ThomassenChordChallenge.lean",
+      "sha256": "d68f78e3598eedfaddbeb5f94a75310adb6172b095001d2f2912cc833a8c6fa3",
+      "lines": 205
+    },
+    {
+      "path": "ThomassenConnectedChallenge.lean",
+      "sha256": "6eb4a4f75146dcf7c0c976c8a982196ea3a66948930698d326e9d25807ba555a",
+      "lines": 296
+    },
+    {
+      "path": "ThomassenConnectedPrescriptionChallenge.lean",
+      "sha256": "2b0648e5084b2c00a91852e594569ab50b1d681e01c7872062a0f128989284dd",
+      "lines": 599
+    },
+    {
+      "path": "ThomassenCycleChallenge.lean",
+      "sha256": "3bbc2c9875e0ab844068d57162d0adf7c9abf04478d1437ed0f738bf9ca65f62",
+      "lines": 380
+    },
+    {
+      "path": "ThomassenEdgeCutChallenge.lean",
+      "sha256": "8d592680b9ccf323abd86947520bacd3907954e30f50aa28fa6d507e58b9727c",
+      "lines": 127
+    },
+    {
+      "path": "ThomassenEdgeStarChallenge.lean",
+      "sha256": "a0228ba51985ee26c0803e703c3939802d937ff4246d9fe7c54dbe4d1da3b294",
+      "lines": 469
+    },
+    {
+      "path": "ThomassenEndpointDeletionChallenge.lean",
+      "sha256": "4af791acc8dec78bca48c8b16f0b816e7d92cfa88fc387a283eb1c2928ead12b",
+      "lines": 80
+    },
+    {
+      "path": "ThomassenExceptionalBridgeChallenge.lean",
+      "sha256": "49e932ac8c9f22a645866eaa42cc0a2020fe9601b7dabded82f6d1aab9d35aaf",
+      "lines": 158
+    },
+    {
+      "path": "ThomassenExceptionalDeletionChallenge.lean",
+      "sha256": "94f61c7fec4e8bf5f1761fb960294c2b921cb43a5f1d410b493bcafde592d666",
+      "lines": 141
+    },
+    {
+      "path": "ThomassenFanChallenge.lean",
+      "sha256": "c49dbfe6bd1751a07ca4b720fbc500cc81e08ae5defcca67883bf8096799a342",
+      "lines": 426
+    },
+    {
+      "path": "ThomassenFiveChallenge.lean",
+      "sha256": "aefe5938719583e12ce6dab880cd7fe79b7db70a585d3c663bef252f21a527ca",
+      "lines": 184
+    },
+    {
+      "path": "ThomassenFiveVertexClosureChallenge.lean",
+      "sha256": "3057e0394a6f2ffc9e7f4b4f91727ce3dd936b3185f62d92ae0a1a8b17440bda",
+      "lines": 508
+    },
+    {
+      "path": "ThomassenGeometryChallenge.lean",
+      "sha256": "a2a61126eb2ce14146154620e97ce70553fd8a7d50ec4dcc80181a6c9ad39332",
+      "lines": 112
+    },
+    {
+      "path": "ThomassenGoodFourthPathChallenge.lean",
+      "sha256": "677ef16b755513043059c078562c018b93ffdb1c11af3c689d610f470bf387a3",
+      "lines": 54
+    },
+    {
+      "path": "ThomassenInducedChallenge.lean",
+      "sha256": "b3a264642a4b5be840924b28d69fa796822b7fb11d17e7d95dd26d88ae90ef41",
+      "lines": 118
+    },
+    {
+      "path": "ThomassenInstanceChallenge.lean",
+      "sha256": "02e616959103ffc7ad6b9d80a15f8a32985916dfe59a5a1b392e16500ff1b942",
+      "lines": 135
+    },
+    {
+      "path": "ThomassenInteriorCutChallenge.lean",
+      "sha256": "076057a8cadb8ffaaf429a75e84a72bc2184bdc74ec73e84f675f3854b7f7c8e",
+      "lines": 63
+    },
+    {
+      "path": "ThomassenInteriorTwoPathChallenge.lean",
+      "sha256": "007a19aeb51ef05629f9ee1a5e46e65299bdd155666672f167dde987adb0968b",
+      "lines": 263
+    },
+    {
+      "path": "ThomassenMainChallenge.lean",
+      "sha256": "c93ba7b05b99cbdfa5df1d986c86a5c9f68d69a675d6859d808ee4966845fef6",
+      "lines": 28
+    },
+    {
+      "path": "ThomassenMixedChordChallenge.lean",
+      "sha256": "1593b78ab5d6bd855758d3c47488a54368ad1243cc3e539f59566323b0bb10b9",
+      "lines": 275
+    },
+    {
+      "path": "ThomassenMixedTwoPathChallenge.lean",
+      "sha256": "7f63a14f78d47ed7f555421e18d9e0a03ff01e445e0781af48eaedd570508e7f",
+      "lines": 325
+    },
+    {
+      "path": "ThomassenOriginalFullChallenge.lean",
+      "sha256": "4d8f1ed725d4af60c7c42f87d5aec7096eb7604a594212f4aec91b9909a8499c",
+      "lines": 36
+    },
+    {
+      "path": "ThomassenOriginalInductionChallenge.lean",
+      "sha256": "2629c9a06db96b4739401bb3919ba5f772f5040c5e8cc820d64805245ffb8142",
+      "lines": 394
+    },
+    {
+      "path": "ThomassenOriginalPaperChallenge.lean",
+      "sha256": "4d8d9eb427fc1033a3d0e8764ea0e6a69b2a575e1c7ff36cbf74274610e4c6ac",
+      "lines": 200
+    },
+    {
+      "path": "ThomassenOriginalResidualChallenge.lean",
+      "sha256": "89fc0189fdcda1d69f243b3a5f80369f80d0035f0f4ce1b8bcd8f7a8c317e55a",
+      "lines": 305
+    },
+    {
+      "path": "ThomassenOriginalTransportChallenge.lean",
+      "sha256": "16172d5f3a21a167cafc8b6814cf6636e63a2efabd8ce87435ac2580f94d4833",
+      "lines": 42
+    },
+    {
+      "path": "ThomassenPathCutChallenge.lean",
+      "sha256": "1f2933971316cc39c5ed56bf970d41ef5fa1c57b9a2fd7dd76769cd1697ef6f5",
+      "lines": 400
+    },
+    {
+      "path": "ThomassenPrescribedNeighboursChallenge.lean",
+      "sha256": "85293d539d3905e191c70cf93760184cd0338d31393cf4ccd15f2920c4027289",
+      "lines": 174
+    },
+    {
+      "path": "ThomassenPrescribedTwoPathChallenge.lean",
+      "sha256": "ff3535052038c43f89d9ca255f80cac343cfe7f1da793b587650157e2b5a1903",
+      "lines": 153
+    },
+    {
+      "path": "ThomassenRegistryChallenge.lean",
+      "sha256": "2f6f144254ceece4a7ebcd2e8857cb6f94a6fa24bba2aa16d7d72fb6f8a58916",
+      "lines": 224
+    },
+    {
+      "path": "ThomassenShortRingChallenge.lean",
+      "sha256": "151aa6225c144e66d63e7d959961f8367302aac0901d2e7c5c38ef6e8ee58651",
+      "lines": 50
+    },
+    {
+      "path": "ThomassenSixPathDeletionChallenge.lean",
+      "sha256": "2ef7779d73395c5f79c0592d19b1ecf83a649d56db0233887a8a0dac2bea4d22",
+      "lines": 283
+    },
+    {
+      "path": "ThomassenSixVertexClosureChallenge.lean",
+      "sha256": "b546ca5c6e1ef468358f389a0c941c4f4014ac5cb635465a7772cfac192abe9b",
+      "lines": 212
+    },
+    {
+      "path": "ThomassenSixVertexProgressChallenge.lean",
+      "sha256": "e0fbb884a12307517ee107f36f7d0a7a0cf8cb29975b15306884a277d4df7770",
+      "lines": 370
+    },
+    {
+      "path": "ThomassenSolution.lean",
+      "sha256": "ebfa85451c47d6ae94b19d3d88b9fb8fc5fd7d0a6fcff271f3319959aae71fec",
+      "lines": 115
+    },
+    {
+      "path": "ThomassenStartingStatesChallenge.lean",
+      "sha256": "b4c718bb9bbe6f1b700f619d9cd9ddc31ba9362981ad0e02a85f13020325f0b3",
+      "lines": 121
+    },
+    {
+      "path": "ThomassenSubarcReductionChallenge.lean",
+      "sha256": "86587c19906cfd24b1c88671cb17ab54dad219c4b0a5f69aa3781a7767ef3bfc",
+      "lines": 353
+    },
+    {
+      "path": "ThomassenThreePathChallenge.lean",
+      "sha256": "4a0d2c9322c0cfe2a86e4bdc9ae54319d80961685c14bc6971011e6cfcaa2d1e",
+      "lines": 268
+    },
+    {
+      "path": "ThomassenTwoBoundaryChallenge.lean",
+      "sha256": "ced91dfa3f2e4fcd902022dcddc9518609099b3287f08df0d14130dd3e6e1c45",
+      "lines": 182
+    }
+  ],
+  "lean_source_count": 325,
+  "largest_lean_file": {
+    "path": "Grotzsch/Regions.lean",
+    "lines": 793
+  },
+  "metadata_audit": "verification/freeze-metadata-audit.json",
+  "pinned_git_dependencies": 9
+}

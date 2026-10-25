@@ -1,0 +1,33 @@
+{
+  "challenge_module": "ThomassenSubarcReductionChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.facial_cycle_forward_sameCycle",
+    "Thomassen.ordered_native_cycle_isFacial",
+    "Thomassen.exists_rebased_native_face_cycle",
+    "Thomassen.BoundaryInstance.native_face_cycle_chordless_of_minimal_counterexample",
+    "Thomassen.rebased_native_cycleInterval",
+    "Thomassen.BoundaryInstance.colourable_of_interior_two_path_free_subarc",
+    "Thomassen.BoundaryInstance.interior_neighbours_unique_on_free_arc",
+    "Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_arc",
+    "Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_subarc",
+    "Thomassen.BoundaryInstance.no_interior_two_path_from_prescribed_endpoint_to_noninternal_boundary",
+    "Thomassen.BoundaryInstance.no_interior_two_path_from_prescribed_endpoint",
+    "Thomassen.BoundaryInstance.interior_endpoint_shared_neighbour_indices",
+    "Thomassen.chordless_native_cycle_root_neighbours",
+    "Thomassen.chordless_native_cycle_last_neighbours",
+    "Thomassen.BoundaryInstance.endpoint_old_short_conflict_on_boundary",
+    "Thomassen.BoundaryInstance.prescribed_endpoint_no_old_short_conflicts",
+    "Thomassen.BoundaryInstance.colourable_of_good_second_boundary_list",
+    "Thomassen.BoundaryInstance.colourable_of_short_prescription_good_second_boundary_list",
+    "Thomassen.BoundaryInstance.colourable_of_four_vertex_prescription_good_second_boundary_list",
+    "Thomassen.BoundaryInstance.short_prescription_second_boundary_list_le_two"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

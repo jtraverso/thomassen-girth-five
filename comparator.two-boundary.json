@@ -1,0 +1,24 @@
+{
+  "challenge_module": "ThomassenTwoBoundaryChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.colourable_of_pendant_residual_neighbours",
+    "Thomassen.cycle_path_attachment_is_endpoint",
+    "Thomassen.path_endpoint_has_cycle_complement_neighbour",
+    "Thomassen.cycle_complement_vertex_adjacent_both_path_ends",
+    "Thomassen.two_cycle_complement_adjacent",
+    "Thomassen.cycle_complement_edge_endpoint_unique_path_neighbour",
+    "Thomassen.BoundaryInstance.colourable_of_two_boundary_complement",
+    "Thomassen.BoundaryInstance.colourable_of_two_unprescribed_outer_vertices",
+    "Thomassen.BoundaryInstance.colourable_of_all_outer_vertices_in_prescribed_path",
+    "Thomassen.BoundaryInstance.colourable_of_at_most_two_unprescribed_outer_vertices",
+    "Thomassen.BoundaryInstance.prescribed_path_outer_cycle_length_lower_bound"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

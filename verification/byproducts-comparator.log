@@ -1,0 +1,25 @@
+Resolving dependencies
+Building ThomassenByproductsChallenge
+⚠ [1398/1399] Replayed ThomassenByproductsChallenge
+warning: ThomassenByproductsChallenge.lean:22:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:35:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:57:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:77:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:83:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:89:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:103:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:111:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:127:6: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:138:6: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:142:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:152:8: declaration uses `sorry`
+Build completed successfully (1399 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.colourable_connected_boundary_set_six, Thomassen.dvorak_kawarabayashi_theorem_1, Thomassen.dvorak_kawarabayashi_theorem_1_global, Thomassen.listColourable_of_finite_induced, Thomassen.infinite_three_list_colourable, Thomassen.infinite_three_list_colourable_of_egirth, Thomassen.extend_short_cycle_of_preconnected, Thomassen.extend_any_short_cycle, Thomassen.cycle_isChordless_of_length_le_seven, Thomassen.seven_cycle_exists_distinct_neighbour_colours, Thomassen.extend_outer_seven_cycle_map, Thomassen.extend_outer_seven_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenByproductsChallenge
+Building ThomassenSolution
+Build completed successfully (1691 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.colourable_connected_boundary_set_six, Thomassen.dvorak_kawarabayashi_theorem_1, Thomassen.dvorak_kawarabayashi_theorem_1_global, Thomassen.listColourable_of_finite_induced, Thomassen.infinite_three_list_colourable, Thomassen.infinite_three_list_colourable_of_egirth, Thomassen.extend_short_cycle_of_preconnected, Thomassen.extend_any_short_cycle, Thomassen.cycle_isChordless_of_length_le_seven, Thomassen.seven_cycle_exists_distinct_neighbour_colours, Thomassen.extend_outer_seven_cycle_map, Thomassen.extend_outer_seven_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

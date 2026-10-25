@@ -1,0 +1,52 @@
+{
+  "challenge_module": "ThomassenFanChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.prefixCycleVertex_zero",
+    "Thomassen.prefixCycleVertex_last",
+    "Thomassen.prefixCycleVertex_injective",
+    "Thomassen.prefixCycleVertex_next",
+    "Thomassen.prefixCycleVertex_prev",
+    "Thomassen.prefixCycleVertex_isCycleMap",
+    "Thomassen.prefixCycleVertex_isFacialArc",
+    "Thomassen.full_face_chord_separation",
+    "Thomassen.cut_side_pair_properties",
+    "Thomassen.exists_cut_side_containing",
+    "Thomassen.BoundaryInstance.exists_rootStar_colours",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_path",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_two_neighbours",
+    "Thomassen.BoundaryInstance.induceUnprecolored_on_old_face",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_induced_colourings",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_star_cut",
+    "Thomassen.BoundaryInstance.exists_empty_cut_instance_with_root",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_root_side_cut",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_cutvertex",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_facial_chord",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_facial_boundary",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_smaller",
+    "Thomassen.BoundaryPrecolor.cut_side_dichotomy_avoiding",
+    "Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_cut_piece",
+    "Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_cutvertex",
+    "Thomassen.BoundaryInstance.colourable_of_cutvertex",
+    "Thomassen.BoundaryInstance.delete_preconnected_of_minimal_counterexample",
+    "Thomassen.BoundaryInstance.colourable_of_card_le_two",
+    "Thomassen.BoundaryInstance.minimal_counterexample_has_native_face_cycle",
+    "Thomassen.full_face_chord_separation_at",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_boundary_chord",
+    "Thomassen.BoundaryInstance.prescribed_adj_consecutive_of_minimal_counterexample",
+    "Thomassen.cyclicSubgraph_adj_at_iff",
+    "Thomassen.cycle_range_eq_of_cycle_edges",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_cycle"
+  ],
+  "definition_names": [
+    "Thomassen.prefixCycleVertex",
+    "Thomassen.rootStar",
+    "Thomassen.RootStarExtension"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

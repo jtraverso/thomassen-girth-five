@@ -1,0 +1,10 @@
+⚠ [1484/1485] Built ThomassenPrescribedNeighboursChallenge (905ms)
+warning: ThomassenPrescribedNeighboursChallenge.lean:28:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:63:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:94:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:109:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:130:6: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:141:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:151:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:162:8: declaration uses `sorry`
+Build completed successfully (1485 jobs).

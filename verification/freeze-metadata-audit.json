@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "metadata": "formalization.yaml",
+  "metadata_sha256": "b704849d283be551b9eb95e6e69c6e28fc0f6ba86a4fdede62fc2ed736694f8a",
+  "schema_url": "https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/v0.4.schema.json",
+  "schema_sha256": "25ff6b25ca4511635aff4443cf20480c15e59dddf19591c730950b442ea54fce",
+  "validator": "jsonschema with PyYAML, v0.4 schema",
+  "responsible_author": "Juan Pablo Traverso Gianini",
+  "review_status": "self-assessed",
+  "source_provenance": "README.md and THIRD_PARTY.md",
+  "independent_human_review_claimed": false
+}

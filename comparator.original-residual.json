@@ -1,0 +1,34 @@
+{
+  "challenge_module": "ThomassenOriginalResidualChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.OriginalBoundaryInstance.extends_of_residual_components",
+    "Thomassen.OriginalBoundaryInstance.extends_of_connected_boundary_deletion",
+    "Thomassen.exceptional_pair_old_list_unchanged",
+    "Thomassen.exceptional_pair_short_vertices_independent",
+    "Thomassen.exceptional_pair_residual_card_ge_two",
+    "Thomassen.OriginalBoundaryInstance.predecessor_mem_short_of_minimal_counterexample",
+    "Thomassen.OriginalBoundaryInstance.short_closed_prefix_neighbours",
+    "Thomassen.OriginalBoundaryInstance.boundary_three_path_first_vertex",
+    "Thomassen.OriginalBoundaryInstance.three_path_across_two_face_edges_unique_allow_boundary",
+    "Thomassen.OriginalBoundaryInstance.triple_short_edge_crossing",
+    "Thomassen.OriginalBoundaryInstance.triple_short_edge_unique",
+    "Thomassen.exists_two_path_iff_common_neighbour",
+    "Thomassen.OriginalShortSet.exists_edge_of_not",
+    "Thomassen.OriginalShortSet.endpoint_obstructions",
+    "Thomassen.OriginalBoundaryInstance.triple_residual_short_set_not_original",
+    "Thomassen.OriginalBoundaryInstance.triple_residual_edge_and_endpoint_obstructions",
+    "Thomassen.neighbours_on_facial_arc_of_not_separating",
+    "Thomassen.OriginalBoundaryInstance.three_path_inner_face_corners_allow_boundary",
+    "Thomassen.OriginalBoundaryInstance.short_cycle_single_corner_neighbours"
+  ],
+  "definition_names": [
+    "Thomassen.exposedShortSet"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

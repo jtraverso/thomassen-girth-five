@@ -1,0 +1,13 @@
+⚠ [1481/1482] Built ThomassenTwoBoundaryChallenge (935ms)
+warning: ThomassenTwoBoundaryChallenge.lean:27:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:62:6: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:71:6: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:79:6: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:90:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:100:6: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:123:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:137:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:149:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:158:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:170:8: declaration uses `sorry`
+Build completed successfully (1482 jobs).

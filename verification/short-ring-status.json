@@ -1,0 +1,30 @@
+{
+  "status": "verified_induction_support",
+  "declarations": [
+    "Thomassen.transfer_extension_to_prescribed_lists",
+    "Thomassen.extend_outer_ring_of_interior_three_lists",
+    "Thomassen.extend_exterior_across_short_ring"
+  ],
+  "gate": {
+    "config": "comparator.short-rings.json",
+    "challenge": "ThomassenShortRingChallenge",
+    "challenge_imports": [
+      "Thomassen.CycleWalk"
+    ],
+    "new_proof_modules_imported": false,
+    "theorem_contracts": 3,
+    "new_definition_holes": 0,
+    "result": "passed",
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/short-ring-comparator.log"
+  },
+  "strict_build": "verification/byproducts-and-rings-strict-audit.log",
+  "scope": "Fill an actual ring of at most seven vertices, with arbitrary original lists on its prescribed boundary and three-lists only in the uncoloured interior; preserve all supplied exterior colours.",
+  "exterior_colouring_is_explicit_input": true,
+  "full_original_theorem_2_1_proved": false,
+  "remaining": "Nonexistence of the connected separated exceptional-edge configuration with identical two-element endpoint lists. Free-component assembly is now proved separately.",
+  "historical_checkpoint": true,
+  "superseded_by": "verification/original-full-status.json",
+  "current_full_original_theorem_2_1_proved": true
+}

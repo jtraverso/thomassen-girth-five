@@ -1,0 +1,15 @@
+⚠ [1503/1504] Built ThomassenSixPathDeletionChallenge (964ms)
+warning: ThomassenSixPathDeletionChallenge.lean:27:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:44:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:70:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:88:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:120:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:133:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:147:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:177:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:207:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:231:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:255:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:267:8: declaration uses `sorry`
+warning: ThomassenSixPathDeletionChallenge.lean:275:8: declaration uses `sorry`
+Build completed successfully (1504 jobs).

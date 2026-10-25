@@ -1,0 +1,39 @@
+{
+  "challenge_module": "ThomassenAugmentedChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.four_edge_path_isChordless",
+    "Thomassen.endpoint_neighbour_unique_of_chordless_cons",
+    "Thomassen.short_path_endpoint_neighbour_unique",
+    "Thomassen.BoundaryInstance.extend_colouring_over_short_set",
+    "Thomassen.BoundaryInstance.colourable_of_augmented_short_path_cut",
+    "Thomassen.BoundaryInstance.colourable_of_short_path_with_two_short_ends",
+    "Thomassen.BoundaryInstance.colourable_of_short_path_with_one_short_end",
+    "Thomassen.BoundaryInstance.colourable_of_native_short_path_with_one_short_end",
+    "Thomassen.BoundaryInstance.colourable_of_native_short_path_with_two_short_ends",
+    "Thomassen.exists_walk_of_cycleMap",
+    "Thomassen.faceOrbitLength_pos",
+    "Thomassen.faceOrbitLength_three_le",
+    "Thomassen.faceOrbitDart_sameCycle",
+    "Thomassen.faceOrbitDart_injective",
+    "Thomassen.faceOrbitDart_next",
+    "Thomassen.faceOrbitVertex_injective",
+    "Thomassen.faceOrbitVertex_isCycleMap",
+    "Thomassen.faceOrbitVertex_range",
+    "Thomassen.faceOrbitVertex_isFacial",
+    "Thomassen.exists_native_face_cycle",
+    "Thomassen.two_le_card_neighbours_of_delete_preconnected",
+    "Thomassen.exists_native_face_cycle_of_delete_preconnected"
+  ],
+  "definition_names": [
+    "Thomassen.faceOrbitLength",
+    "Thomassen.faceOrbitDart",
+    "Thomassen.faceOrbitVertex"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

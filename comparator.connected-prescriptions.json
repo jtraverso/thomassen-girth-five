@@ -1,0 +1,53 @@
+{
+  "challenge_module": "ThomassenConnectedPrescriptionChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.cycleCount_inv_eq",
+    "Thomassen.numComponents_inv_left",
+    "Thomassen.mirror_dartSymm_inv_apply",
+    "Thomassen.mirror_fst_rot_inv",
+    "Thomassen.mirror_facePerm",
+    "Thomassen.mirror_face_sameCycle",
+    "Thomassen.mirror_onOuterFace_iff",
+    "Thomassen.native_facial_cycle_support_iff",
+    "Thomassen.mirrored_cycle_isFacial",
+    "Thomassen.exists_mirrored_native_face_cycle",
+    "Thomassen.exists_mirrored_native_face_cycle_at",
+    "Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_arc_terminal_short",
+    "Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_arc_one_short_endpoint",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_edge",
+    "Thomassen.path_length_le_five_of_small_core",
+    "Thomassen.connSet_induce_of_subset",
+    "Thomassen.connSet_inter_of_clique_separator",
+    "Thomassen.ConnectedPrescription.outside_list_ge_two",
+    "Thomassen.exists_native_precolor_of_connected_degree_two",
+    "Thomassen.ConnectedPrescription.colourable_of_clique_cut",
+    "Thomassen.ConnectedPrescription.colourable_of_unprescribed_cut",
+    "Thomassen.ConnectedPrescription.colourable_of_cutvertex",
+    "Thomassen.ConnectedPrescription.colourable_of_facial_boundary",
+    "Thomassen.connectedPrescription_extension_of_smaller",
+    "Thomassen.BoundaryInstance.colourable_of_connected_residual_prescription",
+    "Thomassen.cycle_neighbour_indices_not_near",
+    "Thomassen.cycle_neighbour_nat_gaps",
+    "Thomassen.at_most_two_neighbours_on_short_cycle",
+    "Thomassen.walk_support_connSet",
+    "Thomassen.connSet_adjoin_attached_vertices",
+    "Thomassen.path_endpoint_adjacent_to_single_cycle_complement",
+    "Thomassen.short_path_with_pendant_vertices_paths_short",
+    "Thomassen.BoundaryInstance.colourable_of_single_boundary_complement",
+    "Thomassen.BoundaryInstance.colourable_of_unique_unprescribed_outer_vertex"
+  ],
+  "definition_names": [
+    "Thomassen.mirrorPlaneMap",
+    "Thomassen.BoundaryInstance.mirror",
+    "Thomassen.ConnectedPrescription.toBoundaryInstance",
+    "Thomassen.ConnectedPrescription.induce",
+    "Thomassen.ConnectedPrescription.induceEmpty"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

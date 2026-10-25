@@ -1,0 +1,5 @@
+⚠ [1396/1397] Built ThomassenShortRingChallenge (820ms)
+warning: ThomassenShortRingChallenge.lean:18:8: declaration uses `sorry`
+warning: ThomassenShortRingChallenge.lean:28:8: declaration uses `sorry`
+warning: ThomassenShortRingChallenge.lean:38:8: declaration uses `sorry`
+Build completed successfully (1397 jobs).

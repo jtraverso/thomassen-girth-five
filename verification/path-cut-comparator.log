@@ -1,0 +1,40 @@
+Resolving dependencies
+Building ThomassenPathCutChallenge
+⚠ [1399/1400] Replayed ThomassenPathCutChallenge
+warning: ThomassenPathCutChallenge.lean:29:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:43:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:60:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:89:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:96:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:104:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:131:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:135:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:141:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:148:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:158:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:169:8: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:209:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:213:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:220:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:225:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:230:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:238:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:249:8: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:281:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:286:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:295:8: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:325:6: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:335:8: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:352:8: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:369:8: declaration uses `sorry`
+warning: ThomassenPathCutChallenge.lean:385:8: declaration uses `sorry`
+Build completed successfully (1400 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.onOuterFace_restrict_of_deleted_connection, Thomassen.exists_outer_induced_merging_deleted_faces, Thomassen.exists_outer_induced_merging_connected_set, Thomassen.cycle_gap_empty_along, Thomassen.cycle_no_exterior_neighbour_along, Thomassen.arc_path_inside_gap_empty, Thomassen.cycleSideSkeleton_le, Thomassen.cyclicSubgraph_le_skeleton, Thomassen.cycleSideSkeleton_connSet, Thomassen.cycleSideSkeleton_opposite_gap_empty, Thomassen.cycleSideSkeleton_face_iff, Thomassen.facial_arc_path_separation, Thomassen.cycleInterval_zero, Thomassen.cycleInterval_succ, Thomassen.cycleInterval_connSet, Thomassen.cycleInterval_subset, Thomassen.cycleInterval_partition, Thomassen.cycleInterval_short_complete, Thomassen.short_arc_path_separation, Thomassen.walkCycleVertices_nat_le, Thomassen.walk_drop_support_cycleInterval, Thomassen.native_short_arc_path_cut, Thomassen.short_path_isChordless, Thomassen.BoundaryInstance.colourable_of_short_path_without_short_neighbours, Thomassen.BoundaryInstance.colourable_of_three_list_short_path_cut, Thomassen.BoundaryInstance.colourable_of_short_path_with_independent_short_arc, Thomassen.BoundaryInstance.colourable_of_short_path_with_three_list_arc, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.IsFacialCycleAlong, Thomassen.cycleSideSkeleton, Thomassen.cycleInterval] from ThomassenPathCutChallenge
+Building ThomassenSolution
+Build completed successfully (1488 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.onOuterFace_restrict_of_deleted_connection, Thomassen.exists_outer_induced_merging_deleted_faces, Thomassen.exists_outer_induced_merging_connected_set, Thomassen.cycle_gap_empty_along, Thomassen.cycle_no_exterior_neighbour_along, Thomassen.arc_path_inside_gap_empty, Thomassen.cycleSideSkeleton_le, Thomassen.cyclicSubgraph_le_skeleton, Thomassen.cycleSideSkeleton_connSet, Thomassen.cycleSideSkeleton_opposite_gap_empty, Thomassen.cycleSideSkeleton_face_iff, Thomassen.facial_arc_path_separation, Thomassen.cycleInterval_zero, Thomassen.cycleInterval_succ, Thomassen.cycleInterval_connSet, Thomassen.cycleInterval_subset, Thomassen.cycleInterval_partition, Thomassen.cycleInterval_short_complete, Thomassen.short_arc_path_separation, Thomassen.walkCycleVertices_nat_le, Thomassen.walk_drop_support_cycleInterval, Thomassen.native_short_arc_path_cut, Thomassen.short_path_isChordless, Thomassen.BoundaryInstance.colourable_of_short_path_without_short_neighbours, Thomassen.BoundaryInstance.colourable_of_three_list_short_path_cut, Thomassen.BoundaryInstance.colourable_of_short_path_with_independent_short_arc, Thomassen.BoundaryInstance.colourable_of_short_path_with_three_list_arc, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.IsFacialCycleAlong, Thomassen.cycleSideSkeleton, Thomassen.cycleInterval] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

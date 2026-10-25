@@ -1,0 +1,15 @@
+⚠ [1475/1478] Built ThomassenOriginalFullChallenge (913ms)
+warning: ThomassenOriginalFullChallenge.lean:22:8: declaration uses `sorry`
+⚠ [1477/1478] Built ThomassenOriginalPaperChallenge (1.0s)
+warning: ThomassenOriginalPaperChallenge.lean:32:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:42:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:59:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:67:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:81:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:100:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:112:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:133:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:143:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:164:8: declaration uses `sorry`
+warning: ThomassenOriginalPaperChallenge.lean:188:8: declaration uses `sorry`
+Build completed successfully (1478 jobs).

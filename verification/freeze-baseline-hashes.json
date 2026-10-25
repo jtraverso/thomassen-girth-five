@@ -1,0 +1,14 @@
+{
+  "baseline_commit": "d1c9a904e28867400908ab7c7bbaa23373ab08f1",
+  "unchanged_original_contracts": {
+    "ThomassenMainChallenge.lean": "c93ba7b05b99cbdfa5df1d986c86a5c9f68d69a675d6859d808ee4966845fef6",
+    "ThomassenOriginalFullChallenge.lean": "4d8f1ed725d4af60c7c42f87d5aec7096eb7604a594212f4aec91b9909a8499c",
+    "ThomassenOriginalPaperChallenge.lean": "4d8d9eb427fc1033a3d0e8764ea0e6a69b2a575e1c7ff36cbf74274610e4c6ac",
+    "ThomassenByproductsChallenge.lean": "9106960a25f4f84d453e1e3d90a1e2ba641a6caf6a860c98f49ed9f7dbf6c2ef",
+    "comparator.json": "bcfe78a71ceebbfb1a70d7a644cc3ea07ec964161affb678decce12d7a4723a0",
+    "comparator.original-full-pending.json": "63f271956c375ff6adade157032d520175c6bb8f7fd2f2eec03c56d1f6a84fb9",
+    "comparator.original-full.json": "63f271956c375ff6adade157032d520175c6bb8f7fd2f2eec03c56d1f6a84fb9",
+    "comparator.original-paper.json": "c955096f236ccf3f0d869e65ee553c4db7f90624eb961181f1473b4ca2500ca3",
+    "comparator.byproducts.json": "476a8a2e5064f2ef1b351f80a73a0996ff0574f7360439d6ca39d533d38e8583"
+  }
+}

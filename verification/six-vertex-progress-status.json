@@ -1,0 +1,29 @@
+{
+  "state": "six_vertex_good_fourth_and_nonexceptional_cases_verified_remaining_short_fourth_exceptions",
+  "new_theorem_contracts": 12,
+  "independent_challenge": "ThomassenSixVertexProgressChallenge",
+  "challenge_imports": [
+    "Thomassen.FiveVertexPathClosure"
+  ],
+  "new_proof_modules_imported_by_challenge": false,
+  "definition_holes": [],
+  "lean_build_wfail": "passed",
+  "axiom_audit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "statement_comparison": "passed",
+  "nanoda_kernel": "accepted",
+  "lean_default_kernel": "accepted",
+  "solution_modules_audited": 153,
+  "source_hole_audit": "passed",
+  "six_vertex_good_fourth_branch_complete_under_strict_induction": true,
+  "six_vertex_no_mixed_exception_branch_complete_under_strict_induction": true,
+  "six_vertex_case_complete": false,
+  "remaining": "Mixed exceptional configurations in the short-fourth-list branch, then the full induction assembly.",
+  "boundary_extension_proved": false,
+  "main_theorem_formalized": false,
+  "published": false,
+  "palomar_submitted": false
+}

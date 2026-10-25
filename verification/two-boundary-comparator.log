@@ -1,0 +1,24 @@
+Resolving dependencies
+Building ThomassenTwoBoundaryChallenge
+⚠ [1481/1482] Replayed ThomassenTwoBoundaryChallenge
+warning: ThomassenTwoBoundaryChallenge.lean:27:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:62:6: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:71:6: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:79:6: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:90:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:100:6: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:123:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:137:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:149:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:158:8: declaration uses `sorry`
+warning: ThomassenTwoBoundaryChallenge.lean:170:8: declaration uses `sorry`
+Build completed successfully (1482 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_of_pendant_residual_neighbours, Thomassen.cycle_path_attachment_is_endpoint, Thomassen.path_endpoint_has_cycle_complement_neighbour, Thomassen.cycle_complement_vertex_adjacent_both_path_ends, Thomassen.two_cycle_complement_adjacent, Thomassen.cycle_complement_edge_endpoint_unique_path_neighbour, Thomassen.BoundaryInstance.colourable_of_two_boundary_complement, Thomassen.BoundaryInstance.colourable_of_two_unprescribed_outer_vertices, Thomassen.BoundaryInstance.colourable_of_all_outer_vertices_in_prescribed_path, Thomassen.BoundaryInstance.colourable_of_at_most_two_unprescribed_outer_vertices, Thomassen.BoundaryInstance.prescribed_path_outer_cycle_length_lower_bound, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenTwoBoundaryChallenge
+Building ThomassenSolution
+Build completed successfully (1558 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_of_pendant_residual_neighbours, Thomassen.cycle_path_attachment_is_endpoint, Thomassen.path_endpoint_has_cycle_complement_neighbour, Thomassen.cycle_complement_vertex_adjacent_both_path_ends, Thomassen.two_cycle_complement_adjacent, Thomassen.cycle_complement_edge_endpoint_unique_path_neighbour, Thomassen.BoundaryInstance.colourable_of_two_boundary_complement, Thomassen.BoundaryInstance.colourable_of_two_unprescribed_outer_vertices, Thomassen.BoundaryInstance.colourable_of_all_outer_vertices_in_prescribed_path, Thomassen.BoundaryInstance.colourable_of_at_most_two_unprescribed_outer_vertices, Thomassen.BoundaryInstance.prescribed_path_outer_cycle_length_lower_bound, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

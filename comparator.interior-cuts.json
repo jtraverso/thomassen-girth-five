@@ -1,0 +1,17 @@
+{
+  "challenge_module": "ThomassenInteriorCutChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.rIn_side_of_avoids_cut",
+    "Thomassen.BoundaryInstance.colourable_of_interior_cut_piece",
+    "Thomassen.BoundaryInstance.colourable_of_interior_cutvertex",
+    "Thomassen.BoundaryInstance.cutvertex_constraints"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

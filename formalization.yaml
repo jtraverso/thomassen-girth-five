@@ -1,0 +1,249 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "Thomassen: planar graphs of girth at least five are 3-choosable"
+  description: >-
+    Finite planar simple graphs of extended girth at least five are 3-choosable
+    over arbitrary colour types. Includes a complete six-vertex boundary-extension
+    induction, actual induced-face geometry and residual list-colouring infrastructure.
+    Additional results expose the short-path theorem, derive an infinite finite-list
+    compactness consequence, extend arbitrary five/six-cycles, and extend outer
+    seven-cycles. The full original Theorem 2.1 and Corollary 2.2 are also proved, including
+    arbitrary allowed fixed-edge colours and all exterior components.
+  authors: ["Juan Pablo Traverso Gianini"]
+  responsible_maintainers: ["Juan Pablo Traverso Gianini"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["math.CO"]
+  msc2020: ["05C15", "05C10"]
+
+sources:
+  - title: "3-List-Coloring Planar Graphs of Girth 5"
+    authors: ["Carsten Thomassen"]
+    id: "doi:10.1006/jctb.1995.1027"
+    type: "paper"
+    location: "Journal of Combinatorial Theory, Series B 64 (1995), 101–107"
+    relationship: "formalizes"
+    note: >-
+      Finite planar girth-five 3-choosability, full original Theorem 2.1
+      (both the independent and exceptional-edge alternatives), and Corollary 2.2.
+      The exceptional branch follows original reductions (9) and (10), including
+      both residual endpoint obstructions and the final cut. Orientation, pruning,
+      strong induction and all exterior components are completed. Its independent
+      target was retained unchanged and passes Lean and NanoDa. All seven uploaded
+      original pages were read. The central theorem and independent branch reuse
+      the completed short-boundary proof route recorded below.
+    license: "all rights reserved"
+    author_endorsement: "n/a"
+  - title: "Choosability in signed planar graphs"
+    authors: ["Ligang Jin", "Yingli Kang", "Eckhard Steffen"]
+    id: "arxiv:1502.04561"
+    type: "paper"
+    location: "Appendix, Theorem 5.1, pp. 11–13"
+    relationship: "adapts"
+    note: >-
+      The unsigned specialization of the short-proof boundary-extension argument.
+      The signed-graph theorem is not assumed as a Lean dependency. The final
+      formal reduction uses connected branching prescriptions and pendant short
+      leaves to cover the mixed six-vertex configurations.
+    license: "all rights reserved"
+    author_endorsement: "n/a"
+  - title: "Graph Coloring Methods"
+    authors: ["Daniel W. Cranston"]
+    type: "book"
+    location: "2024, section 11.4, Theorem 11.13, printed pp. 322–328"
+    relationship: "adapts"
+    note: "Expanded exposition read through the final cases; an account of the same short-proof family."
+    license: "all rights reserved"
+    author_endorsement: "n/a"
+  - title: "planar-list-colouring and grotzsch-ore registered Lean libraries"
+    authors: ["Juan Pablo Traverso Gianini"]
+    type: "other"
+    location: >-
+      jtraverso/planar-list-colouring at ec1eafbc091713857eb5683a46e460902b2d47b3;
+      jtraverso/grotzsch-ore at ff6d5123c06e4c99bb6074e0a72e8be8d595eefa
+    relationship: "adapts"
+    note: >-
+      Reuses list-colouring glue/extension, graph restrictions, rotation systems,
+      planarity, face restriction and region separation. Source notices and proof
+      bodies are preserved subject to the adaptations documented in THIRD_PARTY.md
+      and verification/source-reuse.json. Registered prerequisite metadata in
+      upstream-planar is not a registry entry for this new result.
+    license: "Apache-2.0"
+    author_endorsement: "n/a"
+
+  - title: "Choosability of planar graphs of girth 5"
+    authors: ["Zdeněk Dvořák", "Ken-ichi Kawarabayashi"]
+    id: "arxiv:1109.2976"
+    type: "paper"
+    location: "2011 preprint, Theorem 1 (attributed there to Thomassen)"
+    relationship: "formalizes"
+    note: >-
+      Source-aligned short-path precolouring extension, including proper
+      prescribed chords and multiple exterior components. Interior lists of
+      size at least three generalize the source's exactly-three convention.
+      The stronger Theorem 3 and quantitative critical-graph results are not claimed.
+    license: "all rights reserved"
+    author_endorsement: "n/a"
+  - title: "Axiomatic Treatment of Rank in Infinite Sets"
+    authors: ["Richard Rado"]
+    id: "doi:10.4153/CJM-1949-031-1"
+    type: "paper"
+    location: "Canadian Journal of Mathematics 1 (1949), 337–343"
+    relationship: "adapts"
+    note: >-
+      Reuses Finset.rado_selection_subtype from Mathlib.Combinatorics.Compactness,
+      formalized by Bhavik Mehta (2025), to derive compactness of finite-list
+      colourability and an infinite extension of Thomassen's finite theorem.
+      The original rank-theoretic paper is not formalized in full here.
+    license: "all rights reserved"
+    author_endorsement: "n/a"
+  - title: "A colour problem for infinite graphs and a problem in the theory of relations"
+    authors: ["N. G. de Bruijn", "Paul Erdős"]
+    type: "paper"
+    location: "Proceedings KNAW, Series A 54 (1951), 371–373"
+    relationship: "adapts"
+    note: >-
+      Historical finite-subgraph compactness principle. The implemented finite-list
+      variant is derived via Mathlib's existing Rado theorem; this is not a port
+      of every theorem or of the original proof of the 1951 paper.
+    license: "all rights reserved"
+    author_endorsement: "n/a"
+  - title: "Grötzsch's Theorem"
+    authors: ["Nabiha Asghar"]
+    type: "other"
+    location: "University of Waterloo MMath research essay (2012), Lemma 3.2.3, seven-cycle specialization"
+    relationship: "formalizes"
+    note: >-
+      Formalizes only the girth-five outer-seven-cycle extension. Chapter 3
+      credits unpublished work of C. Nunes da Silva, R. B. Richter and D. Younger,
+      inspired by Thomassen. The implementation releases a vertex with differently
+      coloured neighbours and invokes the already proved six-vertex extension.
+      The essay's whole three-state induction and outer-four-cycle exception
+      are not claimed. Source URL is recorded in README.md and THIRD_PARTY.md.
+    license: "all rights reserved"
+    author_endorsement: "n/a"
+
+status:
+  scope: >-
+    Unconditional finite 3-choosability for the exact existing planarity and list
+    definitions, including empty vertex types, forests and arbitrary colour types.
+    The complete boundary-extension property is proved by strong induction.
+    The original main comparator is retained; the separate closure challenge
+    compares nine declarations and introduces no new definition holes.
+    The registry configuration comparator.registry.json combines 15 public
+    theorem statements and 10 explicit definitions from the unchanged original
+    independent contracts; it passes both Lean and NanoDa.
+    The full original Theorem 2.1 and Corollary 2.2 are proved, including
+    the exceptional-edge alternative, arbitrary allowed fixed-edge colours,
+    and the componentwise exterior boundary. The exact original full target
+    and the original main comparator both remain unchanged. The new original
+    induction has no remaining smaller-instance or extension premise.
+    Requested additional results 1–4 are proved: source-aligned short-path
+    extension, infinite finite-list compactness, arbitrary five/six-cycle extension,
+    and the outer seven-cycle specialization. Their exact sources and limitations
+    are recorded in README.md.
+    Intentional theorem placeholders occur only in independent challenge files.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+
+automation:
+  methods:
+    - method: "agent"
+      framework: "OpenAI Codex"
+      tool_setup: >-
+        Human-directed Lean proof development reusing the pinned libraries above.
+        Lean v4.35.0-rc3 and Mathlib c55e6e786f49471c72fbddbec5415808896aec1e.
+        Strict builds, source/axiom audits, independent statement comparison,
+        and Lean/NanoDa kernel checks. No sub-agents or external proving service.
+      prompting_notes: "Spanish natural-language instructions and uploaded source material from the author."
+  notes: >-
+    OpenAI Codex materially assisted proof generation and review. No costs,
+    duration or exact model identifier are asserted. No reserved repository or
+    work from the author's other account was modified.
+
+fidelity:
+  divergences: >-
+    Finite undirected simple graphs use Mathlib SimpleGraph. Planarity is the
+    registered rotation-system/Euler-defect certificate. Extended girth includes
+    acyclic graphs. List colours have an arbitrary type. The formal proof uses
+    an explicit six-vertex boundary invariant and a connected-prescription
+    auxiliary induction allowing independent pendant short leaves. This is an
+    implementation of the short-proof route rather than a line-by-line copy of
+    the 1995 proof. The full original Theorem 2.1 additionally follows its
+    exceptional-edge reductions (9) and (10). The already proved independent
+    branch replaces a repetition of original steps (11)–(13). Both induction
+    invariants are closed, not assumed by the public theorems.
+    Infinite results state planarity of every finite induced subgraph explicitly;
+    no global infinite plane-map definition is asserted. The seven-cycle proof
+    releases one vertex and forces its colour with its two prescribed neighbours.
+    Only propext, Classical.choice and Quot.sound are permitted. No new axiom,
+    native_decide or mathematical novelty claim is introduced.
+
+review:
+  status: "self-assessed"
+  notes: >-
+    Statement/source alignment and proof scope were assessed by the same Codex
+    session that produced the implementation. The main theorem is checked
+    against its pre-existing independent unconditional contract. Kernel checks
+    are mechanical verification, not independent human mathematical review.
+    Registry verification and editorial review are separate external actions.
+
+alignment:
+  namespace: "PlanarChoosability"
+  statements:
+    - source: "Finite planar girth-five 3-choosability"
+      lean: "PlanarChoosability.choosableWith_three_of_isPlanar"
+      module: "ThomassenMainChallenge"
+      status: "proved"
+    - source: "Boundary precolouring extension, unsigned short-proof route"
+      lean: "Thomassen.boundary_extension"
+      module: "ThomassenSixVertexClosureChallenge"
+      status: "proved"
+    - source: "Complete six-vertex prescribed-path induction case"
+      lean: "Thomassen.BoundaryInstance.colourable_of_six_vertex_prescribed_path"
+      module: "ThomassenSixVertexClosureChallenge"
+      status: "proved"
+    - source: "Thomassen (1995), Corollary 2.2: outer five-cycle extension"
+      lean: "Thomassen.original_corollary_2_2"
+      module: "ThomassenOriginalPaperChallenge"
+      status: "proved"
+    - source: "Thomassen (1995), full Theorem 2.1: both alternatives and all exterior components"
+      lean: "Thomassen.original_theorem_2_1"
+      module: "ThomassenOriginalFullChallenge"
+      status: "proved"
+    - source: "Thomassen (1995), Theorem 2.1(i): independent outer two-list set"
+      lean: "Thomassen.original_theorem_2_1_independent_global"
+      module: "ThomassenOriginalPaperChallenge"
+      status: "proved"
+    - source: "Thomassen short-path extension as stated in Dvořák–Kawarabayashi (2011), Theorem 1"
+      lean: "Thomassen.dvorak_kawarabayashi_theorem_1_global"
+      module: "ThomassenByproductsChallenge"
+      status: "proved"
+    - source: "Finite-list compactness via Mathlib's existing Rado selection theorem"
+      lean: "Thomassen.listColourable_of_finite_induced"
+      module: "ThomassenByproductsChallenge"
+      status: "proved"
+    - source: "Infinite extension of Thomassen's finite girth-five three-choosability theorem"
+      lean: "Thomassen.infinite_three_list_colourable"
+      module: "ThomassenByproductsChallenge"
+      status: "proved"
+    - source: "Any five-cycle precolouring extends (Thomassen 1995), plus the derived six-cycle consequence"
+      lean: "Thomassen.extend_any_short_cycle"
+      module: "ThomassenByproductsChallenge"
+      status: "proved"
+    - source: "Asghar (2012), Lemma 3.2.3, girth-five outer-seven-cycle specialization"
+      lean: "Thomassen.extend_outer_seven_cycle"
+      module: "ThomassenByproductsChallenge"
+      status: "proved"
+
+acknowledgements: >-
+  Thomassen for the theorem; Jin, Kang, Steffen and Cranston for the proof
+  expositions; the registered planar-list-colouring and grotzsch-ore libraries;
+  Dvořák and Kawarabayashi for the source-aligned extension statement;
+  Asghar and the credited unpublished proof authors; Rado, de Bruijn and Erdős
+  for compactness, and Bhavik Mehta for its Mathlib implementation;
+  Mathlib and the Lean community.

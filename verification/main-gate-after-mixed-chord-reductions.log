@@ -1,0 +1,36 @@
+Resolving dependencies
+Building ThomassenMainChallenge
+⚠ [1258/1286] Replayed Challenge
+warning: Challenge.lean:136:8: declaration uses `sorry`
+warning: Challenge.lean:140:8: declaration uses `sorry`
+warning: Challenge.lean:144:8: declaration uses `sorry`
+warning: Challenge.lean:213:8: declaration uses `sorry`
+warning: Challenge.lean:220:8: declaration uses `sorry`
+warning: Challenge.lean:225:8: declaration uses `sorry`
+warning: Challenge.lean:230:8: declaration uses `sorry`
+warning: Challenge.lean:235:8: declaration uses `sorry`
+warning: Challenge.lean:240:8: declaration uses `sorry`
+warning: Challenge.lean:248:8: declaration uses `sorry`
+⚠ [1285/1286] Replayed ThomassenMainChallenge
+warning: ThomassenMainChallenge.lean:24:8: declaration uses `sorry`
+Build completed successfully (1286 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, PlanarChoosability.choosableWith_three_of_isPlanar, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, PlanarChoosability.IsPlanar, PlanarChoosability.ListColourable, PlanarChoosability.ChoosableWith, PlanarChoosability.numClasses, PlanarChoosability.cycleCount, PlanarChoosability.compSetoid, PlanarChoosability.numComponents, PlanarChoosability.eulerDefect, PlanarChoosability.dartSymm] from ThomassenMainChallenge
+Building ThomassenSolution
+Build completed successfully (1517 jobs).
+PANIC at LeanExport.dumpConstant LeanExport.Basic:254:48: Constant PlanarChoosability.choosableWith_three_of_isPlanar not found in environment.
+backtrace:
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(+0x962cba5) [0x7feefc349ba5]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(+0x9623727) [0x7feefc340727]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(lean_panic_fn_borrowed+0x2b) [0x7feefc34080b]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(panic spec at LeanExport.dumpConstant+0x279) [0x556904c0ad59]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(List.forIn'.loop [arity↓] spec at LeanExport.dumpEnv+0x262) [0x556904c23d22]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(LeanExport.dumpEnv [λ]+0x167) [0x556904c24197]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(LeanExport.dumpEnv [boxed, λ]+0x13) [0x556904c243f3]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(<apply/3>+0x970) [0x7feefc351270]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(LeanExport.M.run [arity↓]+0x33) [0x556904bfc863]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(+0x9621107) [0x7feefc33e107]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(+0x962177a) [0x7feefc33e77a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x92b7b) [0x7feef2b98b7b]
+/lib/x86_64-linux-gnu/libc.so.6(+0x1107f8) [0x7feef2c167f8]
+error: Child exited with 134
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, PlanarChoosability.choosableWith_three_of_isPlanar, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, PlanarChoosability.IsPlanar, PlanarChoosability.ListColourable, PlanarChoosability.ChoosableWith, PlanarChoosability.numClasses, PlanarChoosability.cycleCount, PlanarChoosability.compSetoid, PlanarChoosability.numComponents, PlanarChoosability.eulerDefect, PlanarChoosability.dartSymm] from ThomassenSolution

@@ -1,0 +1,26 @@
+Resolving dependencies
+Building ThomassenThreePathChallenge
+⚠ [1495/1496] Replayed ThomassenThreePathChallenge
+warning: ThomassenThreePathChallenge.lean:26:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:58:6: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:78:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:108:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:121:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:135:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:160:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:172:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:190:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:216:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:231:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:242:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:255:8: declaration uses `sorry`
+Build completed successfully (1496 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_induced_with_compatible_short_ended_path, Thomassen.five_edge_path_isChordless_of_no_long_chords, Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_prefix, Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_prefix_arbitrary_face, Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_suffix_arbitrary_face, Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_free_endpoint, Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_subarc_one_short_endpoint, Thomassen.BoundaryInstance.colourable_of_free_three_path_short_endpoint_on_native_face, Thomassen.BoundaryInstance.colourable_of_three_path_short_free_boundary_endpoint, Thomassen.BoundaryInstance.colourable_of_initial_prescribed_endpoint_three_path_on_native_face, Thomassen.BoundaryInstance.colourable_of_initial_prescribed_endpoint_three_path, Thomassen.BoundaryInstance.colourable_of_terminal_prescribed_endpoint_three_path, Thomassen.BoundaryInstance.colourable_of_three_path_forbidden_boundary_configuration, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenThreePathChallenge
+Building ThomassenSolution
+Build completed successfully (1575 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_induced_with_compatible_short_ended_path, Thomassen.five_edge_path_isChordless_of_no_long_chords, Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_prefix, Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_prefix_arbitrary_face, Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_suffix_arbitrary_face, Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_free_endpoint, Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_subarc_one_short_endpoint, Thomassen.BoundaryInstance.colourable_of_free_three_path_short_endpoint_on_native_face, Thomassen.BoundaryInstance.colourable_of_three_path_short_free_boundary_endpoint, Thomassen.BoundaryInstance.colourable_of_initial_prescribed_endpoint_three_path_on_native_face, Thomassen.BoundaryInstance.colourable_of_initial_prescribed_endpoint_three_path, Thomassen.BoundaryInstance.colourable_of_terminal_prescribed_endpoint_three_path, Thomassen.BoundaryInstance.colourable_of_three_path_forbidden_boundary_configuration, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

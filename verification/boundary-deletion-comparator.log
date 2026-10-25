@@ -1,0 +1,28 @@
+Resolving dependencies
+Building ThomassenBoundaryDeletionChallenge
+⚠ [1466/1467] Replayed ThomassenBoundaryDeletionChallenge
+warning: ThomassenBoundaryDeletionChallenge.lean:22:6: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:27:6: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:33:6: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:42:6: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:50:6: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:59:8: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:85:6: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:98:8: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:129:6: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:141:6: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:160:8: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:175:6: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:191:8: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:216:8: declaration uses `sorry`
+warning: ThomassenBoundaryDeletionChallenge.lean:230:8: declaration uses `sorry`
+Build completed successfully (1467 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.componentVertexSet_subset, Thomassen.componentVertexSet_adj_closed, Thomassen.native_facial_step_sameCycle, Thomassen.native_cycle_component_exit, Thomassen.component_has_deleted_neighbour, Thomassen.exists_outer_component_after_connected_boundary_deletion, Thomassen.BoundaryPrecolor.exists_induce_component, Thomassen.BoundaryInstance.colourable_of_connected_boundary_deletion, Thomassen.chordless_native_cycle_vertex_neighbours, Thomassen.BoundaryInstance.interior_boundary_neighbour_unique_of_prescribed_edge, Thomassen.BoundaryInstance.colourable_of_prescribed_edge_short_second_good_fourth, Thomassen.BoundaryInstance.prescribed_edge_fourth_boundary_list_le_two, Thomassen.BoundaryInstance.colourable_of_prescribed_edge_six_vertex_face, Thomassen.BoundaryInstance.colourable_of_compatible_short_facial_cycle, Thomassen.BoundaryInstance.colourable_of_prescribed_edge_five_vertex_face, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenBoundaryDeletionChallenge
+Building ThomassenSolution
+Build completed successfully (1544 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.componentVertexSet_subset, Thomassen.componentVertexSet_adj_closed, Thomassen.native_facial_step_sameCycle, Thomassen.native_cycle_component_exit, Thomassen.component_has_deleted_neighbour, Thomassen.exists_outer_component_after_connected_boundary_deletion, Thomassen.BoundaryPrecolor.exists_induce_component, Thomassen.BoundaryInstance.colourable_of_connected_boundary_deletion, Thomassen.chordless_native_cycle_vertex_neighbours, Thomassen.BoundaryInstance.interior_boundary_neighbour_unique_of_prescribed_edge, Thomassen.BoundaryInstance.colourable_of_prescribed_edge_short_second_good_fourth, Thomassen.BoundaryInstance.prescribed_edge_fourth_boundary_list_le_two, Thomassen.BoundaryInstance.colourable_of_prescribed_edge_six_vertex_face, Thomassen.BoundaryInstance.colourable_of_compatible_short_facial_cycle, Thomassen.BoundaryInstance.colourable_of_prescribed_edge_five_vertex_face, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

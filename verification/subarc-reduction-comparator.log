@@ -1,0 +1,33 @@
+Resolving dependencies
+Building ThomassenSubarcReductionChallenge
+⚠ [1459/1460] Replayed ThomassenSubarcReductionChallenge
+warning: ThomassenSubarcReductionChallenge.lean:23:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:32:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:43:8: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:60:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:81:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:94:8: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:110:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:138:8: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:153:8: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:179:8: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:196:8: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:213:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:238:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:245:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:256:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:272:6: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:289:8: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:305:8: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:321:8: declaration uses `sorry`
+warning: ThomassenSubarcReductionChallenge.lean:336:6: declaration uses `sorry`
+Build completed successfully (1460 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.facial_cycle_forward_sameCycle, Thomassen.ordered_native_cycle_isFacial, Thomassen.exists_rebased_native_face_cycle, Thomassen.BoundaryInstance.native_face_cycle_chordless_of_minimal_counterexample, Thomassen.rebased_native_cycleInterval, Thomassen.BoundaryInstance.colourable_of_interior_two_path_free_subarc, Thomassen.BoundaryInstance.interior_neighbours_unique_on_free_arc, Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_arc, Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_subarc, Thomassen.BoundaryInstance.no_interior_two_path_from_prescribed_endpoint_to_noninternal_boundary, Thomassen.BoundaryInstance.no_interior_two_path_from_prescribed_endpoint, Thomassen.BoundaryInstance.interior_endpoint_shared_neighbour_indices, Thomassen.chordless_native_cycle_root_neighbours, Thomassen.chordless_native_cycle_last_neighbours, Thomassen.BoundaryInstance.endpoint_old_short_conflict_on_boundary, Thomassen.BoundaryInstance.prescribed_endpoint_no_old_short_conflicts, Thomassen.BoundaryInstance.colourable_of_good_second_boundary_list, Thomassen.BoundaryInstance.colourable_of_short_prescription_good_second_boundary_list, Thomassen.BoundaryInstance.colourable_of_four_vertex_prescription_good_second_boundary_list, Thomassen.BoundaryInstance.short_prescription_second_boundary_list_le_two, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSubarcReductionChallenge
+Building ThomassenSolution
+Build completed successfully (1538 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.facial_cycle_forward_sameCycle, Thomassen.ordered_native_cycle_isFacial, Thomassen.exists_rebased_native_face_cycle, Thomassen.BoundaryInstance.native_face_cycle_chordless_of_minimal_counterexample, Thomassen.rebased_native_cycleInterval, Thomassen.BoundaryInstance.colourable_of_interior_two_path_free_subarc, Thomassen.BoundaryInstance.interior_neighbours_unique_on_free_arc, Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_arc, Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_subarc, Thomassen.BoundaryInstance.no_interior_two_path_from_prescribed_endpoint_to_noninternal_boundary, Thomassen.BoundaryInstance.no_interior_two_path_from_prescribed_endpoint, Thomassen.BoundaryInstance.interior_endpoint_shared_neighbour_indices, Thomassen.chordless_native_cycle_root_neighbours, Thomassen.chordless_native_cycle_last_neighbours, Thomassen.BoundaryInstance.endpoint_old_short_conflict_on_boundary, Thomassen.BoundaryInstance.prescribed_endpoint_no_old_short_conflicts, Thomassen.BoundaryInstance.colourable_of_good_second_boundary_list, Thomassen.BoundaryInstance.colourable_of_short_prescription_good_second_boundary_list, Thomassen.BoundaryInstance.colourable_of_four_vertex_prescription_good_second_boundary_list, Thomassen.BoundaryInstance.short_prescription_second_boundary_list_le_two, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

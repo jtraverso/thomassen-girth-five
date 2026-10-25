@@ -1,0 +1,30 @@
+{
+  "challenge_module": "ThomassenChordChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.connSet_sdiff_of_connected_boundary",
+    "Thomassen.trim_separation",
+    "Thomassen.eq_of_isNextH_of_preserved_predecessor",
+    "Thomassen.cycle_arc_gap_empty",
+    "Thomassen.cycle_arc_no_exterior_neighbour",
+    "Thomassen.cycle_arc_vertices_on_outer",
+    "Thomassen.facial_arc_inside_gap_empty",
+    "Thomassen.cycle_face_after_restriction",
+    "Thomassen.facial_arc_chord_separation",
+    "Thomassen.facial_walk_chord_separation",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_edge_separation",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_facial_chord"
+  ],
+  "definition_names": [
+    "Thomassen.cycleArcInterior",
+    "Thomassen.IsFacialCycleArc",
+    "Thomassen.walkArcRoot",
+    "Thomassen.IsFacialWalkArc"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

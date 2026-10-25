@@ -1,0 +1,11 @@
+⚠ [1400/1401] Built ThomassenEdgeCutChallenge (889ms)
+warning: ThomassenEdgeCutChallenge.lean:25:6: declaration uses `sorry`
+warning: ThomassenEdgeCutChallenge.lean:32:6: declaration uses `sorry`
+warning: ThomassenEdgeCutChallenge.lean:42:6: declaration uses `sorry`
+warning: ThomassenEdgeCutChallenge.lean:52:6: declaration uses `sorry`
+warning: ThomassenEdgeCutChallenge.lean:59:6: declaration uses `sorry`
+warning: ThomassenEdgeCutChallenge.lean:68:6: declaration uses `sorry`
+warning: ThomassenEdgeCutChallenge.lean:89:6: declaration uses `sorry`
+warning: ThomassenEdgeCutChallenge.lean:101:8: declaration uses `sorry`
+warning: ThomassenEdgeCutChallenge.lean:114:8: declaration uses `sorry`
+Build completed successfully (1401 jobs).

@@ -1,0 +1,18 @@
+{
+  "challenge_module": "ThomassenEndpointDeletionChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.exists_prescription_after_initial_deletion",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_endpoint_deletion",
+    "Thomassen.BoundaryInstance.colourable_of_short_prescribed_endpoint_deletion",
+    "Thomassen.BoundaryInstance.colourable_of_short_prescription_and_three_lists",
+    "Thomassen.BoundaryInstance.endpoint_deletion_obstruction_of_minimal_counterexample"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

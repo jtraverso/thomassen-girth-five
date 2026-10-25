@@ -1,0 +1,20 @@
+{
+  "challenge_module": "ThomassenOriginalTransportChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.OriginalShortSet.mono",
+    "Thomassen.OriginalShortSet.comap",
+    "Thomassen.OriginalBoundaryInstance.mem_short_of_list_card_le_two",
+    "Thomassen.OriginalBoundaryInstance.pruneShort_extends_iff",
+    "Thomassen.OriginalBoundaryInstance.pruneShort_list_card"
+  ],
+  "definition_names": [
+    "Thomassen.OriginalBoundaryInstance.pruneShort"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

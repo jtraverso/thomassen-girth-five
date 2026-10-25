@@ -1,0 +1,31 @@
+{
+  "scope": [
+    "Thomassen/Girth.lean",
+    "Thomassen/FiveCycle.lean",
+    "Thomassen/ThreeVertexDeletion.lean",
+    "Thomassen/CycleSeparation.lean",
+    "Thomassen/FaceRestriction.lean",
+    "Thomassen/PrescribedChordReduction.lean",
+    "Thomassen/Minimal.lean",
+    "Thomassen/RegionSeparation.lean",
+    "Thomassen/ShortCycleReduction.lean",
+    "Thomassen/FacialFiveReduction.lean",
+    "Thomassen/CutPrecolor.lean",
+    "Thomassen/FacialSixReduction.lean",
+    "Thomassen/InducedInstance.lean",
+    "Thomassen/Boundary.lean",
+    "Thomassen/InducedEmbedding.lean",
+    "Thomassen/ChordSeparation.lean",
+    "Thomassen/FaceBoundary.lean",
+    "Thomassen/ShortLists.lean",
+    "Thomassen/Instance.lean",
+    "Thomassen/CycleWalk.lean",
+    "Thomassen/Lists.lean",
+    "Thomassen/ConnectedInstance.lean",
+    "Thomassen/Assembly.lean",
+    "ThomassenSolution.lean"
+  ],
+  "forbidden_proof_constructs": [],
+  "status": "passed",
+  "excluded": "Independent challenge modules intentionally contain statement placeholders."
+}

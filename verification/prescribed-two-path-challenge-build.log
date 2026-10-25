@@ -1,0 +1,9 @@
+⚠ [1464/1465] Built ThomassenPrescribedTwoPathChallenge (866ms)
+warning: ThomassenPrescribedTwoPathChallenge.lean:25:8: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:56:8: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:74:6: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:89:8: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:107:6: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:124:8: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:138:6: declaration uses `sorry`
+Build completed successfully (1465 jobs).

@@ -1,0 +1,31 @@
+Resolving dependencies
+Building ThomassenInteriorTwoPathChallenge
+⚠ [1453/1454] Replayed ThomassenInteriorTwoPathChallenge
+warning: ThomassenInteriorTwoPathChallenge.lean:27:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:31:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:39:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:47:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:54:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:61:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:69:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:77:8: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:88:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:105:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:114:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:128:8: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:158:8: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:176:8: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:205:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:213:6: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:236:8: declaration uses `sorry`
+warning: ThomassenInteriorTwoPathChallenge.lean:249:6: declaration uses `sorry`
+Build completed successfully (1454 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.spliceFacePath_length, Thomassen.spliceFacePath_getVert_prefix, Thomassen.spliceFacePath_isCycle, Thomassen.spliceFacePath_drop_support, Thomassen.spliceFacePath_cycleVertex_prefix, Thomassen.spliceFacePath_arc, Thomassen.spliceFacePath_misses_next_vertex, Thomassen.spliceFacePath_isFacialAlong, Thomassen.spliceFacePath_root, Thomassen.native_facial_cycle_vertices_on_outer, Thomassen.closing_path_intersection_of_interior, Thomassen.interior_face_path_cut, Thomassen.BoundaryInstance.colourable_of_two_path_one_short_end, Thomassen.BoundaryInstance.colourable_of_two_path_optional_short_ends, Thomassen.chordless_cycle_prefix_adjacent_indices, Thomassen.first_interior_two_path_neighbour, Thomassen.BoundaryInstance.colourable_of_interior_two_path_free_arc, Thomassen.BoundaryInstance.interior_two_path_arc_meets_prescription_of_minimal_counterexample, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.spliceFacePath] from ThomassenInteriorTwoPathChallenge
+Building ThomassenSolution
+Build completed successfully (1532 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.spliceFacePath_length, Thomassen.spliceFacePath_getVert_prefix, Thomassen.spliceFacePath_isCycle, Thomassen.spliceFacePath_drop_support, Thomassen.spliceFacePath_cycleVertex_prefix, Thomassen.spliceFacePath_arc, Thomassen.spliceFacePath_misses_next_vertex, Thomassen.spliceFacePath_isFacialAlong, Thomassen.spliceFacePath_root, Thomassen.native_facial_cycle_vertices_on_outer, Thomassen.closing_path_intersection_of_interior, Thomassen.interior_face_path_cut, Thomassen.BoundaryInstance.colourable_of_two_path_one_short_end, Thomassen.BoundaryInstance.colourable_of_two_path_optional_short_ends, Thomassen.chordless_cycle_prefix_adjacent_indices, Thomassen.first_interior_two_path_neighbour, Thomassen.BoundaryInstance.colourable_of_interior_two_path_free_arc, Thomassen.BoundaryInstance.interior_two_path_arc_meets_prescription_of_minimal_counterexample, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.spliceFacePath] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

@@ -1,0 +1,25 @@
+Resolving dependencies
+Building ThomassenChordChallenge
+⚠ [1398/1399] Replayed ThomassenChordChallenge
+warning: ThomassenChordChallenge.lean:27:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:35:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:46:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:65:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:73:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:82:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:89:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:101:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:114:8: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:143:8: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:176:8: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:191:8: declaration uses `sorry`
+Build completed successfully (1399 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.connSet_sdiff_of_connected_boundary, Thomassen.trim_separation, Thomassen.eq_of_isNextH_of_preserved_predecessor, Thomassen.cycle_arc_gap_empty, Thomassen.cycle_arc_no_exterior_neighbour, Thomassen.cycle_arc_vertices_on_outer, Thomassen.facial_arc_inside_gap_empty, Thomassen.cycle_face_after_restriction, Thomassen.facial_arc_chord_separation, Thomassen.facial_walk_chord_separation, Thomassen.BoundaryInstance.colourable_of_prescribed_edge_separation, Thomassen.BoundaryInstance.colourable_of_prescribed_facial_chord, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.cycleArcInterior, Thomassen.IsFacialCycleArc, Thomassen.walkArcRoot, Thomassen.IsFacialWalkArc] from ThomassenChordChallenge
+Building ThomassenSolution
+Build completed successfully (1477 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.connSet_sdiff_of_connected_boundary, Thomassen.trim_separation, Thomassen.eq_of_isNextH_of_preserved_predecessor, Thomassen.cycle_arc_gap_empty, Thomassen.cycle_arc_no_exterior_neighbour, Thomassen.cycle_arc_vertices_on_outer, Thomassen.facial_arc_inside_gap_empty, Thomassen.cycle_face_after_restriction, Thomassen.facial_arc_chord_separation, Thomassen.facial_walk_chord_separation, Thomassen.BoundaryInstance.colourable_of_prescribed_edge_separation, Thomassen.BoundaryInstance.colourable_of_prescribed_facial_chord, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.cycleArcInterior, Thomassen.IsFacialCycleArc, Thomassen.walkArcRoot, Thomassen.IsFacialWalkArc] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

@@ -1,0 +1,11 @@
+⚠ [1387/1388] Built ThomassenInducedChallenge (870ms)
+warning: ThomassenInducedChallenge.lean:62:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:66:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:72:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:81:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:88:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:92:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:98:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:104:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:112:6: declaration uses `sorry`
+Build completed successfully (1388 jobs).

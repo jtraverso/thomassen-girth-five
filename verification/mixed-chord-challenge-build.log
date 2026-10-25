@@ -1,0 +1,16 @@
+⚠ [1438/1439] Built ThomassenMixedChordChallenge (1.0s)
+warning: ThomassenMixedChordChallenge.lean:25:6: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:35:6: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:58:6: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:86:8: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:115:8: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:134:8: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:151:8: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:167:8: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:182:6: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:200:8: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:214:6: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:237:6: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:246:6: declaration uses `sorry`
+warning: ThomassenMixedChordChallenge.lean:260:8: declaration uses `sorry`
+Build completed successfully (1439 jobs).

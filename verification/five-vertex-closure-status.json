@@ -1,0 +1,28 @@
+{
+  "state": "supporting_cases_verified_main_unproved",
+  "new_theorem_contracts": 22,
+  "independent_challenge": "ThomassenFiveVertexClosureChallenge",
+  "challenge_imports": [
+    "Thomassen.LongPrescriptionReduction"
+  ],
+  "new_proof_modules_imported_by_challenge": false,
+  "definition_holes": [],
+  "lean_build_wfail": "passed",
+  "axiom_audit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "statement_comparison": "passed",
+  "nanoda_kernel": "accepted",
+  "lean_default_kernel": "accepted",
+  "solution_modules_audited": 143,
+  "source_hole_audit": "passed",
+  "all_nontrivial_prescribed_paths_at_most_five_vertices_closed_under_strict_induction": true,
+  "remaining_counterexample_prescribed_path_vertices": 6,
+  "boundary_extension_proved": false,
+  "main_theorem_formalized": false,
+  "main_comparator": "fails_absent_unconditional_declaration",
+  "published": false,
+  "palomar_submitted": false
+}

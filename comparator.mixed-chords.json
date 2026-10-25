@@ -1,0 +1,27 @@
+{
+  "challenge_module": "ThomassenMixedChordChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.exists_path_on_two_cut_avoiding",
+    "Thomassen.exists_induce_path_two_cut",
+    "Thomassen.BoundaryInstance.exists_empty_induced_releasing_leaf",
+    "Thomassen.BoundaryInstance.colourable_of_mixed_leaf_edge_cut",
+    "Thomassen.BoundaryInstance.colourable_of_mixed_short_branch_edge_cut",
+    "Thomassen.BoundaryInstance.colourable_of_prescription_edge_cut_with_short_branch",
+    "Thomassen.BoundaryInstance.colourable_of_short_prescription_edge_cut",
+    "Thomassen.BoundaryInstance.colourable_of_short_branch_boundary_chord",
+    "Thomassen.BoundaryInstance.remaining_boundary_chord_central_cases",
+    "Thomassen.BoundaryInstance.colourable_of_short_prescription_boundary_chord",
+    "Thomassen.BoundaryInstance.boundary_chord_requires_long_prescription",
+    "Thomassen.path_cycle_order_of_first_step",
+    "Thomassen.path_cycle_order",
+    "Thomassen.BoundaryInstance.prescribed_path_follows_facial_cycle"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

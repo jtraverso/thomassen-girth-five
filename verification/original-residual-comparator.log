@@ -1,0 +1,32 @@
+Resolving dependencies
+Building ThomassenOriginalResidualChallenge
+⚠ [1641/1642] Built ThomassenOriginalResidualChallenge (1.1s)
+warning: ThomassenOriginalResidualChallenge.lean:19:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:39:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:59:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:66:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:78:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:91:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:109:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:124:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:140:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:158:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:178:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:202:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:206:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:210:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:222:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:238:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:267:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:277:8: declaration uses `sorry`
+warning: ThomassenOriginalResidualChallenge.lean:291:8: declaration uses `sorry`
+Build completed successfully (1642 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.OriginalBoundaryInstance.extends_of_residual_components, Thomassen.OriginalBoundaryInstance.extends_of_connected_boundary_deletion, Thomassen.exceptional_pair_old_list_unchanged, Thomassen.exceptional_pair_short_vertices_independent, Thomassen.exceptional_pair_residual_card_ge_two, Thomassen.OriginalBoundaryInstance.predecessor_mem_short_of_minimal_counterexample, Thomassen.OriginalBoundaryInstance.short_closed_prefix_neighbours, Thomassen.OriginalBoundaryInstance.boundary_three_path_first_vertex, Thomassen.OriginalBoundaryInstance.three_path_across_two_face_edges_unique_allow_boundary, Thomassen.OriginalBoundaryInstance.triple_short_edge_crossing, Thomassen.OriginalBoundaryInstance.triple_short_edge_unique, Thomassen.exists_two_path_iff_common_neighbour, Thomassen.OriginalShortSet.exists_edge_of_not, Thomassen.OriginalShortSet.endpoint_obstructions, Thomassen.OriginalBoundaryInstance.triple_residual_short_set_not_original, Thomassen.OriginalBoundaryInstance.triple_residual_edge_and_endpoint_obstructions, Thomassen.neighbours_on_facial_arc_of_not_separating, Thomassen.OriginalBoundaryInstance.three_path_inner_face_corners_allow_boundary, Thomassen.OriginalBoundaryInstance.short_cycle_single_corner_neighbours, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.exposedShortSet] from ThomassenOriginalResidualChallenge
+Building ThomassenSolution
+Build completed successfully (1713 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.OriginalBoundaryInstance.extends_of_residual_components, Thomassen.OriginalBoundaryInstance.extends_of_connected_boundary_deletion, Thomassen.exceptional_pair_old_list_unchanged, Thomassen.exceptional_pair_short_vertices_independent, Thomassen.exceptional_pair_residual_card_ge_two, Thomassen.OriginalBoundaryInstance.predecessor_mem_short_of_minimal_counterexample, Thomassen.OriginalBoundaryInstance.short_closed_prefix_neighbours, Thomassen.OriginalBoundaryInstance.boundary_three_path_first_vertex, Thomassen.OriginalBoundaryInstance.three_path_across_two_face_edges_unique_allow_boundary, Thomassen.OriginalBoundaryInstance.triple_short_edge_crossing, Thomassen.OriginalBoundaryInstance.triple_short_edge_unique, Thomassen.exists_two_path_iff_common_neighbour, Thomassen.OriginalShortSet.exists_edge_of_not, Thomassen.OriginalShortSet.endpoint_obstructions, Thomassen.OriginalBoundaryInstance.triple_residual_short_set_not_original, Thomassen.OriginalBoundaryInstance.triple_residual_edge_and_endpoint_obstructions, Thomassen.neighbours_on_facial_arc_of_not_separating, Thomassen.OriginalBoundaryInstance.three_path_inner_face_corners_allow_boundary, Thomassen.OriginalBoundaryInstance.short_cycle_single_corner_neighbours, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.exposedShortSet] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

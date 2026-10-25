@@ -1,0 +1,113 @@
+{
+  "date_utc": "2026-10-25",
+  "status": "complete_locally_verified",
+  "main_theorem": "PlanarChoosability.choosableWith_three_of_isPlanar",
+  "main_theorem_module": "Thomassen.BoundaryExtension",
+  "main_theorem_formalized": true,
+  "boundary_extension_proved": true,
+  "six_vertex_case_complete": true,
+  "remaining_mathematical_obligations": [],
+  "main_gate": {
+    "config": "comparator.json",
+    "original_config_unchanged": true,
+    "result": "passed",
+    "independent_contract": true,
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "original_definition_contracts": 9,
+    "log": "verification/main-comparator-complete.log"
+  },
+  "closure_gate": {
+    "config": "comparator.six-vertex-closure.json",
+    "result": "passed",
+    "theorem_contracts": 9,
+    "new_definition_holes": 0,
+    "challenge_imports": [
+      "Thomassen.SixVertexRemainingExceptions",
+      "Thomassen.Assembly"
+    ],
+    "new_proof_modules_imported": false,
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/six-vertex-closure-comparator.log"
+  },
+  "strict_solution_axiom_build": "passed",
+  "solution_modules_source_audited": 206,
+  "source_audit": "verification/source-audit.json",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "sorry_in_solution": 0,
+  "custom_axioms": 0,
+  "native_decide_in_solution": 0,
+  "publication": {
+    "published": false,
+    "registry_submitted": false,
+    "note": "Local proof completion; no new remote publication or registry action in this step."
+  },
+  "review": "Agent self-assessment and independent kernel checks; no independent human review claimed.",
+  "status_scope": "Central finite planar girth-five 3-choosability and the full original 1995 Theorem 2.1 and Corollary 2.2.",
+  "original_paper_extension": "verification/original-paper-status.json",
+  "original_paper_complete": true,
+  "original_corollary_2_2_proved": true,
+  "original_theorem_2_1_independent_proved": true,
+  "main_recheck_after_original_paper": {
+    "result": "passed",
+    "original_config_unchanged": true,
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/main-after-original-paper-comparator.log"
+  },
+  "main_recheck_after_exceptional_deletion": {
+    "result": "passed",
+    "original_config_unchanged": true,
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/main-after-exceptional-deletion-comparator.log"
+  },
+  "byproducts": "verification/byproducts-status.json",
+  "requested_byproducts_1_to_4_proved": true,
+  "short_ring_induction_support": "verification/short-ring-status.json",
+  "main_recheck_after_byproducts": {
+    "result": "passed",
+    "original_config_unchanged": true,
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/main-after-byproducts-comparator.log"
+  },
+  "exceptional_bridge_and_component_reductions": "verification/exceptional-bridge-status.json",
+  "main_recheck_after_exceptional_bridge": {
+    "result": "passed",
+    "original_config_unchanged": true,
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/main-after-exceptional-bridge-comparator.log"
+  },
+  "strict_original_induction_reductions": "verification/original-induction-status.json",
+  "main_recheck_after_original_induction": {
+    "result": "passed",
+    "original_config_unchanged": true,
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/main-after-original-induction-comparator.log"
+  },
+  "original_residual_deletions": "verification/original-residual-status.json",
+  "main_recheck_after_original_residual": {
+    "result": "passed",
+    "original_config_unchanged": true,
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/main-after-original-residual-comparator.log"
+  },
+  "original_theorem_2_1_proved": true,
+  "original_full_verification": "verification/original-full-status.json",
+  "main_recheck_after_original_full": {
+    "result": "passed",
+    "log": "verification/main-after-original-full-comparator.log",
+    "original_config_unchanged": true,
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted"
+  }
+}

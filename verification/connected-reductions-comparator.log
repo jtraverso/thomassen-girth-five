@@ -1,0 +1,33 @@
+Resolving dependencies
+Building ThomassenConnectedChallenge
+⚠ [1393/1394] Replayed ThomassenConnectedChallenge
+warning: ThomassenConnectedChallenge.lean:23:14: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:29:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:38:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:48:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:54:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:62:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:71:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:96:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:119:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:184:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:194:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:216:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:224:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:231:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:238:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:248:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:256:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:266:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:272:6: declaration uses `sorry`
+warning: ThomassenConnectedChallenge.lean:285:6: declaration uses `sorry`
+Build completed successfully (1394 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.sameCycle_restrict_of_same_original_face, Thomassen.onOuterFace_restrict_of_connected, Thomassen.subVerts_restrict_of_preconnected, Thomassen.restrict_reachable_of_induce_preconnected, Thomassen.exists_outer_induced_of_preconnected, Thomassen.exists_outer_induced_after_connected_deletion, Thomassen.BoundaryPrecolor.reachable_vertices, Thomassen.glue_induced_colourings, Thomassen.BoundaryInstance.colourable_induce_of_smaller, Thomassen.BoundaryInstance.colourable_of_few_neighbours, Thomassen.walk_side_of_avoids_cut, Thomassen.path_side_dichotomy, Thomassen.not_mem_edges_of_one_vertex_intersection, Thomassen.exists_path_on_cut_side, Thomassen.cycle_side_dichotomy, Thomassen.BoundaryPrecolor.exists_induce_cut, Thomassen.preconnected_cut_side, Thomassen.exists_cut_side_of_delete_disconnected, Thomassen.BoundaryInstance.colourable_of_precolored_cutvertex, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.componentVertexSet, Thomassen.componentInduceIso, Thomassen.BoundaryInstance.inducePrecolor, Thomassen.BoundaryInstance.induceConnected, Thomassen.BoundaryInstance.induceUnprecolored] from ThomassenConnectedChallenge
+Building ThomassenSolution
+Build completed successfully (1472 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.sameCycle_restrict_of_same_original_face, Thomassen.onOuterFace_restrict_of_connected, Thomassen.subVerts_restrict_of_preconnected, Thomassen.restrict_reachable_of_induce_preconnected, Thomassen.exists_outer_induced_of_preconnected, Thomassen.exists_outer_induced_after_connected_deletion, Thomassen.BoundaryPrecolor.reachable_vertices, Thomassen.glue_induced_colourings, Thomassen.BoundaryInstance.colourable_induce_of_smaller, Thomassen.BoundaryInstance.colourable_of_few_neighbours, Thomassen.walk_side_of_avoids_cut, Thomassen.path_side_dichotomy, Thomassen.not_mem_edges_of_one_vertex_intersection, Thomassen.exists_path_on_cut_side, Thomassen.cycle_side_dichotomy, Thomassen.BoundaryPrecolor.exists_induce_cut, Thomassen.preconnected_cut_side, Thomassen.exists_cut_side_of_delete_disconnected, Thomassen.BoundaryInstance.colourable_of_precolored_cutvertex, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.componentVertexSet, Thomassen.componentInduceIso, Thomassen.BoundaryInstance.inducePrecolor, Thomassen.BoundaryInstance.induceConnected, Thomassen.BoundaryInstance.induceUnprecolored] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

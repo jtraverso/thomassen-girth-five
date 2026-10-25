@@ -1,0 +1,19 @@
+Resolving dependencies
+Building ThomassenStartingStatesChallenge
+⚠ [1510/1511] Replayed ThomassenStartingStatesChallenge
+warning: ThomassenStartingStatesChallenge.lean:27:8: declaration uses `sorry`
+warning: ThomassenStartingStatesChallenge.lean:38:8: declaration uses `sorry`
+warning: ThomassenStartingStatesChallenge.lean:63:8: declaration uses `sorry`
+warning: ThomassenStartingStatesChallenge.lean:71:8: declaration uses `sorry`
+warning: ThomassenStartingStatesChallenge.lean:92:8: declaration uses `sorry`
+warning: ThomassenStartingStatesChallenge.lean:112:8: declaration uses `sorry`
+Build completed successfully (1511 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.rootStar_extension_of_nontrivial_small_path, Thomassen.BoundaryInstance.rootStar_extension_of_two_neighbours_current, Thomassen.BoundaryInstance.colourable_of_empty_prescription_with_short_list, Thomassen.BoundaryInstance.colourable_of_empty_prescription, Thomassen.BoundaryInstance.colourable_of_singleton_prescription, Thomassen.BoundaryInstance.remaining_counterexample_has_four_to_six_prescribed_vertices, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenStartingStatesChallenge
+Building ThomassenSolution
+Build completed successfully (1587 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.rootStar_extension_of_nontrivial_small_path, Thomassen.BoundaryInstance.rootStar_extension_of_two_neighbours_current, Thomassen.BoundaryInstance.colourable_of_empty_prescription_with_short_list, Thomassen.BoundaryInstance.colourable_of_empty_prescription, Thomassen.BoundaryInstance.colourable_of_singleton_prescription, Thomassen.BoundaryInstance.remaining_counterexample_has_four_to_six_prescribed_vertices, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

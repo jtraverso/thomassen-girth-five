@@ -1,0 +1,23 @@
+Resolving dependencies
+Building ThomassenSixVertexClosureChallenge
+✔ [1605/1607] Built Thomassen.Assembly (886ms)
+⚠ [1606/1607] Built ThomassenSixVertexClosureChallenge (925ms)
+warning: ThomassenSixVertexClosureChallenge.lean:29:8: declaration uses `sorry`
+warning: ThomassenSixVertexClosureChallenge.lean:57:8: declaration uses `sorry`
+warning: ThomassenSixVertexClosureChallenge.lean:91:8: declaration uses `sorry`
+warning: ThomassenSixVertexClosureChallenge.lean:131:8: declaration uses `sorry`
+warning: ThomassenSixVertexClosureChallenge.lean:162:8: declaration uses `sorry`
+warning: ThomassenSixVertexClosureChallenge.lean:174:8: declaration uses `sorry`
+warning: ThomassenSixVertexClosureChallenge.lean:192:8: declaration uses `sorry`
+warning: ThomassenSixVertexClosureChallenge.lean:198:8: declaration uses `sorry`
+warning: ThomassenSixVertexClosureChallenge.lean:206:8: declaration uses `sorry`
+Build completed successfully (1607 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_of_six_vertex_alternating_path_without_interior_three_path, Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour_six, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion_six, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours_six, Thomassen.BoundaryInstance.colourable_of_six_vertex_prescribed_path_native_face, Thomassen.BoundaryInstance.colourable_of_six_vertex_prescribed_path, Thomassen.boundary_instances_colourable_at_card, Thomassen.boundary_extension, PlanarChoosability.choosableWith_three_of_isPlanar, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSixVertexClosureChallenge
+Building ThomassenSolution
+Build completed successfully (1615 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_of_six_vertex_alternating_path_without_interior_three_path, Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour_six, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion_six, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours_six, Thomassen.BoundaryInstance.colourable_of_six_vertex_prescribed_path_native_face, Thomassen.BoundaryInstance.colourable_of_six_vertex_prescribed_path, Thomassen.boundary_instances_colourable_at_card, Thomassen.boundary_extension, PlanarChoosability.choosableWith_three_of_isPlanar, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

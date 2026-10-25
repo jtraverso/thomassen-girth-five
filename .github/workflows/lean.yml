@@ -1,0 +1,28 @@
+name: Lean verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        with:
+          use-mathlib-cache: "true"
+          build-args: "--wfail"
+      - name: Compile independent public registry contract
+        run: lake build ThomassenRegistryChallenge
+      - name: Strict solution and axiom audit
+        run: lake build Solution ThomassenSolution ThomassenAudit --wfail
+      - name: Audit frozen sources, contract and reuse
+        run: |
+          python3 scripts/check-proof-sources.py
+          python3 scripts/audit-freeze.py

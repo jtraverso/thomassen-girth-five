@@ -1,0 +1,6 @@
+Build completed successfully (1460 jobs).
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Uses axioms: Quot.sound, Classical.choice, propext
+Lean and NanoDa accepted the invariant lemmas and conditional assembly.
+The boundary-extension property remains unproved; the main theorem remains absent.

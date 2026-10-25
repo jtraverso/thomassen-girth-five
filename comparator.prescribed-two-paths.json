@@ -1,0 +1,20 @@
+{
+  "challenge_module": "ThomassenPrescribedTwoPathChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.colourable_induced_with_compatible_prescription",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_prefix_interior_two_path",
+    "Thomassen.BoundaryInstance.prescribed_path_forward_of_first_face_vertex",
+    "Thomassen.BoundaryInstance.no_interior_two_path_from_forward_prescribed_endpoint",
+    "Thomassen.BoundaryInstance.prescribed_endpoint_no_shared_prescribed_neighbour",
+    "Thomassen.BoundaryInstance.colourable_of_good_second_boundary_list_all_prescriptions",
+    "Thomassen.BoundaryInstance.prescribed_second_boundary_list_le_two"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

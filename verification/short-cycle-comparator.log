@@ -1,0 +1,62 @@
+Resolving dependencies
+Building ThomassenCycleChallenge
+⚠ [1397/1398] Replayed ThomassenCycleChallenge
+warning: ThomassenCycleChallenge.lean:31:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:41:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:45:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:50:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:54:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:58:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:62:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:67:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:72:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:77:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:82:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:89:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:93:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:98:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:103:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:108:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:113:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:119:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:124:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:129:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:136:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:140:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:145:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:149:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:155:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:160:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:170:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:177:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:181:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:186:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:193:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:207:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:220:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:231:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:238:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:245:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:254:8: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:279:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:283:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:287:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:291:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:295:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:301:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:304:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:308:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:313:6: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:320:8: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:342:8: declaration uses `sorry`
+warning: ThomassenCycleChallenge.lean:371:8: declaration uses `sorry`
+Build completed successfully (1398 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.cyclicSubgraph_le, Thomassen.cyclicSubgraph_subVerts, Thomassen.cyclicSubgraph_of_chordless, Thomassen.cycleForward_symm, Thomassen.cycleBackward_symm, Thomassen.cyclic_dart_cases, Thomassen.cycleForward_ne_backward, Thomassen.cycle_rot_forward, Thomassen.cycle_rot_backward, Thomassen.cycle_face_forward, Thomassen.cycle_face_backward, Thomassen.cyclicSubgraph_reachable, Thomassen.cyclicSubgraph_connected, Thomassen.cycle_forward_sameCycle, Thomassen.cycle_backward_sameCycle, Thomassen.cycle_faces_distinct, Thomassen.cycle_two_faces, Thomassen.cycle_outer_forward_iff, Thomassen.cycle_outer_backward_iff, Thomassen.cycle_outer_iff, Thomassen.cycle_subface_forward, Thomassen.cycle_subface_backward, Thomassen.rIn_univ_of_reachable, Thomassen.cycle_sides_cover, Thomassen.cycle_sides_inter, Thomassen.cycle_sides_no_crossing, Thomassen.onOuterFace_connSet, Thomassen.subfaceSide_connSet, Thomassen.cycle_subface_vertices, Thomassen.cyclicSubgraph_le_side, Thomassen.cycle_opposite_gap_empty, Thomassen.exists_dart_of_preserved_subface, Thomassen.cycle_side_outer_iff, Thomassen.mem_subfaceSide_congr, Thomassen.cycle_original_face_subset_side, Thomassen.cycle_original_face_one_side, Thomassen.chordless_cycle_separation, Thomassen.walkCycleVertices_next, Thomassen.walk_isCycleMap, Thomassen.walkCycleVertices_range, Thomassen.walkCycleVertices_edges, Thomassen.cycle_support_card_eq_length, Thomassen.zmod_two_ne_zero_of_three_le, Thomassen.cycle_no_chord_two, Thomassen.cycle_no_chord_three, Thomassen.short_cycle_isChordless, Thomassen.short_native_cycle_separation, Thomassen.short_native_cycle_proper_cut, Thomassen.BoundaryInstance.colourable_of_separating_short_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.cyclicSubgraph, Thomassen.cycleForward, Thomassen.cycleBackward, Thomassen.walkCycleVertices, Thomassen.NativeCycleSeparates] from ThomassenCycleChallenge
+Building ThomassenSolution
+Build completed successfully (1475 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.cyclicSubgraph_le, Thomassen.cyclicSubgraph_subVerts, Thomassen.cyclicSubgraph_of_chordless, Thomassen.cycleForward_symm, Thomassen.cycleBackward_symm, Thomassen.cyclic_dart_cases, Thomassen.cycleForward_ne_backward, Thomassen.cycle_rot_forward, Thomassen.cycle_rot_backward, Thomassen.cycle_face_forward, Thomassen.cycle_face_backward, Thomassen.cyclicSubgraph_reachable, Thomassen.cyclicSubgraph_connected, Thomassen.cycle_forward_sameCycle, Thomassen.cycle_backward_sameCycle, Thomassen.cycle_faces_distinct, Thomassen.cycle_two_faces, Thomassen.cycle_outer_forward_iff, Thomassen.cycle_outer_backward_iff, Thomassen.cycle_outer_iff, Thomassen.cycle_subface_forward, Thomassen.cycle_subface_backward, Thomassen.rIn_univ_of_reachable, Thomassen.cycle_sides_cover, Thomassen.cycle_sides_inter, Thomassen.cycle_sides_no_crossing, Thomassen.onOuterFace_connSet, Thomassen.subfaceSide_connSet, Thomassen.cycle_subface_vertices, Thomassen.cyclicSubgraph_le_side, Thomassen.cycle_opposite_gap_empty, Thomassen.exists_dart_of_preserved_subface, Thomassen.cycle_side_outer_iff, Thomassen.mem_subfaceSide_congr, Thomassen.cycle_original_face_subset_side, Thomassen.cycle_original_face_one_side, Thomassen.chordless_cycle_separation, Thomassen.walkCycleVertices_next, Thomassen.walk_isCycleMap, Thomassen.walkCycleVertices_range, Thomassen.walkCycleVertices_edges, Thomassen.cycle_support_card_eq_length, Thomassen.zmod_two_ne_zero_of_three_le, Thomassen.cycle_no_chord_two, Thomassen.cycle_no_chord_three, Thomassen.short_cycle_isChordless, Thomassen.short_native_cycle_separation, Thomassen.short_native_cycle_proper_cut, Thomassen.BoundaryInstance.colourable_of_separating_short_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.cyclicSubgraph, Thomassen.cycleForward, Thomassen.cycleBackward, Thomassen.walkCycleVertices, Thomassen.NativeCycleSeparates] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

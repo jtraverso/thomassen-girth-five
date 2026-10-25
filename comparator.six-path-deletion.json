@@ -1,0 +1,26 @@
+{
+  "challenge_module": "ThomassenSixPathDeletionChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.interior_boundary_pair_exceptional",
+    "Thomassen.BoundaryInstance.interior_neighbours_unique_at_short_free_boundary_vertex",
+    "Thomassen.BoundaryInstance.colourable_of_path_short_second_good_fourth_without_exception",
+    "Thomassen.BoundaryInstance.remaining_good_fourth_counterexample_has_backward_exception",
+    "Thomassen.BoundaryInstance.neighbours_on_short_facial_arc_stay_on_cycle",
+    "Thomassen.BoundaryInstance.short_facial_arc_backward_region_empty",
+    "Thomassen.BoundaryInstance.neighbours_on_short_closed_face_prefix",
+    "Thomassen.BoundaryInstance.backward_exception_prescribed_end_neighbours",
+    "Thomassen.BoundaryInstance.colourable_of_three_vertex_path_short_fourth",
+    "Thomassen.BoundaryInstance.colourable_of_three_prescribed_vertices_six_vertex_face",
+    "Thomassen.BoundaryInstance.colourable_of_three_vertex_prescribed_path_native_face",
+    "Thomassen.BoundaryInstance.colourable_of_three_vertex_prescribed_path",
+    "Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_three"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,28 @@
+{
+  "challenge_module": "ThomassenFiveChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.off_five_cycle_unique_neighbour",
+    "Thomassen.off_native_five_cycle_unique_neighbour",
+    "Thomassen.off_six_cycle_second_neighbour",
+    "Thomassen.off_native_six_cycle_second_neighbour",
+    "Thomassen.cycle_tail_dropLast_support",
+    "Thomassen.cycle_tail_dropLast_edges",
+    "Thomassen.exists_outer_after_boundary_vertex",
+    "Thomassen.BoundaryInstance.colourable_of_facial_cycle_without_shared_neighbours",
+    "Thomassen.BoundaryInstance.colourable_of_facial_five_cycle",
+    "Thomassen.BoundaryInstance.colourable_of_facial_six_cycle_without_opposite_neighbour",
+    "Thomassen.not_isK5Boundary_of_rooted_four_bags",
+    "Thomassen.six_cycle_no_consecutive_opposite_neighbours",
+    "Thomassen.isK5Boundary_of_face_deletions",
+    "Thomassen.BoundaryInstance.colourable_of_facial_six_cycle",
+    "Thomassen.BoundaryInstance.colourable_of_facial_short_cycle"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,29 @@
+{
+  "challenge_module": "ThomassenMixedTwoPathChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.four_edge_path_with_pendant_vertices_paths_short",
+    "Thomassen.BoundaryInstance.colourable_induced_with_compatible_edge_star_path",
+    "Thomassen.BoundaryInstance.interior_unprescribed_neighbour_unique_on_native_face",
+    "Thomassen.BoundaryInstance.interior_unprescribed_neighbour_unique",
+    "Thomassen.BoundaryInstance.interior_at_most_two_boundary_neighbours",
+    "Thomassen.BoundaryInstance.colourable_induced_retaining_connected_prescription",
+    "Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_prefix",
+    "Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_prefix_arbitrary_face",
+    "Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_suffix_arbitrary_face",
+    "Thomassen.BoundaryInstance.free_boundary_not_adjacent_both_prescribed_ends_on_native_face",
+    "Thomassen.BoundaryInstance.free_boundary_not_adjacent_both_prescribed_ends",
+    "Thomassen.BoundaryInstance.mixed_interior_two_path_exceptional",
+    "Thomassen.BoundaryInstance.no_interior_boundary_pair_at_initial_vertex",
+    "Thomassen.BoundaryInstance.no_interior_boundary_pair_at_terminal_vertex",
+    "Thomassen.BoundaryInstance.interior_prescribed_and_free_neighbours_exceptional",
+    "Thomassen.BoundaryInstance.colourable_of_mixed_two_path_with_at_most_five_prescribed_vertices"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

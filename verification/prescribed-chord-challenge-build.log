@@ -1,0 +1,14 @@
+⚠ [1398/1399] Built ThomassenChordChallenge (958ms)
+warning: ThomassenChordChallenge.lean:27:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:35:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:46:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:65:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:73:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:82:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:89:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:101:6: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:114:8: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:143:8: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:176:8: declaration uses `sorry`
+warning: ThomassenChordChallenge.lean:191:8: declaration uses `sorry`
+Build completed successfully (1399 jobs).

@@ -1,0 +1,71 @@
+{
+  "status": "complete_locally_verified",
+  "date_utc": "2026-10-25",
+  "declaration": "Thomassen.original_theorem_2_1",
+  "module": "Thomassen.OriginalTheorem",
+  "full_original_theorem_2_1_proved": true,
+  "induction_closed": true,
+  "remaining_mathematical_obligations": [],
+  "scope": "Both original alternatives, including the distinguished-endpoint no-two-path condition, arbitrary finite planar graphs with componentwise exterior boundary, arbitrary colour types and allowed fixed-edge colours.",
+  "proof_modules": [
+    "Thomassen.OriginalFirstObstruction",
+    "Thomassen.OriginalSecondObstruction",
+    "Thomassen.OriginalFinalShortSets",
+    "Thomassen.OriginalFinalCutGeometry",
+    "Thomassen.OriginalFinalCut",
+    "Thomassen.OriginalExceptionalFrame",
+    "Thomassen.OriginalClosure",
+    "Thomassen.OriginalTheorem"
+  ],
+  "reuse": "Previously verified original-instance cuts, induced face geometry, residual components, boundary-extension, short-ring extension and free-component assembly. The old short-leaf cut is retained as a specialization of its released-leaf generalization.",
+  "gate": {
+    "config_checked": "comparator.original-full-pending.json",
+    "identical_canonical_config": "comparator.original-full.json",
+    "challenge": "ThomassenOriginalFullChallenge",
+    "challenge_imports": [
+      "Thomassen.OuterBoundary"
+    ],
+    "new_proof_modules_imported_by_challenge": false,
+    "original_target_unchanged": true,
+    "original_config_unchanged": true,
+    "theorem_contracts": 1,
+    "new_definition_holes": 0,
+    "result": "passed",
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/original-full-comparator.log"
+  },
+  "exact_contract_hashes": {
+    "ThomassenOriginalFullChallenge.lean": "4d8f1ed725d4af60c7c42f87d5aec7096eb7604a594212f4aec91b9909a8499c",
+    "comparator.original-full-pending.json": "63f271956c375ff6adade157032d520175c6bb8f7fd2f2eec03c56d1f6a84fb9"
+  },
+  "strict_solution_axiom_build": {
+    "result": "passed",
+    "log": "verification/original-full-strict-audit.log"
+  },
+  "solution_modules_source_audited": 206,
+  "forbidden_constructs": 0,
+  "source_audit": "verification/source-audit.json",
+  "reused_source_files_unchanged": 74,
+  "reuse_manifest": "verification/source-reuse.json",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_correction": "On printed p. 105, the second-five-face degree-two vertex is q2; OCR had misread q1.",
+  "method": "Resolve both residual two-path obstructions, construct both actual final cut choices, prove the augmented short sets and colour restoration, orient the distinguished endpoint, close strong induction, assemble exterior components.",
+  "reproduce": "scripts/check-original-full.sh",
+  "review": "Self-assessed source alignment; independent Lean and NanoDa kernel checks; no independent human review claimed.",
+  "published": false,
+  "palomar_submitted": false,
+  "main_regression_gate": {
+    "config": "comparator.json",
+    "original_config_unchanged": true,
+    "original_definition_contracts": 9,
+    "result": "passed",
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/main-after-original-full-comparator.log"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "status": "verified_strict_induction_reductions",
+  "full_original_theorem_2_1_proved": false,
+  "input_invariant": "Thomassen.OriginalBoundaryInstance",
+  "input_invariant_has_extension_field": false,
+  "output_proposition": "Thomassen.OriginalBoundaryInstance.Extends",
+  "induction_closed": false,
+  "conditional_reductions": "The strict-induction lemmas require the original extension only on strictly smaller vertex types. This prerequisite has not been discharged by a full strong induction.",
+  "completed_original_proof_reductions": [
+    "Connected and two-connected reduction with actual native face cycle",
+    "Actual facial chord cuts",
+    "Original step (4): interior two-path exclusion at arbitrary short/exterior endpoints",
+    "Original step (5): interior three-path exclusion between arbitrary distinct short endpoints",
+    "Original step (6): separating cycles through six vertices",
+    "Low-degree restoration preserving both fixed colours",
+    "Five-face saturation, face permutation preservation and unique interior three-path"
+  ],
+  "remaining": [
+    "General fixed-endpoint normalization and consistent facial orientation for the remaining exceptional case",
+    "Predecessor/double-deletion setup in original step (9), beyond the previously closed short-bridge cases",
+    "Original step (10): full triple-deletion residual obstruction and final-cut argument",
+    "Close strong induction and export the unchanged exact global Theorem 2.1 target"
+  ],
+  "gates": [
+    {
+      "config": "comparator.original-induction.json",
+      "theorem_contracts": 30,
+      "definition_contracts": 0,
+      "challenge_imports": [
+        "Thomassen.OriginalInstance",
+        "Thomassen.FacialCycleRebase"
+      ],
+      "shared_input_invariant_imported": true,
+      "new_cut_proof_modules_imported": false,
+      "result": "passed",
+      "lean_kernel": "accepted",
+      "nanoda_kernel": "accepted",
+      "log": "verification/original-induction-comparator.log"
+    },
+    {
+      "config": "comparator.original-transport.json",
+      "theorem_contracts": 5,
+      "definition_contracts": 1,
+      "definition": "Thomassen.OriginalBoundaryInstance.pruneShort",
+      "challenge_imports": [
+        "Thomassen.OriginalInstance"
+      ],
+      "shared_input_invariant_imported": true,
+      "new_transport_proof_module_imported": false,
+      "result": "passed",
+      "lean_kernel": "accepted",
+      "nanoda_kernel": "accepted",
+      "log": "verification/original-transport-comparator.log"
+    }
+  ],
+  "strict_build": "verification/original-induction-strict-audit.log",
+  "source_audit": "verification/source-audit.json",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "geometry_reuse": "OriginalFaceSaturation, OriginalFacePreservation and OriginalFiveFaceUniqueness adapt the corresponding existing geometric proofs to the strict original invariant; the generic face-permutation and cut theorems are reused unchanged.",
+  "historical_checkpoint": true,
+  "superseded_by": "verification/original-full-status.json",
+  "current_full_original_theorem_2_1_proved": true
+}

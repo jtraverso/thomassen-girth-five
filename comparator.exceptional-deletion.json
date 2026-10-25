@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ThomassenExceptionalDeletionChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.boundary_component_exit_at_vertex",
+    "Thomassen.exists_outer_component_after_boundary_vertex_deletion",
+    "Thomassen.no_common_neighbour_of_no_two_path",
+    "Thomassen.exceptional_delete_old_list_unchanged",
+    "Thomassen.exceptional_delete_short_lists_independent",
+    "Thomassen.original_theorem_2_1_exceptional_colour_outside_other_list",
+    "Thomassen.original_theorem_2_1_of_long_exceptional_endpoint",
+    "Thomassen.exceptional_counterexample_endpoint_lists_equal_two"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

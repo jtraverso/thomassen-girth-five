@@ -1,0 +1,48 @@
+Resolving dependencies
+Building ThomassenFanChallenge
+⚠ [1418/1419] Replayed ThomassenFanChallenge
+warning: ThomassenFanChallenge.lean:30:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:34:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:38:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:43:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:48:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:53:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:59:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:68:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:90:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:97:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:117:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:123:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:136:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:157:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:165:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:177:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:195:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:202:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:220:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:242:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:257:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:283:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:302:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:311:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:320:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:328:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:334:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:341:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:346:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:365:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:376:8: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:385:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:402:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:407:6: declaration uses `sorry`
+warning: ThomassenFanChallenge.lean:417:8: declaration uses `sorry`
+Build completed successfully (1419 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.prefixCycleVertex_zero, Thomassen.prefixCycleVertex_last, Thomassen.prefixCycleVertex_injective, Thomassen.prefixCycleVertex_next, Thomassen.prefixCycleVertex_prev, Thomassen.prefixCycleVertex_isCycleMap, Thomassen.prefixCycleVertex_isFacialArc, Thomassen.full_face_chord_separation, Thomassen.cut_side_pair_properties, Thomassen.exists_cut_side_containing, Thomassen.BoundaryInstance.exists_rootStar_colours, Thomassen.BoundaryInstance.rootStar_extension_of_path, Thomassen.BoundaryInstance.rootStar_extension_of_two_neighbours, Thomassen.BoundaryInstance.induceUnprecolored_on_old_face, Thomassen.BoundaryInstance.rootStar_extension_of_induced_colourings, Thomassen.BoundaryInstance.rootStar_extension_of_star_cut, Thomassen.BoundaryInstance.exists_empty_cut_instance_with_root, Thomassen.BoundaryInstance.rootStar_extension_of_root_side_cut, Thomassen.BoundaryInstance.rootStar_extension_of_cutvertex, Thomassen.BoundaryInstance.rootStar_extension_of_facial_chord, Thomassen.BoundaryInstance.rootStar_extension_of_facial_boundary, Thomassen.BoundaryInstance.rootStar_extension_of_smaller, Thomassen.BoundaryPrecolor.cut_side_dichotomy_avoiding, Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_cut_piece, Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_cutvertex, Thomassen.BoundaryInstance.colourable_of_cutvertex, Thomassen.BoundaryInstance.delete_preconnected_of_minimal_counterexample, Thomassen.BoundaryInstance.colourable_of_card_le_two, Thomassen.BoundaryInstance.minimal_counterexample_has_native_face_cycle, Thomassen.full_face_chord_separation_at, Thomassen.BoundaryInstance.colourable_of_prescribed_boundary_chord, Thomassen.BoundaryInstance.prescribed_adj_consecutive_of_minimal_counterexample, Thomassen.cyclicSubgraph_adj_at_iff, Thomassen.cycle_range_eq_of_cycle_edges, Thomassen.BoundaryInstance.colourable_of_prescribed_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.prefixCycleVertex, Thomassen.rootStar, Thomassen.RootStarExtension] from ThomassenFanChallenge
+Building ThomassenSolution
+Build completed successfully (1501 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.prefixCycleVertex_zero, Thomassen.prefixCycleVertex_last, Thomassen.prefixCycleVertex_injective, Thomassen.prefixCycleVertex_next, Thomassen.prefixCycleVertex_prev, Thomassen.prefixCycleVertex_isCycleMap, Thomassen.prefixCycleVertex_isFacialArc, Thomassen.full_face_chord_separation, Thomassen.cut_side_pair_properties, Thomassen.exists_cut_side_containing, Thomassen.BoundaryInstance.exists_rootStar_colours, Thomassen.BoundaryInstance.rootStar_extension_of_path, Thomassen.BoundaryInstance.rootStar_extension_of_two_neighbours, Thomassen.BoundaryInstance.induceUnprecolored_on_old_face, Thomassen.BoundaryInstance.rootStar_extension_of_induced_colourings, Thomassen.BoundaryInstance.rootStar_extension_of_star_cut, Thomassen.BoundaryInstance.exists_empty_cut_instance_with_root, Thomassen.BoundaryInstance.rootStar_extension_of_root_side_cut, Thomassen.BoundaryInstance.rootStar_extension_of_cutvertex, Thomassen.BoundaryInstance.rootStar_extension_of_facial_chord, Thomassen.BoundaryInstance.rootStar_extension_of_facial_boundary, Thomassen.BoundaryInstance.rootStar_extension_of_smaller, Thomassen.BoundaryPrecolor.cut_side_dichotomy_avoiding, Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_cut_piece, Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_cutvertex, Thomassen.BoundaryInstance.colourable_of_cutvertex, Thomassen.BoundaryInstance.delete_preconnected_of_minimal_counterexample, Thomassen.BoundaryInstance.colourable_of_card_le_two, Thomassen.BoundaryInstance.minimal_counterexample_has_native_face_cycle, Thomassen.full_face_chord_separation_at, Thomassen.BoundaryInstance.colourable_of_prescribed_boundary_chord, Thomassen.BoundaryInstance.prescribed_adj_consecutive_of_minimal_counterexample, Thomassen.cyclicSubgraph_adj_at_iff, Thomassen.cycle_range_eq_of_cycle_edges, Thomassen.BoundaryInstance.colourable_of_prescribed_cycle, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.prefixCycleVertex, Thomassen.rootStar, Thomassen.RootStarExtension] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

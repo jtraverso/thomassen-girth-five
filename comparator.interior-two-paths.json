@@ -1,0 +1,33 @@
+{
+  "challenge_module": "ThomassenInteriorTwoPathChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.spliceFacePath_length",
+    "Thomassen.spliceFacePath_getVert_prefix",
+    "Thomassen.spliceFacePath_isCycle",
+    "Thomassen.spliceFacePath_drop_support",
+    "Thomassen.spliceFacePath_cycleVertex_prefix",
+    "Thomassen.spliceFacePath_arc",
+    "Thomassen.spliceFacePath_misses_next_vertex",
+    "Thomassen.spliceFacePath_isFacialAlong",
+    "Thomassen.spliceFacePath_root",
+    "Thomassen.native_facial_cycle_vertices_on_outer",
+    "Thomassen.closing_path_intersection_of_interior",
+    "Thomassen.interior_face_path_cut",
+    "Thomassen.BoundaryInstance.colourable_of_two_path_one_short_end",
+    "Thomassen.BoundaryInstance.colourable_of_two_path_optional_short_ends",
+    "Thomassen.chordless_cycle_prefix_adjacent_indices",
+    "Thomassen.first_interior_two_path_neighbour",
+    "Thomassen.BoundaryInstance.colourable_of_interior_two_path_free_arc",
+    "Thomassen.BoundaryInstance.interior_two_path_arc_meets_prescription_of_minimal_counterexample"
+  ],
+  "definition_names": [
+    "Thomassen.spliceFacePath"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

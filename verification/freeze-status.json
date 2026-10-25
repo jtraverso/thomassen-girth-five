@@ -1,0 +1,29 @@
+{
+  "status": "local_freeze_audit_passed",
+  "source_scope_complete": true,
+  "submission_config": "comparator.registry.json",
+  "theorem_contracts": 15,
+  "definition_contracts": 10,
+  "lean_kernel": "accepted",
+  "nanoda_kernel": "accepted",
+  "strict_build": "passed",
+  "metadata_schema": "v0.4 accepted",
+  "solution_modules_without_forbidden_constructs": 206,
+  "lean_sources_audited": 325,
+  "reused_source_hashes_unchanged": 74,
+  "original_contracts_unchanged": true,
+  "regenerated_challenge": "scripts/prepare-registry-contract.py",
+  "source_audit": "verification/freeze-source-audit.json",
+  "metadata_audit": "verification/freeze-metadata-audit.json",
+  "kernel_evidence": "verification/freeze-registry-verification.log",
+  "reproduce": [
+    "scripts/check-registry.sh",
+    "python3 scripts/audit-freeze.py"
+  ],
+  "github_publication": "pending_repository_destination",
+  "official_remote_preflight": "not_run_yet",
+  "palomar_submission": "not_submitted",
+  "network_observation": "Palomar intake and data domains return HTTP CONNECT 403 in this cloud environment; no bypass attempted.",
+  "independent_human_review_claimed": false,
+  "proof_source_changed_since_full_2_1_closure": false
+}

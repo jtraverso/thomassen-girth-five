@@ -1,0 +1,14 @@
+⚠ [1526/1527] Built ThomassenSixVertexProgressChallenge (1.1s)
+warning: ThomassenSixVertexProgressChallenge.lean:26:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:37:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:75:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:103:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:117:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:145:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:181:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:217:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:259:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:295:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:325:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:353:8: declaration uses `sorry`
+Build completed successfully (1527 jobs).

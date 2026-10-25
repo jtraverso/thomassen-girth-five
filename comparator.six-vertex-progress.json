@@ -1,0 +1,25 @@
+{
+  "challenge_module": "ThomassenSixVertexProgressChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.residual_eq_of_same_neighbours",
+    "Thomassen.BoundaryInstance.colourable_of_connected_residual_prescription_with_pinning",
+    "Thomassen.BoundaryInstance.colourable_of_six_vertex_backward_exception_good_fourth",
+    "Thomassen.BoundaryInstance.colourable_of_six_vertex_path_short_second_good_fourth",
+    "Thomassen.BoundaryInstance.remaining_six_vertex_counterexample_has_short_second_and_fourth",
+    "Thomassen.BoundaryInstance.colourable_of_residual_short_leaves_unique_parent",
+    "Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour_unique_boundary",
+    "Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion_unique_boundary",
+    "Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours_unique_boundary",
+    "Thomassen.BoundaryInstance.colourable_of_alternating_free_path_without_interior_three_path_unique_boundary",
+    "Thomassen.BoundaryInstance.colourable_of_six_vertex_path_with_unique_boundary_neighbours",
+    "Thomassen.BoundaryInstance.remaining_six_vertex_counterexample_has_mixed_exception"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

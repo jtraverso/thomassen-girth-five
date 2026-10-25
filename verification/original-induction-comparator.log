@@ -1,0 +1,43 @@
+Resolving dependencies
+Building ThomassenOriginalInductionChallenge
+⚠ [1631/1632] Built ThomassenOriginalInductionChallenge (1.1s)
+warning: ThomassenOriginalInductionChallenge.lean:17:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:27:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:37:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:43:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:55:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:66:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:81:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:85:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:90:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:101:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:113:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:134:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:151:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:167:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:178:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:195:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:203:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:217:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:222:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:233:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:242:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:256:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:268:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:279:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:299:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:312:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:328:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:350:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:365:8: declaration uses `sorry`
+warning: ThomassenOriginalInductionChallenge.lean:379:8: declaration uses `sorry`
+Build completed successfully (1632 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.OriginalBoundaryInstance.extends_of_glued_colourings, Thomassen.OriginalBoundaryInstance.extend_vertex_on_induced_face_of_smaller, Thomassen.OriginalBoundaryInstance.extends_of_cutvertex, Thomassen.OriginalBoundaryInstance.extends_of_edge_separation, Thomassen.OriginalBoundaryInstance.extends_of_edge_cut, Thomassen.OriginalBoundaryInstance.extends_of_boundary_chord, Thomassen.OriginalBoundaryInstance.extends_of_card_le_two, Thomassen.OriginalBoundaryInstance.extends_of_disconnected, Thomassen.OriginalBoundaryInstance.minimal_counterexample_has_chordless_native_face_cycle, Thomassen.OriginalBoundaryInstance.extends_of_separating_short_cycle, Thomassen.OriginalBoundaryInstance.extends_of_short_leaf_edge_cut, Thomassen.interior_path_cut_both_faces, Thomassen.OriginalBoundaryInstance.extends_of_short_leaf_edge_separation, Thomassen.OriginalBoundaryInstance.extends_of_interior_two_path, Thomassen.OriginalBoundaryInstance.extends_of_interior_three_path, Thomassen.OriginalBoundaryInstance.extends_of_few_neighbours, Thomassen.OriginalBoundaryInstance.list_card_le_degree_of_minimal_counterexample, Thomassen.cycle_index_bounds_of_nonadjacent, Thomassen.OriginalBoundaryInstance.exists_native_face_cycle_at, Thomassen.OriginalBoundaryInstance.no_interior_two_path_of_minimal_counterexample, Thomassen.OriginalBoundaryInstance.no_interior_three_path_of_minimal_counterexample, Thomassen.OriginalBoundaryInstance.neighbours_on_short_facial_arc_stay_on_cycle, Thomassen.OriginalBoundaryInstance.short_facial_arc_backward_region_empty, Thomassen.OriginalBoundaryInstance.neighbours_on_short_closed_face_prefix, Thomassen.OriginalBoundaryInstance.short_facial_arc_backward_face_preserved, Thomassen.OriginalBoundaryInstance.short_closed_face_prefix_inner_face_vertices, Thomassen.OriginalBoundaryInstance.short_closed_face_prefix_unique, Thomassen.OriginalBoundaryInstance.interior_three_path_facial_corners, Thomassen.OriginalBoundaryInstance.interior_three_path_across_two_face_edges_unique, Thomassen.OriginalBoundaryInstance.middle_vertex_of_interior_three_path_neighbours, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenOriginalInductionChallenge
+Building ThomassenSolution
+Build completed successfully (1704 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.OriginalBoundaryInstance.extends_of_glued_colourings, Thomassen.OriginalBoundaryInstance.extend_vertex_on_induced_face_of_smaller, Thomassen.OriginalBoundaryInstance.extends_of_cutvertex, Thomassen.OriginalBoundaryInstance.extends_of_edge_separation, Thomassen.OriginalBoundaryInstance.extends_of_edge_cut, Thomassen.OriginalBoundaryInstance.extends_of_boundary_chord, Thomassen.OriginalBoundaryInstance.extends_of_card_le_two, Thomassen.OriginalBoundaryInstance.extends_of_disconnected, Thomassen.OriginalBoundaryInstance.minimal_counterexample_has_chordless_native_face_cycle, Thomassen.OriginalBoundaryInstance.extends_of_separating_short_cycle, Thomassen.OriginalBoundaryInstance.extends_of_short_leaf_edge_cut, Thomassen.interior_path_cut_both_faces, Thomassen.OriginalBoundaryInstance.extends_of_short_leaf_edge_separation, Thomassen.OriginalBoundaryInstance.extends_of_interior_two_path, Thomassen.OriginalBoundaryInstance.extends_of_interior_three_path, Thomassen.OriginalBoundaryInstance.extends_of_few_neighbours, Thomassen.OriginalBoundaryInstance.list_card_le_degree_of_minimal_counterexample, Thomassen.cycle_index_bounds_of_nonadjacent, Thomassen.OriginalBoundaryInstance.exists_native_face_cycle_at, Thomassen.OriginalBoundaryInstance.no_interior_two_path_of_minimal_counterexample, Thomassen.OriginalBoundaryInstance.no_interior_three_path_of_minimal_counterexample, Thomassen.OriginalBoundaryInstance.neighbours_on_short_facial_arc_stay_on_cycle, Thomassen.OriginalBoundaryInstance.short_facial_arc_backward_region_empty, Thomassen.OriginalBoundaryInstance.neighbours_on_short_closed_face_prefix, Thomassen.OriginalBoundaryInstance.short_facial_arc_backward_face_preserved, Thomassen.OriginalBoundaryInstance.short_closed_face_prefix_inner_face_vertices, Thomassen.OriginalBoundaryInstance.short_closed_face_prefix_unique, Thomassen.OriginalBoundaryInstance.interior_three_path_facial_corners, Thomassen.OriginalBoundaryInstance.interior_three_path_across_two_face_edges_unique, Thomassen.OriginalBoundaryInstance.middle_vertex_of_interior_three_path_neighbours, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

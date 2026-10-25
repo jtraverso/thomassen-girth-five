@@ -1,0 +1,105 @@
+{
+  "status": "complete_locally_verified",
+  "requested_items": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "deliveries": [
+    {
+      "number": 1,
+      "result": "Proper short boundary-path precolouring extension, including proper chords and multiple exterior components",
+      "declarations": [
+        "Thomassen.dvorak_kawarabayashi_theorem_1",
+        "Thomassen.dvorak_kawarabayashi_theorem_1_global"
+      ],
+      "sources": [
+        "Dvořák–Kawarabayashi (2011), arXiv:1109.2976, Theorem 1, attributed to Thomassen"
+      ],
+      "module": "Thomassen.PublicBoundaryGlobal",
+      "type": "Source-aligned public interface over the already proved connected-prescription infrastructure"
+    },
+    {
+      "number": 2,
+      "result": "Infinite finite-list 3-colourability from planar girth-five finite induced subgraphs",
+      "declarations": [
+        "Thomassen.listColourable_of_finite_induced",
+        "Thomassen.infinite_three_list_colourable",
+        "Thomassen.infinite_three_list_colourable_of_egirth"
+      ],
+      "sources": [
+        "Thomassen (1995), finite theorem",
+        "Rado (1949), doi:10.4153/CJM-1949-031-1",
+        "de Bruijn–Erdős (1951), historical finite-subgraph principle"
+      ],
+      "module": "Thomassen.InfiniteChoosability",
+      "reuse": "Finset.rado_selection_subtype, already proved in pinned Mathlib by Bhavik Mehta",
+      "scope": "Finite lists at each vertex; arbitrary vertex and total colour types; finite-subgraph planarity stated explicitly"
+    },
+    {
+      "number": 3,
+      "result": "Arbitrary five/six-cycle precolouring extension, including separating cycles and other components",
+      "declarations": [
+        "Thomassen.extend_any_short_cycle"
+      ],
+      "sources": [
+        "Thomassen (1995), abstract and Corollary 2.2 for five-cycles",
+        "Derived six-cycle consequence of the existing short-boundary theorem; unsigned Jin–Kang–Steffen Appendix Theorem 5.1 route"
+      ],
+      "module": "Thomassen.ArbitraryShortCycle",
+      "reuse": "Actual induced side separation and colouring glue"
+    },
+    {
+      "number": 4,
+      "result": "Outer seven-cycle list-precolouring extension in girth at least five",
+      "declarations": [
+        "Thomassen.extend_outer_seven_cycle_map",
+        "Thomassen.extend_outer_seven_cycle"
+      ],
+      "sources": [
+        "Asghar (2012), Grötzsch's Theorem, Lemma 3.2.3, seven-cycle specialization"
+      ],
+      "module": "Thomassen.OuterSevenCycle",
+      "proof": "Release a vertex with differently coloured neighbours; six-vertex prescription forces its original colour back",
+      "not_claimed": [
+        "Whole essay",
+        "Outer-four-cycle exception",
+        "Whole simultaneous three-state induction",
+        "Mathematical novelty"
+      ]
+    }
+  ],
+  "gate": {
+    "config": "comparator.byproducts.json",
+    "challenge": "ThomassenByproductsChallenge",
+    "challenge_imports": [
+      "Thomassen.CycleWalk",
+      "Thomassen.OuterBoundary"
+    ],
+    "new_proof_modules_imported": false,
+    "theorem_contracts": 12,
+    "new_definition_holes": 0,
+    "result": "passed",
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/byproducts-comparator.log"
+  },
+  "strict_build": "verification/byproducts-strict-audit.log",
+  "source_audit": "verification/source-audit.json",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "main_original_theorem_2_1_complete": false,
+  "remaining_original_case": "Separated exceptional edge with identical two-element endpoint lists, plus the exact full componentwise assembly",
+  "paper_provenance": "README.md: Additional results and paper provenance for Palomar",
+  "publication": {
+    "published": false,
+    "registry_submitted": false
+  },
+  "historical_checkpoint": true,
+  "superseded_by": "verification/original-full-status.json",
+  "current_full_original_theorem_2_1_proved": true
+}

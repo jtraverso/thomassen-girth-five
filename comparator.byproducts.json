@@ -1,0 +1,25 @@
+{
+  "challenge_module": "ThomassenByproductsChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.colourable_connected_boundary_set_six",
+    "Thomassen.dvorak_kawarabayashi_theorem_1",
+    "Thomassen.dvorak_kawarabayashi_theorem_1_global",
+    "Thomassen.listColourable_of_finite_induced",
+    "Thomassen.infinite_three_list_colourable",
+    "Thomassen.infinite_three_list_colourable_of_egirth",
+    "Thomassen.extend_short_cycle_of_preconnected",
+    "Thomassen.extend_any_short_cycle",
+    "Thomassen.cycle_isChordless_of_length_le_seven",
+    "Thomassen.seven_cycle_exists_distinct_neighbour_colours",
+    "Thomassen.extend_outer_seven_cycle_map",
+    "Thomassen.extend_outer_seven_cycle"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

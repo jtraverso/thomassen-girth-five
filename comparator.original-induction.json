@@ -1,0 +1,43 @@
+{
+  "challenge_module": "ThomassenOriginalInductionChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.OriginalBoundaryInstance.extends_of_glued_colourings",
+    "Thomassen.OriginalBoundaryInstance.extend_vertex_on_induced_face_of_smaller",
+    "Thomassen.OriginalBoundaryInstance.extends_of_cutvertex",
+    "Thomassen.OriginalBoundaryInstance.extends_of_edge_separation",
+    "Thomassen.OriginalBoundaryInstance.extends_of_edge_cut",
+    "Thomassen.OriginalBoundaryInstance.extends_of_boundary_chord",
+    "Thomassen.OriginalBoundaryInstance.extends_of_card_le_two",
+    "Thomassen.OriginalBoundaryInstance.extends_of_disconnected",
+    "Thomassen.OriginalBoundaryInstance.minimal_counterexample_has_chordless_native_face_cycle",
+    "Thomassen.OriginalBoundaryInstance.extends_of_separating_short_cycle",
+    "Thomassen.OriginalBoundaryInstance.extends_of_short_leaf_edge_cut",
+    "Thomassen.interior_path_cut_both_faces",
+    "Thomassen.OriginalBoundaryInstance.extends_of_short_leaf_edge_separation",
+    "Thomassen.OriginalBoundaryInstance.extends_of_interior_two_path",
+    "Thomassen.OriginalBoundaryInstance.extends_of_interior_three_path",
+    "Thomassen.OriginalBoundaryInstance.extends_of_few_neighbours",
+    "Thomassen.OriginalBoundaryInstance.list_card_le_degree_of_minimal_counterexample",
+    "Thomassen.cycle_index_bounds_of_nonadjacent",
+    "Thomassen.OriginalBoundaryInstance.exists_native_face_cycle_at",
+    "Thomassen.OriginalBoundaryInstance.no_interior_two_path_of_minimal_counterexample",
+    "Thomassen.OriginalBoundaryInstance.no_interior_three_path_of_minimal_counterexample",
+    "Thomassen.OriginalBoundaryInstance.neighbours_on_short_facial_arc_stay_on_cycle",
+    "Thomassen.OriginalBoundaryInstance.short_facial_arc_backward_region_empty",
+    "Thomassen.OriginalBoundaryInstance.neighbours_on_short_closed_face_prefix",
+    "Thomassen.OriginalBoundaryInstance.short_facial_arc_backward_face_preserved",
+    "Thomassen.OriginalBoundaryInstance.short_closed_face_prefix_inner_face_vertices",
+    "Thomassen.OriginalBoundaryInstance.short_closed_face_prefix_unique",
+    "Thomassen.OriginalBoundaryInstance.interior_three_path_facial_corners",
+    "Thomassen.OriginalBoundaryInstance.interior_three_path_across_two_face_edges_unique",
+    "Thomassen.OriginalBoundaryInstance.middle_vertex_of_interior_three_path_neighbours"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

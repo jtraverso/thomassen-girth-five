@@ -1,0 +1,8 @@
+⚠ [1392/1393] Built ThomassenInstanceChallenge (914ms)
+warning: ThomassenInstanceChallenge.lean:26:6: declaration uses `sorry`
+warning: ThomassenInstanceChallenge.lean:58:6: declaration uses `sorry`
+warning: ThomassenInstanceChallenge.lean:63:6: declaration uses `sorry`
+warning: ThomassenInstanceChallenge.lean:70:6: declaration uses `sorry`
+warning: ThomassenInstanceChallenge.lean:121:6: declaration uses `sorry`
+warning: ThomassenInstanceChallenge.lean:127:6: declaration uses `sorry`
+Build completed successfully (1393 jobs).

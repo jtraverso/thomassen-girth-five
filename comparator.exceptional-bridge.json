@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ThomassenExceptionalBridgeChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.extend_small_colour_core_of_short_edges_covered",
+    "Thomassen.original_theorem_2_1_exceptional_joined",
+    "Thomassen.original_theorem_2_1_exceptional_boundary_bridge",
+    "Thomassen.exceptional_counterexample_no_short_outer_bridge",
+    "Thomassen.listColourable_of_one_short_edge_on_face",
+    "Thomassen.assemble_fixed_component_with_one_short_edge",
+    "Thomassen.exceptional_counterexample_fixed_component",
+    "Thomassen.exceptional_global_counterexample_normal_form"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

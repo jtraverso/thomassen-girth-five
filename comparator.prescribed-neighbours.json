@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ThomassenPrescribedNeighboursChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.colourable_induced_with_compatible_path_star",
+    "Thomassen.BoundaryInstance.exists_oriented_native_face_for_prescribed_path",
+    "Thomassen.BoundaryInstance.colourable_of_central_prescribed_two_path",
+    "Thomassen.BoundaryInstance.colourable_of_central_prescribed_two_path_arbitrary_face",
+    "Thomassen.path_neighbour_indices_gap",
+    "Thomassen.BoundaryInstance.no_interior_prescribed_pair_at_initial_vertex",
+    "Thomassen.BoundaryInstance.no_interior_prescribed_pair_at_terminal_vertex",
+    "Thomassen.BoundaryInstance.interior_prescribed_neighbour_unique"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

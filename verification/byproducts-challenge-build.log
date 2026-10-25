@@ -1,0 +1,14 @@
+⚠ [1398/1399] Built ThomassenByproductsChallenge (977ms)
+warning: ThomassenByproductsChallenge.lean:22:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:35:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:57:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:77:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:83:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:89:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:103:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:111:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:127:6: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:138:6: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:142:8: declaration uses `sorry`
+warning: ThomassenByproductsChallenge.lean:152:8: declaration uses `sorry`
+Build completed successfully (1399 jobs).

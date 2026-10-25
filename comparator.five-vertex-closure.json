@@ -1,0 +1,35 @@
+{
+  "challenge_module": "ThomassenFiveVertexClosureChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.colourable_of_alternating_free_path_without_interior_three_path",
+    "Thomassen.facePerm_preserved_of_chordless_empty_region",
+    "Thomassen.outerFace_vertices_of_backward_cycle_preserved",
+    "Thomassen.BoundaryInstance.short_facial_arc_backward_face_preserved",
+    "Thomassen.BoundaryInstance.short_closed_face_prefix_inner_face_vertices",
+    "Thomassen.BoundaryInstance.short_closed_face_prefix_unique",
+    "Thomassen.BoundaryInstance.interior_three_path_facial_corners",
+    "Thomassen.BoundaryInstance.interior_three_path_across_two_face_edges_unique",
+    "Thomassen.BoundaryInstance.middle_vertex_of_interior_three_path_neighbours",
+    "Thomassen.BoundaryInstance.colourable_of_residual_short_leaves",
+    "Thomassen.BoundaryInstance.remaining_alternating_counterexample_has_unique_five_face",
+    "Thomassen.BoundaryInstance.inner_five_face_interior_attachments_independent",
+    "Thomassen.off_five_cycle_neighbours_unique",
+    "Thomassen.off_native_five_cycle_neighbours_card_le_one",
+    "Thomassen.residual_native_five_cycle_card_ge_two",
+    "Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour",
+    "Thomassen.BoundaryInstance.remaining_short_prescription_counterexample_alternating",
+    "Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion",
+    "Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours",
+    "Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_five_native_face",
+    "Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_five",
+    "Thomassen.BoundaryInstance.remaining_counterexample_has_six_prescribed_vertices"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

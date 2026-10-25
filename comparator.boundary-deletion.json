@@ -1,0 +1,28 @@
+{
+  "challenge_module": "ThomassenBoundaryDeletionChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.componentVertexSet_subset",
+    "Thomassen.componentVertexSet_adj_closed",
+    "Thomassen.native_facial_step_sameCycle",
+    "Thomassen.native_cycle_component_exit",
+    "Thomassen.component_has_deleted_neighbour",
+    "Thomassen.exists_outer_component_after_connected_boundary_deletion",
+    "Thomassen.BoundaryPrecolor.exists_induce_component",
+    "Thomassen.BoundaryInstance.colourable_of_connected_boundary_deletion",
+    "Thomassen.chordless_native_cycle_vertex_neighbours",
+    "Thomassen.BoundaryInstance.interior_boundary_neighbour_unique_of_prescribed_edge",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_edge_short_second_good_fourth",
+    "Thomassen.BoundaryInstance.prescribed_edge_fourth_boundary_list_le_two",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_edge_six_vertex_face",
+    "Thomassen.BoundaryInstance.colourable_of_compatible_short_facial_cycle",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_edge_five_vertex_face"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

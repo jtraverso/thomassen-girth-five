@@ -1,0 +1,35 @@
+Resolving dependencies
+Building ThomassenAugmentedChallenge
+⚠ [1405/1406] Replayed ThomassenAugmentedChallenge
+warning: ThomassenAugmentedChallenge.lean:26:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:30:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:36:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:46:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:56:8: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:77:8: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:98:8: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:129:8: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:148:8: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:176:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:200:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:203:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:209:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:213:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:218:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:223:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:228:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:234:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:238:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:244:8: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:252:6: declaration uses `sorry`
+warning: ThomassenAugmentedChallenge.lean:258:8: declaration uses `sorry`
+Build completed successfully (1406 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.four_edge_path_isChordless, Thomassen.endpoint_neighbour_unique_of_chordless_cons, Thomassen.short_path_endpoint_neighbour_unique, Thomassen.BoundaryInstance.extend_colouring_over_short_set, Thomassen.BoundaryInstance.colourable_of_augmented_short_path_cut, Thomassen.BoundaryInstance.colourable_of_short_path_with_two_short_ends, Thomassen.BoundaryInstance.colourable_of_short_path_with_one_short_end, Thomassen.BoundaryInstance.colourable_of_native_short_path_with_one_short_end, Thomassen.BoundaryInstance.colourable_of_native_short_path_with_two_short_ends, Thomassen.exists_walk_of_cycleMap, Thomassen.faceOrbitLength_pos, Thomassen.faceOrbitLength_three_le, Thomassen.faceOrbitDart_sameCycle, Thomassen.faceOrbitDart_injective, Thomassen.faceOrbitDart_next, Thomassen.faceOrbitVertex_injective, Thomassen.faceOrbitVertex_isCycleMap, Thomassen.faceOrbitVertex_range, Thomassen.faceOrbitVertex_isFacial, Thomassen.exists_native_face_cycle, Thomassen.two_le_card_neighbours_of_delete_preconnected, Thomassen.exists_native_face_cycle_of_delete_preconnected, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.faceOrbitLength, Thomassen.faceOrbitDart, Thomassen.faceOrbitVertex] from ThomassenAugmentedChallenge
+Building ThomassenSolution
+Build completed successfully (1492 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.four_edge_path_isChordless, Thomassen.endpoint_neighbour_unique_of_chordless_cons, Thomassen.short_path_endpoint_neighbour_unique, Thomassen.BoundaryInstance.extend_colouring_over_short_set, Thomassen.BoundaryInstance.colourable_of_augmented_short_path_cut, Thomassen.BoundaryInstance.colourable_of_short_path_with_two_short_ends, Thomassen.BoundaryInstance.colourable_of_short_path_with_one_short_end, Thomassen.BoundaryInstance.colourable_of_native_short_path_with_one_short_end, Thomassen.BoundaryInstance.colourable_of_native_short_path_with_two_short_ends, Thomassen.exists_walk_of_cycleMap, Thomassen.faceOrbitLength_pos, Thomassen.faceOrbitLength_three_le, Thomassen.faceOrbitDart_sameCycle, Thomassen.faceOrbitDart_injective, Thomassen.faceOrbitDart_next, Thomassen.faceOrbitVertex_injective, Thomassen.faceOrbitVertex_isCycleMap, Thomassen.faceOrbitVertex_range, Thomassen.faceOrbitVertex_isFacial, Thomassen.exists_native_face_cycle, Thomassen.two_le_card_neighbours_of_delete_preconnected, Thomassen.exists_native_face_cycle_of_delete_preconnected, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.faceOrbitLength, Thomassen.faceOrbitDart, Thomassen.faceOrbitVertex] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

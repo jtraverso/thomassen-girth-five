@@ -1,0 +1,41 @@
+{
+  "challenge_module": "ThomassenBoundaryChordChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.exists_prescribed_rootStar_colours",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_prescribed_path",
+    "Thomassen.BoundaryInstance.induced_precolor_card_le",
+    "Thomassen.BoundaryInstance.anchoredFan_on_induced",
+    "Thomassen.BoundaryInstance.rootStar_on_released_spoke_piece",
+    "Thomassen.BoundaryInstance.exists_short_prescribed_path",
+    "Thomassen.BoundaryInstance.anchoredFan_extension_of_prescribed_cut",
+    "Thomassen.BoundaryInstance.anchoredFan_extension_of_prescribed_spoke_cut",
+    "Thomassen.BoundaryInstance.anchoredFan_extension_of_one_sided_spoke",
+    "Thomassen.BoundaryInstance.anchoredFan_extension_of_spoke_cut",
+    "Thomassen.BoundaryInstance.anchoredFan_extension_of_prescribed_edge_cut",
+    "Thomassen.BoundaryInstance.anchoredFan_extension_of_cutvertex",
+    "Thomassen.BoundaryInstance.rootStar_extension_of_attached_short_path",
+    "Thomassen.cyclicSubgraph_third_neighbour",
+    "Thomassen.short_facial_path_attachment_is_endpoint",
+    "Thomassen.BoundaryInstance.anchoredFan_adj_consecutive_of_strict_induction",
+    "Thomassen.BoundaryInstance.anchoredFan_extension_of_facial_boundary",
+    "Thomassen.BoundaryInstance.anchoredFan_extension_of_smaller",
+    "Thomassen.external_short_path_neighbour_unique",
+    "Thomassen.BoundaryInstance.exists_rootStar_colours_avoiding_precolor",
+    "Thomassen.BoundaryInstance.colourable_of_mixed_two_edge_branch_cut",
+    "Thomassen.BoundaryInstance.colourable_of_mixed_prescription_edge_cut",
+    "Thomassen.BoundaryInstance.colourable_of_path_boundary_chord",
+    "Thomassen.BoundaryInstance.colourable_of_boundary_chord",
+    "Thomassen.BoundaryInstance.boundary_adj_consecutive_of_minimal_counterexample",
+    "Thomassen.BoundaryInstance.minimal_counterexample_has_chordless_native_face_cycle"
+  ],
+  "definition_names": [
+    "Thomassen.AnchoredFanBelow"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

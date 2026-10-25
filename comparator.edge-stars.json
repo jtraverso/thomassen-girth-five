@@ -1,0 +1,41 @@
+{
+  "challenge_module": "ThomassenEdgeStarChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_path",
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_two_neighbours",
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_induced_colourings",
+    "Thomassen.BoundaryInstance.edgeStar_colouring_on_smaller_induced",
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_edge_cut",
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_root_cut",
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_separate_cut",
+    "Thomassen.exists_cut_side_containing_edge",
+    "Thomassen.edgeStar_other_side_subset_rootStar",
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_cutvertex",
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_spoke_cut",
+    "Thomassen.BoundaryInstance.edgeStar_adj_consecutive_of_strict_induction",
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_facial_boundary",
+    "Thomassen.BoundaryInstance.edgeStar_extension_of_smaller",
+    "Thomassen.BoundaryInstance.exists_edgeStar_colours",
+    "Thomassen.BoundaryInstance.exists_empty_induced_releasing_edge",
+    "Thomassen.BoundaryInstance.colourable_of_edge_cut_with_one_sided_prescription",
+    "Thomassen.walk_side_of_avoids_two_cut",
+    "Thomassen.BoundaryPrecolor.edge_cut_dichotomy_avoiding",
+    "Thomassen.BoundaryInstance.colourable_of_unprescribed_edge_cut",
+    "Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_chord",
+    "Thomassen.BoundaryInstance.boundary_chord_exactly_one_prescribed_end",
+    "Thomassen.path_side_dichotomy_avoiding_other_separator",
+    "Thomassen.BoundaryInstance.colourable_of_path_endpoint_edge_cut",
+    "Thomassen.BoundaryInstance.colourable_of_path_endpoint_boundary_chord"
+  ],
+  "definition_names": [
+    "Thomassen.edgeStar",
+    "Thomassen.EdgeStarExtension"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

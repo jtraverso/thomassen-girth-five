@@ -1,0 +1,9 @@
+⚠ [1372/1373] Built ThomassenGeometryChallenge (834ms)
+warning: ThomassenGeometryChallenge.lean:33:6: declaration uses `sorry`
+warning: ThomassenGeometryChallenge.lean:49:6: declaration uses `sorry`
+warning: ThomassenGeometryChallenge.lean:56:6: declaration uses `sorry`
+warning: ThomassenGeometryChallenge.lean:76:6: declaration uses `sorry`
+warning: ThomassenGeometryChallenge.lean:87:6: declaration uses `sorry`
+warning: ThomassenGeometryChallenge.lean:101:6: declaration uses `sorry`
+warning: ThomassenGeometryChallenge.lean:107:6: declaration uses `sorry`
+Build completed successfully (1373 jobs).

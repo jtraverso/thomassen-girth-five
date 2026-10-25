@@ -1,0 +1,20 @@
+Resolving dependencies
+Building ThomassenPrescribedTwoPathChallenge
+⚠ [1464/1465] Replayed ThomassenPrescribedTwoPathChallenge
+warning: ThomassenPrescribedTwoPathChallenge.lean:25:8: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:56:8: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:74:6: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:89:8: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:107:6: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:124:8: declaration uses `sorry`
+warning: ThomassenPrescribedTwoPathChallenge.lean:138:6: declaration uses `sorry`
+Build completed successfully (1465 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_induced_with_compatible_prescription, Thomassen.BoundaryInstance.colourable_of_prescribed_prefix_interior_two_path, Thomassen.BoundaryInstance.prescribed_path_forward_of_first_face_vertex, Thomassen.BoundaryInstance.no_interior_two_path_from_forward_prescribed_endpoint, Thomassen.BoundaryInstance.prescribed_endpoint_no_shared_prescribed_neighbour, Thomassen.BoundaryInstance.colourable_of_good_second_boundary_list_all_prescriptions, Thomassen.BoundaryInstance.prescribed_second_boundary_list_le_two, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenPrescribedTwoPathChallenge
+Building ThomassenSolution
+Build completed successfully (1540 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_induced_with_compatible_prescription, Thomassen.BoundaryInstance.colourable_of_prescribed_prefix_interior_two_path, Thomassen.BoundaryInstance.prescribed_path_forward_of_first_face_vertex, Thomassen.BoundaryInstance.no_interior_two_path_from_forward_prescribed_endpoint, Thomassen.BoundaryInstance.prescribed_endpoint_no_shared_prescribed_neighbour, Thomassen.BoundaryInstance.colourable_of_good_second_boundary_list_all_prescriptions, Thomassen.BoundaryInstance.prescribed_second_boundary_list_le_two, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

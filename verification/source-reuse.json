@@ -1,0 +1,672 @@
+{
+  "all_imported_proof_bodies_preserved_up_to_documented_binder_renaming": true,
+  "files": [
+    {
+      "path": "Challenge.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "24d04848bc213cb355191d537fe6571137beb56a02ef4a12a9e7bb111108ef54",
+      "current_sha256": "2b856924a074d0a128f8265167830c1a03bfacc2c0435bf65bf18fe548205933",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Basic.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "7e3bb9ad719bff030ef63039c45881d1c447c4715401a8cb14487db16de0c0fd",
+      "current_sha256": "7e3bb9ad719bff030ef63039c45881d1c447c4715401a8cb14487db16de0c0fd",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Boundary.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "eb802e55b13cf9dbfe742bc24480068092ee3453542727f070ec2f93cf26f243",
+      "current_sha256": "eb802e55b13cf9dbfe742bc24480068092ee3453542727f070ec2f93cf26f243",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Cases.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "61202fbf2a734f41963f9273fe71f16ca5883e21ad32e0184784ec178e434cc3",
+      "current_sha256": "61202fbf2a734f41963f9273fe71f16ca5883e21ad32e0184784ec178e434cc3",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Cases789.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "5d5a0a60fc6d46a3cc57f45164b9469820b90eb827445596783d1fe661ccdbb4",
+      "current_sha256": "5d5a0a60fc6d46a3cc57f45164b9469820b90eb827445596783d1fe661ccdbb4",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Correspondence.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "86eb3a8472ae4b8402f7c918dc5dc9ef651b9d973d319258d2eeb1deffdb1826",
+      "current_sha256": "86eb3a8472ae4b8402f7c918dc5dc9ef651b9d973d319258d2eeb1deffdb1826",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Extension.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "cbc62d4bc032073de35aff184fb12adc509586c9aa6bf124ee084b9a5305ffab",
+      "current_sha256": "cbc62d4bc032073de35aff184fb12adc509586c9aa6bf124ee084b9a5305ffab",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Frontier/WagnerCorollaries.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "f0f95c1c9c99d272989f3d348fcd2a8244417b489847a9f3aec3f1280586aa70",
+      "current_sha256": "2a551dedfcd7ea4890a199e0c3882a8470e4da2a683e39cee4466adc2c6b6a79",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Lemma5.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "781bad91238bdc4426828139cec2f018d8b52a61d31b25be9e28847067cf5afe",
+      "current_sha256": "781bad91238bdc4426828139cec2f018d8b52a61d31b25be9e28847067cf5afe",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Minor.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "a41798729d4a8fb3889e73a9f0c199ba5b962e075d51b5fba008f481c427637c",
+      "current_sha256": "a41798729d4a8fb3889e73a9f0c199ba5b962e075d51b5fba008f481c427637c",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Colouring.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "0a598954aa044b68f2d1a71d58ad4281b6ebad93e1732e2fdb76432df34c1560",
+      "current_sha256": "0a598954aa044b68f2d1a71d58ad4281b6ebad93e1732e2fdb76432df34c1560",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Embedding.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "715938adcf4d78333a287e9a9f25e34dc715dbcac238267e7b5b84d5b0bb6f39",
+      "current_sha256": "75c841d74f4c90f210ac98c6ae94ed0fe081ed65545d0e6b60dd02ae1a73c49a",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Examples.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "ebd3da595e12ec1af8ffb0478122187d2734e96340cd191780cfff9a7f582227",
+      "current_sha256": "ebd3da595e12ec1af8ffb0478122187d2734e96340cd191780cfff9a7f582227",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Hypermap.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "b7fb58a13f36212b58bf484602363e5bc5bf1b14de426ecd2ed7563de6d49ffd",
+      "current_sha256": "b7fb58a13f36212b58bf484602363e5bc5bf1b14de426ecd2ed7563de6d49ffd",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/MinorClosed.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "d968f9d6952fbbe56b8386c044bf4d338e0369f0b1aca5dc4bc502c9bd77176d",
+      "current_sha256": "d968f9d6952fbbe56b8386c044bf4d338e0369f0b1aca5dc4bc502c9bd77176d",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/MinorModel.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "e306eb2431697ed5d742d91bb37351a827dae5aa3bc72c401528fa201b729767",
+      "current_sha256": "e306eb2431697ed5d742d91bb37351a827dae5aa3bc72c401528fa201b729767",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Nonplanar.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "01aaeb5943aba2151294f61aa64aa9b13472a59a6747614c0d17f0d8c5c654d1",
+      "current_sha256": "01aaeb5943aba2151294f61aa64aa9b13472a59a6747614c0d17f0d8c5c654d1",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/Orbits.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "13a591b8a0390187805d65c7d0bd8ade8e869b8503de5b50a3e8343c32606972",
+      "current_sha256": "bead323ec2257f0e824881fc31f144e26bd269d8619eda51a464c30ceb8996d6",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Reach.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "fe9787c9cd3f5bd1a3758c07511441aeb2358bd447cdd69485cafe30aa12158a",
+      "current_sha256": "8620e554bda75ed9f068a659a5fe533eebac0b474f75bb684a3462c87de0b1a2",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/RootedK3.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "1d39f88621d1857fb17533ba7807fd42280e2a5ac9686f0e8f7749cd0403f7e2",
+      "current_sha256": "1d39f88621d1857fb17533ba7807fd42280e2a5ac9686f0e8f7749cd0403f7e2",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Signed.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "6e8a562abc3b77202e055246e4e84aec5faabe0e53b39830dd5b45cce58b13bd",
+      "current_sha256": "c7fb313b835cbfa5f58d467eb30340d05545461c77ad5cdd776ca1e1d8c5b26a",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Split.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "94cf641f3433520c4f54fe285f323bf13354782d4275d2263fce896503549999",
+      "current_sha256": "94cf641f3433520c4f54fe285f323bf13354782d4275d2263fce896503549999",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/Forcing.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "2cffeb83063bb266bd6fbff08d1c5e6547e4e94cfc89f48f2a92f2f5f67d1f18",
+      "current_sha256": "2cffeb83063bb266bd6fbff08d1c5e6547e4e94cfc89f48f2a92f2f5f67d1f18",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/Graph.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "ecfac0c93fd60e60324a0b0c3d2f84b988e73100913fde17116bca4ccf1f5ce4",
+      "current_sha256": "ecfac0c93fd60e60324a0b0c3d2f84b988e73100913fde17116bca4ccf1f5ce4",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/Hexagon.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "5a5992afe706ec87b05fc53862dd6910d859e55e4e7faf5716ac88c56a43685b",
+      "current_sha256": "5a5992afe706ec87b05fc53862dd6910d859e55e4e7faf5716ac88c56a43685b",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/PlaneMap.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "c2de6874e509233845c8fb2aeae6166b20961fb3d46cbf1ed886a3799c585391",
+      "current_sha256": "c2de6874e509233845c8fb2aeae6166b20961fb3d46cbf1ed886a3799c585391",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/RotationChecks.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "90fb4515a1f81266cbaabec6bea0281b931f3bbda9e4251733050c61c1a7d95d",
+      "current_sha256": "90fb4515a1f81266cbaabec6bea0281b931f3bbda9e4251733050c61c1a7d95d",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/RotationData.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "304729cc7df62db004b0c85c591b2917488ce465944467d1fe700159a03d62a4",
+      "current_sha256": "304729cc7df62db004b0c85c591b2917488ce465944467d1fe700159a03d62a4",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Voigt/Theorem.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "c98fed61fb53bb63049d7c8305b4741538256eac4c8aa23aca4135f927f5d6a0",
+      "current_sha256": "c98fed61fb53bb63049d7c8305b4741538256eac4c8aa23aca4135f927f5d6a0",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Contract.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "e6cd3dfe754de6244cef648573b25c337fa9dfecbdf002097dc3dad048f287dc",
+      "current_sha256": "e6cd3dfe754de6244cef648573b25c337fa9dfecbdf002097dc3dad048f287dc",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Contractible.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "60efd49aa83cb497e11bc7cee639baed92a1ac9df6476448c0ee62ebe32541d5",
+      "current_sha256": "60efd49aa83cb497e11bc7cee639baed92a1ac9df6476448c0ee62ebe32541d5",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/CyclicWord.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "76a373677528186e7f69261021f64aa53052b9452076abeb8843a1f50d20fb28",
+      "current_sha256": "f18a3f1520baa636cbe82cafe28ea48308e730c9e062c5bbe447f5170e08390f",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Decomposition.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "4306a7e8086ed567e260afed0299a7cc81763ad05a3ddbdaa0c03ea11c01a990",
+      "current_sha256": "4306a7e8086ed567e260afed0299a7cc81763ad05a3ddbdaa0c03ea11c01a990",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/DecompositionConverse.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "2470df25ae22c4146b132024af1bc7550ef30aa5bc50f2f12bc457c3211b9f60",
+      "current_sha256": "2470df25ae22c4146b132024af1bc7550ef30aa5bc50f2f12bc457c3211b9f60",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/EdgeAdd.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "96c39ef7390f25ea4b352e0d2caf67a94ecb76e312c4af6ad40530164a661c44",
+      "current_sha256": "96c39ef7390f25ea4b352e0d2caf67a94ecb76e312c4af6ad40530164a661c44",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/FaceRing.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "558d6ba6a5be90dddd2daba315e4188486b865b6543edf417c20ec648e88b78e",
+      "current_sha256": "558d6ba6a5be90dddd2daba315e4188486b865b6543edf417c20ec648e88b78e",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Facial.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "82502c3a5bb1995b72c6d81741522a285cf2035cdd2358648c48d98178e1deaa",
+      "current_sha256": "b0586cdf3dc656f73c9a102f7495715f3b0a0df68c58751208535cb91316320f",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Glue.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "6cd64beac553715ba3d7736211cb7f7df571d19273038f80a72a30946dc16fab",
+      "current_sha256": "6cd64beac553715ba3d7736211cb7f7df571d19273038f80a72a30946dc16fab",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/GlueKit.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "cc8db1fda55f1e530b02e6ad37d0c4cb77e49f4a30c7357643935f5984ac8385",
+      "current_sha256": "cc8db1fda55f1e530b02e6ad37d0c4cb77e49f4a30c7357643935f5984ac8385",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Hall.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "42b474be7a8390b83fe0239c05faeba6ca39b039dcebc0b54a715d90afdb6dfe",
+      "current_sha256": "42b474be7a8390b83fe0239c05faeba6ca39b039dcebc0b54a715d90afdb6dfe",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/HypermapKit.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "9a43b613e1e06cbe8c9d145fa47355bd61472de512903b1635470a215c4f054f",
+      "current_sha256": "9a43b613e1e06cbe8c9d145fa47355bd61472de512903b1635470a215c4f054f",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33AttachmentAttack.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "9508833df65ea652e5bbc177aa7751dfe45ca60ffe97346529ed7d755a4cb5a4",
+      "current_sha256": "9508833df65ea652e5bbc177aa7751dfe45ca60ffe97346529ed7d755a4cb5a4",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33Bridges.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "06a3942084844c649d007740da8d24f7e77e9060c56aedda605294bd4852c3ac",
+      "current_sha256": "06a3942084844c649d007740da8d24f7e77e9060c56aedda605294bd4852c3ac",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33ContactRigidity.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "74080a28fd68c916e349a6400b5e4954ad8b78e9525ece93080fcfb513bab0ff",
+      "current_sha256": "74080a28fd68c916e349a6400b5e4954ad8b78e9525ece93080fcfb513bab0ff",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33CopyConsumer.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "48f3fee73d75721d38a995b31b30af1d04db11742f17169109f4bae8acca6062",
+      "current_sha256": "48f3fee73d75721d38a995b31b30af1d04db11742f17169109f4bae8acca6062",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33DoubleHubAttack.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "02abdd5b78478a96e65ff4f7687f5f2bb2ce533211fc1b2a3a777b5ec6d47f5d",
+      "current_sha256": "02abdd5b78478a96e65ff4f7687f5f2bb2ce533211fc1b2a3a777b5ec6d47f5d",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33Kernels.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "7cd7d9bd0c93168ca73f3f309f7ac86da9ab638c65c1da3b8c69a792010ffae7",
+      "current_sha256": "7cd7d9bd0c93168ca73f3f309f7ac86da9ab638c65c1da3b8c69a792010ffae7",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K33StarModel.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "47b24529cad8d9c9fbcb61aa0c39e5d33d89baa17a821c201fddf495876c100e",
+      "current_sha256": "47b24529cad8d9c9fbcb61aa0c39e5d33d89baa17a821c201fddf495876c100e",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/K5Model.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "2f5cb02f6aa25823fd8c22615927f91e2e585f32acf0596b2c11f6299a59fc82",
+      "current_sha256": "c406bdeeab5a7aabca7a4e63039a68d28fd638dad17c2fbeb21ad6f9b0958fda",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Kuratowski.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "62d8d7647df78db63a0377aba8630f51acf9d7bcf992b53cf9c4e18b144f1007",
+      "current_sha256": "62d8d7647df78db63a0377aba8630f51acf9d7bcf992b53cf9c4e18b144f1007",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/MaximalCoreAttack.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "2d78b5793a2f84e9a0550b6d547fbd81cde7e0a76a1df24e20387ac85850da2d",
+      "current_sha256": "2d78b5793a2f84e9a0550b6d547fbd81cde7e0a76a1df24e20387ac85850da2d",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/PlanarLeaves.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "ff78960ffd0226ba075d2797e394325003b2ebb0ef8946395d9eea793610ca6b",
+      "current_sha256": "ff78960ffd0226ba075d2797e394325003b2ebb0ef8946395d9eea793610ca6b",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/PrimeLeafAttack.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "12a63e669db477b89debcf140c1c304cab938477c8c15e682ca852aac2d8435f",
+      "current_sha256": "12a63e669db477b89debcf140c1c304cab938477c8c15e682ca852aac2d8435f",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/RotRing.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "bb3f26ab68819745963d82c4b7034bbd34f7d325f495d2259a317b3ce6661ad0",
+      "current_sha256": "bb3f26ab68819745963d82c4b7034bbd34f7d325f495d2259a317b3ce6661ad0",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Separation.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "c9681438ff54869221c8a104c3546e738cfde260e83e8c18c88cbdfc8668474c",
+      "current_sha256": "c9681438ff54869221c8a104c3546e738cfde260e83e8c18c88cbdfc8668474c",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/SmallPlanar.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "5b9680157c6b8bd271dbb78e4f985bf2bab82c16ce95d982ea79c9fa147e2b7d",
+      "current_sha256": "5b9680157c6b8bd271dbb78e4f985bf2bab82c16ce95d982ea79c9fa147e2b7d",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Star.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "6b89b80587aa1cb9a5bd1f0eaa68106104ca1721589115ce5b9f5c5a51b60486",
+      "current_sha256": "6b89b80587aa1cb9a5bd1f0eaa68106104ca1721589115ce5b9f5c5a51b60486",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/StarThree.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "bb0cf10623171396fefeb7db533f68f5cf80e1675944fccefdcafacaae445de0",
+      "current_sha256": "bb0cf10623171396fefeb7db533f68f5cf80e1675944fccefdcafacaae445de0",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Thomassen.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "30c81e7de44516ab3d51288946c30b2cbf033ccb13ef8be8bf183ad42d4adc3e",
+      "current_sha256": "30c81e7de44516ab3d51288946c30b2cbf033ccb13ef8be8bf183ad42d4adc3e",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/Uncontract.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "740c59661fb15b6d9d9fccf0d90ad2ce76ee9503eb47c7acf7721daf3dc904ae",
+      "current_sha256": "740c59661fb15b6d9d9fccf0d90ad2ce76ee9503eb47c7acf7721daf3dc904ae",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/VertexCoverCore.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "400c18e48e0dafa8d9e64670916dabb2fd9b00162655f6202c12db0205eb9b5e",
+      "current_sha256": "400c18e48e0dafa8d9e64670916dabb2fd9b00162655f6202c12db0205eb9b5e",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerA.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "f11dabda3def2253ba3a5eb22941cd965af9496ec06e2aef145bbbc64e6ad138",
+      "current_sha256": "f11dabda3def2253ba3a5eb22941cd965af9496ec06e2aef145bbbc64e6ad138",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerAttachmentAttack.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "1239ae2c1bb4a7b213c8f9da0cda34c96b29d76657a6504ed8d7c6fc55742e20",
+      "current_sha256": "1239ae2c1bb4a7b213c8f9da0cda34c96b29d76657a6504ed8d7c6fc55742e20",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerB.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "420123719e0b441138769a749c4608bf12804bc1515f1292c22d0d5755c31e03",
+      "current_sha256": "420123719e0b441138769a749c4608bf12804bc1515f1292c22d0d5755c31e03",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerGraph.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "e75b18abcbc088febdfbdfe6629ac520bbcfe11d74ea784a69b3d9f569dab2de",
+      "current_sha256": "9fb9b6e1e822008974d155fc7d2026c1fb3b46f72fb2ef5fe4bf2a8fdb483ba6",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerMinorRigidity.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "c19e609a7c60515d70dccc14df568cb53287219f8c6c0b5980d212ed3956e7e6",
+      "current_sha256": "c19e609a7c60515d70dccc14df568cb53287219f8c6c0b5980d212ed3956e7e6",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerRigidity.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "cb0dad26b05e91f5d31955f7fef16ab88e7d183dd80dba5a27927f44e5541c6a",
+      "current_sha256": "cb0dad26b05e91f5d31955f7fef16ab88e7d183dd80dba5a27927f44e5541c6a",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerV8Core.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "6a1c5f4a03990775fb006889c57059fe301ddb7dfe6946cd4005e05af674f0bd",
+      "current_sha256": "6a1c5f4a03990775fb006889c57059fe301ddb7dfe6946cd4005e05af674f0bd",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/WagnerV8Reduction.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "c4d873fa70b3d76a35050ddcb73de776549dc1059b87759f22e8ddc75516d841",
+      "current_sha256": "c4d873fa70b3d76a35050ddcb73de776549dc1059b87759f22e8ddc75516d841",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Wagner/YDeltaModelAttack.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "fbbf213e6eef90082ec70cc441953afacb01489813872079866e902e6384f5ae",
+      "current_sha256": "fbbf213e6eef90082ec70cc441953afacb01489813872079866e902e6384f5ae",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "Solution.lean",
+      "source": "planar-list-colouring",
+      "upstream_sha256": "6ea34fbd09a8a50db01675d7fcee3f70e0276f08e4db2bbda72fcb7874520708",
+      "current_sha256": "0b8021d2a74aa8dd13734047d7c8908c61eb0859c6e42991ad9a3981dbf22f9f",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "LeanPool/K5MinorFreeChoosability/Planar/FaceApex.lean",
+      "source": "grotzsch-ore",
+      "upstream_sha256": "201a2f567ec79bee0ba75a2a2cdbcca7592faa28bc44cf349291e40fd905fc03",
+      "current_sha256": "201a2f567ec79bee0ba75a2a2cdbcca7592faa28bc44cf349291e40fd905fc03",
+      "exact_bytes": true,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "Grotzsch/FacialCycle.lean",
+      "source": "grotzsch-ore",
+      "upstream_sha256": "889caca738a406787c4666e755d8cf7808205817400193b7b0f5825616cc1764",
+      "current_sha256": "a7f9af5f8a9f28522758413ec3408e7efb906bd8410888fb60825531e3695976",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": true,
+      "only_additional_change": null
+    },
+    {
+      "path": "Grotzsch/Regions.lean",
+      "source": "grotzsch-ore",
+      "upstream_sha256": "a80924f5c0a3a6ee8f59bd5fa5b1327dade685d284c1033eed43478c11609e53",
+      "current_sha256": "a695ba40cd2d6a5f4d6d553cb3a0469536b9a8f0f2aaae8a21b9f71961e6668c",
+      "exact_bytes": false,
+      "unchanged_except_imports_and_blank_lines": false,
+      "only_additional_change": "rename unused lambda binders a,b to _a,_b"
+    }
+  ],
+  "comparison": "Exact text comparison after dropping import directives and blank lines; Regions additionally allows the two documented bound-variable renamings."
+}

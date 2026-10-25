@@ -1,0 +1,22 @@
+{
+  "challenge_module": "ThomassenSixVertexClosureChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.colourable_of_six_vertex_alternating_path_without_interior_three_path",
+    "Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour_six",
+    "Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion_six",
+    "Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours_six",
+    "Thomassen.BoundaryInstance.colourable_of_six_vertex_prescribed_path_native_face",
+    "Thomassen.BoundaryInstance.colourable_of_six_vertex_prescribed_path",
+    "Thomassen.boundary_instances_colourable_at_card",
+    "Thomassen.boundary_extension",
+    "PlanarChoosability.choosableWith_three_of_isPlanar"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

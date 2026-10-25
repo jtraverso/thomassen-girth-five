@@ -1,0 +1,17 @@
+⚠ [1397/1398] Built ThomassenRegistryChallenge (1.0s)
+warning: ThomassenRegistryChallenge.lean:34:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:47:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:69:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:89:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:95:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:101:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:115:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:123:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:139:6: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:150:6: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:154:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:164:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:181:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:194:8: declaration uses `sorry`
+warning: ThomassenRegistryChallenge.lean:212:8: declaration uses `sorry`
+Build completed successfully (1398 jobs).

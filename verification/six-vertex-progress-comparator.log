@@ -1,0 +1,25 @@
+Resolving dependencies
+Building ThomassenSixVertexProgressChallenge
+⚠ [1526/1527] Replayed ThomassenSixVertexProgressChallenge
+warning: ThomassenSixVertexProgressChallenge.lean:26:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:37:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:75:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:103:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:117:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:145:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:181:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:217:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:259:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:295:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:325:8: declaration uses `sorry`
+warning: ThomassenSixVertexProgressChallenge.lean:353:8: declaration uses `sorry`
+Build completed successfully (1527 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.residual_eq_of_same_neighbours, Thomassen.BoundaryInstance.colourable_of_connected_residual_prescription_with_pinning, Thomassen.BoundaryInstance.colourable_of_six_vertex_backward_exception_good_fourth, Thomassen.BoundaryInstance.colourable_of_six_vertex_path_short_second_good_fourth, Thomassen.BoundaryInstance.remaining_six_vertex_counterexample_has_short_second_and_fourth, Thomassen.BoundaryInstance.colourable_of_residual_short_leaves_unique_parent, Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour_unique_boundary, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion_unique_boundary, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours_unique_boundary, Thomassen.BoundaryInstance.colourable_of_alternating_free_path_without_interior_three_path_unique_boundary, Thomassen.BoundaryInstance.colourable_of_six_vertex_path_with_unique_boundary_neighbours, Thomassen.BoundaryInstance.remaining_six_vertex_counterexample_has_mixed_exception, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSixVertexProgressChallenge
+Building ThomassenSolution
+Build completed successfully (1609 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.residual_eq_of_same_neighbours, Thomassen.BoundaryInstance.colourable_of_connected_residual_prescription_with_pinning, Thomassen.BoundaryInstance.colourable_of_six_vertex_backward_exception_good_fourth, Thomassen.BoundaryInstance.colourable_of_six_vertex_path_short_second_good_fourth, Thomassen.BoundaryInstance.remaining_six_vertex_counterexample_has_short_second_and_fourth, Thomassen.BoundaryInstance.colourable_of_residual_short_leaves_unique_parent, Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour_unique_boundary, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion_unique_boundary, Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours_unique_boundary, Thomassen.BoundaryInstance.colourable_of_alternating_free_path_without_interior_three_path_unique_boundary, Thomassen.BoundaryInstance.colourable_of_six_vertex_path_with_unique_boundary_neighbours, Thomassen.BoundaryInstance.remaining_six_vertex_counterexample_has_mixed_exception, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

@@ -1,0 +1,56 @@
+{
+  "status": "verified_predecessor_and_triple_residual_obstruction",
+  "full_original_theorem_2_1_proved": false,
+  "original_scan_review": {
+    "files": [
+      "/workspace/papers/thomassen-1995-page-4.png",
+      "/workspace/papers/thomassen-1995-page-5.png"
+    ],
+    "printed_pages": [
+      104,
+      105
+    ],
+    "correction": "The second-five-face low-degree vertex on printed p. 105 is q2, misread as q1 by OCR. This is a correction to the source reading, not to an accepted kernel proof."
+  },
+  "scope": [
+    "Actual residual-component colouring and restoration after a connected boundary deletion; remainder may be disconnected.",
+    "Original (9): the predecessor is short, under strict original-instance induction.",
+    "Triple deletion: allowed proper local colours, old short-list preservation, residual two-list lower bounds, and proved failure of the residual original short-set condition.",
+    "The residual short edge is unique, with its second endpoint interior; the first may be the next old-boundary vertex.",
+    "The triple-residual certificate supplies both endpoint two-path obstructions in the remaining graph and degree two at the old middle vertex.",
+    "The second-face support gives actual corners and short-cycle saturation with a different selected face."
+  ],
+  "strict_smaller_instance_hypothesis_not_discharged": true,
+  "induction_closed": false,
+  "remaining": [
+    "Analyze the first residual endpoint obstruction: exclude its newly short endpoint using the second five-face and restoration at q2; otherwise force the next boundary vertices and both original exceptional degrees two.",
+    "Analyze the second residual endpoint obstruction and construct the final two/three-path cut retaining the original fixed edge.",
+    "Verify the new marked short set on the final piece and release its endpoint colours as in source (10).",
+    "Assemble pruning/orientation, close strong induction and export the unchanged exact global Theorem 2.1."
+  ],
+  "gate": {
+    "config": "comparator.original-residual.json",
+    "challenge": "ThomassenOriginalResidualChallenge",
+    "challenge_imports": [
+      "Thomassen.OriginalShortSetTransport"
+    ],
+    "new_residual_proof_modules_imported": false,
+    "theorem_contracts": 19,
+    "definition_contracts": 1,
+    "definition": "Thomassen.exposedShortSet",
+    "result": "passed",
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/original-residual-comparator.log"
+  },
+  "strict_build": "verification/original-residual-strict-audit.log",
+  "source_audit": "verification/source-audit.json",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "historical_checkpoint": true,
+  "superseded_by": "verification/original-full-status.json",
+  "current_full_original_theorem_2_1_proved": true
+}

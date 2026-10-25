@@ -1,0 +1,22 @@
+{
+  "challenge_module": "ThomassenEdgeCutChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.path_side_dichotomy_of_avoids_other",
+    "Thomassen.exists_path_on_oriented_edge_cut",
+    "Thomassen.exists_path_on_edge_cut",
+    "Thomassen.rooted_cycle_side_dichotomy_on_edge",
+    "Thomassen.cycle_side_dichotomy_on_edge",
+    "Thomassen.BoundaryPrecolor.exists_induce_edge_cut",
+    "Thomassen.edge_cut_side_constancy",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_edge_cut",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_facial_chord_general"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

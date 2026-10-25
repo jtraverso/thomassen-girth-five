@@ -1,0 +1,1238 @@
+ℹ [1722/1723] Replayed ThomassenAudit
+info: ThomassenAudit.lean:4:0: 'Thomassen.five_le_egirth_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:5:0: 'Thomassen.five_le_egirth_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:6:0: 'Thomassen.cliqueFree_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:7:0: 'Thomassen.neighbors_nonadjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:8:0: 'Thomassen.common_neighbor_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:9:0: 'Thomassen.edge_neighborhoods_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:10:0: 'Thomassen.deleted_edge_neighbors_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:11:0: 'Thomassen.residual_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:12:0: 'Thomassen.mem_residual_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:13:0: 'Thomassen.residual_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:14:0: 'Thomassen.residual_card_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:15:0: 'Thomassen.residual_three_to_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:16:0: 'Thomassen.residual_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:17:0: 'Thomassen.glue_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:18:0: 'Thomassen.col_restrict_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:19:0: 'Thomassen.col_univ_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:20:0: 'Thomassen.col_of_erase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:21:0: 'Thomassen.minimal_bad_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:22:0: 'Thomassen.minimal_bad_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:23:0: 'Thomassen.minimal_bad_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:24:0: 'Thomassen.minimal_bad_connSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:25:0: 'Thomassen.neighbors_in_edge_card_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:26:0: 'Thomassen.residual_edge_card_ge_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:27:0: 'Thomassen.short_residual_edge_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:28:0: 'Thomassen.short_residual_edge_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:29:0: 'Thomassen.short_residual_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:30:0: 'Thomassen.neighbors_in_two_edge_path_card_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:31:0: 'Thomassen.residual_two_edge_path_card_ge_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:32:0: 'Thomassen.deleted_two_edge_path_adjacent_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:33:0: 'Thomassen.short_residual_two_edge_path_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:34:0: 'Thomassen.short_residual_two_edge_path_forces_three_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:35:0: 'Thomassen.short_residual_two_edge_path_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:36:0: 'Grotzsch.restrictMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:37:0: 'Grotzsch.sameCycle_of_rIn' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:38:0: 'Grotzsch.sameCycle_of_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:39:0: 'Grotzsch.eq_of_isNextH_of_face' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:40:0: 'Thomassen.delete_edge_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:41:0: 'Thomassen.onOuterFace_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:42:0: 'Thomassen.BoundaryPrecolor.vertices_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:43:0: 'Thomassen.BoundaryPrecolor.edges_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:44:0: 'Thomassen.BoundaryPrecolor.card_vertices_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:45:0: 'Thomassen.BoundaryPrecolor.adj_of_mem_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:46:0: 'Thomassen.BoundaryPrecolor.endpoints_of_mem_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:47:0: 'Thomassen.BoundaryInstance.list_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:48:0: 'Thomassen.BoundaryInstance.proper_on_precolored_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:49:0: 'Thomassen.BoundaryInstance.outside_precolor_list_ge_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:50:0: 'Thomassen.BoundaryInstance.singleton_iff_precolored' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:51:0: 'Thomassen.BoundaryInstance.short_edge_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:52:0: 'Thomassen.BoundaryInstance.short_not_adj_precolored' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:53:0: 'Thomassen.BoundaryInstance.colourable_of_all_precolored' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:54:0: 'Thomassen.BoundaryInstance.extends_prescribed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:55:0: 'Thomassen.choosable_of_boundary_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:56:0: 'PlanarChoosability.choosableWith_three_of_boundary_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:57:0: 'Thomassen.subfaceVertices_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:58:0: 'Thomassen.inSubface_of_rIn' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:59:0: 'Thomassen.inSubface_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:60:0: 'Thomassen.sameCycle_of_inSubface' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:61:0: 'Thomassen.exists_inSubface' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:62:0: 'Thomassen.not_inSubface_of_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:63:0: 'Thomassen.subfaceVertices_of_adj_inSubface' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:64:0: 'Thomassen.endpoints_in_subfaceVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:65:0: 'Thomassen.subfaceSide_of_H_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:66:0: 'Thomassen.subfaceSide_of_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:67:0: 'Thomassen.two_face_sides_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:68:0: 'Thomassen.two_face_sides_inter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:69:0: 'Thomassen.two_face_sides_no_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:70:0: 'Thomassen.facePerm_restrict_of_empty_gaps' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:71:0: 'Thomassen.sameCycle_of_preserved_subface' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:72:0: 'Thomassen.eq_of_same_face_of_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:73:0: 'Thomassen.face_fst_injective_of_delete_preconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:74:0: 'Thomassen.induceDartEquiv_fst' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:75:0: 'Thomassen.induceDartEquiv_snd' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:76:0: 'Thomassen.induceDartEquiv_symm' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:77:0: 'Thomassen.induceDartEquiv_dartSymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:78:0: 'Thomassen.subtypePlaneMap_facePerm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:79:0: 'Thomassen.subtypePlaneMap_sameCycle_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:80:0: 'Thomassen.subtypePlaneMap_onOuterFace_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:81:0: 'Thomassen.five_le_egirth_induce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:82:0: 'Thomassen.inducedPlaneMap_onOuterFace_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:83:0: 'Thomassen.card_induced_vertices_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:84:0: 'Thomassen.restrictMap_rot_of_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:85:0: 'Thomassen.restrictMap_facePerm_of_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:86:0: 'Thomassen.sameCycle_iff_of_injective_commuting' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:87:0: 'Thomassen.restrictMap_sameCycle_of_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:88:0: 'Thomassen.restrictMap_onOuterFace_of_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:89:0: 'Thomassen.inducedPlaneMap_onOuterFace_of_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:90:0: 'Thomassen.col_restrict_iff_listColourable_induce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:91:0: 'Thomassen.support_induce_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:92:0: 'Thomassen.BoundaryPrecolor.mem_vertices_induce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:93:0: 'Thomassen.BoundaryPrecolor.mem_edges_induce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:94:0: 'Thomassen.reachable_of_onOuterFace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:95:0: 'Thomassen.BoundaryInstance.list_ge_three_of_not_reachable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:96:0: 'Thomassen.BoundaryInstance.colourable_of_disconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:97:0: 'Thomassen.sameCycle_restrict_of_same_original_face' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:98:0: 'Thomassen.onOuterFace_restrict_of_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:99:0: 'Thomassen.subVerts_restrict_of_preconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:100:0: 'Thomassen.restrict_reachable_of_induce_preconnected' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:101:0: 'Thomassen.exists_outer_induced_of_preconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:102:0: 'Thomassen.BoundaryPrecolor.reachable_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:103:0: 'Thomassen.glue_induced_colourings' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:104:0: 'Thomassen.BoundaryInstance.colourable_induce_of_smaller' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:105:0: 'Thomassen.BoundaryInstance.colourable_of_few_neighbours' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:106:0: 'Thomassen.walk_side_of_avoids_cut' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:107:0: 'Thomassen.path_side_dichotomy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:108:0: 'Thomassen.not_mem_edges_of_one_vertex_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:109:0: 'Thomassen.exists_path_on_cut_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:110:0: 'Thomassen.cycle_side_dichotomy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:111:0: 'Thomassen.BoundaryPrecolor.exists_induce_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:112:0: 'Thomassen.preconnected_cut_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:113:0: 'Thomassen.exists_cut_side_of_delete_disconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:114:0: 'Thomassen.BoundaryInstance.colourable_of_precolored_cutvertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:115:0: 'Thomassen.componentVertexSet' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:116:0: 'Thomassen.componentInduceIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:117:0: 'Thomassen.BoundaryInstance.inducePrecolor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:118:0: 'Thomassen.BoundaryInstance.induceConnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:119:0: 'Thomassen.BoundaryInstance.induceUnprecolored' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:120:0: 'Thomassen.exists_outer_induced_after_connected_deletion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:121:0: 'Thomassen.cyclicSubgraph_le' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:122:0: 'Thomassen.cyclicSubgraph_subVerts' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:123:0: 'Thomassen.cyclicSubgraph_of_chordless' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:124:0: 'Thomassen.cycleForward_symm' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:125:0: 'Thomassen.cycleBackward_symm' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:126:0: 'Thomassen.cyclic_dart_cases' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:127:0: 'Thomassen.cycleForward_ne_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:128:0: 'Thomassen.cycle_rot_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:129:0: 'Thomassen.cycle_rot_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:130:0: 'Thomassen.cycle_face_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:131:0: 'Thomassen.cycle_face_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:132:0: 'Thomassen.cyclicSubgraph_reachable' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:133:0: 'Thomassen.cyclicSubgraph_connected' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:134:0: 'Thomassen.cycle_forward_sameCycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:135:0: 'Thomassen.cycle_backward_sameCycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:136:0: 'Thomassen.cycle_faces_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:137:0: 'Thomassen.cycle_two_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:138:0: 'Thomassen.cycle_outer_forward_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:139:0: 'Thomassen.cycle_outer_backward_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:140:0: 'Thomassen.cycle_outer_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:141:0: 'Thomassen.cycle_subface_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:142:0: 'Thomassen.cycle_subface_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:143:0: 'Thomassen.rIn_univ_of_reachable' does not depend on any axioms
+info: ThomassenAudit.lean:144:0: 'Thomassen.cycle_sides_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:145:0: 'Thomassen.cycle_sides_inter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:146:0: 'Thomassen.cycle_sides_no_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:147:0: 'Thomassen.onOuterFace_connSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:148:0: 'Thomassen.subfaceSide_connSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:149:0: 'Thomassen.cycle_subface_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:150:0: 'Thomassen.cyclicSubgraph_le_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:151:0: 'Thomassen.cycle_opposite_gap_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:152:0: 'Thomassen.exists_dart_of_preserved_subface' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:153:0: 'Thomassen.cycle_side_outer_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:154:0: 'Thomassen.mem_subfaceSide_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:155:0: 'Thomassen.cycle_original_face_subset_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:156:0: 'Thomassen.cycle_original_face_one_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:157:0: 'Thomassen.chordless_cycle_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:158:0: 'Thomassen.walkCycleVertices_next' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:159:0: 'Thomassen.walk_isCycleMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:160:0: 'Thomassen.walkCycleVertices_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:161:0: 'Thomassen.walkCycleVertices_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:162:0: 'Thomassen.cycle_support_card_eq_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:163:0: 'Thomassen.zmod_two_ne_zero_of_three_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:164:0: 'Thomassen.cycle_no_chord_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:165:0: 'Thomassen.cycle_no_chord_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:166:0: 'Thomassen.short_cycle_isChordless' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:167:0: 'Thomassen.short_native_cycle_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:168:0: 'Thomassen.short_native_cycle_proper_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:169:0: 'Thomassen.BoundaryInstance.colourable_of_separating_short_cycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:170:0: 'Thomassen.cyclicSubgraph' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:171:0: 'Thomassen.cycleForward' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:172:0: 'Thomassen.cycleBackward' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:173:0: 'Thomassen.walkCycleVertices' does not depend on any axioms
+info: ThomassenAudit.lean:174:0: 'Thomassen.NativeCycleSeparates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:175:0: 'Thomassen.connSet_sdiff_of_connected_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:176:0: 'Thomassen.trim_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:177:0: 'Thomassen.eq_of_isNextH_of_preserved_predecessor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:178:0: 'Thomassen.cycle_arc_gap_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:179:0: 'Thomassen.cycle_arc_no_exterior_neighbour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:180:0: 'Thomassen.cycle_arc_vertices_on_outer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:181:0: 'Thomassen.facial_arc_inside_gap_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:182:0: 'Thomassen.cycle_face_after_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:183:0: 'Thomassen.facial_arc_chord_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:184:0: 'Thomassen.facial_walk_chord_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:185:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_edge_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:186:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_facial_chord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:187:0: 'Thomassen.cycleArcInterior' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:188:0: 'Thomassen.IsFacialCycleArc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:189:0: 'Thomassen.walkArcRoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:190:0: 'Thomassen.IsFacialWalkArc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:191:0: 'Thomassen.off_five_cycle_unique_neighbour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:192:0: 'Thomassen.off_native_five_cycle_unique_neighbour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:193:0: 'Thomassen.off_six_cycle_second_neighbour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:194:0: 'Thomassen.off_native_six_cycle_second_neighbour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:195:0: 'Thomassen.cycle_tail_dropLast_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:196:0: 'Thomassen.cycle_tail_dropLast_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:197:0: 'Thomassen.exists_outer_after_boundary_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:198:0: 'Thomassen.BoundaryInstance.colourable_of_facial_cycle_without_shared_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:199:0: 'Thomassen.BoundaryInstance.colourable_of_facial_five_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:200:0: 'Thomassen.BoundaryInstance.colourable_of_facial_six_cycle_without_opposite_neighbour' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:201:0: 'Thomassen.not_isK5Boundary_of_rooted_four_bags' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:202:0: 'Thomassen.six_cycle_no_consecutive_opposite_neighbours' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:203:0: 'Thomassen.isK5Boundary_of_face_deletions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:204:0: 'Thomassen.BoundaryInstance.colourable_of_facial_six_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:205:0: 'Thomassen.BoundaryInstance.colourable_of_facial_short_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:206:0: 'Thomassen.path_side_dichotomy_of_avoids_other' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:207:0: 'Thomassen.exists_path_on_oriented_edge_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:208:0: 'Thomassen.exists_path_on_edge_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:209:0: 'Thomassen.rooted_cycle_side_dichotomy_on_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:210:0: 'Thomassen.cycle_side_dichotomy_on_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:211:0: 'Thomassen.BoundaryPrecolor.exists_induce_edge_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:212:0: 'Thomassen.edge_cut_side_constancy' does not depend on any axioms
+info: ThomassenAudit.lean:213:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:214:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_facial_chord_general' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:215:0: 'Thomassen.rIn_side_of_avoids_cut' does not depend on any axioms
+info: ThomassenAudit.lean:216:0: 'Thomassen.BoundaryInstance.colourable_of_interior_cut_piece' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:217:0: 'Thomassen.BoundaryInstance.colourable_of_interior_cutvertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:218:0: 'Thomassen.BoundaryInstance.cutvertex_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:219:0: 'Thomassen.onOuterFace_restrict_of_deleted_connection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:220:0: 'Thomassen.exists_outer_induced_merging_deleted_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:221:0: 'Thomassen.exists_outer_induced_merging_connected_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:222:0: 'Thomassen.cycle_gap_empty_along' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:223:0: 'Thomassen.cycle_no_exterior_neighbour_along' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:224:0: 'Thomassen.arc_path_inside_gap_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:225:0: 'Thomassen.cycleSideSkeleton_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:226:0: 'Thomassen.cyclicSubgraph_le_skeleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:227:0: 'Thomassen.cycleSideSkeleton_connSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:228:0: 'Thomassen.cycleSideSkeleton_opposite_gap_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:229:0: 'Thomassen.cycleSideSkeleton_face_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:230:0: 'Thomassen.facial_arc_path_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:231:0: 'Thomassen.cycleInterval_zero' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:232:0: 'Thomassen.cycleInterval_succ' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:233:0: 'Thomassen.cycleInterval_connSet' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:234:0: 'Thomassen.cycleInterval_subset' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:235:0: 'Thomassen.cycleInterval_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:236:0: 'Thomassen.cycleInterval_short_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:237:0: 'Thomassen.short_arc_path_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:238:0: 'Thomassen.walkCycleVertices_nat_le' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:239:0: 'Thomassen.walk_drop_support_cycleInterval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:240:0: 'Thomassen.native_short_arc_path_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:241:0: 'Thomassen.short_path_isChordless' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:242:0: 'Thomassen.BoundaryInstance.colourable_of_short_path_without_short_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:243:0: 'Thomassen.BoundaryInstance.colourable_of_three_list_short_path_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:244:0: 'Thomassen.BoundaryInstance.colourable_of_short_path_with_independent_short_arc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:245:0: 'Thomassen.BoundaryInstance.colourable_of_short_path_with_three_list_arc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:246:0: 'Thomassen.IsFacialCycleAlong' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:247:0: 'Thomassen.cycleSideSkeleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:248:0: 'Thomassen.cycleInterval' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:249:0: 'Thomassen.four_edge_path_isChordless' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:250:0: 'Thomassen.endpoint_neighbour_unique_of_chordless_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:251:0: 'Thomassen.short_path_endpoint_neighbour_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:252:0: 'Thomassen.BoundaryInstance.extend_colouring_over_short_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:253:0: 'Thomassen.BoundaryInstance.colourable_of_augmented_short_path_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:254:0: 'Thomassen.BoundaryInstance.colourable_of_short_path_with_two_short_ends' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:255:0: 'Thomassen.BoundaryInstance.colourable_of_short_path_with_one_short_end' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:256:0: 'Thomassen.BoundaryInstance.colourable_of_native_short_path_with_one_short_end' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:257:0: 'Thomassen.BoundaryInstance.colourable_of_native_short_path_with_two_short_ends' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:258:0: 'Thomassen.exists_walk_of_cycleMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:259:0: 'Thomassen.faceOrbitLength_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:260:0: 'Thomassen.faceOrbitLength_three_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:261:0: 'Thomassen.faceOrbitDart_sameCycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:262:0: 'Thomassen.faceOrbitDart_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:263:0: 'Thomassen.faceOrbitDart_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:264:0: 'Thomassen.faceOrbitVertex_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:265:0: 'Thomassen.faceOrbitVertex_isCycleMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:266:0: 'Thomassen.faceOrbitVertex_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:267:0: 'Thomassen.faceOrbitVertex_isFacial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:268:0: 'Thomassen.exists_native_face_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:269:0: 'Thomassen.two_le_card_neighbours_of_delete_preconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:270:0: 'Thomassen.exists_native_face_cycle_of_delete_preconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:271:0: 'Thomassen.faceOrbitLength' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:272:0: 'Thomassen.faceOrbitDart' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:273:0: 'Thomassen.faceOrbitVertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:274:0: 'Thomassen.prefixCycleVertex_zero' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:275:0: 'Thomassen.prefixCycleVertex_last' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:276:0: 'Thomassen.prefixCycleVertex_injective' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:277:0: 'Thomassen.prefixCycleVertex_next' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:278:0: 'Thomassen.prefixCycleVertex_prev' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:279:0: 'Thomassen.prefixCycleVertex_isCycleMap' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:280:0: 'Thomassen.prefixCycleVertex_isFacialArc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:281:0: 'Thomassen.full_face_chord_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:282:0: 'Thomassen.cut_side_pair_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:283:0: 'Thomassen.exists_cut_side_containing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:284:0: 'Thomassen.BoundaryInstance.exists_rootStar_colours' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:285:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:286:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_two_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:287:0: 'Thomassen.BoundaryInstance.induceUnprecolored_on_old_face' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:288:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_induced_colourings' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:289:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_star_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:290:0: 'Thomassen.BoundaryInstance.exists_empty_cut_instance_with_root' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:291:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_root_side_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:292:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_cutvertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:293:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_facial_chord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:294:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_facial_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:295:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_smaller' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:296:0: 'Thomassen.BoundaryPrecolor.cut_side_dichotomy_avoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:297:0: 'Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_cut_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:298:0: 'Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_cutvertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:299:0: 'Thomassen.BoundaryInstance.colourable_of_cutvertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:300:0: 'Thomassen.BoundaryInstance.delete_preconnected_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:301:0: 'Thomassen.BoundaryInstance.colourable_of_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:302:0: 'Thomassen.BoundaryInstance.minimal_counterexample_has_native_face_cycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:303:0: 'Thomassen.full_face_chord_separation_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:304:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_boundary_chord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:305:0: 'Thomassen.BoundaryInstance.prescribed_adj_consecutive_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:306:0: 'Thomassen.prefixCycleVertex' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:307:0: 'Thomassen.rootStar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:308:0: 'Thomassen.RootStarExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:309:0: 'Thomassen.cyclicSubgraph_adj_at_iff' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:310:0: 'Thomassen.cycle_range_eq_of_cycle_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:311:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:312:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:313:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_two_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:314:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_induced_colourings' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:315:0: 'Thomassen.BoundaryInstance.edgeStar_colouring_on_smaller_induced' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:316:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_edge_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:317:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_root_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:318:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_separate_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:319:0: 'Thomassen.exists_cut_side_containing_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:320:0: 'Thomassen.edgeStar_other_side_subset_rootStar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:321:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_cutvertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:322:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_spoke_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:323:0: 'Thomassen.BoundaryInstance.edgeStar_adj_consecutive_of_strict_induction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:324:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_facial_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:325:0: 'Thomassen.BoundaryInstance.edgeStar_extension_of_smaller' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:326:0: 'Thomassen.BoundaryInstance.exists_edgeStar_colours' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:327:0: 'Thomassen.BoundaryInstance.exists_empty_induced_releasing_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:328:0: 'Thomassen.BoundaryInstance.colourable_of_edge_cut_with_one_sided_prescription' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:329:0: 'Thomassen.walk_side_of_avoids_two_cut' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:330:0: 'Thomassen.BoundaryPrecolor.edge_cut_dichotomy_avoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:331:0: 'Thomassen.BoundaryInstance.colourable_of_unprescribed_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:332:0: 'Thomassen.BoundaryInstance.colourable_of_unprescribed_boundary_chord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:333:0: 'Thomassen.BoundaryInstance.boundary_chord_exactly_one_prescribed_end' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:334:0: 'Thomassen.path_side_dichotomy_avoiding_other_separator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:335:0: 'Thomassen.BoundaryInstance.colourable_of_path_endpoint_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:336:0: 'Thomassen.BoundaryInstance.colourable_of_path_endpoint_boundary_chord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:337:0: 'Thomassen.edgeStar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:338:0: 'Thomassen.EdgeStarExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:340:0: 'Thomassen.exists_path_on_two_cut_avoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:341:0: 'Thomassen.exists_induce_path_two_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:342:0: 'Thomassen.BoundaryInstance.exists_empty_induced_releasing_leaf' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:343:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_leaf_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:344:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_short_branch_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:345:0: 'Thomassen.BoundaryInstance.colourable_of_prescription_edge_cut_with_short_branch' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:346:0: 'Thomassen.BoundaryInstance.colourable_of_short_prescription_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:347:0: 'Thomassen.BoundaryInstance.colourable_of_short_branch_boundary_chord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:348:0: 'Thomassen.BoundaryInstance.remaining_boundary_chord_central_cases' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:349:0: 'Thomassen.BoundaryInstance.colourable_of_short_prescription_boundary_chord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:350:0: 'Thomassen.BoundaryInstance.boundary_chord_requires_long_prescription' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:351:0: 'Thomassen.path_cycle_order_of_first_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:352:0: 'Thomassen.path_cycle_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:353:0: 'Thomassen.BoundaryInstance.prescribed_path_follows_facial_cycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:355:0: 'Thomassen.BoundaryInstance.exists_prescribed_rootStar_colours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:356:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_prescribed_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:357:0: 'Thomassen.BoundaryInstance.induced_precolor_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:358:0: 'Thomassen.BoundaryInstance.anchoredFan_on_induced' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:359:0: 'Thomassen.BoundaryInstance.rootStar_on_released_spoke_piece' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:360:0: 'Thomassen.BoundaryInstance.exists_short_prescribed_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:361:0: 'Thomassen.BoundaryInstance.anchoredFan_extension_of_prescribed_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:362:0: 'Thomassen.BoundaryInstance.anchoredFan_extension_of_prescribed_spoke_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:363:0: 'Thomassen.BoundaryInstance.anchoredFan_extension_of_one_sided_spoke' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:364:0: 'Thomassen.BoundaryInstance.anchoredFan_extension_of_spoke_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:365:0: 'Thomassen.BoundaryInstance.anchoredFan_extension_of_prescribed_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:366:0: 'Thomassen.BoundaryInstance.anchoredFan_extension_of_cutvertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:367:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_attached_short_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:368:0: 'Thomassen.cyclicSubgraph_third_neighbour' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:369:0: 'Thomassen.short_facial_path_attachment_is_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:370:0: 'Thomassen.BoundaryInstance.anchoredFan_adj_consecutive_of_strict_induction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:371:0: 'Thomassen.BoundaryInstance.anchoredFan_extension_of_facial_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:372:0: 'Thomassen.BoundaryInstance.anchoredFan_extension_of_smaller' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:373:0: 'Thomassen.external_short_path_neighbour_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:374:0: 'Thomassen.BoundaryInstance.exists_rootStar_colours_avoiding_precolor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:375:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_two_edge_branch_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:376:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_prescription_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:377:0: 'Thomassen.BoundaryInstance.colourable_of_path_boundary_chord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:378:0: 'Thomassen.BoundaryInstance.colourable_of_boundary_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:379:0: 'Thomassen.BoundaryInstance.boundary_adj_consecutive_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:380:0: 'Thomassen.BoundaryInstance.minimal_counterexample_has_chordless_native_face_cycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:382:0: 'Thomassen.spliceFacePath_length' depends on axioms: [propext]
+info: ThomassenAudit.lean:383:0: 'Thomassen.spliceFacePath_getVert_prefix' depends on axioms: [propext]
+info: ThomassenAudit.lean:384:0: 'Thomassen.spliceFacePath_isCycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:385:0: 'Thomassen.spliceFacePath_drop_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:386:0: 'Thomassen.spliceFacePath_cycleVertex_prefix' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:387:0: 'Thomassen.spliceFacePath_arc' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:388:0: 'Thomassen.spliceFacePath_misses_next_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:389:0: 'Thomassen.spliceFacePath_isFacialAlong' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:390:0: 'Thomassen.spliceFacePath_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:391:0: 'Thomassen.native_facial_cycle_vertices_on_outer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:392:0: 'Thomassen.closing_path_intersection_of_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:393:0: 'Thomassen.interior_face_path_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:394:0: 'Thomassen.BoundaryInstance.colourable_of_two_path_one_short_end' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:395:0: 'Thomassen.BoundaryInstance.colourable_of_two_path_optional_short_ends' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:396:0: 'Thomassen.chordless_cycle_prefix_adjacent_indices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:397:0: 'Thomassen.first_interior_two_path_neighbour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:398:0: 'Thomassen.BoundaryInstance.colourable_of_interior_two_path_free_arc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:399:0: 'Thomassen.BoundaryInstance.interior_two_path_arc_meets_prescription_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:401:0: 'Thomassen.exists_prescription_after_initial_deletion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:402:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_endpoint_deletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:403:0: 'Thomassen.BoundaryInstance.colourable_of_short_prescribed_endpoint_deletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:404:0: 'Thomassen.BoundaryInstance.colourable_of_short_prescription_and_three_lists' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:405:0: 'Thomassen.BoundaryInstance.endpoint_deletion_obstruction_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:407:0: 'Thomassen.facial_cycle_forward_sameCycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:408:0: 'Thomassen.ordered_native_cycle_isFacial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:409:0: 'Thomassen.exists_rebased_native_face_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:410:0: 'Thomassen.BoundaryInstance.native_face_cycle_chordless_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:411:0: 'Thomassen.rebased_native_cycleInterval' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:412:0: 'Thomassen.BoundaryInstance.colourable_of_interior_two_path_free_subarc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:413:0: 'Thomassen.BoundaryInstance.interior_neighbours_unique_on_free_arc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:414:0: 'Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_arc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:415:0: 'Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_subarc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:416:0: 'Thomassen.BoundaryInstance.no_interior_two_path_from_prescribed_endpoint_to_noninternal_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:417:0: 'Thomassen.BoundaryInstance.no_interior_two_path_from_prescribed_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:418:0: 'Thomassen.BoundaryInstance.interior_endpoint_shared_neighbour_indices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:419:0: 'Thomassen.chordless_native_cycle_root_neighbours' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:420:0: 'Thomassen.chordless_native_cycle_last_neighbours' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:421:0: 'Thomassen.BoundaryInstance.endpoint_old_short_conflict_on_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:422:0: 'Thomassen.BoundaryInstance.prescribed_endpoint_no_old_short_conflicts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:423:0: 'Thomassen.BoundaryInstance.colourable_of_good_second_boundary_list' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:424:0: 'Thomassen.BoundaryInstance.colourable_of_short_prescription_good_second_boundary_list' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:425:0: 'Thomassen.BoundaryInstance.colourable_of_four_vertex_prescription_good_second_boundary_list' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:426:0: 'Thomassen.BoundaryInstance.short_prescription_second_boundary_list_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:428:0: 'Thomassen.BoundaryInstance.colourable_induced_with_compatible_prescription' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:429:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_prefix_interior_two_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:430:0: 'Thomassen.BoundaryInstance.prescribed_path_forward_of_first_face_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:431:0: 'Thomassen.BoundaryInstance.no_interior_two_path_from_forward_prescribed_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:432:0: 'Thomassen.BoundaryInstance.prescribed_endpoint_no_shared_prescribed_neighbour' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:433:0: 'Thomassen.BoundaryInstance.colourable_of_good_second_boundary_list_all_prescriptions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:434:0: 'Thomassen.BoundaryInstance.prescribed_second_boundary_list_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:436:0: 'Thomassen.componentVertexSet_subset' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:437:0: 'Thomassen.componentVertexSet_adj_closed' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:438:0: 'Thomassen.native_facial_step_sameCycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:439:0: 'Thomassen.native_cycle_component_exit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:440:0: 'Thomassen.component_has_deleted_neighbour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:441:0: 'Thomassen.exists_outer_component_after_connected_boundary_deletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:442:0: 'Thomassen.BoundaryPrecolor.exists_induce_component' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:443:0: 'Thomassen.BoundaryInstance.colourable_of_connected_boundary_deletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:444:0: 'Thomassen.chordless_native_cycle_vertex_neighbours' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:445:0: 'Thomassen.BoundaryInstance.interior_boundary_neighbour_unique_of_prescribed_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:446:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_edge_short_second_good_fourth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:447:0: 'Thomassen.BoundaryInstance.prescribed_edge_fourth_boundary_list_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:448:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_edge_six_vertex_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:449:0: 'Thomassen.BoundaryInstance.colourable_of_compatible_short_facial_cycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:450:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_edge_five_vertex_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:452:0: 'Thomassen.native_rebase_support_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:453:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_edge_short_fourth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:454:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_edge_short_second' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:455:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_edge_native_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:458:0: 'Thomassen.cycleCount_inv_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:459:0: 'Thomassen.numComponents_inv_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:460:0: 'Thomassen.mirror_dartSymm_inv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:461:0: 'Thomassen.mirror_fst_rot_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:462:0: 'Thomassen.mirror_facePerm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:463:0: 'Thomassen.mirror_face_sameCycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:464:0: 'Thomassen.mirror_onOuterFace_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:465:0: 'Thomassen.native_facial_cycle_support_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:466:0: 'Thomassen.mirrored_cycle_isFacial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:467:0: 'Thomassen.exists_mirrored_native_face_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:468:0: 'Thomassen.exists_mirrored_native_face_cycle_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:469:0: 'Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_arc_terminal_short' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:470:0: 'Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_arc_one_short_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:471:0: 'Thomassen.BoundaryInstance.colourable_of_prescribed_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:472:0: 'Thomassen.path_length_le_five_of_small_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:473:0: 'Thomassen.connSet_induce_of_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:474:0: 'Thomassen.connSet_inter_of_clique_separator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:475:0: 'Thomassen.ConnectedPrescription.outside_list_ge_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:476:0: 'Thomassen.exists_native_precolor_of_connected_degree_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:477:0: 'Thomassen.ConnectedPrescription.colourable_of_clique_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:478:0: 'Thomassen.ConnectedPrescription.colourable_of_unprescribed_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:479:0: 'Thomassen.ConnectedPrescription.colourable_of_cutvertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:480:0: 'Thomassen.ConnectedPrescription.colourable_of_facial_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:481:0: 'Thomassen.connectedPrescription_extension_of_smaller' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:482:0: 'Thomassen.BoundaryInstance.colourable_of_connected_residual_prescription' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:483:0: 'Thomassen.cycle_neighbour_indices_not_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:484:0: 'Thomassen.cycle_neighbour_nat_gaps' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:485:0: 'Thomassen.at_most_two_neighbours_on_short_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:486:0: 'Thomassen.walk_support_connSet' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:487:0: 'Thomassen.connSet_adjoin_attached_vertices' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:488:0: 'Thomassen.path_endpoint_adjacent_to_single_cycle_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:489:0: 'Thomassen.short_path_with_pendant_vertices_paths_short' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:490:0: 'Thomassen.BoundaryInstance.colourable_of_single_boundary_complement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:491:0: 'Thomassen.BoundaryInstance.colourable_of_unique_unprescribed_outer_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:492:0: 'Thomassen.mirrorPlaneMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:493:0: 'Thomassen.BoundaryInstance.mirror' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:494:0: 'Thomassen.ConnectedPrescription.toBoundaryInstance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:495:0: 'Thomassen.ConnectedPrescription.induce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:496:0: 'Thomassen.ConnectedPrescription.induceEmpty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:499:0: 'Thomassen.BoundaryInstance.colourable_of_pendant_residual_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:500:0: 'Thomassen.cycle_path_attachment_is_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:501:0: 'Thomassen.path_endpoint_has_cycle_complement_neighbour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:502:0: 'Thomassen.cycle_complement_vertex_adjacent_both_path_ends' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:503:0: 'Thomassen.two_cycle_complement_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:504:0: 'Thomassen.cycle_complement_edge_endpoint_unique_path_neighbour' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:505:0: 'Thomassen.BoundaryInstance.colourable_of_two_boundary_complement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:506:0: 'Thomassen.BoundaryInstance.colourable_of_two_unprescribed_outer_vertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:507:0: 'Thomassen.BoundaryInstance.colourable_of_all_outer_vertices_in_prescribed_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:508:0: 'Thomassen.BoundaryInstance.colourable_of_at_most_two_unprescribed_outer_vertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:509:0: 'Thomassen.BoundaryInstance.prescribed_path_outer_cycle_length_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:512:0: 'Thomassen.BoundaryInstance.colourable_induced_with_compatible_path_star' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:513:0: 'Thomassen.BoundaryInstance.exists_oriented_native_face_for_prescribed_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:514:0: 'Thomassen.BoundaryInstance.colourable_of_central_prescribed_two_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:515:0: 'Thomassen.BoundaryInstance.colourable_of_central_prescribed_two_path_arbitrary_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:516:0: 'Thomassen.path_neighbour_indices_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:517:0: 'Thomassen.BoundaryInstance.no_interior_prescribed_pair_at_initial_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:518:0: 'Thomassen.BoundaryInstance.no_interior_prescribed_pair_at_terminal_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:519:0: 'Thomassen.BoundaryInstance.interior_prescribed_neighbour_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:521:0: 'Thomassen.four_edge_path_with_pendant_vertices_paths_short' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:522:0: 'Thomassen.BoundaryInstance.colourable_induced_with_compatible_edge_star_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:523:0: 'Thomassen.BoundaryInstance.interior_unprescribed_neighbour_unique_on_native_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:524:0: 'Thomassen.BoundaryInstance.interior_unprescribed_neighbour_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:525:0: 'Thomassen.BoundaryInstance.interior_at_most_two_boundary_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:526:0: 'Thomassen.BoundaryInstance.colourable_induced_retaining_connected_prescription' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:527:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:528:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_prefix_arbitrary_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:529:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_two_path_short_suffix_arbitrary_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:530:0: 'Thomassen.BoundaryInstance.free_boundary_not_adjacent_both_prescribed_ends_on_native_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:531:0: 'Thomassen.BoundaryInstance.free_boundary_not_adjacent_both_prescribed_ends' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:532:0: 'Thomassen.BoundaryInstance.mixed_interior_two_path_exceptional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:533:0: 'Thomassen.BoundaryInstance.no_interior_boundary_pair_at_initial_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:534:0: 'Thomassen.BoundaryInstance.no_interior_boundary_pair_at_terminal_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:535:0: 'Thomassen.BoundaryInstance.interior_prescribed_and_free_neighbours_exceptional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:536:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_two_path_with_at_most_five_prescribed_vertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:538:0: 'Thomassen.BoundaryInstance.colourable_induced_with_compatible_short_ended_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:539:0: 'Thomassen.five_edge_path_isChordless_of_no_long_chords' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:540:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:541:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_prefix_arbitrary_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:542:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_suffix_arbitrary_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:543:0: 'Thomassen.BoundaryInstance.colourable_of_mixed_three_path_short_free_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:544:0: 'Thomassen.BoundaryInstance.colourable_of_interior_three_path_free_subarc_one_short_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:545:0: 'Thomassen.BoundaryInstance.colourable_of_free_three_path_short_endpoint_on_native_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:546:0: 'Thomassen.BoundaryInstance.colourable_of_three_path_short_free_boundary_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:547:0: 'Thomassen.BoundaryInstance.colourable_of_initial_prescribed_endpoint_three_path_on_native_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:548:0: 'Thomassen.BoundaryInstance.colourable_of_initial_prescribed_endpoint_three_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:549:0: 'Thomassen.BoundaryInstance.colourable_of_terminal_prescribed_endpoint_three_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:550:0: 'Thomassen.BoundaryInstance.colourable_of_three_path_forbidden_boundary_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:552:0: 'Thomassen.BoundaryInstance.interior_boundary_neighbour_unique_of_short_prescription' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:553:0: 'Thomassen.BoundaryInstance.colourable_of_short_path_short_second_good_fourth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:555:0: 'Thomassen.BoundaryInstance.interior_boundary_pair_exceptional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:556:0: 'Thomassen.BoundaryInstance.interior_neighbours_unique_at_short_free_boundary_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:557:0: 'Thomassen.BoundaryInstance.colourable_of_path_short_second_good_fourth_without_exception' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:558:0: 'Thomassen.BoundaryInstance.remaining_good_fourth_counterexample_has_backward_exception' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:559:0: 'Thomassen.BoundaryInstance.neighbours_on_short_facial_arc_stay_on_cycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:560:0: 'Thomassen.BoundaryInstance.short_facial_arc_backward_region_empty' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:561:0: 'Thomassen.BoundaryInstance.neighbours_on_short_closed_face_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:562:0: 'Thomassen.BoundaryInstance.backward_exception_prescribed_end_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:563:0: 'Thomassen.BoundaryInstance.colourable_of_three_vertex_path_short_fourth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:564:0: 'Thomassen.BoundaryInstance.colourable_of_three_prescribed_vertices_six_vertex_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:565:0: 'Thomassen.BoundaryInstance.colourable_of_three_vertex_prescribed_path_native_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:566:0: 'Thomassen.BoundaryInstance.colourable_of_three_vertex_prescribed_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:567:0: 'Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:569:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_nontrivial_small_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:570:0: 'Thomassen.BoundaryInstance.rootStar_extension_of_two_neighbours_current' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:571:0: 'Thomassen.BoundaryInstance.colourable_of_empty_prescription_with_short_list' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:572:0: 'Thomassen.BoundaryInstance.colourable_of_empty_prescription' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:573:0: 'Thomassen.BoundaryInstance.colourable_of_singleton_prescription' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:574:0: 'Thomassen.BoundaryInstance.remaining_counterexample_has_four_to_six_prescribed_vertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:576:0: 'Thomassen.BoundaryInstance.colourable_of_alternating_free_path_without_interior_three_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:577:0: 'Thomassen.facePerm_preserved_of_chordless_empty_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:578:0: 'Thomassen.outerFace_vertices_of_backward_cycle_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:579:0: 'Thomassen.BoundaryInstance.short_facial_arc_backward_face_preserved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:580:0: 'Thomassen.BoundaryInstance.short_closed_face_prefix_inner_face_vertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:581:0: 'Thomassen.BoundaryInstance.short_closed_face_prefix_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:582:0: 'Thomassen.BoundaryInstance.interior_three_path_facial_corners' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:583:0: 'Thomassen.BoundaryInstance.interior_three_path_across_two_face_edges_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:584:0: 'Thomassen.BoundaryInstance.middle_vertex_of_interior_three_path_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:585:0: 'Thomassen.BoundaryInstance.colourable_of_residual_short_leaves' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:586:0: 'Thomassen.BoundaryInstance.remaining_alternating_counterexample_has_unique_five_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:587:0: 'Thomassen.BoundaryInstance.inner_five_face_interior_attachments_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:588:0: 'Thomassen.off_five_cycle_neighbours_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:589:0: 'Thomassen.off_native_five_cycle_neighbours_card_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:590:0: 'Thomassen.residual_native_five_cycle_card_ge_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:591:0: 'Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:592:0: 'Thomassen.BoundaryInstance.remaining_short_prescription_counterexample_alternating' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:593:0: 'Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:594:0: 'Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:595:0: 'Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_five_native_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:596:0: 'Thomassen.BoundaryInstance.colourable_of_nontrivial_prescribed_path_at_most_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:597:0: 'Thomassen.BoundaryInstance.remaining_counterexample_has_six_prescribed_vertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:599:0: 'Thomassen.residual_eq_of_same_neighbours' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:600:0: 'Thomassen.BoundaryInstance.colourable_of_connected_residual_prescription_with_pinning' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:601:0: 'Thomassen.BoundaryInstance.colourable_of_six_vertex_backward_exception_good_fourth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:602:0: 'Thomassen.BoundaryInstance.colourable_of_six_vertex_path_short_second_good_fourth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:603:0: 'Thomassen.BoundaryInstance.remaining_six_vertex_counterexample_has_short_second_and_fourth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:604:0: 'Thomassen.BoundaryInstance.colourable_of_residual_short_leaves_unique_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:605:0: 'Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour_unique_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:606:0: 'Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion_unique_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:607:0: 'Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours_unique_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:608:0: 'Thomassen.BoundaryInstance.colourable_of_alternating_free_path_without_interior_three_path_unique_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:609:0: 'Thomassen.BoundaryInstance.colourable_of_six_vertex_path_with_unique_boundary_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:610:0: 'Thomassen.BoundaryInstance.remaining_six_vertex_counterexample_has_mixed_exception' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:612:0: 'Thomassen.BoundaryInstance.colourable_of_six_vertex_alternating_path_without_interior_three_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:613:0: 'Thomassen.BoundaryInstance.inner_five_face_attachment_no_forbidden_boundary_neighbour_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:614:0: 'Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_deletion_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:615:0: 'Thomassen.BoundaryInstance.colourable_of_free_inner_five_face_short_neighbours_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:616:0: 'Thomassen.BoundaryInstance.colourable_of_six_vertex_prescribed_path_native_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:617:0: 'Thomassen.BoundaryInstance.colourable_of_six_vertex_prescribed_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:618:0: 'Thomassen.boundary_instances_colourable_at_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:619:0: 'Thomassen.boundary_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:620:0: 'PlanarChoosability.choosableWith_three_of_isPlanar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:623:0: 'Thomassen.extend_outer_short_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:624:0: 'Thomassen.original_corollary_2_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:625:0: 'Thomassen.BoundaryInstance.extend_edge_of_preconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:626:0: 'Thomassen.BoundaryInstance.extend_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:627:0: 'Thomassen.original_theorem_2_1_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:628:0: 'Thomassen.extend_edge_of_independent_away_from_fixed_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:629:0: 'Thomassen.original_theorem_2_1_exceptional_incident' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:630:0: 'Thomassen.ConnectedPrescription.colourable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:631:0: 'Thomassen.extend_small_colour_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:632:0: 'Thomassen.original_theorem_2_1_exceptional_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:633:0: 'Thomassen.original_theorem_2_1_independent_global' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:636:0: 'Thomassen.boundary_component_exit_at_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:637:0: 'Thomassen.exists_outer_component_after_boundary_vertex_deletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:638:0: 'Thomassen.no_common_neighbour_of_no_two_path' depends on axioms: [propext, Quot.sound]
+info: ThomassenAudit.lean:639:0: 'Thomassen.exceptional_delete_old_list_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:640:0: 'Thomassen.exceptional_delete_short_lists_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:641:0: 'Thomassen.original_theorem_2_1_exceptional_colour_outside_other_list' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:642:0: 'Thomassen.original_theorem_2_1_of_long_exceptional_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:643:0: 'Thomassen.exceptional_counterexample_endpoint_lists_equal_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:646:0: 'Thomassen.colourable_connected_boundary_set_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:647:0: 'Thomassen.dvorak_kawarabayashi_theorem_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:648:0: 'Thomassen.dvorak_kawarabayashi_theorem_1_global' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:649:0: 'Thomassen.listColourable_of_finite_induced' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:650:0: 'Thomassen.infinite_three_list_colourable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:651:0: 'Thomassen.infinite_three_list_colourable_of_egirth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:652:0: 'Thomassen.extend_short_cycle_of_preconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:653:0: 'Thomassen.extend_any_short_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:654:0: 'Thomassen.cycle_isChordless_of_length_le_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:655:0: 'Thomassen.seven_cycle_exists_distinct_neighbour_colours' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:656:0: 'Thomassen.extend_outer_seven_cycle_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:657:0: 'Thomassen.extend_outer_seven_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:660:0: 'Thomassen.transfer_extension_to_prescribed_lists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:661:0: 'Thomassen.extend_outer_ring_of_interior_three_lists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:662:0: 'Thomassen.extend_exterior_across_short_ring' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:665:0: 'Thomassen.extend_small_colour_core_of_short_edges_covered' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:666:0: 'Thomassen.original_theorem_2_1_exceptional_joined' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:667:0: 'Thomassen.original_theorem_2_1_exceptional_boundary_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:668:0: 'Thomassen.exceptional_counterexample_no_short_outer_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:669:0: 'Thomassen.listColourable_of_one_short_edge_on_face' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:670:0: 'Thomassen.assemble_fixed_component_with_one_short_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:671:0: 'Thomassen.exceptional_counterexample_fixed_component' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:672:0: 'Thomassen.exceptional_global_counterexample_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:675:0: 'Thomassen.OriginalShortSet.induce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:676:0: 'Thomassen.OriginalBoundaryInstance.extends_of_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:677:0: 'Thomassen.OriginalBoundaryInstance.colourable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:678:0: 'Thomassen.OriginalBoundaryInstance.extends_of_glued_colourings' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:679:0: 'Thomassen.OriginalBoundaryInstance.extend_vertex_on_induced_face_of_smaller' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:680:0: 'Thomassen.OriginalBoundaryInstance.extends_of_cutvertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:681:0: 'Thomassen.OriginalBoundaryInstance.extends_of_edge_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:682:0: 'Thomassen.OriginalBoundaryInstance.extends_of_edge_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:683:0: 'Thomassen.OriginalBoundaryInstance.extends_of_boundary_chord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:684:0: 'Thomassen.OriginalBoundaryInstance.extends_of_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:685:0: 'Thomassen.OriginalBoundaryInstance.extends_of_disconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:686:0: 'Thomassen.OriginalBoundaryInstance.minimal_counterexample_has_chordless_native_face_cycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:687:0: 'Thomassen.OriginalBoundaryInstance.extends_of_separating_short_cycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:688:0: 'Thomassen.OriginalBoundaryInstance.extends_of_short_leaf_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:689:0: 'Thomassen.interior_path_cut_both_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:690:0: 'Thomassen.OriginalBoundaryInstance.extends_of_short_leaf_edge_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:691:0: 'Thomassen.OriginalBoundaryInstance.extends_of_interior_two_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:692:0: 'Thomassen.OriginalBoundaryInstance.extends_of_interior_three_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:693:0: 'Thomassen.OriginalBoundaryInstance.extends_of_few_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:694:0: 'Thomassen.OriginalBoundaryInstance.list_card_le_degree_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:695:0: 'Thomassen.cycle_index_bounds_of_nonadjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:696:0: 'Thomassen.OriginalBoundaryInstance.exists_native_face_cycle_at' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:697:0: 'Thomassen.OriginalBoundaryInstance.no_interior_two_path_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:698:0: 'Thomassen.OriginalBoundaryInstance.no_interior_three_path_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:699:0: 'Thomassen.OriginalBoundaryInstance.neighbours_on_short_facial_arc_stay_on_cycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:700:0: 'Thomassen.OriginalBoundaryInstance.short_facial_arc_backward_region_empty' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:701:0: 'Thomassen.OriginalBoundaryInstance.neighbours_on_short_closed_face_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:702:0: 'Thomassen.OriginalBoundaryInstance.short_facial_arc_backward_face_preserved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:703:0: 'Thomassen.OriginalBoundaryInstance.short_closed_face_prefix_inner_face_vertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:704:0: 'Thomassen.OriginalBoundaryInstance.short_closed_face_prefix_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:705:0: 'Thomassen.OriginalBoundaryInstance.interior_three_path_facial_corners' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:706:0: 'Thomassen.OriginalBoundaryInstance.interior_three_path_across_two_face_edges_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:707:0: 'Thomassen.OriginalBoundaryInstance.middle_vertex_of_interior_three_path_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:710:0: 'Thomassen.OriginalShortSet.mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:711:0: 'Thomassen.OriginalShortSet.comap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:712:0: 'Thomassen.OriginalBoundaryInstance.mem_short_of_list_card_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:713:0: 'Thomassen.OriginalBoundaryInstance.pruneShort_extends_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:714:0: 'Thomassen.OriginalBoundaryInstance.pruneShort_list_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:717:0: 'Thomassen.OriginalBoundaryInstance.extends_of_residual_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:718:0: 'Thomassen.OriginalBoundaryInstance.extends_of_connected_boundary_deletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:719:0: 'Thomassen.exceptional_pair_old_list_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:720:0: 'Thomassen.exceptional_pair_short_vertices_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:721:0: 'Thomassen.exceptional_pair_residual_card_ge_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:722:0: 'Thomassen.OriginalBoundaryInstance.predecessor_mem_short_of_minimal_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:723:0: 'Thomassen.OriginalBoundaryInstance.short_closed_prefix_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:724:0: 'Thomassen.OriginalBoundaryInstance.boundary_three_path_first_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:725:0: 'Thomassen.OriginalBoundaryInstance.three_path_across_two_face_edges_unique_allow_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:726:0: 'Thomassen.OriginalBoundaryInstance.triple_short_edge_crossing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:727:0: 'Thomassen.OriginalBoundaryInstance.triple_short_edge_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:728:0: 'Thomassen.exists_two_path_iff_common_neighbour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:729:0: 'Thomassen.OriginalShortSet.exists_edge_of_not' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:730:0: 'Thomassen.OriginalShortSet.endpoint_obstructions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:731:0: 'Thomassen.OriginalBoundaryInstance.triple_residual_short_set_not_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:732:0: 'Thomassen.OriginalBoundaryInstance.triple_residual_edge_and_endpoint_obstructions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:733:0: 'Thomassen.neighbours_on_facial_arc_of_not_separating' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:734:0: 'Thomassen.OriginalBoundaryInstance.three_path_inner_face_corners_allow_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:735:0: 'Thomassen.OriginalBoundaryInstance.short_cycle_single_corner_neighbours' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:738:0: 'Thomassen.OriginalBoundaryInstance.extends_of_released_leaf_edge_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:739:0: 'Thomassen.OriginalBoundaryInstance.first_residual_obstruction_endpoint_old' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:740:0: 'Thomassen.OriginalBoundaryInstance.first_residual_obstruction_boundary_chain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:741:0: 'Thomassen.OriginalBoundaryInstance.second_residual_obstruction_endpoint_old' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:742:0: 'Thomassen.OriginalBoundaryInstance.triple_residual_final_path' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:743:0: 'Thomassen.OriginalBoundaryInstance.final_cut_next_short_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:744:0: 'Thomassen.OriginalBoundaryInstance.final_cut_predecessor_short_set' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:745:0: 'Thomassen.final_cut_choice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:746:0: 'Thomassen.OriginalBoundaryInstance.extends_of_final_cut_paths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:747:0: 'Thomassen.OriginalBoundaryInstance.framed_exception_contradiction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:748:0: 'Thomassen.OriginalBoundaryInstance.mirror_extends_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:749:0: 'Thomassen.OriginalBoundaryInstance.native_face_cycle_chordless' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:750:0: 'Thomassen.OriginalBoundaryInstance.contradiction_of_framed_short_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:751:0: 'Thomassen.OriginalBoundaryInstance.contradiction_of_short_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: ThomassenAudit.lean:752:0: 'Thomassen.OriginalBoundaryInstance.extends_of_smaller' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:753:0: 'Thomassen.original_instances_extend_at_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:754:0: 'Thomassen.original_boundary_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ThomassenAudit.lean:755:0: 'Thomassen.original_theorem_2_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (1723 jobs).

@@ -1,0 +1,22 @@
+{
+  "challenge_module": "ThomassenInstanceChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.support_induce_card",
+    "Thomassen.BoundaryPrecolor.mem_vertices_induce",
+    "Thomassen.BoundaryPrecolor.mem_edges_induce",
+    "Thomassen.reachable_of_onOuterFace",
+    "Thomassen.BoundaryInstance.list_ge_three_of_not_reachable",
+    "Thomassen.BoundaryInstance.colourable_of_disconnected"
+  ],
+  "definition_names": [
+    "Thomassen.BoundaryPrecolor.induce",
+    "Thomassen.BoundaryInstance.induceClosed"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

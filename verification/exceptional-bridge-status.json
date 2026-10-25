@@ -1,0 +1,47 @@
+{
+  "status": "verified_additional_exceptional_reductions",
+  "full_original_theorem_2_1_proved": false,
+  "declarations": [
+    "Thomassen.extend_small_colour_core_of_short_edges_covered",
+    "Thomassen.original_theorem_2_1_exceptional_joined",
+    "Thomassen.original_theorem_2_1_exceptional_boundary_bridge",
+    "Thomassen.exceptional_counterexample_no_short_outer_bridge",
+    "Thomassen.listColourable_of_one_short_edge_on_face",
+    "Thomassen.assemble_fixed_component_with_one_short_edge",
+    "Thomassen.exceptional_counterexample_fixed_component",
+    "Thomassen.exceptional_global_counterexample_normal_form"
+  ],
+  "gate": {
+    "config": "comparator.exceptional-bridge.json",
+    "challenge": "ThomassenExceptionalBridgeChallenge",
+    "challenge_imports": [
+      "Thomassen.ConnectedPrescription",
+      "Thomassen.OuterBoundary"
+    ],
+    "new_proof_modules_imported": false,
+    "theorem_contracts": 8,
+    "new_definition_holes": 0,
+    "result": "passed",
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "log": "verification/exceptional-bridge-comparator.log"
+  },
+  "strict_build": "verification/exceptional-bridge-strict-audit.log",
+  "source_audit": "verification/source-audit.json",
+  "scope": [
+    "A connected outer core of at most four vertices can cover all short edges; short leaves with unique parents are precoloured and extended.",
+    "All orientations of a joining edge between the fixed and exceptional edges.",
+    "A two-edge bridge from either exceptional endpoint to the prescribed edge, with the middle vertex on the selected face; no two-path exclusion needed.",
+    "Free components are unconditionally colourable even when they contain the exceptional edge.",
+    "Every global counterexample occurs in the fixed-edge component, containing both exceptional endpoints with identical two-element lists."
+  ],
+  "remaining": "Prove nonexistence of a connected normalized exceptional counterexample with identical two-element lists and no joining edge or two-edge bridge through a vertex on the selected face. The original full theorem is not supplied as a solution declaration.",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "historical_checkpoint": true,
+  "superseded_by": "verification/original-full-status.json",
+  "current_full_original_theorem_2_1_proved": true
+}

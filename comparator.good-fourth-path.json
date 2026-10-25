@@ -1,0 +1,15 @@
+{
+  "challenge_module": "ThomassenGoodFourthPathChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.BoundaryInstance.interior_boundary_neighbour_unique_of_short_prescription",
+    "Thomassen.BoundaryInstance.colourable_of_short_path_short_second_good_fourth"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

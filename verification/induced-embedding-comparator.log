@@ -1,0 +1,22 @@
+Resolving dependencies
+Building ThomassenInducedChallenge
+⚠ [1387/1388] Replayed ThomassenInducedChallenge
+warning: ThomassenInducedChallenge.lean:62:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:66:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:72:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:81:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:88:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:92:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:98:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:104:6: declaration uses `sorry`
+warning: ThomassenInducedChallenge.lean:112:6: declaration uses `sorry`
+Build completed successfully (1388 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.subtypePlaneMap_facePerm, Thomassen.subtypePlaneMap_sameCycle_iff, Thomassen.subtypePlaneMap_onOuterFace_iff, Thomassen.five_le_egirth_induce, Thomassen.card_induced_vertices_lt, Thomassen.restrictMap_facePerm_of_closed, Thomassen.restrictMap_sameCycle_of_closed, Thomassen.inducedPlaneMap_onOuterFace_of_closed, Thomassen.col_restrict_iff_listColourable_induce, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.OnOuterFace, Thomassen.induceDartEquiv, Thomassen.subtypePlaneMap, Thomassen.inducedPlaneMap] from ThomassenInducedChallenge
+Building ThomassenSolution
+Build completed successfully (1469 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.subtypePlaneMap_facePerm, Thomassen.subtypePlaneMap_sameCycle_iff, Thomassen.subtypePlaneMap_onOuterFace_iff, Thomassen.five_le_egirth_induce, Thomassen.card_induced_vertices_lt, Thomassen.restrictMap_facePerm_of_closed, Thomassen.restrictMap_sameCycle_of_closed, Thomassen.inducedPlaneMap_onOuterFace_of_closed, Thomassen.col_restrict_iff_listColourable_induce, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam, Thomassen.OnOuterFace, Thomassen.induceDartEquiv, Thomassen.subtypePlaneMap, Thomassen.inducedPlaneMap] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

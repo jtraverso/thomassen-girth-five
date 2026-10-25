@@ -1,0 +1,25 @@
+Resolving dependencies
+Building ThomassenOriginalFullChallenge
+⚠ [1394/1395] Replayed ThomassenOriginalFullChallenge
+warning: ThomassenOriginalFullChallenge.lean:22:8: declaration uses `sorry`
+Build completed successfully (1395 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.original_theorem_2_1, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenOriginalFullChallenge
+Building ThomassenSolution
+Build completed successfully (1713 jobs).
+PANIC at LeanExport.dumpConstant LeanExport.Basic:254:48: Constant Thomassen.original_theorem_2_1 not found in environment.
+backtrace:
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(+0x962cba5) [0x7f98060baba5]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(+0x9623727) [0x7f98060b1727]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(lean_panic_fn_borrowed+0x2b) [0x7f98060b180b]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(panic spec at LeanExport.dumpConstant+0x279) [0x55bd04c29d59]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(List.forIn'.loop [arity↓] spec at LeanExport.dumpEnv+0x262) [0x55bd04c42d22]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(LeanExport.dumpEnv [λ]+0x167) [0x55bd04c43197]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(LeanExport.dumpEnv [boxed, λ]+0x13) [0x55bd04c433f3]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(<apply/3>+0x970) [0x7f98060c2270]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/leanexport(LeanExport.M.run [arity↓]+0x33) [0x55bd04c1b863]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(+0x9621107) [0x7f98060af107]
+/workspace/tooling/lean-4.35.0-rc3-linux/bin/../lib/lean/libleanshared.so(+0x962177a) [0x7f98060af77a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x92b7b) [0x7f97fc909b7b]
+/lib/x86_64-linux-gnu/libc.so.6(+0x1107f8) [0x7f97fc9877f8]
+error: Child exited with 134
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.original_theorem_2_1, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution

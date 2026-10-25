@@ -1,0 +1,20 @@
+{
+  "challenge_module": "ThomassenGeometryChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.two_face_sides_cover",
+    "Thomassen.two_face_sides_inter",
+    "Thomassen.two_face_sides_no_crossing",
+    "Thomassen.facePerm_restrict_of_empty_gaps",
+    "Thomassen.sameCycle_of_preserved_subface",
+    "Thomassen.eq_of_same_face_of_fst",
+    "Thomassen.face_fst_injective_of_delete_preconnected"
+  ],
+  "definition_names": [
+    "Thomassen.subfaceVertices",
+    "Thomassen.inSubface",
+    "Thomassen.subfaceSide"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "enable_nanoda": true
+}

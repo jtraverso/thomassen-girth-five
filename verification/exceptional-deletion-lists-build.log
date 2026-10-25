@@ -1,0 +1,12 @@
+⚠ [1277/1277] Building Thomassen.ExceptionalDeletionLists (840ms)
+trace: .> LEAN_PATH=/workspace/mycielski/.lake/packages/Cli/.lake/build/lib/lean:/workspace/mycielski/.lake/packages/batteries/.lake/build/lib/lean:/workspace/mycielski/.lake/packages/Qq/.lake/build/lib/lean:/workspace/mycielski/.lake/packages/aesop/.lake/build/lib/lean:/workspace/mycielski/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/mycielski/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/mycielski/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/mycielski/.lake/packages/plausible/.lake/build/lib/lean:/workspace/mathlib4/.lake/build/lib/lean:/workspace/thomassen-girth-five/.lake/build/lib/lean /workspace/tooling/lean-4.35.0-rc3-linux/bin/lean /workspace/thomassen-girth-five/Thomassen/ExceptionalDeletionLists.lean -o /workspace/thomassen-girth-five/.lake/build/lib/lean/Thomassen/ExceptionalDeletionLists.olean -i /workspace/thomassen-girth-five/.lake/build/lib/lean/Thomassen/ExceptionalDeletionLists.ilean -c /workspace/thomassen-girth-five/.lake/build/ir/Thomassen/ExceptionalDeletionLists.c --setup /workspace/thomassen-girth-five/.lake/build/ir/Thomassen/ExceptionalDeletionLists.setup.json --json
+warning: Thomassen/ExceptionalDeletionLists.lean:26:46: This simp argument is unused:
+  Ne.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [p, Walk.isPath_def, hxz, hxw.ne, hwz.ne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Some required targets logged failures:
+- Thomassen.ExceptionalDeletionLists
+error: build failed

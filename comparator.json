@@ -1,0 +1,24 @@
+{
+  "challenge_module": "ThomassenMainChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "PlanarChoosability.choosableWith_three_of_isPlanar"
+  ],
+  "definition_names": [
+    "PlanarChoosability.IsPlanar",
+    "PlanarChoosability.ListColourable",
+    "PlanarChoosability.ChoosableWith",
+    "PlanarChoosability.numClasses",
+    "PlanarChoosability.cycleCount",
+    "PlanarChoosability.compSetoid",
+    "PlanarChoosability.numComponents",
+    "PlanarChoosability.eulerDefect",
+    "PlanarChoosability.dartSymm"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

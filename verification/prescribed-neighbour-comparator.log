@@ -1,0 +1,21 @@
+Resolving dependencies
+Building ThomassenPrescribedNeighboursChallenge
+⚠ [1484/1485] Replayed ThomassenPrescribedNeighboursChallenge
+warning: ThomassenPrescribedNeighboursChallenge.lean:28:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:63:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:94:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:109:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:130:6: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:141:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:151:8: declaration uses `sorry`
+warning: ThomassenPrescribedNeighboursChallenge.lean:162:8: declaration uses `sorry`
+Build completed successfully (1485 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_induced_with_compatible_path_star, Thomassen.BoundaryInstance.exists_oriented_native_face_for_prescribed_path, Thomassen.BoundaryInstance.colourable_of_central_prescribed_two_path, Thomassen.BoundaryInstance.colourable_of_central_prescribed_two_path_arbitrary_face, Thomassen.path_neighbour_indices_gap, Thomassen.BoundaryInstance.no_interior_prescribed_pair_at_initial_vertex, Thomassen.BoundaryInstance.no_interior_prescribed_pair_at_terminal_vertex, Thomassen.BoundaryInstance.interior_prescribed_neighbour_unique, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenPrescribedNeighboursChallenge
+Building ThomassenSolution
+Build completed successfully (1562 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.BoundaryInstance.colourable_induced_with_compatible_path_star, Thomassen.BoundaryInstance.exists_oriented_native_face_for_prescribed_path, Thomassen.BoundaryInstance.colourable_of_central_prescribed_two_path, Thomassen.BoundaryInstance.colourable_of_central_prescribed_two_path_arbitrary_face, Thomassen.path_neighbour_indices_gap, Thomassen.BoundaryInstance.no_interior_prescribed_pair_at_initial_vertex, Thomassen.BoundaryInstance.no_interior_prescribed_pair_at_terminal_vertex, Thomassen.BoundaryInstance.interior_prescribed_neighbour_unique, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

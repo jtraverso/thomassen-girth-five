@@ -1,0 +1,18 @@
+Resolving dependencies
+Building ThomassenEndpointDeletionChallenge
+⚠ [1458/1459] Replayed ThomassenEndpointDeletionChallenge
+warning: ThomassenEndpointDeletionChallenge.lean:21:6: declaration uses `sorry`
+warning: ThomassenEndpointDeletionChallenge.lean:35:8: declaration uses `sorry`
+warning: ThomassenEndpointDeletionChallenge.lean:48:8: declaration uses `sorry`
+warning: ThomassenEndpointDeletionChallenge.lean:59:8: declaration uses `sorry`
+warning: ThomassenEndpointDeletionChallenge.lean:70:6: declaration uses `sorry`
+Build completed successfully (1459 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.exists_prescription_after_initial_deletion, Thomassen.BoundaryInstance.colourable_of_prescribed_endpoint_deletion, Thomassen.BoundaryInstance.colourable_of_short_prescribed_endpoint_deletion, Thomassen.BoundaryInstance.colourable_of_short_prescription_and_three_lists, Thomassen.BoundaryInstance.endpoint_deletion_obstruction_of_minimal_counterexample, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenEndpointDeletionChallenge
+Building ThomassenSolution
+Build completed successfully (1533 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Thomassen.exists_prescription_after_initial_deletion, Thomassen.BoundaryInstance.colourable_of_prescribed_endpoint_deletion, Thomassen.BoundaryInstance.colourable_of_short_prescribed_endpoint_deletion, Thomassen.BoundaryInstance.colourable_of_short_prescription_and_three_lists, Thomassen.BoundaryInstance.endpoint_deletion_obstruction_of_minimal_counterexample, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ThomassenSolution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

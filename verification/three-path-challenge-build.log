@@ -1,0 +1,15 @@
+⚠ [1495/1496] Built ThomassenThreePathChallenge (908ms)
+warning: ThomassenThreePathChallenge.lean:26:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:58:6: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:78:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:108:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:121:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:135:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:160:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:172:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:190:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:216:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:231:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:242:8: declaration uses `sorry`
+warning: ThomassenThreePathChallenge.lean:255:8: declaration uses `sorry`
+Build completed successfully (1496 jobs).

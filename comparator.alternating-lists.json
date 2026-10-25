@@ -1,0 +1,17 @@
+{
+  "challenge_module": "ThomassenAlternatingListsChallenge",
+  "solution_module": "ThomassenSolution",
+  "theorem_names": [
+    "Thomassen.native_rebase_support_eq",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_edge_short_fourth",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_edge_short_second",
+    "Thomassen.BoundaryInstance.colourable_of_prescribed_edge_native_face"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

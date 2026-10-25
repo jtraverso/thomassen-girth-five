@@ -1,0 +1,47 @@
+{
+  "date_utc": "2026-10-24",
+  "status": "in_progress_boundary_invariant_and_conditional_assembly",
+  "main_theorem_formalized": false,
+  "new_supporting_lemmas": 26,
+  "support_definitions_compared": 11,
+  "support_comparator": {
+    "config": "comparator.support.json",
+    "lean_kernel": "accepted",
+    "nanoda_kernel": "accepted",
+    "independent_contracts": true
+  },
+  "preserved_upstream_results": {
+    "count": 10,
+    "evidence": "verification/comparator-initial-35.log",
+    "note": "Combined initial check also included the first 25 new lemmas. Old Challenge/Solution theorem declarations and proof bodies remain unchanged, with only explicit-import adaptation."
+  },
+  "main_gate": {
+    "config": "comparator.json",
+    "result": "failed_as_expected",
+    "reason": "Constant PlanarChoosability.choosableWith_three_of_isPlanar not found in solution environment",
+    "log": "verification/main-gate-unfinished.log"
+  },
+  "additional_geometry_audits": [
+    "Grotzsch.restrictMap",
+    "Grotzsch.sameCycle_of_rIn",
+    "Grotzsch.sameCycle_of_chord",
+    "Grotzsch.eq_of_isNextH_of_face"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "published": false,
+  "registry_submitted": false,
+  "boundary_extension_proved": false,
+  "additional_invariant_kernel_checked_lemmas": 14,
+  "conditional_assembly_kernel_checked_lemmas": 2,
+  "assembly_kernels": {
+    "lean": "accepted",
+    "nanoda": "accepted",
+    "independent_statement_comparison": false,
+    "script": "scripts/check-assembly.py",
+    "log": "verification/assembly-kernels.log"
+  }
+}
